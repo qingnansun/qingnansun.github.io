@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>SQN - Life and Think</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="SQN - Life and Think">
+<meta property="og:url" content="http://yoursite.com/page/3/index.html">
+<meta property="og:site_name" content="SQN - Life and Think">
+<meta property="og:locale" content="chinese">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="SQN - Life and Think">
+  
+    <link rel="alternate" href="/atom.xml" title="SQN - Life and Think" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">SQN - Life and Think</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-IT相关/Javascript-import-功能使用" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/IT相关/Javascript-import-功能使用/" class="article-date">
+  <time datetime="2019-02-26T17:06:45.812Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Check<br><a href="https://www.cnblogs.com/kongxianghai/p/7195663.html" target="_blank" rel="noopener">https://www.cnblogs.com/kongxianghai/p/7195663.html</a></p>
+<p>toFix to string<br><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed" target="_blank" rel="noopener">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/26/IT相关/Javascript-import-功能使用/" data-id="cjsm11ix50003m85msw6nrzl6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IT相关/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/IT相关/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" class="article-date">
+  <time datetime="2019-02-26T17:06:45.810Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。</p>
+<ul>
+<li>1 Windows端</li>
+<li>2 Linux端<ul>
+<li>2.1 设置VirtualBox中虚拟系统的共享信息</li>
+<li>2.2 在Terminal中下载所需镜像并安装</li>
+<li>2.3 挂载共享文件夹</li>
+<li>2.4 其他代码</li>
+<li>2.5 其他信息<h2 id="Windows端"><a href="#Windows端" class="headerlink" title="Windows端"></a>Windows端</h2></li>
+</ul>
+</li>
+</ul>
+<p>Windows端需要建立一个用来进行文件分享的文件夹，比如我在D盘建了一个ShareWithVM文件夹。在这个文件夹的图标上用鼠标右键单击，然后选择<strong>属性–&gt;分享</strong>，然后选择“<strong>高级分享（Advanced Sharing）</strong>”并勾选“<strong>分享这个文件夹</strong>”，然后单击“<strong>确定”</strong>即可。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-393d331956bf5abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h2 id="Linux端"><a href="#Linux端" class="headerlink" title="Linux端"></a>Linux端</h2><p>设置的重点在linux端，也就是虚拟机上的Ubuntu上，网上有很多教程，可是我使用后并不成功，以下是我的设置过程。</p>
+<h3 id="设置VirtualBox中虚拟系统的共享信息"><a href="#设置VirtualBox中虚拟系统的共享信息" class="headerlink" title="设置VirtualBox中虚拟系统的共享信息"></a>设置VirtualBox中虚拟系统的共享信息</h3><p>在VirtualBox Manager界面中选择需要设置的Ubuntu虚拟系统，然后按下图的顺序添加刚才在Windows端建立的共享文件夹的信息。这一步可能需要先关闭虚拟机再设置，我不太记得我设置的时候虚拟机是关闭还是运行状态了。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-91eeab532782e155.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h3 id="在Terminal中下载所需镜像并安装"><a href="#在Terminal中下载所需镜像并安装" class="headerlink" title="在Terminal中下载所需镜像并安装"></a>在Terminal中下载所需镜像并安装</h3><p>这一步可以用参考链接[1]中的方式在windows系统下载然后再虚拟机选择相应镜像，不过我是通过以下的代码实现的。</p>
+<p>首先运行Ubuntu并打开一个terminal，然后输入以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install virtualbox-guest-additions-iso</span><br></pre></td></tr></table></figure>
+<p>接下来在图形界面里的以下位置找到这个映像，并用鼠标右键单击，选择Open With Disk Image Mounter，它就会自动安装了，直到安装成功后按enter键退出。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/share/virtualbox/VBoxGuestAdditions.iso</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-cd03409725533b5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h3 id="挂载共享文件夹"><a href="#挂载共享文件夹" class="headerlink" title="挂载共享文件夹"></a>挂载共享文件夹</h3><p>在Ubuntu的Terminal里输入如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /mnt/shared</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t</span><br></pre></td></tr></table></figure>
+<p>shareFolder是windows中要共享的文件夹的名字，由于我第一步在windows创建的分享文件夹角ShareWithVM，所以我在我这输入的代码实际为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t vboxsf ShareWithVM /mnt/shared</span><br></pre></td></tr></table></figure>
+<p>如果一切顺利的话，现在就可以互传文件了。补充一下，你的共享文件夹在windows端的位置在本文开头已经说了，在ubuntu的位置是在/mnt文件夹下的shared里，如果你想查看这个共享文件夹里的内容，可以用如下代码定位到共享文件夹：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mnt/shared</span><br></pre></td></tr></table></figure>
+<h3 id="其他代码"><a href="#其他代码" class="headerlink" title="其他代码"></a>其他代码</h3><p>以下部分均转自参考资料[1]，我并没有实际操作，因为自动挂载已经在前边说的Linux端的第一步勾选了，我觉得不必再设置了。</p>
+<blockquote>
+<p>要想自动挂载的话，可以在/etc/fstab中添加一项<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; share /mnt/shared vboxsf rw,gid=100,uid=1000,auto 0 0</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>5、卸载的话使用下面的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; sudo umount -f /mnt/shared</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>注意：<br>共享文件夹的名称千万不要和挂载点的名称相同。比如，上面的挂载点是/mnt/shared，如果共享文件夹的&gt;名字也是shared的话，在挂载的时候就会出现如下的错误信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;/sbin/mount.vboxsf: mounting failed with the error: Protocol error</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><p>除了上边写的我最终成功使用的方法，网上还比较流行的是用代码安装open-vm-tools并配合使用一个从gitlab下载的补丁进行安装。看网上的评论应该是很多人都用这个方法成功了，可是我就是不行，始终提示<code>mounting failed with the error: No such device.</code>如果大家感兴趣的话，可以尝试这种方法。</p>
+<p>此外需要说明的是我在成功安装之前，实验了很多方法，虽然都没有成功，但是其中用到的一些代码可能为最后的成功安装做了铺垫，所以如果你按照我前边说的步骤不能成功安装的话，可以尝试一下链接[3]中的各种代码，以及如下两句。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install virtualbox-guest-dkms</span><br></pre></td></tr></table></figure>
+<p>今天为了弄这个文件共享花了很多时间，因为找不到对应的方法，而网上说的解决方案在我这又不太管事。希望这篇文章可以帮到和我遇到相似问题的朋友们。</p>
+<p><strong>参考链接</strong></p>
+<p>[1] <a href="http://www.cnblogs.com/linjiqin/p/3615477.html" target="_blank" rel="noopener">http://www.cnblogs.com/linjiqin/p/3615477.html</a><br>[2] <a href="https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04" target="_blank" rel="noopener">https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04</a><br>[3] <a href="https://blog.csdn.net/fukaibo121/article/details/73129584" target="_blank" rel="noopener">https://blog.csdn.net/fukaibo121/article/details/73129584</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/26/IT相关/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" data-id="cjsm11ix50002m85m8mptn2k2" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IT相关/好用手机app汇总" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/IT相关/好用手机app汇总/" class="article-date">
+  <time datetime="2019-02-26T17:06:45.808Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>以下是我经常使用的手机app（安卓）的汇总。加粗的是目前使用比较多的app。希望能给大家一点参考。</p>
+<h1 id="自我提升"><a href="#自我提升" class="headerlink" title="自我提升"></a>自我提升</h1><p><strong>十点读书</strong><br><strong>Habits习惯</strong>:记录习惯进行打卡的小app，很好用<br><strong>简书</strong><br>得到<br>微信读书<br>keep<br>MiFit小米运动</p>
+<h1 id="社交软件"><a href="#社交软件" class="headerlink" title="社交软件"></a>社交软件</h1><p><strong>微信</strong><br><strong>skype</strong><br><strong>Whatsapp</strong><br><strong>Instagram</strong><br>QQ<br>和飞信AndFetion<br>Telegram<br>Viber<br>Facebook</p>
+<h1 id="效率提升-时间管理"><a href="#效率提升-时间管理" class="headerlink" title="效率提升/时间管理"></a>效率提升/时间管理</h1><p><strong>Gmail</strong><br><strong>Inbox</strong><br><strong>Focus To-Do(疯狂番茄)</strong><br><strong>Google Calendar</strong><br><strong>Business Calendar</strong>:用于生成桌面日历插件<br><strong>Google remote desktop</strong>:远程控制电脑<br><strong>Gtasks</strong>:用于生成桌面Task插件<br>Tasks</p>
+<h1 id="娱乐消遣"><a href="#娱乐消遣" class="headerlink" title="娱乐消遣"></a>娱乐消遣</h1><p><strong>虾米音乐</strong><br><strong>Music Center（连索尼音响）</strong><br><strong>Bose Connection（连Bose耳机）</strong><br><strong>豆瓣</strong>:什么都有，尤其是可以标记读过的图书和看过的电影<br><strong>WordPress</strong>:管理wordpress制作的网站，并可以查看流量数据<br><strong>FlashAir</strong>: 无线存储卡连接软件</p>
+<h1 id="智能生活"><a href="#智能生活" class="headerlink" title="智能生活"></a>智能生活</h1><p><strong>HERE WeGo</strong>: Here地图，可以下载离线地图<br><strong>Smart life</strong>: 控制智能灯泡等<br><strong>Remote</strong>: 通过手机遥控相机等设备<br>SnoreLab: 记录晚上打呼噜情况<br>AirMore: 通过浏览器下载手机数据</p>
+<h1 id="信息迭代"><a href="#信息迭代" class="headerlink" title="信息迭代"></a>信息迭代</h1><p><strong>McKinsey</strong>:麦肯锡信息<br><strong>TuneIN</strong>: 不错的收音机软件</p>
+<h1 id="消费购物"><a href="#消费购物" class="headerlink" title="消费购物"></a>消费购物</h1><p><strong>支付宝Alipay</strong><br><strong>Aliexpress</strong>:阿里旗下的从海外购买国内物品的网站，很便宜，很多包邮，运送时间在20天左右<br><strong>Supercard</strong>: coop家的积分卡<br><strong>Migros</strong>: Migros家的积分卡<br>H&amp;M<br>Globus App<br>WE<br>McDonald’s</p>
+<h1 id="交通出行"><a href="#交通出行" class="headerlink" title="交通出行"></a>交通出行</h1><p><strong>SBB</strong>: 瑞士交通查询，包括铁路和市内交通<br><strong>DB Navigation</strong>: 德国铁路<br><strong>Mobility Switzerland</strong>: 瑞士租车公司<br><strong>Booking</strong><br><strong>Expedia</strong><br>SWISS: 瑞士航空<br>Ryanair: 瑞安廉价航空<br>EasyJet: EasyJet廉价</p>
+<h1 id="银行金融"><a href="#银行金融" class="headerlink" title="银行金融"></a>银行金融</h1><p><strong>TWINT</strong><br><strong>TC Security</strong><br><strong>TC Mobile</strong><br><strong>Swisscard</strong><br>IQ option<br>Duo Mobile</p>
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><strong>Chrome</strong>: 谷歌浏览器<br>猎豹清理大师<br>Night shift: 消除手机屏幕蓝光<br>K-Classic：德国Kaufland公司电话卡管理<br>Microsoft Authenticator: 用于学校提供的office365的验证</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/26/IT相关/好用手机app汇总/" data-id="cjsm11ix80007m85mo4hrs9to" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IT相关/6款番茄钟工作软件评测" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/IT相关/6款番茄钟工作软件评测/" class="article-date">
+  <time datetime="2019-02-26T17:06:45.807Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="app界面"><a href="#app界面" class="headerlink" title="app界面"></a>app界面</h1><h1 id="用户注册"><a href="#用户注册" class="headerlink" title="用户注册"></a>用户注册</h1><h1 id="使用平台"><a href="#使用平台" class="headerlink" title="使用平台"></a>使用平台</h1><h1 id="统计与保存"><a href="#统计与保存" class="headerlink" title="统计与保存"></a>统计与保存</h1><h1 id="价格"><a href="#价格" class="headerlink" title="价格"></a>价格</h1><h1 id="方便程度"><a href="#方便程度" class="headerlink" title="方便程度"></a>方便程度</h1><h1 id="汇总表格"><a href="#汇总表格" class="headerlink" title="汇总表格"></a>汇总表格</h1>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/26/IT相关/6款番茄钟工作软件评测/" data-id="cjsm11ix40001m85m27mjwfqu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IT相关/有用网站汇总" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/IT相关/有用网站汇总/" class="article-date">
+  <time datetime="2019-02-26T17:06:45.796Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="有用网站汇总"><a href="#有用网站汇总" class="headerlink" title="有用网站汇总"></a>有用网站汇总</h1><h2 id="CS相关教程"><a href="#CS相关教程" class="headerlink" title="CS相关教程"></a>CS相关教程</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰的官网</a><br><a href="https://morvanzhou.github.io/" target="_blank" rel="noopener">莫烦的机器学习教程</a></p>
+<h2 id="编程练习"><a href="#编程练习" class="headerlink" title="编程练习"></a>编程练习</h2><p><a href="https://leetcode.com" target="_blank" rel="noopener">leetcode</a><br><a href="https://leetcode-cn.com/" target="_blank" rel="noopener">领扣</a></p>
+<h2 id="一些开源站点"><a href="#一些开源站点" class="headerlink" title="一些开源站点"></a>一些开源站点</h2><p><a href="https://opensource.fb.com" target="_blank" rel="noopener">Facebook Opensource</a></p>
+<h2 id="强化学习开源项目"><a href="#强化学习开源项目" class="headerlink" title="强化学习开源项目"></a>强化学习开源项目</h2><p><a href="https://code.fb.com/ml-applications/horizon" target="_blank" rel="noopener">Horizon RL plattform</a></p>
+<h2 id="Simulators"><a href="#Simulators" class="headerlink" title="Simulators"></a>Simulators</h2><p><a href="http://gazebosim.org/#status" target="_blank" rel="noopener">Gazebo</a></p>
+<h2 id="Conferences"><a href="#Conferences" class="headerlink" title="Conferences"></a>Conferences</h2><p><a href="http://www.robot-learning.org/home" target="_blank" rel="noopener">CoRL</a><br><a href="https://embc.embs.org/2019/" target="_blank" rel="noopener">EMBC</a></p>
+<h2 id="Online-courses"><a href="#Online-courses" class="headerlink" title="Online courses"></a>Online courses</h2><p><a href="http://videolectures.net/" target="_blank" rel="noopener">Video Lectures</a><br><a href="http://coursera.org" target="_blank" rel="noopener">Coursera</a><br><a href="https://study.163.com/" target="_blank" rel="noopener">网易云课堂</a></p>
+<h2 id="Free-Websites"><a href="#Free-Websites" class="headerlink" title="Free Websites"></a>Free Websites</h2><p><a href="http://www.simplesite.com" target="_blank" rel="noopener">simplesite</a><br><a href="https://sites.google.com" target="_blank" rel="noopener">Sites Google</a><br><a href="https://www.blogger.com" target="_blank" rel="noopener">Blogspot/Blogger</a></p>
+<h2 id="Uni-Bern"><a href="#Uni-Bern" class="headerlink" title="Uni Bern"></a>Uni Bern</h2><p><a href="https://mail.campus.unibe.ch" target="_blank" rel="noopener">Webmail</a></p>
+<p>(不断完善中)</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/26/IT相关/有用网站汇总/" data-id="cjsm11ix60004m85mylk8q8l7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/hello-world/" class="article-date">
+  <time datetime="2019-02-26T14:00:24.156Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/26/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/02/26/hello-world/" data-id="cjsm11iwp0000m85mipvgfgln" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+  <nav id="page-nav">
+    
+    <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+  </nav>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">February 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/02/26/随笔/我的“北漂”见闻/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/读书笔记/金句摘抄/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/应该养成的各种好习惯/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/你真的应该拥有这个习惯记录app/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Qingnan Sun<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
