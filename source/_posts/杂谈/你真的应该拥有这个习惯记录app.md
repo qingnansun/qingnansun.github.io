@@ -1,9 +1,9 @@
 ---
-title: {{ title }}
+title: 你真的应该拥有这个习惯记录app
 date: {{ date }}
 tags:
 categories: 
-permalink: :year/:month/:day/:title/
+permalink: 
 ---
 
 作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。

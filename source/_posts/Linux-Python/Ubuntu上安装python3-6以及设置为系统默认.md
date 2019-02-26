@@ -1,9 +1,9 @@
 ---
-title: {{ title }}
+title: Ubuntu上安装python3-6以及设置为系统默认
 date: {{ date }}
 tags:
 categories: 
-permalink: :year/:month/:day/:title/
+permalink: 
 ---
 
 这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。

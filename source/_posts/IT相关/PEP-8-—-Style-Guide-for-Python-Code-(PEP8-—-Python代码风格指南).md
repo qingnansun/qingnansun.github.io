@@ -1,9 +1,9 @@
 ---
-title: {{ title }}
+title: PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)
 date: {{ date }}
 tags:
 categories: 
-permalink: :year/:month/:day/:title/
+permalink:
 ---
 
 # 前言

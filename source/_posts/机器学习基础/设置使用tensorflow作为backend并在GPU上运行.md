@@ -1,9 +1,9 @@
 ---
-title: {{ title }}
+title: 设置使用tensorflow作为backend并在GPU上运行
 date: {{ date }}
 tags:
 categories: 
-permalink: :year/:month/:day/:title/
+permalink:
 ---
 
 &emsp;&emsp;由于Theano从十月起停止更新（[LINK](https://www.jiqizhixin.com/articles/2017-09-29-5)），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。

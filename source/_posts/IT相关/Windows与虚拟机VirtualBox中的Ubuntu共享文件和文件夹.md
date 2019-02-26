@@ -1,9 +1,9 @@
 ---
-title: {{ title }}
+title: Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹
 date: {{ date }}
 tags:
 categories: 
-permalink: :year/:month/:day/:title/
+permalink:
 ---
 
 最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。

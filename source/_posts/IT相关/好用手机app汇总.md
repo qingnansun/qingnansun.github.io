@@ -1,9 +1,9 @@
 ---
-title: {{ title }}
+title: 好用手机app汇总
 date: {{ date }}
 tags:
 categories: 
-permalink: :year/:month/:day/:title/
+permalink:
 ---
 
 
