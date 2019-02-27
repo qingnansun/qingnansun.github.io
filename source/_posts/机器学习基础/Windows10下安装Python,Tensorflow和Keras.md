@@ -1,6 +1,6 @@
 ---
 title: Windows10下安装Python,Tensorflow和Keras
-date: {{ date }}
+date: 2018-04-22
 tags:
 categories: 
 permalink: 

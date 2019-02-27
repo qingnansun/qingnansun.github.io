@@ -1,6 +1,6 @@
 ---
 title: 使用python构建ARIMA模型进行预测分析的小说明-forecast函数
-date: {{ date }}
+date: 2018-04-26
 tags:
 categories: 
 permalink: 

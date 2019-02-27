@@ -1,6 +1,6 @@
 ---
 title: 设置使用tensorflow作为backend并在GPU上运行
-date: {{ date }}
+date: 2018-04-23
 tags:
 categories: 
 permalink:

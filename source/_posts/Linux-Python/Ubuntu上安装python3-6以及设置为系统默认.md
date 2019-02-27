@@ -1,6 +1,6 @@
 ---
 title: Ubuntu上安装python3-6以及设置为系统默认
-date: {{ date }}
+date: 2018-07-05
 tags:
 categories: 
 permalink: 

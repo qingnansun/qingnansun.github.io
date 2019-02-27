@@ -1,6 +1,6 @@
 ---
 title: 你真的应该拥有这个习惯记录app
-date: {{ date }}
+date: 2019-02-19
 tags:
 categories: 
 permalink: 
