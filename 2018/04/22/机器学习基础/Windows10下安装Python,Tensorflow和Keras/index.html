@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Windows10下安装Python,Tensorflow和Keras | SQN - 生活与思考</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="2018年4月更新：这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x.  &amp;emsp;&amp;emsp;今后做实验要开始接触深">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windows10下安装Python,Tensorflow和Keras">
+<meta property="og:url" content="http://yoursite.com/2018/04/22/机器学习基础/Windows10下安装Python,Tensorflow和Keras/index.html">
+<meta property="og:site_name" content="SQN - 生活与思考">
+<meta property="og:description" content="2018年4月更新：这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x.  &amp;emsp;&amp;emsp;今后做实验要开始接触深">
+<meta property="og:locale" content="chinese">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-02-27T12:18:03.189Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Windows10下安装Python,Tensorflow和Keras">
+<meta name="twitter:description" content="2018年4月更新：这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x.  &amp;emsp;&amp;emsp;今后做实验要开始接触深">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+  
+    <link rel="alternate" href="/atom.xml" title="SQN - 生活与思考" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">SQN - 生活与思考</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-机器学习基础/Windows10下安装Python,Tensorflow和Keras" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/04/22/机器学习基础/Windows10下安装Python,Tensorflow和Keras/" class="article-date">
+  <time datetime="2018-04-21T22:00:00.000Z" itemprop="datePublished">2018-04-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Windows10下安装Python,Tensorflow和Keras
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
+<hr>
+<p>&emsp;&emsp;今后做实验要开始接触深度学习了，那当然免不了要安装Python和Tensorflow，另外因为需要LSTM方法，我也需要安装Keras。这篇文章就是关于最近安装这些东西的一个小结。</p>
+<p> <strong>如果你懒得看后文，我其实就一句话，从头开始就用Anaconda吧！！！ （直接跳转到“最简安装过程”部分）</strong></p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>1 用Windows遇到的坑<br>2 我的坎坷经历<br>3 最简安装过程<br>4 附加知识</p>
+<p>##用Windows遇到的坑</p>
+<p>首先总结一下用windows过程中的坑：</p>
+<ol>
+<li><strong>Tensorflow目前在windows上只支持Python3.5版本（高了低了都不行）</strong></li>
+<li><strong>Scipy在windows上用命令行安装出错。因为安装Keras时会安装Scipy，所以无法成功安装Keras</strong></li>
+</ol>
+<h2 id="我的坎坷经历"><a href="#我的坎坷经历" class="headerlink" title="我的坎坷经历"></a>我的坎坷经历</h2><p>&emsp;&emsp;不卖关子了，简而言之，在windows上最好是使用Scientific Python distributions来安装和管理各种库，这是我后来才发现的。由于始终没法成功安装Scipy，我找到了Scipy的这个<a href="https://scipy.org/install.html" target="_blank" rel="noopener">官网安装介绍</a>，windows系统的同学可以直接拖到最后看下。而Scientific Python distributions的介绍在页面的开头，我直接使用的第一个，也就是Anaconda.</p>
+<p>&emsp;&emsp;使用Anaconda要注意，因为它的首页上是下载集成了3.6版本的Python的，而tensorflow在windows上只支持3.5版本，所以这个要想办法解决。根据Anaconda的介绍（<a href="https://docs.continuum.io/anaconda/faq#id6" target="_blank" rel="noopener">How do I get the latest Anaconda with Python 3.5?</a>）可以用以下三种方法：</p>
+<p><strong>A)</strong> We recommend downloading the latest version of Anaconda and <a href="https://conda.io/docs/py2or3.html" target="_blank" rel="noopener">making a Python 3.5 environment</a>.</p>
+<p><strong>B)</strong> A second option is to download the latest version of Anaconda and then run this command to install Python 3.5 in the root environment: <code>conda install python=3.5</code></p>
+<p><strong>C)</strong> A third option is to download the most recent Anaconda Installer that had Python 3.5 by default. This is Anaconda 4.2.0. You can download it from our <a href="https://repo.continuum.io/archive/" target="_blank" rel="noopener">archive</a>. Scroll down the page until you find version 4.2.0 for your platform.</p>
+<p>&emsp;&emsp;我用的第二种方法，也就是在开始界面先找到Anaconda Prompt，然后在里边输入命令 <code>conda install python=3.5</code></p>
+<p>&emsp;&emsp;注意在这个过程中不要开着Anaconda的用户界面，否则会报错说Anaconda正在被使用，关闭Anaconda界面之后使用上述命令就好用。安完之后再Anaconda Prompt的界面输入python后发现版本变成3.5.3了。</p>
+<p>&emsp;&emsp;tensorflow的安装可以参见莫烦写的教程和视频(<a href="https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-2-install/" target="_blank" rel="noopener">LINK</a>)。重点注意选择好是CPU版本还是GPU版本，另外再就是Python3和Python2用的命令的微小差别。我在进行完之前的Python版本降到3.5.3之后，在Anaconda Prompt里使用命令 <code>pip3 install tensorflow</code> 成功安装了tensorflow（太让人激动了！！！）</p>
+<p>&emsp;&emsp;遇到的问题是为了检测tensorflow是否安装成功，我实验了import tensorflow，可是在Python 3.5.3自己的shell里是可以用，可是在Anaconda Prompt里的python下不能用，不知道为什么。可能因为我在使用上边说的第二种方法转换Python之前，自己手动安装了一次Python3.5.3的缘故，悲催，做了无用功还影响了之后的功能。用了最笨的办法，卸载了python3.5.3，结果Anaconda Prompt打不开了，最后干脆把所有Python和Anaconda都卸载了。</p>
+<h2 id="最简安装过程"><a href="#最简安装过程" class="headerlink" title="最简安装过程"></a>最简安装过程</h2><p>&emsp;&emsp;有了前边的经验铺路，现在大致知道怎么做比较方便了。这段开始我基本就是从头做起了。首先按照前边说的第三种方法，到Anaconda官网的Achiv里下载了Anaconda3-4.2.0版本。安装完之后发现pip3命令没法使用，不过检查了Anaconda里pip包已经安装了的，所以试了下用pip命令，可以。于是使用如下命令进行安装：</p>
+<pre><code>pip install tensorflow
+pip install keras
+</code></pre><p>&emsp;&emsp;两个都成功安装了，接下来用一下两个命令测验一下是否真的安装成功，当然首先要在命令行用python命令进入python控制界面，然后</p>
+<pre><code>import tensorflow
+import keras
+</code></pre><p>&emsp;&emsp;两个都没有报错，keras默认使用TensorFlow作为backend。总算大功告成，可以去吃午饭了，哈哈。<img src="https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<hr>
+<h2 id="附加知识"><a href="#附加知识" class="headerlink" title="附加知识"></a>附加知识</h2><p><a href="http://xiaoyc.com/multi-version-solution-of-python-on-windows/" target="_blank" rel="noopener">WINDOWS 下 PYTHON 双版本共存解决方案</a><br>当电脑里有多个python版本时，通常的做法是要修改环境变量，不过这篇文章中的方法只需要在不想用的版本的根文件夹中加入一个bat文件即可，巧妙的解决了问题，推荐大家看看。如果大家想知道怎么通过修改环境变量来更改默认的python版本，可以看<a href="http://blog.csdn.net/qq_25579889/article/details/52895683" target="_blank" rel="noopener">这里</a></p>
+<p>安装Keras可以部分参考这篇文章：<br><a href="http://www.jianshu.com/p/c245d46d43f0" target="_blank" rel="noopener">windows 10 64bit下安装Tensorflow+Keras+VS2015+CUDA8.0 GPU加速</a></p>
+<hr>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/pythonkerasunderwindows" target="_blank" rel="noopener">qingnansun.com</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/04/22/机器学习基础/Windows10下安装Python,Tensorflow和Keras/" data-id="cjsm1p07f000b2o5mip439wsj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/04/23/机器学习基础/设置使用tensorflow作为backend并在GPU上运行/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          设置使用tensorflow作为backend并在GPU上运行
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/04/20/杂谈/写给女孩的安全建议/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">写给女孩的安全建议</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/杂谈/">杂谈</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">February 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/02/26/随笔/我的“北漂”见闻/">我的&#34;北漂&#34;见闻</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄/">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/应该养成的各种好习惯/">应该养成的各种好习惯</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/一些小贴士-激励我的句子/">一些小贴士-激励我的句子</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/待看的内容汇总/">待看的内容汇总</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Qingnan Sun<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
