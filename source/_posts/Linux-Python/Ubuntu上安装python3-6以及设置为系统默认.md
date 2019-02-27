@@ -24,8 +24,7 @@ permalink:
 
 由于python3.6在不同的Ubuntu版本中的安装是不一样的，这里我们先来看一下的Ubuntu的版本，在terminal中输入`lsb_release -a`即可查看，例如我的Ubuntu版本为16.04.4.
 
-![](https://upload-images.jianshu.io/upload_images/4815334-5354a30aedb7fd2c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
+{% asset_img 1_version.png %}
 
 # 不同Ubuntu版本上的python3.6的安装
 
@@ -66,7 +65,7 @@ sudo apt-get install python3.6
 
 安装好python3.6之后，我的系统中有python2.7，python3.5和python3.6三个版本的python。为了避免每次使用`python3.6`命令，希望把python3.6设置为系统默认。在设置之前，我们首先来看一个系统中python命令，python3命令以及不同版本python的路径，之后的操作中我们也需要其中的部分路径：
 
-![](https://upload-images.jianshu.io/upload_images/4815334-c685b9e656492821.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+{% asset_img 2_python.png %}
 
 ## 设置`python`命令默认使用python3.6
 
