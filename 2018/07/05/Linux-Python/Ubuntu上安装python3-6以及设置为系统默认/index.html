@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Ubuntu上安装python3-6以及设置为系统默认 | SQN - 生活与思考</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。 目录  1 查看Ubuntu版本 2 不同Ubuntu版本上的python3.6的安装 2.1 Ubuntu 14.04 and 16.04 2.2 Ubuntu 16.10 and 17.04 2.3 Ubuntu 17.10   3 设置python3.6为系统默认 3.1 设置python命令默认使用pytho">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu上安装python3-6以及设置为系统默认">
+<meta property="og:url" content="http://yoursite.com/2018/07/05/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/index.html">
+<meta property="og:site_name" content="SQN - 生活与思考">
+<meta property="og:description" content="这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。 目录  1 查看Ubuntu版本 2 不同Ubuntu版本上的python3.6的安装 2.1 Ubuntu 14.04 and 16.04 2.2 Ubuntu 16.10 and 17.04 2.3 Ubuntu 17.10   3 设置python3.6为系统默认 3.1 设置python命令默认使用pytho">
+<meta property="og:locale" content="chinese">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/4815334-5354a30aedb7fd2c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/4815334-c685b9e656492821.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2019-02-27T12:19:45.705Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ubuntu上安装python3-6以及设置为系统默认">
+<meta name="twitter:description" content="这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。 目录  1 查看Ubuntu版本 2 不同Ubuntu版本上的python3.6的安装 2.1 Ubuntu 14.04 and 16.04 2.2 Ubuntu 16.10 and 17.04 2.3 Ubuntu 17.10   3 设置python3.6为系统默认 3.1 设置python命令默认使用pytho">
+<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/4815334-5354a30aedb7fd2c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+  
+    <link rel="alternate" href="/atom.xml" title="SQN - 生活与思考" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">SQN - 生活与思考</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Linux-Python/Ubuntu上安装python3-6以及设置为系统默认" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/07/05/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/" class="article-date">
+  <time datetime="2018-07-04T22:00:00.000Z" itemprop="datePublished">2018-07-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Ubuntu上安装python3-6以及设置为系统默认
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。</p>
+<p>目录</p>
+<ul>
+<li>1 查看Ubuntu版本</li>
+<li>2 不同Ubuntu版本上的python3.6的安装<ul>
+<li>2.1 Ubuntu 14.04 and 16.04</li>
+<li>2.2 Ubuntu 16.10 and 17.04</li>
+<li>2.3 Ubuntu 17.10</li>
+</ul>
+</li>
+<li>3 设置python3.6为系统默认<ul>
+<li>3.1 设置python命令默认使用python3.6</li>
+<li>3.2 设置python3命令默认使用python3.6</li>
+</ul>
+</li>
+<li>4 参考资料</li>
+</ul>
+<h1 id="查看Ubuntu版本"><a href="#查看Ubuntu版本" class="headerlink" title="查看Ubuntu版本"></a>查看Ubuntu版本</h1><p>由于python3.6在不同的Ubuntu版本中的安装是不一样的，这里我们先来看一下的Ubuntu的版本，在terminal中输入<code>lsb_release -a</code>即可查看，例如我的Ubuntu版本为16.04.4.</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-5354a30aedb7fd2c.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h1 id="不同Ubuntu版本上的python3-6的安装"><a href="#不同Ubuntu版本上的python3-6的安装" class="headerlink" title="不同Ubuntu版本上的python3.6的安装"></a>不同Ubuntu版本上的python3.6的安装</h1><p>文末的参考资料[1]中的高赞回答列举了python3.6在不同版本的Ubuntu上的安装，这里摘抄如下:</p>
+<h2 id="Ubuntu-14-04-and-16-04"><a href="#Ubuntu-14-04-and-16-04" class="headerlink" title="Ubuntu 14.04 and 16.04"></a>Ubuntu 14.04 and 16.04</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:deadsnakes/ppa</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3.6</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:jonathonf/python-3.6</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3.6</span><br></pre></td></tr></table></figure>
+<p>安装完成后使用<code>python3.6</code>命令运行</p>
+<h2 id="Ubuntu-16-10-and-17-04"><a href="#Ubuntu-16-10-and-17-04" class="headerlink" title="Ubuntu 16.10 and 17.04"></a>Ubuntu 16.10 and 17.04</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3.6</span><br></pre></td></tr></table></figure>
+<p>安装完成后使用<code>python3.6</code>命令运行</p>
+<h2 id="Ubuntu-17-10"><a href="#Ubuntu-17-10" class="headerlink" title="Ubuntu 17.10"></a>Ubuntu 17.10</h2><p>在Ubuntu17.10中已经默认使用python3.6，所以可以直接用<code>python3</code>运行</p>
+<h1 id="设置python3-6为系统默认"><a href="#设置python3-6为系统默认" class="headerlink" title="设置python3.6为系统默认"></a>设置python3.6为系统默认</h1><p>安装好python3.6之后，我的系统中有python2.7，python3.5和python3.6三个版本的python。为了避免每次使用<code>python3.6</code>命令，希望把python3.6设置为系统默认。在设置之前，我们首先来看一个系统中python命令，python3命令以及不同版本python的路径，之后的操作中我们也需要其中的部分路径：</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-c685b9e656492821.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h2 id="设置python命令默认使用python3-6"><a href="#设置python命令默认使用python3-6" class="headerlink" title="设置python命令默认使用python3.6"></a>设置<code>python</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python的路径</span><br><span class="line">sudo ln -s python3.6路径 python的路径</span><br></pre></td></tr></table></figure>
+<h2 id="设置python3命令默认使用python3-6"><a href="#设置python3命令默认使用python3-6" class="headerlink" title="设置python3命令默认使用python3.6"></a>设置<code>python3</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python3的路径</span><br><span class="line">sudo ln -s python3.6路径 python3的路径</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/07/05/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/" data-id="cjsm1p07700042o5mizoxj9f5" class="article-share-link">Share</a>
+      
+      
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/12/03/金句摘抄/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          金句摘抄
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/04/26/机器学习基础/使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">使用python构建ARIMA模型进行预测分析的小说明-forecast函数</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/杂谈/">杂谈</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/随笔/">随笔</a><span class="category-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">February 2019</a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">December 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/02/26/随笔/我的“北漂”见闻/">我的&#34;北漂&#34;见闻</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄/">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/应该养成的各种好习惯/">应该养成的各种好习惯</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/一些小贴士-激励我的句子/">一些小贴士-激励我的句子</a>
+          </li>
+        
+          <li>
+            <a href="/2019/02/26/杂谈/待看的内容汇总/">待看的内容汇总</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+      <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+      <span id="busuanzi_container_site_pv"> 
+        本站访问量<span id="busuanzi_value_site_pv"></span>次
+      </span>
+      <span id="busuanzi_container_site_uv"> 
+        本站访客数<span id="busuanzi_value_site_uv"></span>人
+      </span>
+      
+    <div id="footer-info" class="inner">
+      &copy; 2019 Qingnan Sun<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
