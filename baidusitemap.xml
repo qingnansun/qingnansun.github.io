@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://yoursite.com/S%E9%9A%8F%E7%AC%94/%E6%88%91%E7%9A%84%E2%80%9C%E5%8C%97%E6%BC%82%E2%80%9D%E8%A7%81%E9%97%BB/</loc>
+    <lastmod>2019-03-01</lastmod>
+  </url>  <url>
     <loc>http://yoursite.com/%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/</loc>
     <lastmod>2019-03-01</lastmod>
   </url>  <url>
@@ -8,9 +11,6 @@
     <lastmod>2019-03-01</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/T%E6%9D%82%E8%B0%88/%E4%B8%80%E4%BA%9B%E5%B0%8F%E8%B4%B4%E5%A3%AB-%E6%BF%80%E5%8A%B1%E6%88%91%E7%9A%84%E5%8F%A5%E5%AD%90/</loc>
-    <lastmod>2019-03-01</lastmod>
-  </url>  <url>
-    <loc>http://yoursite.com/S%E9%9A%8F%E7%AC%94/%E6%88%91%E7%9A%84%E2%80%9C%E5%8C%97%E6%BC%82%E2%80%9D%E8%A7%81%E9%97%BB/</loc>
     <lastmod>2019-03-01</lastmod>
   </url>  <url>
     <loc>http://yoursite.com/T%E6%9D%82%E8%B0%88/%E4%BF%9D%E6%8A%A4%E7%8E%AF%E5%A2%83%EF%BC%8C%E8%BF%99%E4%BA%9B%E5%B0%8F%E4%BA%8B%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E5%81%9A/</loc>
