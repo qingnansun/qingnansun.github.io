@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://qingnansun.github.io/IT/PEP-8-%E2%80%94-Style-Guide-for-Python-Code-(PEP8-%E2%80%94-Python%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97)/</loc>
+    
+    <lastmod>2019-03-04T21:20:44.945Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://qingnansun.github.io/IT/%E5%A5%BD%E7%94%A8%E6%89%8B%E6%9C%BAapp%E6%B1%87%E6%80%BB/</loc>
+    
+    <lastmod>2019-03-04T21:20:37.945Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://qingnansun.github.io/T%E6%9D%82%E8%B0%88/%E4%BF%9D%E6%8A%A4%E7%8E%AF%E5%A2%83%EF%BC%8C%E8%BF%99%E4%BA%9B%E5%B0%8F%E4%BA%8B%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E5%81%9A/</loc>
     
     <lastmod>2019-03-04T21:13:12.022Z</lastmod>
@@ -107,13 +121,6 @@
   </url>
   
   <url>
-    <loc>https://qingnansun.github.io/IT/PEP-8-%E2%80%94-Style-Guide-for-Python-Code-(PEP8-%E2%80%94-Python%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97)/</loc>
-    
-    <lastmod>2019-03-04T20:59:38.605Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://qingnansun.github.io/IT/Windows%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAVirtualBox%E4%B8%AD%E7%9A%84Ubuntu%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/</loc>
     
     <lastmod>2019-03-04T20:59:14.496Z</lastmod>
@@ -145,13 +152,6 @@
     <loc>https://qingnansun.github.io/J%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/%E4%BD%BF%E7%94%A8python%E6%9E%84%E5%BB%BAARIMA%E6%A8%A1%E5%9E%8B%E8%BF%9B%E8%A1%8C%E9%A2%84%E6%B5%8B%E5%88%86%E6%9E%90%E7%9A%84%E5%B0%8F%E8%AF%B4%E6%98%8E-forecast%E5%87%BD%E6%95%B0/</loc>
     
     <lastmod>2019-02-27T12:19:28.734Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://qingnansun.github.io/IT/%E5%A5%BD%E7%94%A8%E6%89%8B%E6%9C%BAapp%E6%B1%87%E6%80%BB/</loc>
-    
-    <lastmod>2019-02-26T17:52:50.463Z</lastmod>
     
   </url>
   

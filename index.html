@@ -301,6 +301,8 @@
       <a data-url="https://qingnansun.github.io/IT/好用手机app汇总/" data-id="cjsuo32dz0005tk5mzvyupycq" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/app/">app</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
+
 
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
@@ -736,12 +738,1967 @@
 
 
   
-
-
-  <nav id="page-nav">
+    <article id="post-IT/重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/IT/重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯/" class="article-date">
+  <time datetime="2019-02-05T23:00:00.000Z" itemprop="datePublished">2019-02-06</time>
+</a>
     
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo;</a>
-  </nav>
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/IT/重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯/">重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>（本文章适用于Windows 10系统的用户）</p>
+<p>1月15日上班的时候发现实验室的电脑挂了，彻底没有反应了。本来以为是电源的原因，不过测试后发现电源没问题，推测为主板的原因。所以导师让我买了个新电脑，当天就买回来并开始一步步把目前需要的软件安装好了。</p>
+<p>好在之前的使用习惯比较好（下边的”原则性建议“里有具体讲）数据都存在HDD硬盘里，SSD的系统盘里基本没有存东西。这样的话把原来的2T的HDD硬盘拆下来插在新电脑的额外硬盘插槽里，以前的数据都完好的等待我使用了。另外我还对重要的工作文件进行了西部数据MyCloud Mirror Gen2的镜像备份，这个以后再细说。下边先讲讲Windows的使用部分建议以及有用的软件。</p>
+<p>#原则性建议</p>
+<ul>
+<li>现在很多电脑，尤其是台式机，有两块硬盘。一块是256G左右的SSD用于安装系统（通常为C盘），另一块是1T或2T的HDD磁盘用于存储数据。原则上所有的除系统之外的数据都存到HDD磁盘（通常为D盘）。这样在系统崩溃或者新换电脑后，将原来的数据磁盘作为外接磁盘放到其他电脑上即可使用保存的数据，避免了数据的丢失。具体请继续参见“设置建议”。</li>
+<li>可以在D盘的根目录中建立如下文件夹以代替原来C盘中的相应文件夹，并将临时使用的数据也存在D盘。习惯上我会在D盘根目录中建立一下文件夹 <em>DesktopWorkspace</em>, <em>TEMP_CouldDelete</em>，<em>Downloads</em></li>
+</ul>
+<p>#设置建议</p>
+<ul>
+<li>如果是在国外购买的电脑，系统中显示的部分中文为乱码， 参考<a href="https://www.zhihu.com/question/34761050" target="_blank" rel="noopener">此处</a> 设置非Unicode</li>
+<li>可以将以前电脑的存储硬盘作为外接硬盘安装到新电脑里（很多新电脑都预留了一个额外的硬盘插槽，只要把硬盘插进去即可使用，就像使用移动硬盘一样简单）。</li>
+<li>如果必要的话，把这块存储硬盘的盘符改为和之前一样，比如之前是D盘，在新电脑上自动设置为G盘，则可以将新电脑的D盘改为其他盘符，然后将原来电脑的D盘依然命名为D盘</li>
+<li>不要在C盘以及相关的路径，比如桌面、我的文档、我的图片等路径存储自己的数据，其他需要设置的例如<ul>
+<li>聊天软件（skype）、音乐软件（虾米）等的聊天记录、下载等的存储位置,例如放到<em>D:\ChatFiles</em></li>
+<li>浏览器(Chrome, Edge)的下载Download存储位置，例如放到<em>D:\Download</em></li>
+<li>Dropbox和Onedrive等云软件的位置，例如放到D盘根目录</li>
+<li>文献管理软件Mendeley的文献存储目录，例如放到<em>D:\MendeleyPapers</em></li>
+<li>VM VirtualBox的配置文件和虚拟机硬盘，例如放到<em>D:\VirtualBoxVMs</em></li>
+</ul>
+</li>
+<li>启用“删除确认”功能。方法：回收站图标上右键单击-&gt;属性-&gt;勾选显示删除确认对话框。</li>
+<li>多屏幕设置中的工具栏设置。建议:在所有屏幕上显示工具栏、在窗口打开的屏幕上显示工具栏图标、合并工具栏图标并隐藏标签</li>
+<li>文件名中尽量不要有空格，可以使用“-”或者“_”代替</li>
+<li>文件夹名称中的日期建议使用yyyymmdd的格式，如20190102表示2019年1月2日，这样不容易因为时间久了记不清到底哪几位是月，哪几位是日</li>
+<li>对于部分用户:使用记事本生成的文件尽量保存为.md格式而非.txt格式。一方面Markdown文件中可以进行加粗及编号等格式设置，另一方面md文件有更好的预览支持。</li>
+</ul>
+<p><strong>以下为一些重装电脑后可能需要尽快安装的有用软件.</strong></p>
+<p>#辅助工具</p>
+<ol>
+<li>Chrome,登陆并同步数据、密码和插件等，设置下载地址<em>D:\Download</em></li>
+<li>罗技鼠标设置软件 Setpoint</li>
+<li>虾米音乐  <em>D:\ChatFiles\XiamiMusic</em> -</li>
+<li>有道词典（在windows app store下载）并软件内下载离线词典 -</li>
+<li>或 使用灵格斯翻译（好久没有更新了）</li>
+<li>输入法？百度和谷歌都不更新了貌似，用微软自带即可</li>
+<li>Adobe Acrobat XI</li>
+<li>Adobe Acrobat Reader， 网上下载即可</li>
+<li>打印机驱动及控制软件</li>
+<li>Microsoft Office并设置每分钟自动保存</li>
+<li><a href="http://onecommander.com/download.html" target="_blank" rel="noopener">OneCommander</a>:分屏对文件夹和文件进行快速操作</li>
+</ol>
+<p>#聊天工具</p>
+<ol>
+<li>Wechat微信</li>
+<li>Skype <em>D:\ChatFiles\SkypeDownload</em> -</li>
+<li><a href="https://www.whatsapp.com/download/" target="_blank" rel="noopener">WhatsApp Windows版</a></li>
+</ol>
+<p>#效率工具</p>
+<ol>
+<li>疯狂番茄 Focus To-Do -</li>
+<li><a href="https://www.xmind.net/" target="_blank" rel="noopener">Xmind</a></li>
+<li><a href="https://www.ganttproject.biz/download/free" target="_blank" rel="noopener">GanttProject</a></li>
+<li>Dropbox <em>位置设置到D盘根目录</em></li>
+<li>Onedrive(Windows自带) <em>位置设置到D盘根目录</em></li>
+</ol>
+<p>#图片编辑</p>
+<ol>
+<li><a href="https://www.gimp.org/downloads/" target="_blank" rel="noopener">Gimp</a> -</li>
+<li><a href="https://inkscape.org/" target="_blank" rel="noopener">INKSCAPE</a> -</li>
+<li><a href="https://rawtherapee.com" target="_blank" rel="noopener">RawTherapee</a>, 免费的raw格式照片后期处理软件，功能很强大</li>
+<li><a href="https://www.darktable.org" target="_blank" rel="noopener">DarkTable</a></li>
+</ol>
+<p>#工作软件（待继续完善）</p>
+<ol>
+<li><a href="https://code.visualstudio.com/docs/?dv=win" target="_blank" rel="noopener">VS code</a> 以及插件<em>Todo highlight</em> 和 <em>VScode-pdf</em></li>
+<li><a href="https://git-scm.com/" target="_blank" rel="noopener">Git for Windows</a>, VScode会自动提示安装git</li>
+<li><a href="https://desktop.github.com/" target="_blank" rel="noopener">Git desktop</a></li>
+<li>MyCloud WD SmartWare 用于备份 - </li>
+<li>Matlab 2016a</li>
+<li>Matlab 2014a</li>
+<li><a href="https://www.mendeley.com/download-desktop/#downloading" target="_blank" rel="noopener">Mendeley</a>，文献存储目录<em>D:\MendeleyPapers</em></li>
+<li>WinSCP</li>
+<li>Oracle VM VirtualBox: 安装虚拟机，配置文件和虚拟机的硬盘存储在<em>D:\VirtualBoxVMs</em></li>
+</ol>
+<p>#研究所网络设置（仅限于我们研究所）</p>
+<ol>
+<li><a href="https://zonula.unibe.ch/wiki/doku.php?id=general:howto:fileserver_shares" target="_blank" rel="noopener">连接Zonula server(以下为Windows版)</a><br> A. Workgroup设置为CAMPUS并重启电脑<br> B. 文件浏览器地址栏输入 \\zonula.unibe.ch<br> C. 弹出的对话框输入 CAMPUS\校园用户名 + 密码</li>
+<li>连接到Zonula server后，在software文件夹中可以找到部分上述软件。在我本地电脑，我将必要软件安装程序存储于<em>D:\0_WD_other\IMPORTANT_setups</em></li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/IT/重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯/" data-id="cjsuo32e4000atk5m7gryn164" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/习惯/">习惯</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/软件/">软件</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-J机器学习基础/机器学习利用第三方库自动寻找最优参数时报错的一点总结" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/J机器学习基础/机器学习利用第三方库自动寻找最优参数时报错的一点总结/" class="article-date">
+  <time datetime="2019-01-17T23:00:00.000Z" itemprop="datePublished">2019-01-18</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/J机器学习基础/机器学习利用第三方库自动寻找最优参数时报错的一点总结/">机器学习利用第三方库自动寻找最优参数时报错的一点总结</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>&emsp;&emsp;目前的实验中我在用深度学习构建神经网络，开始的时候我一般是随机手调几个数大致看下效果，有时候如果需要知道网络效果随参数变化的趋势，就用for循环自动运行许多实验，然后我来收结果并用matlab批量分析。今天同事给我推荐了两个github上的库，利用这两个库可以实现对模型多次的运行并评价系统的运行结果。这个过程中不涉及对系统的优化，只是通过大量的自动运行的实验通过统计学的角度来比较什么样的参数相对较好。</p>
+<p>&emsp;&emsp;这两个库分别为<a href="https://github.com/HIPS/Spearmint" target="_blank" rel="noopener">Spearmint</a> 和 <a href="https://github.com/fmfn/BayesianOptimization" target="_blank" rel="noopener">BayesianOptimization</a>.详细的介绍、安装方法和例子在各自的网站里都有写，我就不赘述了。目前我正在尝试使用Spearmint方法，所以先把安装过程中的一点小提示写在这里。</p>
+<p>&emsp;&emsp;首先，这个库是在python 2.7环境的，如果你使用python 3 的话会遇到一些问题，所以建议使用2.7.</p>
+<p>&emsp;&emsp;其次，新版的scipy中weave模块已经独立出来，所以原来的文件中使用的<code>scipy.weave as weave</code>语句就没法使用了，会报错。有人建议如下修改</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">try:</span><br><span class="line">    import scipy.weave as weave</span><br><span class="line">except ImportError:</span><br><span class="line">    import weave</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;可是我的电脑上即使更新scipy后也无法导入scipy.weave或者weave，所以只好使用下边这种方法，也就是完全不使用weave库。因为weave只使用了一次，所以只要在/spearmint/kernels/kernel_utils.py文件中把使用weave模块的部分注释掉即可，把第226行附近的代码调整为如下所示。原来使用weave模块用c语言计算的部分被用python语言的替代了，计算速度会下降，不过好歹可以用了。此外记得删除kernel_utils.py和/spearmint/models/gp_classifier.py文件中weave模块的import。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#try:</span><br><span class="line">#    scipy.weave.inline(code, [&apos;x1&apos;,&apos;x2&apos;,&apos;gX&apos;,&apos;ls&apos;,&apos;M&apos;,&apos;N&apos;,&apos;D&apos;], \</span><br><span class="line">#                       type_converters=scipy.weave.converters.blitz, \</span><br><span class="line">#                       compiler=&apos;gcc&apos;)</span><br><span class="line">#except:</span><br><span class="line"># The C code weave above is 10x faster than this:</span><br><span class="line">for i in xrange(0,x1.shape[0]):</span><br><span class="line">    gX[i,:,:] = 2*(x1[i,:] - x2[:,:])*(1/ls)</span><br><span class="line">return gX</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;这样调整好之后，可以用example文件夹中的例子先进性一下试验和学习。然后根据介绍相应的构建适合自己项目的主程序以及json文件。</p>
+<p>&emsp;&emsp;关于介绍中说的第三步step 3: Running spearmint中的代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python main.py \&lt;/path/to/experiment/directory\&gt;</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;这里的main.py指的是spearmint的主程序，在spearmint文件夹下，所以运行这个语句之前需要先转到spearmint文件夹，否则会提示找不到相应的文件。</p>
+<p>参考：<br>1.<a href="https://github.com/HIPS/Spearmint/issues/99" target="_blank" rel="noopener">https://github.com/HIPS/Spearmint/issues/99</a><br>2.<a href="https://github.com/HIPS/Spearmint/pull/107/commits/2f29459ade04e399e55fa9f4334265de60a9b4cd" target="_blank" rel="noopener">https://github.com/HIPS/Spearmint/pull/107/commits/2f29459ade04e399e55fa9f4334265de60a9b4cd</a></p>
+<hr>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/machinelearning-automatic-best-parameters" target="_blank" rel="noopener">qingnansun.com</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/J机器学习基础/机器学习利用第三方库自动寻找最优参数时报错的一点总结/" data-id="cjsuo32e5000ctk5m0tbske42" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/机器学习/">机器学习</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-D读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/D读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄/" class="article-date">
+  <time datetime="2018-12-23T23:00:00.000Z" itemprop="datePublished">2018-12-24</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/D读书笔记/">D读书笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/D读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄/">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。</p>
+<h1 id="“你”的致命缺陷"><a href="#“你”的致命缺陷" class="headerlink" title="“你”的致命缺陷"></a>“你”的致命缺陷</h1><p>若我做到了，就请你一遍一遍读这封信，直到它将你的虚荣心全部吞噬。</p>
+<p>我发现你更适合于一种文化层次较低的友谊，我这样说只是出于友人的坦诚，不带半点责备意味。所有伙伴关系的维系纽带，不管是婚姻还是友谊，最终都归于对话，而对话必须要有一个共同的基础。</p>
+<p>它就是你性格中恨远大于爱。你对父亲的恨是如此之深，它完全超过甚至能推翻你对我的爱，这种恨使你对我的爱蒙受阴影。</p>
+<p>在这座精雕细琢的美丽“房子”里，爱和恨是不能同生共存的。爱是靠想象力字样的，想象力能让我们比我们所知的更聪慧，比我们所感的更美好，比我们本身更高贵。通过想象力，我们能完整地看见生活本身，也只有想象力能让我们像了解理想中的那样去了解现实状态下任何人建立的关系。唯有在本就美好又受人们美好的想象力咀嚼过的事物中才能滋养爱，但是恨却可受任何事物的滋养。</p>
+<p>那些年，你喝的香槟没有一杯不催生你的怨，你享用的大餐没有一顿不滋养你的恨。</p>
+<p>你所恨的是自己的父亲，并且这种恨又完全是相互的，这样的事实并没让你的恨显出一丝高贵或精致。如果它真能显示什么，那只不过是你的遗传疾病。。。</p>
+<p>如果说仇恨蒙蔽了你的双眼，那么虚荣心就用钢筋铁线缝合了你的眼睑。</p>
+<p>爱情和文学中都自有策略，但你对两者皆不通不懂。</p>
+<h1 id="“我”的苦难与“小确幸”"><a href="#“我”的苦难与“小确幸”" class="headerlink" title="“我”的苦难与“小确幸”"></a>“我”的苦难与“小确幸”</h1><p>我记忆中最愉快的一次就餐是和罗比在索霍区的一家小咖啡馆进行的，我们花费的“先令”数额与你就餐所花费的“英镑”数额相等。三法郎五十分的套菜就囊括了谈论的思想，名称以及优雅的款待、氛围。和你一起花天酒地后却一无所剩，只留下吃喝无度的记忆。</p>
+<p>在我被囚禁的大监狱里，我只是一长排走廊中一间小囚室的一个数字或字母，千百个了无声息的数字中的一个，千百条暗淡无光的生命中的一员。</p>
+<p>对我们来说，时间是旋转的而不是向前流动的，它似乎是环绕着痛苦在运动。</p>
+<p>（罗比庄重地举帽向戴着手铐低头从他身边走过的囚犯奥斯卡致敬）记忆中这微小可爱的无言善举向我开启了怜悯之泉:沙漠像玫瑰一样开出花朵，我终于被带离了凄苦的流放之地，与世界那颗受伤破碎的伟大心脏和谐共振。</p>
+<p>你可知道：你若受苦我也一样受苦；你若哭泣我也泪水纵横；你若身陷奴役之屋受人唾弃，我会强忍着悲伤再建筑一屋当作宝库，将别人不给你的东西上百倍地置放屋内，等你到来，为你疗伤；若苦涩的必尽之责或谨慎之心阻挡我来到你的身边–这对我单方面来说必定更加苦涩–并且剥夺你和我在一起的快乐（虽然我们还能以一种受辱潦倒的方式透过铁窗横档相见），我至少可以终年不断地给你写信，只希望我的片言只语能够让你读到，只希望被击碎的爱的残音能够让你听见。如果你拒收我的信，我也会一如从前地写，以便让你知道无论沧海桑田，总有我的信在等你阅读。</p>
+<h1 id="爱、幸福、悲伤、原谅"><a href="#爱、幸福、悲伤、原谅" class="headerlink" title="爱、幸福、悲伤、原谅"></a>爱、幸福、悲伤、原谅</h1><p>但我对自己说：“不管付出什么代价，我必须守护我心中的爱。如果我因受困囹圄就抛别爱，我该如何安放自己的灵魂？”</p>
+<p>肉体的罪孽不足为道，如果它们必须治疗，医生们足以对付它们；只有灵魂的罪孽才是可耻的。</p>
+<p>或者，我有过一时片刻认为你是值得我爱的？你当然不配，我知道。但是爱不是市场上的交易，不是小贩们的磅秤可称量的。如同精神的快乐，爱的快乐是感受到本身的生命流动。爱的目的就是爱，不多也不少。</p>
+<p>读到但丁如何将那些恣情沉溺于悲伤中的人放置在地狱中时，就去学院图书馆翻到但丁《神曲》中描绘那番景象的一页，那些躺在可怕的泥潭下“在甜美的氛围中仍愠怒无常，怒气冲冲”的人用一声声叹息诉说着：那时我们心中愁云密布，而阳光中甜美的空气喜气洋洋。</p>
+<p>我必须学会如何让自己变得快乐幸福。</p>
+<p>悲伤以及它教给人的一切是我的新世界。</p>
+<p>从未在悲伤中咀嚼过面包，<br>从未在午夜时分，<br>哭泣着等待黎明的人，<br>是不了解你的—-来自天国的力量。<br>[注：从未在深夜痛哭的人，不足以谈人生。]</p>
+<p>欢笑背后可能隐藏着粗糙、坚硬和冷漠的性情，但悲伤背后总是悲伤。痛苦不像享乐，它不带面具。</p>
+<p>现在我认为，这苦海无涯的世界正是为了说明某种爱的存在，这是唯一可以能的解释。</p>
+<p> 当他（耶稣）说“原谅你的敌人吧”的时候，他不是为了敌人而是为了他自己，因为爱比恨更美丽。</p>
+<p>为了我自己，我也必须原谅你。一个人不可能总是将一条蝰蛇供养在心口，也不可能每晚起身在心灵的花园里播种荆棘。</p>
+<p>现在我真正开始觉得自己对那些嘲笑之辈的惋惜多于对自己出境的追悔。。。这些人本应知道如何更好地去解读悲伤，我曾说在每一个悲伤后面总掩盖这另一个悲伤，更明智的说法是每一个悲伤后面总掩盖着一颗灵魂。因此，以嘲笑一颗痛苦的灵魂为乐是件残忍的事情，他们这样做是不美的。</p>
+<h1 id="生命的感悟"><a href="#生命的感悟" class="headerlink" title="生命的感悟"></a>生命的感悟</h1><p>真正的愚蠢之辈是对自己一无所知的人，正如那些受众神嘲笑或损毁的人。</p>
+<p>你一离开我就一切安好。</p>
+<p>衰老的双手摘取月桂枝叶会令其枯萎，唯有青春方能为艺术家加冕。</p>
+<p>令人悲哀的是，又有多少人在临死之前曾“拥有过自己的灵魂”？爱默生曾说：”世界上没有什么能比一个人发自灵魂的行动更为稀有。”这是真实的，大多数人都是自己的他者。他们的想法是别人的意见，他们的生活只是一场模仿秀，他们的激情是对他们的引用。<br>[注：Be yourself. Everyone else is already taken. 做你自己，因为别人都有人做了。]</p>
+<p> 当然，我知道在马路边祈求施舍不会是我的命运，若我夜晚要躺在清凉的草地上，那也是在给月亮写十四行诗。</p>
+<p> 从声名卓著到声名狼藉仅一步之遥，当然如果真还有“一步”这么长的话。</p>
+<p>这样做（注：节俭）不是出于饥饿–我现在食物相当充足–这样做仅仅是因为我丝毫都不能浪费给我的一切。对待别人给予的爱，也应如是。</p>
+<p>从某种意义上看，正如希腊神谕所说，“知道你自己”当然是必需的。但是智慧的终极成就是认识到人的心灵是不可知的。世界最终的奥秘恰是人的自我。</p>
+<p>我的服刑期延长了一年，但人性一直在监狱中与我们同在。现在我即将服刑期满离开此地，将会永远记得这儿几乎每一个人曾给予我的伟大善意。在刑满释放日，我将会向很多人表达我的谢意，并请求他们同样记住我。</p>
+<p>如果出狱后哪位朋友举行宴会但不邀请我参加，我是不会心存芥蒂的。独处时我将会无比快乐。拥有自由、书籍、鲜花和月亮的人怎会不快乐？。。。但是，如果出狱后哪位朋友忧伤满腹却拒绝让我为其分忧解难，我将倍感痛苦。</p>
+<p>在《道连-格雷》一书的某章中我曾说：“一个人在选择他的敌人时，无论怎么小心都不为过。”我实在想不到自己会被一个贱民造就成了一个贱民。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/D读书笔记/《自-深深处》奥斯卡-王尔德[英]-金句摘抄/" data-id="cjsuo32dy0004tk5m270h5qbp" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/金句/">金句</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-D读书笔记/金句摘抄" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/D读书笔记/金句摘抄/" class="article-date">
+  <time datetime="2018-12-02T23:00:00.000Z" itemprop="datePublished">2018-12-03</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/D读书笔记/">D读书笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/D读书笔记/金句摘抄/">金句摘抄</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>From this day to the ending of the world,<br>But we in it shall be remembered, —<br>We few, we happy few, we band of brothers.<br>For he to-day that sheds his blood with me,<br>Shall be my brother;<br><em>from Henry V, spoken by King Henry</em></p>
+<p>守夜人誓言：「长夜将至，我从今开始守望，至死方休。我将不娶妻、不封地、不生子。我将不戴宝冠，不争荣宠。我将尽忠职守，生死於斯。我是黑暗中的利剑，长城中的守卫。我是抵御寒冷的烈燄，破晓时分的光线，唤醒死者的号角，守护王国的铁卫。我将生命与荣耀献给守夜人，今夜如此，夜夜皆然。<br><em>权利的游戏</em></p>
+<p>“Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night’s Watch, for this night and all the nights to come.”<br><em>权利的游戏</em></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/D读书笔记/金句摘抄/" data-id="cjsuo32e00007tk5m5p3iraz6" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/金句/">金句</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-S随笔/你是童话城堡中最美的新娘" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/S随笔/你是童话城堡中最美的新娘/" class="article-date">
+  <time datetime="2018-09-09T22:00:00.000Z" itemprop="datePublished">2018-09-10</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/S随笔/">S随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/S随笔/你是童话城堡中最美的新娘/">你是童话城堡中最美的新娘</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>你是童话城堡中最美的新娘</p>
+<p>2017年8月19日，豆豆小公主和骑士先生在荷兰De Haar城堡中举办婚礼。朋友、同事、鲜花、马车，童话城堡中最美的公主出嫁了。</p>
+<p>“我就要在De Haar办婚礼”<br>早在几年前当骑士先生还在德国时，就萌生了举办城堡婚礼的念头，毕竟未来的新娘是小公主，城堡再合适不过了。</p>
+<p>可是没等这个计划实现，骑士先生就搬到了瑞士，于是他又开始在瑞士寻觅婚礼场地:城堡、教堂、游艇、博物馆……各种可能而且美好的地方都被纳入考虑范围，可是始终没有哪个场地能给他”就是这了！”的感觉。</p>
+<p>今年初的时候他突发奇想，为什么不看看荷兰的城堡？看到排名第一的De Haar城堡时，心里咯噔一下:这就是我要找的地方！赶紧查了查资料，发现之前有一位嫁给荷兰人的中国女孩也在这办的婚礼，她还写了文章分享那份快乐。再看看城堡的官网，恰巧几周以后是城堡专门为筹备婚礼的新人准备的开放日，赶紧让豆豆小公主注册报名去参加开放日及面谈。</p>
+<p>不仅是De Haar城堡有开放日，荷兰许多其他的城堡也在那天举办开放日。骑士先生还选了几个备选方案，希望小公主那天一并看下。可是小公主执意只去De Haar, “我就喜欢De Haar,我就要在这办婚礼，其他不考虑!” 好在天随人愿，8月份还有唯一一个周六可以预约，我们果断确定了婚期。</p>
+<p>.<br>准备婚礼并非那么轻松，尤其是爸妈都不在这边，而且不找婚礼策划。几乎所有的事情都得亲力亲为，城堡、餐馆、摄影师、摄像师、马车租赁、婚礼蛋糕、购置各种物品等等，都靠小公主一一联系和</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/S随笔/你是童话城堡中最美的新娘/" data-id="cjsuo32e7000ftk5mhmksiwo7" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新娘/">新娘</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/童话/">童话</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Linux-Python/Ubuntu上安装python3-6以及设置为系统默认" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/" class="article-date">
+  <time datetime="2018-07-04T22:00:00.000Z" itemprop="datePublished">2018-07-05</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Linux-Python/">Linux-Python</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/">Ubuntu上安装python3-6以及设置为系统默认</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。</p>
+<h1 id="查看Ubuntu版本"><a href="#查看Ubuntu版本" class="headerlink" title="查看Ubuntu版本"></a>查看Ubuntu版本</h1><p>由于python3.6在不同的Ubuntu版本中的安装是不一样的，这里我们先来看一下的Ubuntu的版本，在terminal中输入<code>lsb_release -a</code>即可查看，例如我的Ubuntu版本为16.04.4.</p>
+<img src="/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/1_version.png">
+<h1 id="不同Ubuntu版本上的python3-6的安装"><a href="#不同Ubuntu版本上的python3-6的安装" class="headerlink" title="不同Ubuntu版本上的python3.6的安装"></a>不同Ubuntu版本上的python3.6的安装</h1><p>文末的参考资料[1]中的高赞回答列举了python3.6在不同版本的Ubuntu上的安装，这里摘抄如下:</p>
+<h2 id="Ubuntu-14-04-and-16-04"><a href="#Ubuntu-14-04-and-16-04" class="headerlink" title="Ubuntu 14.04 and 16.04"></a>Ubuntu 14.04 and 16.04</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:deadsnakes/ppa</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3.6</span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:jonathonf/python-3.6</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3.6</span><br></pre></td></tr></table></figure>
+<p>安装完成后使用<code>python3.6</code>命令运行</p>
+<h2 id="Ubuntu-16-10-and-17-04"><a href="#Ubuntu-16-10-and-17-04" class="headerlink" title="Ubuntu 16.10 and 17.04"></a>Ubuntu 16.10 and 17.04</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install python3.6</span><br></pre></td></tr></table></figure>
+<p>安装完成后使用<code>python3.6</code>命令运行</p>
+<h2 id="Ubuntu-17-10"><a href="#Ubuntu-17-10" class="headerlink" title="Ubuntu 17.10"></a>Ubuntu 17.10</h2><p>在Ubuntu17.10中已经默认使用python3.6，所以可以直接用<code>python3</code>运行</p>
+<h1 id="设置python3-6为系统默认"><a href="#设置python3-6为系统默认" class="headerlink" title="设置python3.6为系统默认"></a>设置python3.6为系统默认</h1><p>安装好python3.6之后，我的系统中有python2.7，python3.5和python3.6三个版本的python。为了避免每次使用<code>python3.6</code>命令，希望把python3.6设置为系统默认。在设置之前，我们首先来看一个系统中python命令，python3命令以及不同版本python的路径，之后的操作中我们也需要其中的部分路径：</p>
+<img src="/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/2_python.png">
+<h2 id="设置python命令默认使用python3-6"><a href="#设置python命令默认使用python3-6" class="headerlink" title="设置python命令默认使用python3.6"></a>设置<code>python</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python的路径</span><br><span class="line">sudo ln -s python3.6路径 python的路径</span><br></pre></td></tr></table></figure>
+<h2 id="设置python3命令默认使用python3-6"><a href="#设置python3命令默认使用python3-6" class="headerlink" title="设置python3命令默认使用python3.6"></a>设置<code>python3</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python3的路径</span><br><span class="line">sudo ln -s python3.6路径 python3的路径</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/Linux-Python/Ubuntu上安装python3-6以及设置为系统默认/" data-id="cjsuo32e30009tk5mhlf16lxv" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IT/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/IT/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" class="article-date">
+  <time datetime="2018-06-02T22:00:00.000Z" itemprop="datePublished">2018-06-03</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/IT/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/">Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。</p>
+<ul>
+<li>1 Windows端</li>
+<li>2 Linux端<ul>
+<li>2.1 设置VirtualBox中虚拟系统的共享信息</li>
+<li>2.2 在Terminal中下载所需镜像并安装</li>
+<li>2.3 挂载共享文件夹</li>
+<li>2.4 其他代码</li>
+<li>2.5 其他信息<h2 id="Windows端"><a href="#Windows端" class="headerlink" title="Windows端"></a>Windows端</h2></li>
+</ul>
+</li>
+</ul>
+<p>Windows端需要建立一个用来进行文件分享的文件夹，比如我在D盘建了一个ShareWithVM文件夹。在这个文件夹的图标上用鼠标右键单击，然后选择<strong>属性–&gt;分享</strong>，然后选择“<strong>高级分享（Advanced Sharing）</strong>”并勾选“<strong>分享这个文件夹</strong>”，然后单击“<strong>确定”</strong>即可。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-393d331956bf5abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h2 id="Linux端"><a href="#Linux端" class="headerlink" title="Linux端"></a>Linux端</h2><p>设置的重点在linux端，也就是虚拟机上的Ubuntu上，网上有很多教程，可是我使用后并不成功，以下是我的设置过程。</p>
+<h3 id="设置VirtualBox中虚拟系统的共享信息"><a href="#设置VirtualBox中虚拟系统的共享信息" class="headerlink" title="设置VirtualBox中虚拟系统的共享信息"></a>设置VirtualBox中虚拟系统的共享信息</h3><p>在VirtualBox Manager界面中选择需要设置的Ubuntu虚拟系统，然后按下图的顺序添加刚才在Windows端建立的共享文件夹的信息。这一步可能需要先关闭虚拟机再设置，我不太记得我设置的时候虚拟机是关闭还是运行状态了。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-91eeab532782e155.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h3 id="在Terminal中下载所需镜像并安装"><a href="#在Terminal中下载所需镜像并安装" class="headerlink" title="在Terminal中下载所需镜像并安装"></a>在Terminal中下载所需镜像并安装</h3><p>这一步可以用参考链接[1]中的方式在windows系统下载然后再虚拟机选择相应镜像，不过我是通过以下的代码实现的。</p>
+<p>首先运行Ubuntu并打开一个terminal，然后输入以下代码：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install virtualbox-guest-additions-iso</span><br></pre></td></tr></table></figure>
+<p>接下来在图形界面里的以下位置找到这个映像，并用鼠标右键单击，选择Open With Disk Image Mounter，它就会自动安装了，直到安装成功后按enter键退出。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/share/virtualbox/VBoxGuestAdditions.iso</span><br></pre></td></tr></table></figure>
+<p><img src="https://upload-images.jianshu.io/upload_images/4815334-cd03409725533b5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<h3 id="挂载共享文件夹"><a href="#挂载共享文件夹" class="headerlink" title="挂载共享文件夹"></a>挂载共享文件夹</h3><p>在Ubuntu的Terminal里输入如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /mnt/shared</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t</span><br></pre></td></tr></table></figure>
+<p>shareFolder是windows中要共享的文件夹的名字，由于我第一步在windows创建的分享文件夹角ShareWithVM，所以我在我这输入的代码实际为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t vboxsf ShareWithVM /mnt/shared</span><br></pre></td></tr></table></figure>
+<p>如果一切顺利的话，现在就可以互传文件了。补充一下，你的共享文件夹在windows端的位置在本文开头已经说了，在ubuntu的位置是在/mnt文件夹下的shared里，如果你想查看这个共享文件夹里的内容，可以用如下代码定位到共享文件夹：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mnt/shared</span><br></pre></td></tr></table></figure>
+<h3 id="其他代码"><a href="#其他代码" class="headerlink" title="其他代码"></a>其他代码</h3><p>以下部分均转自参考资料[1]，我并没有实际操作，因为自动挂载已经在前边说的Linux端的第一步勾选了，我觉得不必再设置了。</p>
+<blockquote>
+<p>要想自动挂载的话，可以在/etc/fstab中添加一项<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; share /mnt/shared vboxsf rw,gid=100,uid=1000,auto 0 0</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>5、卸载的话使用下面的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; sudo umount -f /mnt/shared</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<blockquote>
+<p>注意：<br>共享文件夹的名称千万不要和挂载点的名称相同。比如，上面的挂载点是/mnt/shared，如果共享文件夹的&gt;名字也是shared的话，在挂载的时候就会出现如下的错误信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;/sbin/mount.vboxsf: mounting failed with the error: Protocol error</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><p>除了上边写的我最终成功使用的方法，网上还比较流行的是用代码安装open-vm-tools并配合使用一个从gitlab下载的补丁进行安装。看网上的评论应该是很多人都用这个方法成功了，可是我就是不行，始终提示<code>mounting failed with the error: No such device.</code>如果大家感兴趣的话，可以尝试这种方法。</p>
+<p>此外需要说明的是我在成功安装之前，实验了很多方法，虽然都没有成功，但是其中用到的一些代码可能为最后的成功安装做了铺垫，所以如果你按照我前边说的步骤不能成功安装的话，可以尝试一下链接[3]中的各种代码，以及如下两句。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install virtualbox-guest-dkms</span><br></pre></td></tr></table></figure>
+<p>今天为了弄这个文件共享花了很多时间，因为找不到对应的方法，而网上说的解决方案在我这又不太管事。希望这篇文章可以帮到和我遇到相似问题的朋友们。</p>
+<p><strong>参考链接</strong></p>
+<p>[1] <a href="http://www.cnblogs.com/linjiqin/p/3615477.html" target="_blank" rel="noopener">http://www.cnblogs.com/linjiqin/p/3615477.html</a><br>[2] <a href="https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04" target="_blank" rel="noopener">https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04</a><br>[3] <a href="https://blog.csdn.net/fukaibo121/article/details/73129584" target="_blank" rel="noopener">https://blog.csdn.net/fukaibo121/article/details/73129584</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/IT/Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" data-id="cjsuo32dz0006tk5mf4d8d1ye" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows/">windows</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/虚拟机/">虚拟机</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-J机器学习基础/使用python构建ARIMA模型进行预测分析的小说明-forecast函数" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/J机器学习基础/使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" class="article-date">
+  <time datetime="2018-04-25T22:00:00.000Z" itemprop="datePublished">2018-04-26</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/J机器学习基础/使用python构建ARIMA模型进行预测分析的小说明-forecast函数/">使用python构建ARIMA模型进行预测分析的小说明-forecast函数</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>&emsp;&emsp;Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。</p>
+<p>&emsp;&emsp;首先分享三篇我觉得比较好并且容易上手的教程，其中包含源代码可以直接使用。第一篇是一个最简单的入门，是单步预测；第二篇可以进行多步预测；第三篇对于算法使用前的数据处理和分析进行了详细的介绍；第四篇也有相详尽的步骤和代码，并对数据进行了详细的分析，第五篇详细的介绍了从线性回归到AR、ARMA、ARIMA及GARCH等方法。</p>
+<p><a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/" target="_blank" rel="noopener">How to Create an ARIMA Model for Time Series Forecasting with Python</a><br><a href="https://machinelearningmastery.com/make-sample-forecasts-arima-python/" target="_blank" rel="noopener">How to Make Out-of-Sample Forecasts with ARIMA in Python</a><br><a href="https://datascience.ibm.com/exchange/public/entry/view/815137c868b916821dec777bdc23013c" target="_blank" rel="noopener">Forecast a time series with ARIMA in Python</a><br><a href="https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3" target="_blank" rel="noopener">A Guide to Time Series Forecasting with ARIMA in Python 3</a><br><a href="http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016" target="_blank" rel="noopener">Time Series Analysis (TSA) in Python – Linear Models to GARCH</a></p>
+<p>&emsp;&emsp;以第二个链接中的代码为例。这个链接中的《5. Multi-Step Out-of-Sample Forecast》将的是对样本量之外的多步预测，使用的Forecast function。具体的说，目前的数据为截止到12月24日的历年最低气温，现在要预测从12月25日到12月31日的最低气温。这里使用的代码为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">forecast = model_fit.forecast(steps=7)[0]</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;其中steps=7很好理解，就是预测未来七天的意思。可是后边方括号里的0让我很费解，而且把forecast的数据打印出来也很奇怪，是两行7个元素的数组，加一个二维的矩阵。后来看了官方文档之后，发现取0行是因为只有这一行才是预测的结果，第二行是预测的标准差（standard error），后边的二维矩阵是预测的置信区间。具体的官方解释如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ARIMAResults.forecast(steps=1, exog=None, alpha=0.05)</span><br></pre></td></tr></table></figure>
+<p>Out-of-sample forecasts</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col class="field-name" style="box-sizing: border-box; margin: 0px; padding: 0px;"><col class="field-body" style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| Parameters: | </p>
+<p><strong>steps</strong> : int<br>The number of out of sample forecasts from the end of the sample.</p>
+<p><strong>exog</strong> : array<br>If the model is an ARIMAX, you must provide out of sample values for the exogenous variables. This should not include the constant.</p>
+<p><strong>alpha</strong> : float<br>The confidence intervals for the forecasts are (1 – alpha) %</p>
+<p>| Returns: | </p>
+<p><strong>forecast</strong> : array<br>Array of out of sample forecasts</p>
+<p><strong>stderr</strong> : array<br>Array of the standard error of the forecasts.</p>
+<p><strong>conf_int</strong> : array<br>2d array of the confidence interval for the forecast</p>
+<p>Notes：<br>Prediction is done in the levels of the original endogenous variable. If you would like prediction of differences in levels use <cite style="box-sizing: border-box; margin: 0px; padding: 0px;">predict</cite></p>
+<p>引用资料：<a href="http://www.statsmodels.org/devel/generated/statsmodels.tsa.arima_model.ARIMAResults.forecast.html" target="_blank" rel="noopener">statsmodels.tsa.arima_model.ARIMAResults.forecast</a></p>
+<hr>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/python_arima_forecast/" target="_blank" rel="noopener">qingnansun.com</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/J机器学习基础/使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" data-id="cjsuo32e4000btk5mb95ca4iy" class="article-share-link">Share</a>
+      
+      
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-J机器学习基础/设置使用tensorflow作为backend并在GPU上运行" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/J机器学习基础/设置使用tensorflow作为backend并在GPU上运行/" class="article-date">
+  <time datetime="2018-04-22T22:00:00.000Z" itemprop="datePublished">2018-04-23</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/J机器学习基础/设置使用tensorflow作为backend并在GPU上运行/">设置使用tensorflow作为backend并在GPU上运行</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>&emsp;&emsp;由于Theano从十月起停止更新（<a href="https://www.jiqizhixin.com/articles/2017-09-29-5" target="_blank" rel="noopener">LINK</a>），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。</p>
+<p><strong>安装环境</strong>：Linux服务器上的虚拟环境中（详见：<a href="http://qingnansun.com/virtual-environment-on-linux/" target="_blank" rel="noopener">在linux系统上设置虚拟环境Virtual Environment</a>）</p>
+<p>&emsp;&emsp;首先我根据Keras官网的介绍对keras.json文件进行设置（<a href="https://keras.io/backend/" target="_blank" rel="noopener">LINK</a>）。在命令框中输入：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi .keras/keras.json</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;然后按着如下代码编辑，主要是把backend改为tensorflow。（其实Keras默认的backend就是tensorflow，只是因为我之前改成了theano，所以现在要改回来。）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123; &quot;image_data_format&quot;: &quot;channels_last&quot;,</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;另外如果你还没有安装GPU版本的tensorflow，则需要首先进行安装。由于我们实验室的server上不兼容1.3版本的tensorflow，我这里对安装的版本进行了控制</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install tensorflow-gpu==1.2</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;成功安装之后，就可以在你的.py文件的代码里加入如下语句进行tensorflow的backend的调用和设置了，设置好之后像平常一样运行文件即可。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import tensorflow as tf</span><br><span class="line">import keras.backend.tensorflow_backend as KTF</span><br><span class="line"></span><br><span class="line">os.environ[&quot;CUDA_VISIBLE_DEVICES&quot;] = &quot;3&quot;  #设置需要使用的GPU的编号</span><br><span class="line">config = tf.ConfigProto()</span><br><span class="line">config.gpu_options.per_process_gpu_memory_fraction = 0.4 #设置使用GPU容量占GPU总容量的比例</span><br><span class="line">sess = tf.Session(config=config)</span><br><span class="line">KTF.set_session(sess)</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;为了观察程序是否确实在使用GPU，可以使用在<a href="http://qingnansun.com/linuxtricks/" target="_blank" rel="noopener">《Linux上的一点小技巧》</a>中提到的命令<code>gpustat</code>或者<code>watch -n1 --color gpustat</code>进行查看程序是否真的运行在GPU上。</p>
+<p><strong>—————–后记———————</strong></p>
+<h1 id="Tensorflow无法完全实现实验的重复性"><a href="#Tensorflow无法完全实现实验的重复性" class="headerlink" title="Tensorflow无法完全实现实验的重复性"></a>Tensorflow无法完全实现实验的重复性</h1><p>&emsp;&emsp;今天早些时候介绍了怎么在给keras设置使用tensorflow作为后端。晚上的时候发现使用tensorflow有个问题是无法确保实验的可重复性，换句话说，同样的代码，每次运行出来的结果是不一样的，即使已经设置了随机数的seed。而使用theano的后端是可以确保实验的可重复性的，至少在我之前的实验里，可以得到一模一样的结果。</p>
+<p>&emsp;&emsp;对于这个问题，我在网上查阅了一下，发现也有人在讨论，比如在[1]中对各种可能的原因进行了探讨，并根绝theano和tensorflow后端各自给了设置seed的代码。对于tensorflow，要进行两次seed的设置，他们的值可以不同。代码如下，需要放在你的code的最顶端，不过此方法我试了没有起到效果。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">from numpy.random import seed</span><br><span class="line">seed(1)</span><br><span class="line">from tensorflow import set_random_seed</span><br><span class="line">set_random_seed(2)</span><br></pre></td></tr></table></figure>
+<p>&emsp;&emsp;此外也有其他的帖子和文章对tensorflow作为backend时不能实现实验的重复性进行了讨论，比如在[2]中的帖子以及在[3]中keras的官方文档中都有提到建议的解决方案，不过我试了依然没有效果。[4]是对tensorflow的set_random_seed函数的具体介绍。</p>
+<p>&emsp;&emsp;最后，由于tensorflow没法确保实验的可重复性，而我也没有找到适合我的解决方案，于是只好又切换为theano作为backend。不过今天的尝试也不是完全没有意义的，因为借着今天在tf上积累的一点经验，我想到了给theano后端也设定运行时占用GPU的容量比例，实践后发现代码运行速度大大提高。theano和Tensorflow有些不同，它默认只占用很少的GPU而tensorflow默认占用所有可用的GPU。比如我的代码在theano作为backend的时候，默认只占200M左右，我给人为把GPU的占比提高到0.4（约为5000M）之后，运行速度大大提高。具体的方法可以参考这篇文章 <a href="https://www.weibo.com/ttarticle/p/show?id=2313501000014129139677341055" target="_blank" rel="noopener">LINK</a></p>
+<p>[1] <a href="https://www.leiphone.com/news/201706/zt4Dm491Ol58C8Mc.html" target="_blank" rel="noopener">用深度学习每次得到的结果都不一样，怎么办？</a><br>[2] <a href="https://github.com/fchollet/keras/issues/2280" target="_blank" rel="noopener">No reproducible using tensorflow backend #2280</a><br>[3] <a href="https://keras.io/getting-started/faq/#how-can-i-obtain-reproducible-results-using-keras-during-development" target="_blank" rel="noopener">How can I obtain reproducible results using Keras during development?</a><br>[4] <a href="http://blog.csdn.net/eml_jw/article/details/72353470" target="_blank" rel="noopener">Tensorflow函数——tf.set_random_seed(seed)</a></p>
+<hr>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/tensorflow-backend-on-gpu/" target="_blank" rel="noopener">qingnansun.com</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/J机器学习基础/设置使用tensorflow作为backend并在GPU上运行/" data-id="cjsuo32e6000dtk5mz07u8kwk" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tensorflow/">tensorflow</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-J机器学习基础/Windows10下安装Python,Tensorflow和Keras" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/J机器学习基础/Windows10下安装Python,Tensorflow和Keras/" class="article-date">
+  <time datetime="2018-04-21T22:00:00.000Z" itemprop="datePublished">2018-04-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/J机器学习基础/Windows10下安装Python,Tensorflow和Keras/">Windows10下安装Python,Tensorflow和Keras</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
+<hr>
+<p>&emsp;&emsp;今后做实验要开始接触深度学习了，那当然免不了要安装Python和Tensorflow，另外因为需要LSTM方法，我也需要安装Keras。这篇文章就是关于最近安装这些东西的一个小结。</p>
+<p> <strong>如果你懒得看后文，我其实就一句话，从头开始就用Anaconda吧！！！ （直接跳转到“最简安装过程”部分）</strong></p>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>1 用Windows遇到的坑<br>2 我的坎坷经历<br>3 最简安装过程<br>4 附加知识</p>
+<p>##用Windows遇到的坑</p>
+<p>首先总结一下用windows过程中的坑：</p>
+<ol>
+<li><strong>Tensorflow目前在windows上只支持Python3.5版本（高了低了都不行）</strong></li>
+<li><strong>Scipy在windows上用命令行安装出错。因为安装Keras时会安装Scipy，所以无法成功安装Keras</strong></li>
+</ol>
+<h2 id="我的坎坷经历"><a href="#我的坎坷经历" class="headerlink" title="我的坎坷经历"></a>我的坎坷经历</h2><p>&emsp;&emsp;不卖关子了，简而言之，在windows上最好是使用Scientific Python distributions来安装和管理各种库，这是我后来才发现的。由于始终没法成功安装Scipy，我找到了Scipy的这个<a href="https://scipy.org/install.html" target="_blank" rel="noopener">官网安装介绍</a>，windows系统的同学可以直接拖到最后看下。而Scientific Python distributions的介绍在页面的开头，我直接使用的第一个，也就是Anaconda.</p>
+<p>&emsp;&emsp;使用Anaconda要注意，因为它的首页上是下载集成了3.6版本的Python的，而tensorflow在windows上只支持3.5版本，所以这个要想办法解决。根据Anaconda的介绍（<a href="https://docs.continuum.io/anaconda/faq#id6" target="_blank" rel="noopener">How do I get the latest Anaconda with Python 3.5?</a>）可以用以下三种方法：</p>
+<p><strong>A)</strong> We recommend downloading the latest version of Anaconda and <a href="https://conda.io/docs/py2or3.html" target="_blank" rel="noopener">making a Python 3.5 environment</a>.</p>
+<p><strong>B)</strong> A second option is to download the latest version of Anaconda and then run this command to install Python 3.5 in the root environment: <code>conda install python=3.5</code></p>
+<p><strong>C)</strong> A third option is to download the most recent Anaconda Installer that had Python 3.5 by default. This is Anaconda 4.2.0. You can download it from our <a href="https://repo.continuum.io/archive/" target="_blank" rel="noopener">archive</a>. Scroll down the page until you find version 4.2.0 for your platform.</p>
+<p>&emsp;&emsp;我用的第二种方法，也就是在开始界面先找到Anaconda Prompt，然后在里边输入命令 <code>conda install python=3.5</code></p>
+<p>&emsp;&emsp;注意在这个过程中不要开着Anaconda的用户界面，否则会报错说Anaconda正在被使用，关闭Anaconda界面之后使用上述命令就好用。安完之后再Anaconda Prompt的界面输入python后发现版本变成3.5.3了。</p>
+<p>&emsp;&emsp;tensorflow的安装可以参见莫烦写的教程和视频(<a href="https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-2-install/" target="_blank" rel="noopener">LINK</a>)。重点注意选择好是CPU版本还是GPU版本，另外再就是Python3和Python2用的命令的微小差别。我在进行完之前的Python版本降到3.5.3之后，在Anaconda Prompt里使用命令 <code>pip3 install tensorflow</code> 成功安装了tensorflow（太让人激动了！！！）</p>
+<p>&emsp;&emsp;遇到的问题是为了检测tensorflow是否安装成功，我实验了import tensorflow，可是在Python 3.5.3自己的shell里是可以用，可是在Anaconda Prompt里的python下不能用，不知道为什么。可能因为我在使用上边说的第二种方法转换Python之前，自己手动安装了一次Python3.5.3的缘故，悲催，做了无用功还影响了之后的功能。用了最笨的办法，卸载了python3.5.3，结果Anaconda Prompt打不开了，最后干脆把所有Python和Anaconda都卸载了。</p>
+<h2 id="最简安装过程"><a href="#最简安装过程" class="headerlink" title="最简安装过程"></a>最简安装过程</h2><p>&emsp;&emsp;有了前边的经验铺路，现在大致知道怎么做比较方便了。这段开始我基本就是从头做起了。首先按照前边说的第三种方法，到Anaconda官网的Achiv里下载了Anaconda3-4.2.0版本。安装完之后发现pip3命令没法使用，不过检查了Anaconda里pip包已经安装了的，所以试了下用pip命令，可以。于是使用如下命令进行安装：</p>
+<pre><code>pip install tensorflow
+pip install keras
+</code></pre><p>&emsp;&emsp;两个都成功安装了，接下来用一下两个命令测验一下是否真的安装成功，当然首先要在命令行用python命令进入python控制界面，然后</p>
+<pre><code>import tensorflow
+import keras
+</code></pre><p>&emsp;&emsp;两个都没有报错，keras默认使用TensorFlow作为backend。总算大功告成，可以去吃午饭了，哈哈。<img src="https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
+<hr>
+<h2 id="附加知识"><a href="#附加知识" class="headerlink" title="附加知识"></a>附加知识</h2><p><a href="http://xiaoyc.com/multi-version-solution-of-python-on-windows/" target="_blank" rel="noopener">WINDOWS 下 PYTHON 双版本共存解决方案</a><br>当电脑里有多个python版本时，通常的做法是要修改环境变量，不过这篇文章中的方法只需要在不想用的版本的根文件夹中加入一个bat文件即可，巧妙的解决了问题，推荐大家看看。如果大家想知道怎么通过修改环境变量来更改默认的python版本，可以看<a href="http://blog.csdn.net/qq_25579889/article/details/52895683" target="_blank" rel="noopener">这里</a></p>
+<p>安装Keras可以部分参考这篇文章：<br><a href="http://www.jianshu.com/p/c245d46d43f0" target="_blank" rel="noopener">windows 10 64bit下安装Tensorflow+Keras+VS2015+CUDA8.0 GPU加速</a></p>
+<hr>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/pythonkerasunderwindows" target="_blank" rel="noopener">qingnansun.com</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/J机器学习基础/Windows10下安装Python,Tensorflow和Keras/" data-id="cjsuo32e6000etk5mxoj8fpn8" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/keras/">keras</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tensorflow/">tensorflow</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows10/">windows10</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-T杂谈/写给女孩的安全建议" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/T杂谈/写给女孩的安全建议/" class="article-date">
+  <time datetime="2018-04-19T22:00:00.000Z" itemprop="datePublished">2018-04-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/T杂谈/">T杂谈</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/T杂谈/写给女孩的安全建议/">写给女孩的安全建议</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>&emsp;&emsp;<em>写在前边的话：</em>很多年来就在构思这样一篇文章，当时主要是想给我女朋友（现在是我老婆）看。虽然都说男女平等，不过不可否认女性在很多侵害中都是“更好”的目标，也更容易被不法分子盯上，所以专门写了这篇给女孩的安全建议，希望女性朋友们能够读一读，保护好自己；男性朋友们也请读一读，提醒和保护好你的（尤其是有些马大哈的）女性朋友。</p>
+<p>&emsp;&emsp;以下信息有些是我自己想到的，有些是直接从网上不同文章复制的。相应的参考文章我也都附在文章最后了，如果有任何涉及版权的问题请随时和我联系。之后我也会不断完善这篇文章，最新的文章请查看我的个人主页<a href="http://qingnansun.com/forgirls" target="_blank" rel="noopener">qingnansun.com</a>。</p>
+<h2 id="真实的案例"><a href="#真实的案例" class="headerlink" title="真实的案例"></a>真实的案例</h2><ul>
+<li>2013年1月 洛杉矶 <a href="https://zh.wikipedia.org/wiki/%E8%97%8D%E5%8F%AF%E5%85%92%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">蓝可儿在酒店溺亡</a></li>
+<li>2013年7月24日 黑龙江<a href="https://baike.baidu.com/item/7%C2%B724%E6%A1%A6%E5%8D%97%E5%AD%95%E5%A6%87%E7%8C%8E%E8%89%B3%E6%9D%80%E4%BA%BA%E6%A1%88/12514784?fromtitle=7%C2%B724%E6%A1%A6%E5%8D%97%E5%A5%B3%E5%AD%A9%E9%80%81%E5%AD%95%E5%A6%87%E5%9B%9E%E5%AE%B6%E8%A2%AB%E6%9D%80%E6%A1%88&amp;fromid=9385821" target="_blank" rel="noopener">桦南孕妇猎艳杀人案</a></li>
+<li><a href="http://news.ifeng.com/society/1/detail_2013_07/31/28107820_0.shtml" target="_blank" rel="noopener">女孩最后微信内容曝光：送一个孕妇阿姨 到她家了</a></li>
+<li>2014年7月17日 巴黎 <a href="https://mp.weixin.qq.com/s?__biz=MjM5MzQ5OTQ4MA==&amp;mid=202282455&amp;idx=8&amp;sn=1a121dc86c124329ad9f47d2cc99123b&amp;scene=1&amp;srcid=0909HDre7xYpC9528YezaMEh&amp;key=2877d24f51fa5384f245f78f5f7a58e58b4c4b837296f5da7f631d2d007cd3d7adb0910fcc0d5d74146825803a0694e9&amp;ascene=1&amp;uin=Mjk4MDU4MDEwMA%3D%3D&amp;devicetype=Windows+7&amp;version=61050016&amp;pass_ticket=%2B2H1YhozEzaAB1d1JnbBK3Cbv70V%2BEpEdEuP6S4qVCLPZfjI8rBmnS6V1zuQUuYw" target="_blank" rel="noopener">中国女孩刘瑾妮在酒店差点被强行拉走</a></li>
+<li>2016年4月3日 北京 <a href="https://zh.wikipedia.org/wiki/%E5%A6%82%E5%AE%B6%E5%92%8C%E9%A2%90%E8%A2%AD%E5%87%BB%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">如家和颐袭击事件</a></li>
+<li>2016年4月11日 德国<a href="https://zh.wikipedia.org/wiki/%E6%9D%8E%E6%B4%8B%E6%B4%81%E9%81%87%E5%AE%B3%E6%A1%88" target="_blank" rel="noopener">李洋洁遇害案</a></li>
+<li>2016年10月3日 巴黎 <a href="https://mp.weixin.qq.com/s?__biz=MzU1NDMxOTg4Mg==&amp;mid=2247492405&amp;idx=1&amp;sn=33c60ee640c90a4cdcde5ae15a48b1a6&amp;source=41#wechat_redirect" target="_blank" rel="noopener">卡戴珊在酒店被抢劫</a></li>
+<li>2016年11月3日 东京都 <a href="https://zh.wikipedia.org/wiki/%E6%B1%9F%E6%AD%8C%E6%A1%88" target="_blank" rel="noopener">江歌被陈世峰在寓所门前用刀刺死</a></li>
+<li>2017年6月9日 美国 <a href="https://zh.wikipedia.org/wiki/%E7%AB%A0%E8%8E%B9%E9%A2%96%E7%BB%91%E6%9E%B6%E6%A1%88" target="_blank" rel="noopener">章莹颖被绑架，至今下落不明</a></li>
+</ul>
+<h2 id="交友"><a href="#交友" class="headerlink" title="交友"></a>交友</h2><ol>
+<li>朋友的定义可能每个人心里都不一样，但是为了安全起见，我建议你保守一些，并不是见过一面的人就叫朋友。</li>
+<li>不要以为什么人都很可怜、都可信，时刻保持警惕。</li>
+<li>对于刚认识的朋友不要过多的透露自己和家庭的信息。</li>
+</ol>
+<h2 id="出行"><a href="#出行" class="headerlink" title="出行"></a>出行</h2><ol>
+<li>保持“小特工心态”对事情多一些观察，多一份警惕。</li>
+<li>出行前了解当地的各种应急电话，如报警电话、急救电话等</li>
+<li>在路上不要低头玩手机，一是可以避免发生交通事故等意外，二是假如有人盯上你并跟踪你，那么如果你还在玩手机的话就不能尽早发现异常。</li>
+<li>郊游或者旅行尽量结伴而行，如果必须一个人出行，那及时和家人及朋友更新自己的行踪和情况</li>
+<li>避免走夜路，如果参加聚会需要晚归，要提前查好回家的车次，避免错过末班车。</li>
+<li>打车时，尤其是晚上打车时，选择正规公司的出租车。并记下车牌号发给好友，及时汇报行踪，必要时要旁敲侧击的让司机知道，你的朋友有你目前的行踪和车牌号等信息。</li>
+<li>不要在社交网络过度透露自己的位置信息（包括定位、文字和图片），以免别有用心的人根据这些信息找到你。</li>
+<li>不要上陌生人的车。如果赶时间的话就提早计划、提早出门，避免为了赶时间在路上随便拦一辆车就请求帮忙搭个顺风车。虽然Hitchhiking在有的国家挺流行的，但为了你的安全，我绝对不建议这么做。</li>
+<li>乘坐汽车，公交和大巴，如果有安全带就一定要系上，不管你是前排还是后排。也不要觉得在市区里就不需要安全带。</li>
+<li>不要在公共场合的聊天中过多谈论自己和朋友的个人信息，比如姓名、年龄、电话号码、住址、职业、生日等等，以免被人偷听和记录，并利用这些信息进行不法活动，包括但不限于诈骗。</li>
+<li>前边说了不要以为所有人都真的可怜都真的可信。我支持助人为乐，但是希望大家以保护好自己的安全为前提。并不是所有看起来可怜的人都值得你帮助，之前看过有案例说有老人寻求帮助，希望路过的女孩给买点吃的，但是指定要去某一家特定的小饭馆，如你所料，里边藏着他们的同伙。文章开头的<a href="https://baike.baidu.com/item/7%C2%B724%E6%A1%A6%E5%8D%97%E5%AD%95%E5%A6%87%E7%8C%8E%E8%89%B3%E6%9D%80%E4%BA%BA%E6%A1%88/12514784?fromtitle=7%C2%B724%E6%A1%A6%E5%8D%97%E5%A5%B3%E5%AD%A9%E9%80%81%E5%AD%95%E5%A6%87%E5%9B%9E%E5%AE%B6%E8%A2%AB%E6%9D%80%E6%A1%88&amp;fromid=9385821" target="_blank" rel="noopener">桦南孕妇猎艳杀人案</a>也是利用了受害人的同情心。</li>
+</ol>
+<h2 id="开车"><a href="#开车" class="headerlink" title="开车"></a>开车</h2><ol>
+<li>如果你喜欢买东西、吃饭，下班以后回你车里坐那算账、记事，等等，请你改掉这个习惯。这是罪犯最完美的时刻，劫匪会跳进副驾驶的位子或者后座，拿枪对着你的脑袋让你开车去他方便犯罪的地方，所以一个人外出时，上车以后就锁上车门离开。</li>
+<li>记住上车前观察你的车子周围，副驾驶座以及后座。</li>
+<li>如果你的车子是停在一个大的面包车边上，而且面包车是停在驾驶座这边的，那么请你从副驾驶这一边上车。</li>
+<li>小心停在你车两边的车。如果有男性坐在靠你车的这一面。请你务必小心。</li>
+<li>买完东西以后，数清楚你的钱。（有这样的案子：女人在加油站加油以后付过钱回到车上，这时有个男人走过来敲打她的玻璃窗，手里一张5元钱，说她掉的。这个女人就感谢他，开窗/开门，然后……）</li>
+<li>离开汽车时不要将贵重物品放在车内显眼的地方，如果确实不方便携带，则想办法将它放在从车外不容易发现的地方。</li>
+<li>使用行车记录仪。</li>
+</ol>
+<h2 id="住宿-回家"><a href="#住宿-回家" class="headerlink" title="住宿/回家"></a>住宿/回家</h2><ol>
+<li>不要在酒店大堂大声呼叫彼此的姓名并询问房间号，因为在有些管理并不严格的酒店，到酒店前台报上对应的姓名和房间号就可以拿到房间钥匙。</li>
+<li>晚上在酒店过夜时可以用旅行箱或其他重物挡在门前，或者购买便携门挡。门挡有强力挡门的（比如<a href="https://item.taobao.com/item.htm?spm=a230r.1.14.16.4cdf6b50xHhiMN&amp;id=560299103245&amp;ns=1&amp;abbucket=2#detail" target="_blank" rel="noopener">魔宙这个</a>），也有可以触发警报的（比如<a href="https://item.taobao.com/item.htm?spm=2013.1.20160405.7.afc93e4eDnaSzN&amp;scm=1007.13066.91048.100200300000000&amp;id=560004265698" target="_blank" rel="noopener">这个</a>），价格有贵的有便宜的，可以在网上选购。这里给一个某宝的搜索链接（<a href="https://s.taobao.com/search?q=%E5%AE%89%E5%85%A8%E9%97%A8%E6%8C%A1&amp;imgfile=&amp;js=1&amp;stats_click=search_radio_all%3A1&amp;initiative_id=staobaoz_20180418&amp;ie=utf8" target="_blank" rel="noopener">LINK</a>）</li>
+<li>如果有人敲门，要通过猫眼观察，或者先仔细询问，不要轻易开门。有朋友曾经跟团出游，晚上听到敲门以为是团友来玩，直接就拉开房门，结果门口是个醉汉走错房间了。如果敲门的不是醉汉而是有准备的坏人，后果不堪设想。</li>
+<li>在不能确保安全的情况下，绝对不要开门，可以打电话给酒店前台，请他们来处理。</li>
+<li>在一些治安不好的地区（比如巴黎的某些区），酒店员工有可能参与犯罪行为，所以如果是在深夜中，接到前台的电话让你出门，也不要贸然开门离开房间。</li>
+<li>通过正规网站比如booking预订住宿。如果你想尝试Airbnb和Couchsurfing，我建议你好好查看对方的信息和别人对他/她的评价，选择评分高和可靠的Couchsurfing host。我也曾经是Couchsurfer，并且遇到的都是很好的人，不过这不代表couchsurfing没有风险，我们要做的是把风险降到最低，把自己置于安全的环境中。</li>
+<li>回家或者回到酒店时，如果单元门前或者房门前如果有陌生人，不要急着开门进屋，尤其是家里没有其他人在家的情况下。可以假装路过并到安全的地方等待，之后再回家。</li>
+<li>接着上一条，回家或者回到酒店时，提前准备好钥匙或者门卡，快速的开门-进屋-关门。不要在门口长时间地找钥匙，也不要进门后不关门就忙着换鞋或者做其他的事情，以免给坏人留下冲门而入的机会。</li>
+<li>记住要坐电梯，特别是晚上。楼梯间在早上和晚上都不是什么有趣的地方。这里给一个和犯罪没什么关系的小提醒:如果坐电梯的时候电梯突然下坠，立刻把你这层下面的所有楼层全部按一遍，前提按键没有失灵。一般情况下如果突然下坠是电路问题，那么如果到哪层电路工作正常了，电梯会停下。如果电梯持续下坠，请背靠电梯墙壁站好(作为脊椎支撑)，手扶紧扶手，半弯你的膝盖(电梯突然着地可以稍微缓冲你的惯性）。</li>
+<li>晚上听到屋外有小婴儿哭泣，不要贸然开门查看，必要的情况下直接报警请警察来查看。</li>
+<li>不要贪便宜，有些酒店的价格异常便宜那是有原因的，除了住宿条件比较差之外，可能还有其他的原因，比如地理位置偏、周边区域比较乱，甚至可能房主本来就图谋不轨。我之前租房子的时候看到过一个广告，单间带厕所，价格很便宜，感觉自己捡到了宝。打电话要了具体的地址之后，在去的路上觉得越走越偏，离老远看到那个破旧的公寓楼之后，我转头就走了。位置偏远和条件差先放一边，我首先觉得这里边搞不好是个传销窝点。</li>
+<li>如果一个人单独租房子而且在阳台晾衣服的话，除了自己的衣服，也可以穿插放几件明显的男士衣服，这样不怀好意的人在外边观察的时候，不会觉得你是一个女孩单独居住。</li>
+<li>如果有人在门把手、信箱中投放广告，记得要及时清理，入室盗窃的罪犯可能会以此判断某家人是否近期不在家。</li>
+<li>网购收到包裹的包装盒、收到的信件，要把个人信息（比如姓名、详细地址、手机号以及各种条形码和二维码）撕去后再扔掉</li>
+</ol>
+<h2 id="防范性侵"><a href="#防范性侵" class="headerlink" title="防范性侵"></a>防范性侵</h2><ol>
+<li>首要原则：再熟悉的异性朋友也是异性朋友，也不能完全放松警惕。</li>
+<li>避免和异性朋友在密闭房间单独相处太长时间，尽量控制在30分钟之内。</li>
+<li>醉酒绝对不是一个好主意，尤其是当有一个或者几个异性朋友在场的时候。不管遇到多大的事情，不管是多开心还是多难过，别喝太多。因为一旦你喝醉了，很多事情就不受你控制了。</li>
+<li>参加聚会或者去酒吧，（如果不是跟非常靠谱的朋友一起），去卫生间之前喝完自己的饮品。回来之后再点新的，以免你不在的时候别人趁机在你的饮品里下药。</li>
+<li>有人建议说女孩应该随身备一个安全套，在非常极端的情况下，如果真的无法逃脱，也要避免疾病传播。这个想法出发点是好的，不过具体情况各位自己决定吧。</li>
+</ol>
+<h2 id="呼救"><a href="#呼救" class="headerlink" title="呼救"></a>呼救</h2><ol>
+<li>遇到抢劫、小偷以及性侵等时，首先要让自己保持冷静。如果对方手中有凶器而且离你很近，并且周围没有其他人能及时伸出援手时，应避免激怒他做出极端行为，之后择机呼救。</li>
+<li>如果坏人离你有一定距离，尽最大努力逃脱、呼救、或者躲到人多的安全地带。</li>
+<li>如果是发生在街头的强行拉拽（比如在路上强行将你拉向某个地方，或者试图将你强行拽入他们的汽车），在确保自身安全不受凶器威胁的前提下，尽最大努力挣脱或者呼救，忽略一切可能引起的财产损失。例如大声告诉路人你们不认识、破坏路边摊位和行人的物品、用力踢停着的汽车使警报响起来，砸响最近的火警安全警报等，引起别人的注意。</li>
+<li>和颐酒店的案例中，那个女孩一直被歹徒拖着走，还好她当时机智地选择了躺在地上。女孩子根本没有力气去和强壮的男性相抗衡，对于我们来说，最好的办法就是躺下来，然后抱住头左右打滚，对方很难对你做出重大伤害。因为，即使是在柔道比赛中，如果一个选手躺下，对方基本就拿你没办法了。在很多影视剧中，主人公被很多人围攻，用的也是这一招。</li>
+<li>而五星级酒店绑架事件，那个女孩是用高跟鞋砸响了酒店的火警才逃过一劫的。</li>
+<li>在遇害呼救时，有很多歹徒都会伪装成男朋友或老公在和你吵架，酒店工作人员或者路人觉得不好干预别人的家事就不敢出手相助。美国心理学家曾经给出了一个标准化的指导建议：如果遇到这样的社会救助，你不要面对所有人呼救，而是要坚定地指定其中一个人来救你。指定人群中的某一个人说，就是你，过来救我。</li>
+<li>类似的求生小技巧其实还有很多，比如四周没人的时候，喊“着火了”会比喊“救命啊”更管用。</li>
+</ol>
+<h2 id="反抗"><a href="#反抗" class="headerlink" title="反抗"></a>反抗</h2><ol>
+<li>永远记住，胳膊肘是你身上最强壮的地方。如果能用，一定要用。</li>
+<li>面部（尤其是眼睛），裆部和腋下都是比较脆弱的地方，如果需要反抗，照着这些要害出手（平时和朋友打闹要小心避开这些部位）。</li>
+<li>如果对方有枪，那不要贸然逃跑。时机合适的时候果断逃跑，而且不要沿着直线跑，随时改变方向，因为你跑不过子弹。</li>
+<li>如果劫匪问你要钱包，不要递给他，拿起钱包向远处丢。一般情况下，他会对你的钱包比对你更有兴趣，等他往那个方向转的时候，你要向相反的方向拼命地跑。（这条我个人不完全赞同，需要分情况使用。不过我特别赞成的是：如果遇到抢钱的，就给他他想要的财物、手机等，你的安全比什么都重要，避免无谓的争执和身体接触。）</li>
+<li>如果你被丢进了后车厢，那么你要使劲踢后车灯的地方。等后车灯被踢掉以后，把你的胳膊从那个洞伸出去挥舞。开车人看不到你，但是别的车能看到，这个曾经挽救过生命。</li>
+</ol>
+<h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><ol>
+<li>到达安全区域之后，及时和家人朋友联系，或者和警察联系。</li>
+<li>及时报案，虽然你可能没有被抢劫很多财物，但是如果你选择沉默，其他人可能会成为下一个受害者。</li>
+<li>受到性侵后不要因为觉得自己“很脏”而急着去洗澡，保留好证据，及时报案。</li>
+<li>必要时向心理医生求助，进行心理干预和辅导。遇到坏人不是你的错，你是应该受到大家保护和关爱的。</li>
+<li>被抢劫后及时挂失信用卡、银行卡和证件等，避免二次损失。即使记不得自己的卡号、密码等信息，也要第一时间跟银行联系，不要拖着。       </li>
+</ol>
+<h2 id="相关文章及链接"><a href="#相关文章及链接" class="headerlink" title="相关文章及链接"></a>相关文章及链接</h2><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5MzQ5OTQ4MA==&amp;mid=202282455&amp;idx=8&amp;sn=1a121dc86c124329ad9f47d2cc99123b&amp;scene=1&amp;srcid=0909HDre7xYpC9528YezaMEh&amp;key=2877d24f51fa5384f245f78f5f7a58e58b4c4b837296f5da7f631d2d007cd3d7adb0910fcc0d5d74146825803a0694e9&amp;ascene=1&amp;uin=Mjk4MDU4MDEwMA%3D%3D&amp;devicetype=Windows+7&amp;version=61050016&amp;pass_ticket=%2B2H1YhozEzaAB1d1JnbBK3Cbv70V%2BEpEdEuP6S4qVCLPZfjI8rBmnS6V1zuQUuYw" target="_blank" rel="noopener">巴黎遇险，中国姑娘的真实遭遇！</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzU1NDMxOTg4Mg==&amp;mid=2247492405&amp;idx=1&amp;sn=33c60ee640c90a4cdcde5ae15a48b1a6&amp;source=41#wechat_redirect" target="_blank" rel="noopener">超级网红被抢不是意外，讲真，任何细节都可能出卖你</a><br><a href="https://mp.weixin.qq.com/s?__biz=MjM5MDAxNzA2NA==&amp;mid=2654878017&amp;idx=3&amp;sn=a817a7e34ac8f79e09855301b306568f&amp;chksm=bd81aa068af6231066acc2c8d38e4a9ad7496f8c5d1af8f9c8d3d42ab6b4d42e8765bd152ac5&amp;mpshare=1&amp;scene=1&amp;srcid=0707E1xUJ50GKtTBCUUuWzAG#rd" target="_blank" rel="noopener">刚刚！章莹颖马上二次聆讯，嫌疑人或将保释，章莹颖遇害背后的真相耐人深思</a><br><a href="https://mp.weixin.qq.com/s?__biz=MjM5MjAxNDM4MA==&amp;mid=2666144978&amp;idx=2&amp;sn=6d6f3aa399a0c4130aa77512917aa069&amp;chksm=bdb24d918ac5c48702e3e607a316a68ff1dcea7ca4ebbee787a82abb1565d3d5fde25bc6e06b&amp;mpshare=1&amp;scene=5&amp;srcid=1124ttDnM8bfsBWumJKJ8LLR#rd" target="_blank" rel="noopener">【提醒】一位退休公安人员透漏的秘密，知道的人越多越好！</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/T杂谈/写给女孩的安全建议/" data-id="cjsuo32el000otk5m98al74z4" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/女孩/">女孩</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/安全建议/">安全建议</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-IT/PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/IT/PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)/" class="article-date">
+  <time datetime="2018-01-20T23:00:00.000Z" itemprop="datePublished">2018-01-21</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/IT/PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)/">PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本篇文章是对<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">Python官网</a>上的代码风格指南的翻译和注解。虽然网上已经有很多类似的翻译了，我还是希望通过自己进行翻译的方式加深对指南的理解。本文更多注重于内容的翻译，所以没有特别多的辞藻修饰，文中若有疏漏和不妥之处，欢迎大家批评指正。本文没有完全翻译结束，近期会慢慢完善。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>PEP:</th>
+<th>8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>Title:</td>
+<td>Style Guide for Python Code</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Author:</td>
+<td>Guido van Rossum , Barry Warsaw , Nick Coghlan</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Status:</td>
+<td>Active</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Type:</td>
+<td>Process</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Created:</td>
+<td>05-Jul-2001</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Post-History:</td>
+<td>05-Jul-2001, 01-Aug-2013</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="Introduction-介绍"><a href="#Introduction-介绍" class="headerlink" title="Introduction 介绍"></a>Introduction 介绍</h1><p>This document gives coding conventions for the Python code comprising the standard library in the main Python distribution. Please see the companion informational PEP describing style guidelines for the C code in the C implementation of Python <a href="https://www.python.org/dev/peps/pep-0008/#id8" target="_blank" rel="noopener">[1]</a>. </p>
+<p>本文介绍的Python编程规范适用于Python主发行版中标准库。对于在Python中应用C代码的编程规范，请参见相关PEP风格指南。</p>
+<p>This document and <a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a> (Docstring Conventions) were adapted from Guido’s original Python Style Guide essay, with some additions from Barry’s style guide <a href="https://www.python.org/dev/peps/pep-0008/#id9" target="_blank" rel="noopener">[2]</a>.</p>
+<p>本文及PEP257（Docsring 规范）改编自Guido的Python风格介绍指南原文，并增添了Barry的风格指南的相关内容。</p>
+<p>This style guide evolves over time as additional conventions are identified and past conventions are rendered obsolete by changes in the language itself.</p>
+<p>本风格指南随着时间不断发展，因为新的规范被认可而过时的规范会随着语言自身的变化而被废弃。</p>
+<p>Many projects have their own coding style guidelines. In the event of any conflicts, such project-specific guides take precedence for that project.</p>
+<p>许多项目有它们自己的代码风格指南。当本文档和它们有冲突时，应优先使用该项目的特定指南。</p>
+<h1 id="A-Foolish-Consistency-is-the-Hobgoblin-of-Little-Minds-盲目的一致性是头脑简单的妖怪"><a href="#A-Foolish-Consistency-is-the-Hobgoblin-of-Little-Minds-盲目的一致性是头脑简单的妖怪" class="headerlink" title="A Foolish Consistency is the Hobgoblin of Little Minds 盲目的一致性是头脑简单的妖怪"></a>A Foolish Consistency is the Hobgoblin of Little Minds 盲目的一致性是头脑简单的妖怪</h1><p>[注:标题出自艾默生的《Self-Reliance》]</p>
+<p>One of Guido’s key insights is that code is read much more often than it is written. The guidelines provided here are intended to improve the readability of code and make it consistent across the wide spectrum of Python code. As <a href="https://www.python.org/dev/peps/pep-0020" target="_blank" rel="noopener">PEP 20</a> says, “Readability counts”.</p>
+<p>Guido的主要洞见之一是，代码被读的次数远多于被写的次数。本文提供的指南旨在提高代码的可读性并使浩瀚的Python代码保持一致性。</p>
+<p>A style guide is about consistency. Consistency with this style guide is important. Consistency within a project is more important. Consistency within one module or function is the most important.</p>
+<p>风格指南讲的是一致性。和本指南保持一致很重要。在项目内保持一致更重要。而在同一个模块或函数内保持一致性是最重要的。</p>
+<p>However, know when to be inconsistent — sometimes style guide recommendations just aren’t applicable. When in doubt, use your best judgment. Look at other examples and decide what looks best. And don’t hesitate to ask!</p>
+<p>然而，要明白什么时候需要不一致 — 有时风格指南的推荐就是没法用。 如果你有所怀疑，则使用你的最佳判断。参考一下其他的例子并决定怎么看起来最好。并且，别犹豫，尽管问。</p>
+<p>In particular: do not break backwards compatibility just to comply with this PEP!</p>
+<p>特别的：不要仅仅为了遵守这篇PEP指南而破坏代码的向后兼容性。</p>
+<p>Some other good reasons to ignore a particular guideline:</p>
+<p>其他可以忽略某个指南的好理由：</p>
+<ol>
+<li>When applying the guideline would make the code less readable, even for someone who is used to reading code that follows this PEP. 如果使用该指南会降低代码的可读性，甚至对那些习惯于使用本PEP指南的人。</li>
+<li>To be consistent with surrounding code that also breaks it (maybe for historic reasons) — although this is also an opportunity to clean up someone else’s mess (in true XP style). 为了与周围没有遵守该指南的代码保持一致（也许由于历史原因）–尽管这也许是个清理别人混乱代码的机会。</li>
+<li>Because the code in question predates the introduction of the guideline and there is no other reason to be modifying that code. 该代码的编写早于指南并且没有特殊原因需要修改这个代码。</li>
+<li>When the code needs to remain compatible with older versions of Python that don’t support the feature recommended by the style guide. 当代码需要与不支持风格指南中推荐的特征的早期Python版本保持兼容性时。</li>
+</ol>
+<h1 id="Code-lay-out-代码布局"><a href="#Code-lay-out-代码布局" class="headerlink" title="Code lay-out 代码布局"></a>Code lay-out 代码布局</h1><h2 id="Indentation-缩进"><a href="#Indentation-缩进" class="headerlink" title="Indentation 缩进"></a>Indentation 缩进</h2><p>Use 4 spaces per indentation level. </p>
+<p>每个缩进级别使用4个空格</p>
+<p>Continuation lines should align wrapped elements either vertically using Python’s implicit line joining inside parentheses, brackets and braces, or using a <em>hanging indent</em><a href="https://www.python.org/dev/peps/pep-0008/#fn-hi" target="_blank" rel="noopener">[7]</a>. When using a hanging indent the following should be considered; there should be no arguments on the first line and further indentation should be used to clearly distinguish itself as a continuation line.</p>
+<p>连续行需要对齐其所包含的元素，或者垂直的使用Python的隐式缩进，对齐圆括号、方括号及花括号，或者使用悬挂缩进。当使用悬挂缩进时，需考虑以下因素：第一行不应包含参数，后续的行应该增加一级缩进：</p>
+<p>Yes 正确:</p>
+<h1 id="Aligned-with-opening-delimiter"><a href="#Aligned-with-opening-delimiter" class="headerlink" title="Aligned with opening delimiter."></a>Aligned with opening delimiter.</h1><h1 id="和开放的符号对齐（隐式缩进）"><a href="#和开放的符号对齐（隐式缩进）" class="headerlink" title="和开放的符号对齐（隐式缩进）"></a>和开放的符号对齐（隐式缩进）</h1><p>foo = long_function_name(var_one, var_two,<br>                         var_three, var_four)</p>
+<h1 id="More-indentation-included-to-distinguish-this-from-the-rest"><a href="#More-indentation-included-to-distinguish-this-from-the-rest" class="headerlink" title="More indentation included to distinguish this from the rest."></a>More indentation included to distinguish this from the rest.</h1><h1 id="使用更多的缩进以便与后面的代码区分（悬挂缩进）"><a href="#使用更多的缩进以便与后面的代码区分（悬挂缩进）" class="headerlink" title="使用更多的缩进以便与后面的代码区分（悬挂缩进）"></a>使用更多的缩进以便与后面的代码区分（悬挂缩进）</h1><p>def long_function_name(<br>        var_one, var_two, var_three,<br>        var_four):<br>    print(var_one)</p>
+<h1 id="Hanging-indents-should-add-a-level"><a href="#Hanging-indents-should-add-a-level" class="headerlink" title="Hanging indents should add a level."></a>Hanging indents should add a level.</h1><h1 id="悬挂缩进需要增加一级缩进"><a href="#悬挂缩进需要增加一级缩进" class="headerlink" title="悬挂缩进需要增加一级缩进"></a>悬挂缩进需要增加一级缩进</h1><p>foo = long_function_name(<br>    var_one, var_two,<br>    var_three, var_four)<br></p>
+<p>No 错误:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"># Arguments on first line forbidden when not using vertical alignment.
+# 如果不使用垂直对齐（隐式缩进），第一行禁止使用参数
+foo = long_function_name(var_one, var_two,
+    var_three, var_four)
+
+# Further indentation required as indentation is not distinguishable.
+# （悬挂缩进）需要进一步缩进以便与后续代码（print）进行区分
+def long_function_name(
+    var_one, var_two, var_three,
+    var_four):
+    print(var_one)
+</pre>
+
+<p>The 4-space rule is optional for continuation lines.</p>
+<p>对于连续的行，4-空格 规则不是强制的。</p>
+<p>Optional 可选方案（此处2-空格）:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"># Hanging indents *may* be indented to other than 4 spaces.
+foo = long_function_name(
+  var_one, var_two,
+  var_three, var_four)
+</pre>
+
+<p>When the conditional part of an <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">if</tt>-statement is long enough to require that it be written across multiple lines, it’s worth noting that the combination of a two character keyword (i.e. <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">if</tt>), plus a single space, plus an opening parenthesis creates a natural 4-space indent for the subsequent lines of the multiline conditional. This can produce a visual conflict with the indented suite of code nested inside the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">if</tt>-statement, which would also naturally be indented to 4 spaces. This PEP takes no explicit position on how (or whether) to further visually distinguish such conditional lines from the nested suite inside the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">if</tt>-statement. Acceptable options in this situation include, but are not limited to: </p>
+<p>当if语句中的条件部分长到需要使用多行时，不值得结合使用一个2字母的关键字（比如 if）、一个空格以及开放的括号独占一行，然后（多）缩进4个空格开始后续的条件语句。由于if语句内部本身要缩进4个空格，再次缩进会造成视觉上的冲突。本PEP没有明确指出怎么（或者是否）要进一步在视觉上区分这些条件部分及if-语句内嵌套的部分。在这种情况下可接受的选择包括但不限于以下几种：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"># No extra indentation.
+# 无额外缩进
+if (this_is_one_thing and
+    that_is_another_thing):
+    do_something()
+
+# Add a comment, which will provide some distinction in editors
+# 添加一个注释，由其提供编辑器内的区分
+# supporting syntax highlighting.
+if (this_is_one_thing and
+    that_is_another_thing):
+    # Since both conditions are true, we can frobnicate.
+    do_something()
+
+# Add some extra indentation on the conditional continuation line.
+# 在条件部分的连续行增加额外缩进
+if (this_is_one_thing
+        and that_is_another_thing):
+    do_something()
+</pre>
+
+<p>(Also see the discussion of whether to break before or after binary operators below.)</p>
+<p>（也参见下边关于在二元运算符之前或之后换行的讨论）</p>
+<p>The closing brace/bracket/parenthesis on multiline constructs may either line up under the first non-whitespace character of the last line of list, as in:</p>
+<p>横跨多行的大括号/方括号/括号可以要么闭合于最后一行的第一个非空格元素，如下：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">my_list = [
+    1, 2, 3,
+    4, 5, 6,
+    ]
+result = some_function_that_takes_arguments(
+    'a', 'b', 'c',
+    'd', 'e', 'f',
+    )
+</pre>
+
+<p>or it may be lined up under the first character of the line that starts the multiline construct, as in:</p>
+<p>或者与这个多行结构的开始行的第一个字符对齐，如下：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">my_list = [
+    1, 2, 3,
+    4, 5, 6,
+]
+result = some_function_that_takes_arguments(
+    'a', 'b', 'c',
+    'd', 'e', 'f',
+)
+</pre>
+
+<h2 id="Tabs-or-Spaces-制表符还是空格？"><a href="#Tabs-or-Spaces-制表符还是空格？" class="headerlink" title="Tabs or Spaces? 制表符还是空格？"></a>Tabs or Spaces? 制表符还是空格？</h2><p>Spaces are the preferred indentation method.</p>
+<p>推荐使用空格进行缩进。</p>
+<p>Tabs should be used solely to remain consistent with code that is already indented with tabs.</p>
+<p>制表符仅在需要与已经使用制表符进行缩进的代码保持一致时才使用。</p>
+<p>Python 3 disallows mixing the use of tabs and spaces for indentation.</p>
+<p>Python 3 不允许在缩进时混合使用制表符和空格。</p>
+<p>Python 2 code indented with a mixture of tabs and spaces should be converted to using spaces exclusively.</p>
+<p>Python 2 代码中本来混合使用制表符和空格进行缩进的，需要全部转换为使用空格进行缩进。</p>
+<p>When invoking the Python 2 command line interpreter with the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">-t</tt> option, it issues warnings about code that illegally mixes tabs and spaces. When using <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">-tt</tt> these warnings become errors. These options are highly recommended!</p>
+<p>当使用 -t 选项运行Python 2 代码时，会对非法混用制表符和空格的代码进行警告。 当使用 -tt 选项时，这些警告会变成报错。非常推荐使用这些选项。</p>
+<h2 id="Maximum-Line-Length-每行最大长度"><a href="#Maximum-Line-Length-每行最大长度" class="headerlink" title="Maximum Line Length 每行最大长度"></a>Maximum Line Length 每行最大长度</h2><p>Limit all lines to a maximum of 79 characters.</p>
+<p>每行的最大长度限定于79字符。</p>
+<p>For flowing long blocks of text with fewer structural restrictions (docstrings or comments), the line length should be limited to 72 characters.</p>
+<p>对于含有较少结构限制的连续大块文字（docstrings或者注释），行的长度应该限定于72字符。</p>
+<p>Limiting the required editor window width makes it possible to have several files open side-by-side, and works well when using code review tools that present the two versions in adjacent columns.</p>
+<p>对编辑器窗口的宽度进行限定后可以并排打开若干文件，并且便于使用代码检查工具时在相邻的两列展示不同的版本。</p>
+<p>The default wrapping in most tools disrupts the visual structure of the code, making it more difficult to understand. The limits are chosen to avoid wrapping in editors with the window width set to 80, even if the tool places a marker glyph in the final column when wrapping lines. Some web based tools may not offer dynamic line wrapping at all.</p>
+<p>大部分工具的默认换行功能会破坏代码的可视化结构，从而使代码更加难以理解。选择上述代码长度的限制是为了避免编辑窗口宽度为80字符时的自动换行，尽管工具会自动换行时候的最后一列设置一个标记。有些基于网页的工具也许根本就不提供自动换行功能。</p>
+<p>Some teams strongly prefer a longer line length. For code maintained exclusively or primarily by a team that can reach agreement on this issue, it is okay to increase the nominal line length from 80 to 100 characters (effectively increasing the maximum length to 99 characters), provided that comments and docstrings are still wrapped at 72 characters.</p>
+<p>有些团队强烈推荐较长的代码行长度。如果完全或者主要负责维护代码的队伍对此达成一致，那么将代码行长度从80提高到100字符也是可以的（有效的将最大行长度提高的99字符），同时应该确保注释和docstring仍然在72字符处换行。</p>
+<p>The Python standard library is conservative and requires limiting lines to 79 characters (and docstrings/comments to 72).</p>
+<p>Python的标准库是保守的并且要求行长度限定为最大79字符（并且docstrings和注释最大72字符）。</p>
+<p>The preferred way of wrapping long lines is by using Python’s implied line continuation inside parentheses, brackets and braces. Long lines can be broken over multiple lines by wrapping expressions in parentheses. These should be used in preference to using a backslash for line continuation.</p>
+<p>比较推荐的续行方式是在Python的圆括号、方括号和大括号内进行隐式续行。括号中的较长代码行可以折成多行。这种换行方式比使用反斜杠进行续行更受推荐。</p>
+<p>Backslashes may still be appropriate at times. For example, long, multiple <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">with</tt>-statements cannot use implicit continuation, so backslashes are acceptable:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">有时使用反斜杠也比较合适。比如，在较长的多行with语句中，不能使用隐式续行的时候，反斜杠也是可以接受的：
+with open('/path/to/some/file/you/want/to/read') as file_1, \
+     open('/path/to/some/file/being/written', 'w') as file_2:
+    file_2.write(file_1.read())
+</pre>
+
+<p>(See the previous discussion on multiline if-statements for further thoughts on the indentation of such multiline <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">with</tt>-statements.)</p>
+<p>（查看之前讨论的多行if语句深入思考对这种多行with语句的缩进。）</p>
+<p>Another such case is with <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">assert</tt> statements.</p>
+<p>另一种类似情况是对assert语句。</p>
+<p>Make sure to indent the continued line appropriately.</p>
+<p>确保对连续的行进行合适的缩进。</p>
+<h2 id="Should-a-line-break-before-or-after-a-binary-operator-应该在二元运算符之前还是之后换行？"><a href="#Should-a-line-break-before-or-after-a-binary-operator-应该在二元运算符之前还是之后换行？" class="headerlink" title="Should a line break before or after a binary operator? 应该在二元运算符之前还是之后换行？"></a>Should a line break before or after a binary operator? 应该在二元运算符之前还是之后换行？</h2><p>For decades the recommended style was to break after binary operators. But this can hurt readability in two ways: the operators tend to get scattered across different columns on the screen, and each operator is moved away from its operand and onto the previous line. Here, the eye has to do extra work to tell which items are added and which are subtracted:</p>
+<p>几十年来推荐的风格是在二元运算符之后换行。但是这有可能在两方面影响可读性：运算符会漫布于屏幕上不同的行，另外运算符远离它的算子并且成为较前一行。这样，眼睛就必须弄明白哪些项被加，哪些项被减：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"># No: operators sit far away from their operands
+# 不要：运算符远离他们的算子
+income = (gross_wages +
+          taxable_interest +
+          (dividends - qualified_dividends) -
+          ira_deduction -
+          student_loan_interest)
+</pre>
+
+<p>To solve this readability problem, mathematicians and their publishers follow the opposite convention. Donald Knuth explains the traditional rule in his <em>Computers and Typesetting</em> series: “Although formulas within a paragraph always break after binary operations and relations, displayed formulas always break before binary operations” <a href="https://www.python.org/dev/peps/pep-0008/#id10" target="_blank" rel="noopener">[3]</a>.</p>
+<p>为了解决这个可读性问题，数学家和出版人追从相反的约定。Donald Knuth在他的<em>Computers and Typesetting</em>系列中解释了传统的原则: 尽管一段之内的公式常在二元运算符和关系之换行，展示出来的公式常常在二元运算符之前换行。</p>
+<p>Following the tradition from mathematics usually results in more readable code:</p>
+<p>根据数学家的传统常常可以得到更具可读性的代码：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"># Yes: easy to match operators with operands
+# 正确：便于连接运算符和算子 
+income = (gross_wages
+          + taxable_interest
+          + (dividends - qualified_dividends)
+          - ira_deduction
+          - student_loan_interest)
+</pre>
+
+<p>In Python code, it is permissible to break before or after a binary operator, as long as the convention is consistent locally. For new code Knuth’s style is suggested.</p>
+<p>在Python代码中，在二元运算符之前或者之后进行换行都是允许的，只要该约定保持一致性即可。对于新的代码，推荐使用Knuth的风格。</p>
+<h2 id="Blank-Lines-空行"><a href="#Blank-Lines-空行" class="headerlink" title="Blank Lines 空行"></a>Blank Lines 空行</h2><p>Surround top-level function and class definitions with two blank lines.</p>
+<p>使用两个空行来分隔最高级的函数和类的定义。</p>
+<p>Method definitions inside a class are surrounded by a single blank line.</p>
+<p>使用一个空行来分隔一个类之中的方法定义。</p>
+<p>Extra blank lines may be used (sparingly) to separate groups of related functions. Blank lines may be omitted between a bunch of related one-liners (e.g. a set of dummy implementations).</p>
+<p>额外的空行也许可以（谨慎地）用于分隔不同的某组相关的函数。在一系列单行代码之间（比如一系列dummy）可以省略空行。</p>
+<p>Use blank lines in functions, sparingly, to indicate logical sections.</p>
+<p>在函数中（谨慎的）使用空行来区分不同的逻辑块。</p>
+<p>Python accepts the control-L (i.e. ^L) form feed character as whitespace; Many tools treat these characters as page separators, so you may use them to separate pages of related sections of your file. Note, some editors and web-based code viewers may not recognize control-L as a form feed and will show another glyph in its place.</p>
+<p>Python接受control-L (即 ^L)作为空格；许多工具把这些作为分页符，因此你可以用它们来对文件中的相关块进行分页。注意，有些编辑器和基于网页的代码浏览器也许不把control-L识别为换页符，它们也许会被显示为其他符号。 </p>
+<h2 id="Source-File-Encoding-源文件编码"><a href="#Source-File-Encoding-源文件编码" class="headerlink" title="Source File Encoding 源文件编码"></a>Source File Encoding 源文件编码</h2><p>Code in the core Python distribution should always use UTF-8 (or ASCII in Python 2).</p>
+<p>Python核心发行版中的代码应该保持使用UTF-8（或者Python2使用ASCII）。</p>
+<p>Files using ASCII (in Python 2) or UTF-8 (in Python 3) should not have an encoding declaration.</p>
+<p>使用ASCII（Python 2）和UTF-8 （Python 3）的文件不需要编码声明。</p>
+<p>In the standard library, non-default encodings should be used only for test purposes or when a comment or docstring needs to mention an author name that contains non-ASCII characters; otherwise, using <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\x</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\u</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\U</tt>, or <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\N</tt> escapes is the preferred way to include non-ASCII data in string literals.</p>
+<p>在标准库中，非默认的编码应该仅用于测试目的或者当注释或docstring需要提及含有非ASCII字符的作者名字时；否则，推荐使用<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\x</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\u</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\U</tt> 和 <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">\N</tt> 等转义符是表达字符串中的非ASCII数据。</p>
+<p>For Python 3.0 and beyond, the following policy is prescribed for the standard library (see <a href="https://www.python.org/dev/peps/pep-3131" target="_blank" rel="noopener">PEP 3131</a>): All identifiers in the Python standard library MUST use ASCII-only identifiers, and SHOULD use English words wherever feasible (in many cases, abbreviations and technical terms are used which aren’t English). In addition, string literals and comments must also be in ASCII. The only exceptions are (a) test cases testing the non-ASCII features, and (b) names of authors. Authors whose names are not based on the Latin alphabet (latin-1, ISO/IEC 8859-1 character set) MUST provide a transliteration of their names in this character set.</p>
+<p>对于Python 3.0以上的版本，标准库遵循以下原则（参见 <a href="https://www.python.org/dev/peps/pep-3131" target="_blank" rel="noopener">PEP 3131</a>）：标准库中的所有标识符都<strong>必须</strong>仅使用ASCII标识符，并且在任何可能的情况下<strong>应该</strong>使用英语（在很多情况下，缩写和技术名词不是英语）。此外，字符串和注释也必须是ASCII，仅有两种例外情况（a）测试情况下进行非ASCII特征进行测试， （b）作者名字。当作者的名字不是基于拉丁字母时（latin-1, ISO/IEC 8859-1 character set），作者<strong>必须</strong>提供他们名字的拉丁字符音译。</p>
+<p>Open source projects with a global audience are encouraged to adopt a similar policy.</p>
+<p>鼓励面向全世界开源的项目使用类似原则。</p>
+<h2 id="Imports"><a href="#Imports" class="headerlink" title="Imports"></a>Imports</h2><ul>
+<li><p>Imports should usually be on separate lines, e.g.: 通常Imports应该在单独的一行，比如：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: import os
+     import sys
+
+No:  import sys, os
+</pre>
+
+<p>It’s okay to say this though: 尽管如此，如下语句也可以：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">from subprocess import Popen, PIPE
+</pre>
+</li>
+<li><p>Imports are always put at the top of the file, just after any module comments and docstrings, and before module globals and constants. Imports语句总是在文件的最顶端，仅在模块注释和docstring之后，并且在全局模块和常量之前：</p>
+<p>Imports should be grouped in the following order: Imports应该按以下顺序进行分组：</p>
+<ol>
+<li>standard library imports 标准库imports</li>
+<li>related third party imports 相关第三方 imports</li>
+<li>local application/library specific imports 本地应用和库的特定imports</li>
+</ol>
+<p>You should put a blank line between each group of imports. 你应该在每组之间加入空行。</p>
+</li>
+<li><p>Absolute imports are recommended, as they are usually more readable and tend to be better behaved (or at least give better error messages) if the import system is incorrectly configured (such as when a directory inside a package ends up on <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">sys.path</tt>): 推荐使用绝对imports，因为如果import系统正确配置的话（比如包内的路径以sys.path），通常来说使用绝对imports更加具有可读性而且表现更好 （至少会提供更好的报错信息）</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">import mypkg.sibling
+from mypkg import sibling
+from mypkg.sibling import example
+</pre>
+
+<p>However, explicit relative imports are an acceptable alternative to absolute imports, especially when dealing with complex package layouts where using absolute imports would be unnecessarily verbose: 然而，除了绝对imports之外，详尽的相对imports也是可以接受的，特别是当使用复杂的包时当绝对imports变得不必要的冗长的时候，</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">from . import sibling
+from .sibling import example
+</pre>
+
+<p>Standard library code should avoid complex package layouts and always use absolute imports. 标准库代码应该避免复杂的包并且始终使用绝对imports。</p>
+<p>Implicit relative imports should <em>never</em> be used and have been removed in Python 3. 不明确的相对引用应该<em>从不</em>被使用，并且在Python 3中已经被移除。</p>
+</li>
+<li><p>When importing a class from a class-containing module, it’s usually okay to spell this: 当从一个含有类的模块中import一个类的时候，以下语句也可以：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">from myclass import MyClass
+from foo.bar.yourclass import YourClass
+</pre>
+
+<p>If this spelling causes local name clashes, then spell them 如果以下拼写造成了本地变量名冲突的话，则使用：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">import myclass
+import foo.bar.yourclass
+</pre>
+
+<p>and use “myclass.MyClass” and “foo.bar.yourclass.YourClass”. 并且用 “myclass.MyClass” 和 “foo.bar.yourclass.YourClass”</p>
+</li>
+<li><p>Wildcard imports (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from <module> import <em></em></module></tt>) should be avoided, as they make it unclear which names are present in the namespace, confusing both readers and many automated tools. There is one defensible use case for a wildcard import, which is to republish an internal interface as part of a public API (for example, overwriting a pure Python implementation of an interface with the definitions from an optional accelerator module and exactly which definitions will be overwritten isn’t known in advance). 应该避免使用通配符import， (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from <module> import </module></tt>)，因为会造成命名空间中的名称不清晰，给读者和许多自动化工具造成困扰。在一种情况下可以使用通配符import，也就是当把一个内部接口作为一个公共API重新发布的时候（比如，通过一个可选加速器模块覆盖一个纯Python实现的接口，并且哪些定义会被覆盖提前并不能预知。）</p>
+<p>When republishing names this way, the guidelines below regarding public and internal interfaces still apply. 当这样重复发布名称时，以下关于公共和内部接口的指南依然适用。</p>
+</li>
+</ul>
+<h2 id="Module-level-dunder-names-模块层dunder名称"><a href="#Module-level-dunder-names-模块层dunder名称" class="headerlink" title="Module level dunder names 模块层dunder名称"></a>Module level dunder names 模块层dunder名称</h2><p>Module level “dunders” (i.e. names with two leading and two trailing underscores) such as <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>all</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>author</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>version</strong></tt>, etc. should be placed after the module docstring but before any import statements <em>except</em><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from <strong>future</strong></tt> imports. Python mandates that future-imports must appear in the module before any other code except docstrings.</p>
+<p>模块层的“dunders” （即名称中含有两个前和两个后下划线）比如 <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>all</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>author</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>version</strong> 等，应该放置于模块的文档说明之后但是在任何除了<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from <strong>future</strong> imports之外的import语句之前。Python要求future-imports必须比除了文档说明之外的任何代码更早出现在模块。</tt></tt></p>
+<p>For example: 例如：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">"""This is the example module.
+
+This module does stuff.
+"""
+
+from __future__ import barry_as_FLUFL
+
+__all__ = ['a', 'b', 'c']
+__version__ = '0.1'
+__author__ = 'Cardinal Biggles'
+
+import os
+import sys
+</pre>
+
+<h1 id="String-Quotes-字符串引用"><a href="#String-Quotes-字符串引用" class="headerlink" title="String Quotes 字符串引用"></a>String Quotes 字符串引用</h1><p>In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. Pick a rule and stick to it. When a string contains single or double quote characters, however, use the other one to avoid backslashes in the string. It improves readability.</p>
+<p>在Python中，单引号字符串和双引号字符串是相同的。本PEP没有对此进行推荐。可以自选一个并且保持一致。然而，如果一个字符串含有单引号或者双引号，使用另一个来避免反斜线。这可以提高可读性。</p>
+<p>For triple-quoted strings, always use double quote characters to be consistent with the docstring convention in <a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a>.</p>
+<p>对于三引号，总是使用双引号字符以便与 <a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a>中的文档说明的约定保持一致。</p>
+<h1 id="Whitespace-in-Expressions-and-Statements-表达式和语句中的空格"><a href="#Whitespace-in-Expressions-and-Statements-表达式和语句中的空格" class="headerlink" title="Whitespace in Expressions and Statements 表达式和语句中的空格"></a>Whitespace in Expressions and Statements 表达式和语句中的空格</h1><h2 id="Pet-Peeves"><a href="#Pet-Peeves" class="headerlink" title="Pet Peeves"></a>Pet Peeves</h2><p>Avoid extraneous whitespace in the following situations:</p>
+<p>避免在如下情况使用无关的空格：</p>
+<ul>
+<li><p>Immediately inside parentheses, brackets or braces. 括号，方括号和大括号中直接的空格。</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: spam(ham[1], {eggs: 2})
+No:  spam( ham[ 1 ], { eggs: 2 } )
+</pre>
+</li>
+<li><p>Between a trailing comma and a following close parenthesis. 在尾随逗号和结束括号之间。</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: foo = (0,)
+No:  bar = (0, )
+</pre>
+</li>
+<li><p>Immediately before a comma, semicolon, or colon: 直接在逗号、分号和冒号之前。</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: if x == 4: print x, y; x, y = y, x
+No:  if x == 4 : print x , y ; x , y = y , x
+</pre>
+</li>
+<li><p>However, in a slice the colon acts like a binary operator, and should have equal amounts on either side (treating it as the operator with the lowest priority). In an extended slice, both colons must have the same amount of spacing applied. Exception: when a slice parameter is omitted, the space is omitted. 然而，在切片中冒号类似于二元运算符，应该在其两边使用相同数量的空格（把它作为拥有最低优先级的运算符）。在扩展切片中，两个冒号必须有相同的空格。特殊情况：如果一个切片参数被省略了，空格也省略。</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">ham[1:9], ham[1:9:3], ham[:9:3], ham[1::3], ham[1:9:]
+ham[lower:upper], ham[lower:upper:], ham[lower::step]
+ham[lower+offset : upper+offset]
+ham[: upper_fn(x) : step_fn(x)], ham[:: step_fn(x)]
+ham[lower + offset : upper + offset]
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">ham[lower + offset:upper + offset]
+ham[1: 9], ham[1 :9], ham[1:9 :3]
+ham[lower : : upper]
+ham[ : upper]
+</pre>
+</li>
+<li><p>Immediately before the open parenthesis that starts the argument list of a function call: 直接在一个函数的开始括号之前。</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: spam(1)
+No:  spam (1)
+</pre>
+</li>
+<li><p>Immediately before the open parenthesis that starts an indexing or slicing: 直接在一个索引或者切片的开始括号之前。</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: dct['key'] = lst[index]
+No:  dct ['key'] = lst [index]
+</pre>
+</li>
+<li><p>More than one space around an assignment (or other) operator to align it with another. 为了对齐其他参数而使用多于一个空格。</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">x = 1
+y = 2
+long_variable = 3
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">x             = 1
+y             = 2
+long_variable = 3
+</pre>
+
+</li>
+</ul>
+<h2 id="Other-Recommendations-其他推荐"><a href="#Other-Recommendations-其他推荐" class="headerlink" title="Other Recommendations 其他推荐"></a>Other Recommendations 其他推荐</h2><ul>
+<li><p>Avoid trailing whitespace anywhere. Because it’s usually invisible, it can be confusing: e.g. a backslash followed by a space and a newline does not count as a line continuation marker. Some editors don’t preserve it and many projects (like CPython itself) have pre-commit hooks that reject it. 避免在任何地方使用尾空格。因为它是不可见的，这会造成困扰：比如一个反斜杠后面跟了一个空格因此新的一行不被认为是新行。有些编辑器不确保其正确运行，许多项目（比如CPython本身）有pre-commit hooks可以拒绝此类编译。</p>
+</li>
+<li><p>Always surround these binary operators with a single space on either side: assignment (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">=</tt>), augmented assignment (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">+=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">-=</tt>etc.), comparisons (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">==</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&gt;</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">!=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;&gt;</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&gt;=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">in</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">not in</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is not</tt>), Booleans (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">and</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">or</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">not</tt>). 总是在这些二元运算符两侧使用单独空格：等号（=），增量赋值负号 (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">+=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">-=</tt>etc.), 比较符号(<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">==</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&gt;</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">!=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;&gt;</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&gt;=</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">in</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">not in</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is not</tt>), 布尔运算符(<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">and</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">or</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">not</tt>).</p>
+</li>
+<li><p>If operators with different priorities are used, consider adding whitespace around the operators with the lowest priority(ies). Use your own judgment; however, never use more than one space, and always have the same amount of whitespace on both sides of a binary operator. 如果使用不同优先级的运算符，考虑给低优先级的运算符增加空格。自行判断，然而，永远不要使用多于一个空格，并且总是在二元运算符的两侧使用相同数量的空格。</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">i = i + 1
+submitted += 1
+x = x*2 - 1
+hypot2 = x*x + y*y
+c = (a+b) * (a-b)
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">i=i+1
+submitted +=1
+x = x * 2 - 1
+hypot2 = x * x + y * y
+c = (a + b) * (a - b)
+</pre>
+</li>
+<li><p>Don’t use spaces around the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">=</tt> sign when used to indicate a keyword argument or a default parameter value.不要在用于定义函数关键字默认值的等号两侧使用空格。</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def complex(real, imag=0.0):
+    return magic(r=real, i=imag)
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def complex(real, imag = 0.0):
+    return magic(r = real, i = imag)
+</pre>
+</li>
+<li><p>Function annotations should use the normal rules for colons and always have spaces around the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">-&gt;</tt> arrow if present. (See<a href="https://www.python.org/dev/peps/pep-0008/#function-annotations" target="_blank" rel="noopener">Function Annotations</a> below for more about function annotations.) 函数annotations 应该使用平常的冒号规则并且如果使用 <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">-&gt; 的话需要配合空格。</tt></p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def munge(input: AnyStr): ...
+def munge() -> AnyStr: ...
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def munge(input:AnyStr): ...
+def munge()->PosInt: ...
+</pre>
+</li>
+<li><p>When combining an argument annotation with a default value, use spaces around the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">=</tt> sign (but only for those arguments that have both an annotation and a default). 当同时使用annotation和默认值的时候，给等号两侧加上空格 （但是只给同时有annotation和默认值的等号加空格）。</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def munge(sep: AnyStr = None): ...
+def munge(input: AnyStr, sep: AnyStr = None, limit=1000): ...
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def munge(input: AnyStr=None): ...
+def munge(input: AnyStr, limit = 1000): ...
+</pre>
+</li>
+<li><p>Compound statements (multiple statements on the same line) are generally discouraged. 通常不推荐使用混合语句（同一行多个语句）。</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if foo == 'blah':
+    do_blah_thing()
+do_one()
+do_two()
+do_three()
+</pre>
+
+<p>Rather not:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if foo == 'blah': do_blah_thing()
+do_one(); do_two(); do_three()
+</pre>
+</li>
+<li><p>While sometimes it’s okay to put an if/for/while with a small body on the same line, never do this for multi-clause statements. Also avoid folding such long lines! 尽管有时可以将if/for/while和一小部分语句放在同一行，永远不要将含有多语句的指令放在同一行。同时也避免折叠这样的很长的行 [注：我理解是避免从这样比较长的行的某一部分进行折叠]。</p>
+<p>Rather not最好不要:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if foo == 'blah': do_blah_thing()
+for x in lst: total += x
+while t < 10: t = delay()
+</pre>
+
+<p>Definitely not 绝对不要:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if foo == 'blah': do_blah_thing()
+else: do_non_blah_thing()
+
+try: something()
+finally: cleanup()
+
+do_one(); do_two(); do_three(long, argument,
+                             list, like, this)
+
+if foo == 'blah': one(); two(); three()</pre>
+
+</li>
+</ul>
+<h1 id="When-to-use-trailing-commas"><a href="#When-to-use-trailing-commas" class="headerlink" title="When to use trailing commas"></a>When to use trailing commas</h1><p>Trailing commas are usually optional, except they are mandatory when making a tuple of one element (and in Python 2 they have semantics for the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">print</tt> statement). For clarity, it is recommended to surround the latter in (technically redundant) parentheses.</p>
+<p>尾逗号通常是可选的，仅在建立一个元素的tuple时尾逗号是必须的（在Python 2中它们对于print语句是有语义的）。准确的说，推荐使用（冗余的）括号把字母括起来。</p>
+<p>Yes 正确:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">FILES = ('setup.cfg',)
+</pre>
+
+<p>OK, but confusing 可行但是容易混淆:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">FILES = 'setup.cfg',
+</pre>
+
+<p>When trailing commas are redundant, they are often helpful when a version control system is used, when a list of values, arguments or imported items is expected to be extended over time. The pattern is to put each value (etc.) on a line by itself, always adding a trailing comma, and add the close parenthesis/bracket/brace on the next line. However it does not make sense to have a trailing comma on the same line as the closing delimiter (except in the above case of singleton tuples).</p>
+<p>当尾逗号是冗余的时候，它们常常在使用版本控制系统时有用，或者当一个由数值、语句或者导入的项组成的列表需要随着时间不断扩展的时候。这个布局可以把每个数值（等等）单独放在一行，并加上尾逗号以及在下一行加上闭合括号/方括号/大括号。然而，不建议将尾逗号和闭合括号放在同一行（除了前边说的单元素tuple的情况）。</p>
+<p>Yes 正确:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">FILES = [
+    'setup.cfg',
+    'tox.ini',
+    ]
+initialize(FILES,
+           error=True,
+           )
+</pre>
+
+<p>No 错误:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">FILES = ['setup.cfg', 'tox.ini',]
+initialize(FILES, error=True,)
+</pre>
+
+<h1 id="Comments-注释"><a href="#Comments-注释" class="headerlink" title="Comments 注释"></a>Comments 注释</h1><p>Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes!</p>
+<p>错误的注释还不如没有注释。总是在改变代码时一并更新注释。</p>
+<p>Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter (never alter the case of identifiers!).</p>
+<p>注释应该是完整的橘子。第一个单词需要大写首字母，除非是有一个由小写字母开头的标识符（不要改变标识符的大小写）。</p>
+<p>Block comments generally consist of one or more paragraphs built out of complete sentences, with each sentence ending in a period.</p>
+<p>注释块通常由一到多段完整的句子组成，每个句子由句号结尾。</p>
+<p>You should use two spaces after a sentence-ending period in multi- sentence comments, except after the final sentence.</p>
+<p>除了最后一句外，在多个句子组成的注释的每个句末的句号后边使用2个空格。</p>
+<p>When writing English, follow Strunk and White.</p>
+<p>如果注释为英语，根据Strunk and White的语法规则。</p>
+<p>Python coders from non-English speaking countries: please write your comments in English, unless you are 120% sure that the code will never be read by people who don’t speak your language.</p>
+<p>对于非英语国家的编程员：请用英语书写注释，除非你120%的确定这个代码永远不会被不懂你母语的人读到。</p>
+<h2 id="Block-Comments-注释块"><a href="#Block-Comments-注释块" class="headerlink" title="Block Comments 注释块"></a>Block Comments 注释块</h2><p>Block comments generally apply to some (or all) code that follows them, and are indented to the same level as that code. Each line of a block comment starts with a <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">#</tt> and a single space (unless it is indented text inside the comment).</p>
+<p>注释块通常应用于紧随它的部分（或者所有）代码，并且他们应该和这些代码有相同的缩进。注释块的每一行由 <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"># 和一个空格开始（除非是注释中已经缩进的文字）</tt></p>
+<p>Paragraphs inside a block comment are separated by a line containing a single <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">#</tt>.</p>
+<p>注释块内部的各段由一个单个的 <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"># 进行分隔。</tt></p>
+<h2 id="Inline-Comments-行内注释"><a href="#Inline-Comments-行内注释" class="headerlink" title="Inline Comments 行内注释"></a>Inline Comments 行内注释</h2><p>Use inline comments sparingly.</p>
+<p>小心地使用行内注释。</p>
+<p>An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space.</p>
+<p>行内注释是指与指令在同一行的注释。行内注释需要与指令至少相隔两个空格。他们应该由一个#和一个空格开始。</p>
+<p>Inline comments are unnecessary and in fact distracting if they state the obvious. Don’t do this:</p>
+<p>行内注释不必要，而且事实上很让人闹心，如果它们只是陈述明显的事实。不要像这样：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">x = x + 1                 # Increment x
+</pre>
+
+<p>But sometimes, this is useful:</p>
+<p>但是有时候也是有用的：</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">x = x + 1                 # Compensate for border
+
+[注：个人觉得这个自己把握，不需要用行内注释说明运算本身的作用，而可以用行内注释说明这行指令的潜在意图，尤其是一些特殊的意图和想法。对于有些想法，也许过了一段时间再看代码就不明白为什么当时要这么做了，那就应该注释下来。]</pre>
+
+<h2 id="Documentation-Strings-文档字符串"><a href="#Documentation-Strings-文档字符串" class="headerlink" title="Documentation Strings 文档字符串"></a>Documentation Strings 文档字符串</h2><p>Conventions for writing good documentation strings (a.k.a. “docstrings”) are immortalized in <a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a>.</p>
+<p>关于怎么写好文档字符串（a.k.a. “docstrings”）的约定详见 <a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a>。</p>
+<ul>
+<li><p>Write docstrings for all public modules, functions, classes, and methods. Docstrings are not necessary for non-public methods, but you should have a comment that describes what the method does. This comment should appear after the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">def</tt> line. 为所有的公共模块、函数和方法写文档字符串。对于非公共的方法，文档字符串不是必须的，但是你应该有一个描述这个方法的注释。这个注释应该出现在def行下方。</p>
+</li>
+<li><p><a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a> describes good docstring conventions. Note that most importantly, the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">“””</tt> that ends a multiline docstring should be on a line by itself, e.g.:   <a href="https://www.python.org/dev/peps/pep-0257" target="_blank" rel="noopener">PEP 257</a> 阐述了好的文档字符串的相关约定。注意最重要的是，<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">用以结束一个多行的文档字符串的<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">“””</tt>应该自成一行，比如：</tt></p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">"""Return a foobang
+
+Optional plotz says to frobnicate the bizbaz first.
+"""  [注：第一个<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">"""开始了一段文档字符串，可以不自成一行。但是第二个<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">"""用以结束文档字符串，因此必须自成一行。</tt></tt>]</pre>
+</li>
+<li><p>For one liner docstrings, please keep the closing <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">“””</tt> on the same line. 对于一样的文档字符串，请把用以结束的<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">“””写在同一行。</tt></p>
+</li>
+</ul>
+<h1 id="Naming-Conventions-命名约定"><a href="#Naming-Conventions-命名约定" class="headerlink" title="Naming Conventions 命名约定"></a>Naming Conventions 命名约定</h1><p>The naming conventions of Python’s library are a bit of a mess, so we’ll never get this completely consistent — nevertheless, here are the currently recommended naming standards. New modules and packages (including third party frameworks) should be written to these standards, but where an existing library has a different style, internal consistency is preferred.</p>
+<p>Python的命名约定有些混乱， 所以我们从没就这点达成完全的一致 — 虽然如此，这有些目前推荐的命名标准。 新的模块和包 （包括第三方框架）应该遵从这些标准，但是对于已经存在的具有不同风格的库，建议保持内部的一致性。</p>
+<h2 id="Overriding-Principle-首要原则"><a href="#Overriding-Principle-首要原则" class="headerlink" title="Overriding Principle 首要原则"></a>Overriding Principle 首要原则</h2><p>Names that are visible to the user as public parts of the API should follow conventions that reflect usage rather than implementation.</p>
+<p>对用户可见的API的公共部分的命名应该反映它的用途而不是其实现。</p>
+<h2 id="Descriptive-Naming-Styles-描述：命名风格"><a href="#Descriptive-Naming-Styles-描述：命名风格" class="headerlink" title="Descriptive: Naming Styles 描述：命名风格"></a>Descriptive: Naming Styles 描述：命名风格</h2><p>There are a lot of different naming styles. It helps to be able to recognize what naming style is being used, independently from what they are used for.</p>
+<p>现存很多不同的命名风格。如果能不依赖于它们的用途而分辨出使用了哪种命名风格，会很有帮助。</p>
+<p>The following naming styles are commonly distinguished:</p>
+<p>通常可以区分如下命名风格：</p>
+<ul>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">b</tt> (single lowercase letter) 单个小写字母</p>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">B</tt> (single uppercase letter) 单个大写字母</p>
+</li>
+<li><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">lowercase 小写字母</tt>
+</li>
+<li><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">lower_case_with_underscores 带下划线的小写字母</tt>
+</li>
+<li><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">UPPERCASE 大写字母</tt>
+</li>
+<li><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">UPPER_CASE_WITH_UNDERSCORES 带下划线的大写字母</tt>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">CapitalizedWords</tt> (or CapWords, or CamelCase — so named because of the bumpy look of its letters <a href="https://www.python.org/dev/peps/pep-0008/#id11" target="_blank" rel="noopener">[4]</a>). This is also sometimes known as StudlyCaps.单词首字母大写 （或者叫CapWord， 或者CamelCase — 这样叫是因为看起来像驼峰 <a href="https://www.python.org/dev/peps/pep-0008/#id11" target="_blank" rel="noopener">[4]</a>）。这种方法有时也叫StudlyCaps. </p>
+<p>Note: When using acronyms in CapWords, capitalize all the letters of the acronym. Thus HTTPServerError is better than HttpServerError.</p>
+<p>注意：当在CapWords中使用缩写的时候，缩写的所有字母需要大写。 因此HTTPServerError 好于 HttpServerError。</p>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">mixedCase</tt> (differs from CapitalizedWords by initial lowercase character!) 混合方式（不同于CapitalizedWords中默认为小写字母）</p>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">Capitalized_Words_With_Underscores</tt> (ugly!) 单词首字母大写加下划线（难看！）</p>
+</li>
+</ul>
+<p>There’s also the style of using a short unique prefix to group related names together. This is not used much in Python, but it is mentioned for completeness. For example, the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">os.stat()</tt> function returns a tuple whose items traditionally have names like <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">st_mode</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">st_size</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">st_mtime</tt> and so on. (This is done to emphasize the correspondence with the fields of the POSIX system call struct, which helps programmers familiar with that.)</p>
+<p>也有一种风格是使用一个短的前缀将相关的名称分组。这种方法在Python中不常用，为了完整起见提及一下。例如，os.stat()函数返回一个tuple，这个tuple的元素传统上命名为<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">st_mode</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">st_size</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">st_mtime等。（这样做是为了强调与POSIX系统调用结构之间的关联，藉此帮助程序员对它熟悉。）</tt></p>
+<p>The X11 library uses a leading X for all its public functions. In Python, this style is generally deemed unnecessary because attribute and method names are prefixed with an object, and function names are prefixed with a module name.</p>
+<p>X11库使用X作为它所有公共函数的开头。在Python中，这种风格通常不是很必要，因为属性和方法都已经有了对象的前缀，而函数名有模块名作为前缀。</p>
+<p>In addition, the following special forms using leading or trailing underscores are recognized (these can generally be combined with any case convention):</p>
+<p>补充一下，如下特殊格式可以使用开头或结尾的下划线（这些可以和所有的上述约定结合使用）</p>
+<ul>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">_single_leading_underscore</tt>: weak “internal use” indicator. E.g. <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from M import *</tt> does not import objects whose name starts with an underscore.</p>
+</li>
+<li><p>单下划线开头: “内部使用”的弱标识。比如，<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from M import * 不能import名字以下划线开头的对象</tt></p>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">single_trailing_underscore_</tt>: used by convention to avoid conflicts with Python keyword, e.g.</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Tkinter.Toplevel(master, class_='ClassName')</pre>
+</li>
+<li><pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">单下划线结尾：</tt>用于避免与Python关键字的约定，比如Tkinter.Toplevel(master, class_='ClassName')</pre>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>double_leading_underscore</strong></tt>: when naming a class attribute, invokes name mangling (inside class FooBar, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">boo</tt> becomes<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">_FooBar__boo</tt>; see below). </p>
+</li>
+<li><p>双下划线开头：当命名一个类的属性时，触发命名修饰（在FooBar类之内，<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>boo</strong></tt> 成为<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">_FooBarboo；见下方</tt>）</p>
+</li>
+<li><p><tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>double_leading_and_trailing_underscore</strong></tt>: “magic” objects or attributes that live in user-controlled namespaces. E.g. <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>init</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>import</strong></tt> or <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>file</strong></tt>. Never invent such names; only use them as documented.</p>
+</li>
+<li>双下划线开头双下划线结尾：“魔术”对象或者属性，存在于用户控制的命名空间。例如<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>init</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>import</strong></tt> 或者 <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>file</strong>。永远不要自己创造这样的名称；请按照文档说明进行使用。</tt></li>
+</ul>
+<h2 id="Prescriptive-Naming-Conventions"><a href="#Prescriptive-Naming-Conventions" class="headerlink" title="Prescriptive: Naming Conventions"></a>Prescriptive: Naming Conventions</h2><h3 id="Names-to-Avoid"><a href="#Names-to-Avoid" class="headerlink" title="Names to Avoid"></a><a href="https://www.python.org/dev/peps/pep-0008/#id38" target="_blank" rel="noopener">Names to Avoid</a></h3><p>Never use the characters ‘l’ (lowercase letter el), ‘O’ (uppercase letter oh), or ‘I’ (uppercase letter eye) as single character variable names.</p>
+<p>In some fonts, these characters are indistinguishable from the numerals one and zero. When tempted to use ‘l’, use ‘L’ instead.</p>
+<h3 id="ASCII-Compatibility"><a href="#ASCII-Compatibility" class="headerlink" title="ASCII Compatibility"></a><a href="https://www.python.org/dev/peps/pep-0008/#id39" target="_blank" rel="noopener">ASCII Compatibility</a></h3><p>Identifiers used in the standard library must be ASCII compatible as described in the <a href="https://www.python.org/dev/peps/pep-3131/#policy-specification" target="_blank" rel="noopener">policy section</a> of <a href="https://www.python.org/dev/peps/pep-3131" target="_blank" rel="noopener">PEP 3131</a>.</p>
+<h3 id="Package-and-Module-Names"><a href="#Package-and-Module-Names" class="headerlink" title="Package and Module Names"></a><a href="https://www.python.org/dev/peps/pep-0008/#id40" target="_blank" rel="noopener">Package and Module Names</a></h3><p>Modules should have short, all-lowercase names. Underscores can be used in the module name if it improves readability. Python packages should also have short, all-lowercase names, although the use of underscores is discouraged.</p>
+<p>When an extension module written in C or C++ has an accompanying Python module that provides a higher level (e.g. more object oriented) interface, the C/C++ module has a leading underscore (e.g. <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">_socket</tt>).</p>
+<h3 id="Class-Names"><a href="#Class-Names" class="headerlink" title="Class Names"></a><a href="https://www.python.org/dev/peps/pep-0008/#id41" target="_blank" rel="noopener">Class Names</a></h3><p>Class names should normally use the CapWords convention.</p>
+<p>The naming convention for functions may be used instead in cases where the interface is documented and used primarily as a callable.</p>
+<p>Note that there is a separate convention for builtin names: most builtin names are single words (or two words run together), with the CapWords convention used only for exception names and builtin constants.</p>
+<h3 id="Type-variable-names"><a href="#Type-variable-names" class="headerlink" title="Type variable names"></a><a href="https://www.python.org/dev/peps/pep-0008/#id42" target="_blank" rel="noopener">Type variable names</a></h3><p>Names of type variables introduced in <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> should normally use CapWords preferring short names: <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">T</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">AnyStr</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">Num</tt>. It is recommended to add suffixes <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">_co</tt> or <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">_contra</tt> to the variables used to declare covariant or contravariant behavior correspondingly. Examples:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">from typing import TypeVar
+
+VT_co = TypeVar('VT_co', covariant=True)
+KT_contra = TypeVar('KT_contra', contravariant=True)
+</pre>
+
+<h3 id="Exception-Names"><a href="#Exception-Names" class="headerlink" title="Exception Names"></a><a href="https://www.python.org/dev/peps/pep-0008/#id43" target="_blank" rel="noopener">Exception Names</a></h3><p>Because exceptions should be classes, the class naming convention applies here. However, you should use the suffix “Error” on your exception names (if the exception actually is an error).</p>
+<h3 id="Global-Variable-Names"><a href="#Global-Variable-Names" class="headerlink" title="Global Variable Names"></a><a href="https://www.python.org/dev/peps/pep-0008/#id44" target="_blank" rel="noopener">Global Variable Names</a></h3><p>(Let’s hope that these variables are meant for use inside one module only.) The conventions are about the same as those for functions.</p>
+<p>Modules that are designed for use via <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">from M import *</tt> should use the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>all</strong></tt> mechanism to prevent exporting globals, or use the older convention of prefixing such globals with an underscore (which you might want to do to indicate these globals are “module non-public”).</p>
+<h3 id="Function-and-variable-names"><a href="#Function-and-variable-names" class="headerlink" title="Function and variable names"></a><a href="https://www.python.org/dev/peps/pep-0008/#id45" target="_blank" rel="noopener">Function and variable names</a></h3><p>Function names should be lowercase, with words separated by underscores as necessary to improve readability.</p>
+<p>Variable names follow the same convention as function names.</p>
+<p>mixedCase is allowed only in contexts where that’s already the prevailing style (e.g. threading.py), to retain backwards compatibility.</p>
+<h3 id="Function-and-method-arguments"><a href="#Function-and-method-arguments" class="headerlink" title="Function and method arguments"></a><a href="https://www.python.org/dev/peps/pep-0008/#id46" target="_blank" rel="noopener">Function and method arguments</a></h3><p>Always use <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">self</tt> for the first argument to instance methods.</p>
+<p>Always use <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">cls</tt> for the first argument to class methods.</p>
+<p>If a function argument’s name clashes with a reserved keyword, it is generally better to append a single trailing underscore rather than use an abbreviation or spelling corruption. Thus <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">class_</tt> is better than <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">clss</tt>. (Perhaps better is to avoid such clashes by using a synonym.)</p>
+<h3 id="Method-Names-and-Instance-Variables"><a href="#Method-Names-and-Instance-Variables" class="headerlink" title="Method Names and Instance Variables"></a><a href="https://www.python.org/dev/peps/pep-0008/#id47" target="_blank" rel="noopener">Method Names and Instance Variables</a></h3><p>Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability.</p>
+<p>Use one leading underscore only for non-public methods and instance variables.</p>
+<p>To avoid name clashes with subclasses, use two leading underscores to invoke Python’s name mangling rules.</p>
+<p>Python mangles these names with the class name: if class Foo has an attribute named <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>a</strong></tt>, it cannot be accessed by <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">Foo.a</tt>. (An insistent user could still gain access by calling <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">Foo._Foo__a</tt>.) Generally, double leading underscores should be used only to avoid name conflicts with attributes in classes designed to be subclassed.</p>
+<p>Note: there is some controversy about the use of __names (see below).</p>
+<h3 id="Constants"><a href="#Constants" class="headerlink" title="Constants"></a><a href="https://www.python.org/dev/peps/pep-0008/#id48" target="_blank" rel="noopener">Constants</a></h3><p>Constants are usually defined on a module level and written in all capital letters with underscores separating words. Examples include <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">MAX_OVERFLOW</tt> and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">TOTAL</tt>.</p>
+<h3 id="Designing-for-inheritance"><a href="#Designing-for-inheritance" class="headerlink" title="Designing for inheritance"></a><a href="https://www.python.org/dev/peps/pep-0008/#id49" target="_blank" rel="noopener">Designing for inheritance</a></h3><p>Always decide whether a class’s methods and instance variables (collectively: “attributes”) should be public or non-public. If in doubt, choose non-public; it’s easier to make it public later than to make a public attribute non-public.</p>
+<p>Public attributes are those that you expect unrelated clients of your class to use, with your commitment to avoid backward incompatible changes. Non-public attributes are those that are not intended to be used by third parties; you make no guarantees that non-public attributes won’t change or even be removed.</p>
+<p>We don’t use the term “private” here, since no attribute is really private in Python (without a generally unnecessary amount of work).</p>
+<p>Another category of attributes are those that are part of the “subclass API” (often called “protected” in other languages). Some classes are designed to be inherited from, either to extend or modify aspects of the class’s behavior. When designing such a class, take care to make explicit decisions about which attributes are public, which are part of the subclass API, and which are truly only to be used by your base class.</p>
+<p>With this in mind, here are the Pythonic guidelines:</p>
+<ul>
+<li><p>Public attributes should have no leading underscores.</p>
+</li>
+<li><p>If your public attribute name collides with a reserved keyword, append a single trailing underscore to your attribute name. This is preferable to an abbreviation or corrupted spelling. (However, notwithstanding this rule, ‘cls’ is the preferred spelling for any variable or argument which is known to be a class, especially the first argument to a class method.)</p>
+<p>Note 1: See the argument name recommendation above for class methods.</p>
+</li>
+<li><p>For simple public data attributes, it is best to expose just the attribute name, without complicated accessor/mutator methods. Keep in mind that Python provides an easy path to future enhancement, should you find that a simple data attribute needs to grow functional behavior. In that case, use properties to hide functional implementation behind simple data attribute access syntax.</p>
+<p>Note 1: Properties only work on new-style classes.</p>
+<p>Note 2: Try to keep the functional behavior side-effect free, although side-effects such as caching are generally fine.</p>
+<p>Note 3: Avoid using properties for computationally expensive operations; the attribute notation makes the caller believe that access is (relatively) cheap.</p>
+</li>
+<li><p>If your class is intended to be subclassed, and you have attributes that you do not want subclasses to use, consider naming them with double leading underscores and no trailing underscores. This invokes Python’s name mangling algorithm, where the name of the class is mangled into the attribute name. This helps avoid attribute name collisions should subclasses inadvertently contain attributes with the same name.</p>
+<p>Note 1: Note that only the simple class name is used in the mangled name, so if a subclass chooses both the same class name and attribute name, you can still get name collisions.</p>
+<p>Note 2: Name mangling can make certain uses, such as debugging and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>getattr</strong>()</tt>, less convenient. However the name mangling algorithm is well documented and easy to perform manually.</p>
+<p>Note 3: Not everyone likes name mangling. Try to balance the need to avoid accidental name clashes with potential use by advanced callers.</p>
+</li>
+</ul>
+<h2 id="Public-and-internal-interfaces"><a href="#Public-and-internal-interfaces" class="headerlink" title="Public and internal interfaces"></a><a href="https://www.python.org/dev/peps/pep-0008/#id50" target="_blank" rel="noopener">Public and internal interfaces</a></h2><p>Any backwards compatibility guarantees apply only to public interfaces. Accordingly, it is important that users be able to clearly distinguish between public and internal interfaces.</p>
+<p>Documented interfaces are considered public, unless the documentation explicitly declares them to be provisional or internal interfaces exempt from the usual backwards compatibility guarantees. All undocumented interfaces should be assumed to be internal.</p>
+<p>To better support introspection, modules should explicitly declare the names in their public API using the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>all</strong></tt> attribute. Setting <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>all</strong></tt> to an empty list indicates that the module has no public API.</p>
+<p>Even with <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>all</strong></tt> set appropriately, internal interfaces (packages, modules, classes, functions, attributes or other names) should still be prefixed with a single leading underscore.</p>
+<p>An interface is also considered internal if any containing namespace (package, module or class) is considered internal.</p>
+<p>Imported names should always be considered an implementation detail. Other modules must not rely on indirect access to such imported names unless they are an explicitly documented part of the containing module’s API, such as <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">os.path</tt> or a package’s <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>init</strong></tt> module that exposes functionality from submodules.</p>
+<h1 id="Programming-Recommendations"><a href="#Programming-Recommendations" class="headerlink" title="Programming Recommendations"></a><a href="https://www.python.org/dev/peps/pep-0008/#id51" target="_blank" rel="noopener">Programming Recommendations</a></h1><ul>
+<li><p>Code should be written in a way that does not disadvantage other implementations of Python (PyPy, Jython, IronPython, Cython, Psyco, and such).</p>
+<p>For example, do not rely on CPython’s efficient implementation of in-place string concatenation for statements in the form <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">a += b</tt> or <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">a = a + b</tt>. This optimization is fragile even in CPython (it only works for some types) and isn’t present at all in implementations that don’t use refcounting. In performance sensitive parts of the library, the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">‘’.join()</tt> form should be used instead. This will ensure that concatenation occurs in linear time across various implementations.</p>
+</li>
+<li><p>Comparisons to singletons like None should always be done with <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is</tt> or <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is not</tt>, never the equality operators.</p>
+<p>Also, beware of writing <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">if x</tt> when you really mean <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">if x is not None</tt> — e.g. when testing whether a variable or argument that defaults to None was set to some other value. The other value might have a type (such as a container) that could be false in a boolean context!</p>
+</li>
+<li><p>Use <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">is not</tt> operator rather than <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">not … is</tt>. While both expressions are functionally identical, the former is more readable and preferred.</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if foo is not None:
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if not foo is None:
+</pre>
+</li>
+<li><p>When implementing ordering operations with rich comparisons, it is best to implement all six operations (<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>eq</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>ne</strong></tt>,<tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>lt</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>le</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>gt</strong></tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>ge</strong></tt>) rather than relying on other code to only exercise a particular comparison.</p>
+<p>To minimize the effort involved, the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">functools.total_ordering()</tt> decorator provides a tool to generate missing comparison methods.</p>
+<p><a href="https://www.python.org/dev/peps/pep-0207" target="_blank" rel="noopener">PEP 207</a> indicates that reflexivity rules <em>are</em> assumed by Python. Thus, the interpreter may swap <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">y &gt; x</tt> with <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">x &lt; y</tt>, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">y &gt;= x</tt>with <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">x &lt;= y</tt>, and may swap the arguments of <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">x == y</tt> and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">x != y</tt>. The <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">sort()</tt> and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">min()</tt> operations are guaranteed to use the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&lt;</tt> operator and the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">max()</tt> function uses the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">&gt;</tt> operator. However, it is best to implement all six operations so that confusion doesn’t arise in other contexts.</p>
+</li>
+<li><p>Always use a def statement instead of an assignment statement that binds a lambda expression directly to an identifier.</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def f(x): return 2*x
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">f = lambda x: 2*x
+</pre>
+
+<p>The first form means that the name of the resulting function object is specifically ‘f’ instead of the generic ‘<lambda>’. This is more useful for tracebacks and string representations in general. The use of the assignment statement eliminates the sole benefit a lambda expression can offer over an explicit def statement (i.e. that it can be embedded inside a larger expression)</lambda></p>
+</li>
+<li><p>Derive exceptions from <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">Exception</tt> rather than <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">BaseException</tt>. Direct inheritance from <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">BaseException</tt> is reserved for exceptions where catching them is almost always the wrong thing to do.</p>
+<p>Design exception hierarchies based on the distinctions that code <em>catching</em> the exceptions is likely to need, rather than the locations where the exceptions are raised. Aim to answer the question “What went wrong?” programmatically, rather than only stating that “A problem occurred” (see <a href="https://www.python.org/dev/peps/pep-3151" target="_blank" rel="noopener">PEP 3151</a> for an example of this lesson being learned for the builtin exception hierarchy)</p>
+<p>Class naming conventions apply here, although you should add the suffix “Error” to your exception classes if the exception is an error. Non-error exceptions that are used for non-local flow control or other forms of signaling need no special suffix.</p>
+</li>
+<li><p>Use exception chaining appropriately. In Python 3, “raise X from Y” should be used to indicate explicit replacement without losing the original traceback.</p>
+<p>When deliberately replacing an inner exception (using “raise X” in Python 2 or “raise X from None” in Python 3.3+), ensure that relevant details are transferred to the new exception (such as preserving the attribute name when converting KeyError to AttributeError, or embedding the text of the original exception in the new exception message).</p>
+</li>
+<li><p>When raising an exception in Python 2, use <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">raise ValueError(‘message’)</tt> instead of the older form <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">raise ValueError, ‘message’</tt>.</p>
+<p>The latter form is not legal Python 3 syntax.</p>
+<p>The paren-using form also means that when the exception arguments are long or include string formatting, you don’t need to use line continuation characters thanks to the containing parentheses.</p>
+</li>
+<li><p>When catching exceptions, mention specific exceptions whenever possible instead of using a bare <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">except:</tt> clause.</p>
+<p>For example, use:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">try:
+    import platform_specific_module
+except ImportError:
+    platform_specific_module = None
+</pre>
+
+<p>A bare <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">except:</tt> clause will catch SystemExit and KeyboardInterrupt exceptions, making it harder to interrupt a program with Control-C, and can disguise other problems. If you want to catch all exceptions that signal program errors, use <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">except Exception:</tt> (bare except is equivalent to <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">except BaseException:</tt>).</p>
+<p>A good rule of thumb is to limit use of bare ‘except’ clauses to two cases:</p>
+<ol>
+<li>If the exception handler will be printing out or logging the traceback; at least the user will be aware that an error has occurred.</li>
+<li>If the code needs to do some cleanup work, but then lets the exception propagate upwards with <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">raise</tt>. <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">try…finally</tt>can be a better way to handle this case.</li>
+</ol>
+</li>
+<li><p>When binding caught exceptions to a name, prefer the explicit name binding syntax added in Python 2.6:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">try:
+    process_data()
+except Exception as exc:
+    raise DataProcessingFailedError(str(exc))
+</pre>
+
+<p>This is the only syntax supported in Python 3, and avoids the ambiguity problems associated with the older comma-based syntax.</p>
+</li>
+<li><p>When catching operating system errors, prefer the explicit exception hierarchy introduced in Python 3.3 over introspection of <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">errno</tt> values.</p>
+</li>
+<li><p>Additionally, for all try/except clauses, limit the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">try</tt> clause to the absolute minimum amount of code necessary. Again, this avoids masking bugs.</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">try:
+    value = collection[key]
+except KeyError:
+    return key_not_found(key)
+else:
+    return handle_value(value)
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">try:
+    # Too broad!
+    return handle_value(collection[key])
+except KeyError:
+    # Will also catch KeyError raised by handle_value()
+    return key_not_found(key)
+</pre>
+</li>
+<li><p>When a resource is local to a particular section of code, use a <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">with</tt> statement to ensure it is cleaned up promptly and reliably after use. A try/finally statement is also acceptable.</p>
+</li>
+<li><p>Context managers should be invoked through separate functions or methods whenever they do something other than acquire and release resources. For example:</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">with conn.begin_transaction():
+    do_stuff_in_transaction(conn)
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">with conn:
+    do_stuff_in_transaction(conn)
+</pre>
+
+<p>The latter example doesn’t provide any information to indicate that the <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>enter</strong></tt> and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;"><strong>exit</strong></tt> methods are doing something other than closing the connection after a transaction. Being explicit is important in this case.</p>
+</li>
+<li><p>Be consistent in return statements. Either all return statements in a function should return an expression, or none of them should. If any return statement returns an expression, any return statements where no value is returned should explicitly state this as <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">return None</tt>, and an explicit return statement should be present at the end of the function (if reachable).</p>
+<p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def foo(x):
+    if x >= 0:
+        return math.sqrt(x)
+    else:
+        return None
+
+def bar(x):
+    if x < 0:
+        return None
+    return math.sqrt(x)
+</pre>
+
+<p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">def foo(x):
+    if x >= 0:
+        return math.sqrt(x)
+
+def bar(x):
+    if x < 0:
+        return
+    return math.sqrt(x)
+</pre>
+</li>
+<li><p>Use string methods instead of the string module.</p>
+<p>String methods are always much faster and share the same API with unicode strings. Override this rule if backward compatibility with Pythons older than 2.0 is required.</p>
+</li>
+<li><p>Use <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">‘’.startswith()</tt> and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">‘’.endswith()</tt> instead of string slicing to check for prefixes or suffixes.</p>
+<p>startswith() and endswith() are cleaner and less error prone. For example:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: if foo.startswith('bar'):
+No:  if foo[:3] == 'bar':
+</pre>
+</li>
+<li><p>Object type comparisons should always use isinstance() instead of comparing types directly.</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: if isinstance(obj, int):
+
+No:  if type(obj) is type(1):
+</pre>
+
+<p>When checking if an object is a string, keep in mind that it might be a unicode string too! In Python 2, str and unicode have a common base class, basestring, so you can do:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">if isinstance(obj, basestring):
+</pre>
+
+<p>Note that in Python 3, <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">unicode</tt> and <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">basestring</tt> no longer exist (there is only <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">str</tt>) and a bytes object is no longer a kind of string (it is a sequence of integers instead)</p>
+</li>
+<li><p>For sequences, (strings, lists, tuples), use the fact that empty sequences are false.</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes: if not seq:
+     if seq:
+
+No: if len(seq):
+    if not len(seq):
+</pre>
+</li>
+<li><p>Don’t write string literals that rely on significant trailing whitespace. Such trailing whitespace is visually indistinguishable and some editors (or more recently, reindent.py) will trim them.</p>
+</li>
+<li><p>Don’t compare boolean values to True or False using <tt class="docutils literal" style="box-sizing: border-box; margin: 0px; padding: 0px;">==</tt>.</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">Yes:   if greeting:
+No:    if greeting == True:
+Worse: if greeting is True:
+</pre>
+
+</li>
+</ul>
+<h2 id="Function-Annotations"><a href="#Function-Annotations" class="headerlink" title="Function Annotations"></a><a href="https://www.python.org/dev/peps/pep-0008/#id52" target="_blank" rel="noopener">Function Annotations</a></h2><p>With the acceptance of <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a>, the style rules for function annotations are changing.</p>
+<ul>
+<li><p>In order to be forward compatible, function annotations in Python 3 code should preferably use <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> syntax. (There are some formatting recommendations for annotations in the previous section.)</p>
+</li>
+<li><p>The experimentation with annotation styles that was recommended previously in this PEP is no longer encouraged.</p>
+</li>
+<li><p>However, outside the stdlib, experiments within the rules of <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> are now encouraged. For example, marking up a large third party library or application with <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> style type annotations, reviewing how easy it was to add those annotations, and observing whether their presence increases code understandability.</p>
+</li>
+<li><p>The Python standard library should be conservative in adopting such annotations, but their use is allowed for new code and for big refactorings.</p>
+</li>
+<li><p>For code that wants to make a different use of function annotations it is recommended to put a comment of the form:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;"># type: ignore
+</pre>
+
+<p>near the top of the file; this tells type checker to ignore all annotations. (More fine-grained ways of disabling complaints from type checkers can be found in <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a>.)</p>
+</li>
+<li><p>Like linters, type checkers are optional, separate tools. Python interpreters by default should not issue any messages due to type checking and should not alter their behavior based on annotations.</p>
+</li>
+<li><p>Users who don’t want to use type checkers are free to ignore them. However, it is expected that users of third party library packages may want to run type checkers over those packages. For this purpose <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> recommends the use of stub files: .pyi files that are read by the type checker in preference of the corresponding .py files. Stub files can be distributed with a library, or separately (with the library author’s permission) through the typeshed repo <a href="https://www.python.org/dev/peps/pep-0008/#id12" target="_blank" rel="noopener">[5]</a>.</p>
+</li>
+<li><p>For code that needs to be backwards compatible, type annotations can be added in the form of comments. See the relevant section of <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> <a href="https://www.python.org/dev/peps/pep-0008/#id13" target="_blank" rel="noopener">[6]</a>.</p>
+</li>
+</ul>
+<h2 id="Variable-annotations"><a href="#Variable-annotations" class="headerlink" title="Variable annotations"></a><a href="https://www.python.org/dev/peps/pep-0008/#id53" target="_blank" rel="noopener">Variable annotations</a></h2><p><a href="https://www.python.org/dev/peps/pep-0526" target="_blank" rel="noopener">PEP 526</a> introduced variable annotations. The style recommendations for them are similar to those on function annotations described above:</p>
+<ul>
+<li><p>Annotations for module level variables, class and instance variables, and local variables should have a single space after the colon.</p>
+</li>
+<li><p>There should be no space before the colon.</p>
+</li>
+<li><p>If an assignment has a right hand side, then the equality sign should have exactly one space on both sides.</p>
+</li>
+<li><p>Yes:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">code: int
+
+class Point:
+    coords: Tuple[int, int]
+    label: str = '<unknown>'
+</unknown></pre>
+</li>
+<li><p>No:</p>
+<pre class="literal-block" style="box-sizing: border-box; margin: 0px; padding: 0px; overflow: auto; font-family: Menlo, Monaco, Consolas, &quot;Courier New&quot;, monospace; font-size: 13px; display: block; line-height: 1.42857; color: rgb(51, 51, 51); word-break: break-all; word-wrap: break-word; background-color: rgb(245, 245, 245); border: 1px solid rgb(204, 204, 204); border-radius: 4px;">code:int  # No space after colon
+code : int  # Space before colon
+
+class Test:
+    result: int=0  # No spaces around equality sign
+</pre>
+</li>
+<li><p>Although the <a href="https://www.python.org/dev/peps/pep-0526" target="_blank" rel="noopener">PEP 526</a> is accepted for Python 3.6, the variable annotation syntax is the preferred syntax for stub files on all versions of Python (see <a href="https://www.python.org/dev/peps/pep-0484" target="_blank" rel="noopener">PEP 484</a> for details).</p>
+</li>
+</ul>
+<p>Footnotes</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id3" target="_blank" rel="noopener">[7]</a> | <em>Hanging indentation</em> is a type-setting style where all the lines in a paragraph are indented except the first line. In the context of Python, the term is used to describe a style where the opening parenthesis of a parenthesized statement is the last non-whitespace character of the line, with subsequent lines being indented until the closing parenthesis. |</p>
+<h1 id="References"><a href="#References" class="headerlink" title="References"></a><a href="https://www.python.org/dev/peps/pep-0008/#id54" target="_blank" rel="noopener">References</a></h1><p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id1" target="_blank" rel="noopener">[1]</a> | <a href="https://www.python.org/dev/peps/pep-0007" target="_blank" rel="noopener">PEP 7</a>, Style Guide for C Code, van Rossum |</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id2" target="_blank" rel="noopener">[2]</a> | Barry’s GNU Mailman style guide <a href="http://barry.warsaw.us/software/STYLEGUIDE.txt" target="_blank" rel="noopener">http://barry.warsaw.us/software/STYLEGUIDE.txt</a> |</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id4" target="_blank" rel="noopener">[3]</a> | Donald Knuth’s <em>The TeXBook</em>, pages 195 and 196. |</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id5" target="_blank" rel="noopener">[4]</a> | <a href="http://www.wikipedia.com/wiki/CamelCase" target="_blank" rel="noopener">http://www.wikipedia.com/wiki/CamelCase</a> |</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id6" target="_blank" rel="noopener">[5]</a> | Typeshed repo <a href="https://github.com/python/typeshed" target="_blank" rel="noopener">https://github.com/python/typeshed</a> |</p>
+<p><colgroup style="box-sizing: border-box; margin: 0px; padding: 0px;"><col style="box-sizing: border-box; margin: 0px; padding: 0px;"></colgroup><br>| <a href="https://www.python.org/dev/peps/pep-0008/#id7" target="_blank" rel="noopener">[6]</a> | Suggested syntax for Python 2.7 and straddling code <a href="https://www.python.org/dev/peps/pep-0484/#suggested-syntax-for-python-2-7-and-straddling-code" target="_blank" rel="noopener">https://www.python.org/dev/peps/pep-0484/#suggested-syntax-for-python-2-7-and-straddling-code</a> |</p>
+<h1 id="Copyright"><a href="#Copyright" class="headerlink" title="Copyright"></a><a href="https://www.python.org/dev/peps/pep-0008/#id55" target="_blank" rel="noopener">Copyright</a></h1><p>This document has been placed in the public domain.</p>
+<p>Source: <a href="https://github.com/python/peps/blob/master/pep-0008.txt" target="_blank" rel="noopener">https://github.com/python/peps/blob/master/pep-0008.txt</a></p>
+<p>其他翻译版本：</p>
+<p><a href="http://nanshu.wang/post/2015-07-04/" target="_blank" rel="noopener">http://nanshu.wang/post/2015-07-04/</a></p>
+<p><a href="https://lizhe2004.gitbooks.io/code-style-guideline-cn/content/python/python-pep8.html" target="_blank" rel="noopener">https://lizhe2004.gitbooks.io/code-style-guideline-cn/content/python/python-pep8.html</a></p>
+<p><a href="https://alvinzhu.xyz/2017/10/07/python-pep-8/" target="_blank" rel="noopener">https://alvinzhu.xyz/2017/10/07/python-pep-8/</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/IT/PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)/" data-id="cjsuo32fz001ztk5mnlrb6ye5" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-S随笔/我的“北漂”见闻" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/S随笔/我的“北漂”见闻/" class="article-date">
+  <time datetime="2016-11-12T23:00:00.000Z" itemprop="datePublished">2016-11-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/S随笔/">S随笔</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/S随笔/我的“北漂”见闻/">我的&#34;北漂&#34;见闻</a>
+    </h1>
+  
+
+
+      </header>
+
+    
+
+    <div class="article-entry" itemprop="articleBody">
+
+      
+
+                <!-- Table of Contents -->
+                
+                
+        <p>&emsp;&emsp;2013年，为了能有更多的时间陪陪女友和家人，我申请到了在北京一家德企的实习职位。于是从那年的6月起，我回国开始了为期6个月的“北漂”生活。 </p>
+<p>&emsp;&emsp;“北漂”的大部分时间里，我都是借宿在高中好友家（说到这非常感谢舍霸同学）。期间有几次因为好友家人来京等原因，我自己在外边找了几处短期的落脚点。这些地方的住宿条件都没法和好友家相比，不过倒是让我有机会看到了各种各样的北漂族的生活。 </p>
+<img src="/S随笔/我的“北漂”见闻/1_北漂.jpg">
+<h2 id="人人都有幸福的权利"><a href="#人人都有幸福的权利" class="headerlink" title="人人都有幸福的权利"></a>人人都有幸福的权利</h2><p>&emsp;&emsp;我找的第一个房子是通过代理公司，看房子的时候代理说这房子一共住了5个人。当时其他住户都没在，我也没法核实，后来等我住进去，才发现里边算上我实际有8个人，大家就这样住在一个小两室一厅的房子里。我租的次卧算是最大的，只我一个人住，其他人分散在主卧、主卧的厕所以及两个类似储物间的小房间里。 </p>
+<p>&emsp;&emsp;我和其中一对年轻夫妇聊的比较多，他们住在离我最近的那个小房间。房间里只能放下一张稍微宽一点的单人床，再没有别的空地了。吃饭的时候他们会搬一张小桌子放在门口，然后坐在靠近门口的床沿上吃。有一次那姐姐说很羡慕我一个人可以住那么大的房间，她说他们以前住在地下室，后来因为皮肤过敏所以迫不得已搬到了现在住的这个房子，这他们都觉得很贵了。他们的孩子还在农村由爷爷奶奶带着，他们在外打工挣钱，生活上能省就省。 </p>
+<p>&emsp;&emsp;有天晚上大哥来敲我的门，我开开门看见他端着一盘生日蛋糕，非常开心地跟我说:”今天我媳妇生日，跟大家一起庆祝一下。”我边道谢边拿了一块，他便又乐呵呵地去其他人那里送蛋糕了。大家陆陆续续出来拿蛋糕、道谢还有送上生日祝福。那是我难得的一次看到屋里所有人出来，也是很少的几次看到他们夫妻二人那么开心。不需要什么KTV和大餐，只要懂得生活，便会让人内心充满幸福。换句话说，不管物质上过得怎么样，你都有权利感受幸福。 </p>
+<img src="/S随笔/我的“北漂”见闻/2_简单的生活很幸福.png">
+<h2 id="大城市里小小的奋斗"><a href="#大城市里小小的奋斗" class="headerlink" title="大城市里小小的奋斗"></a>大城市里小小的奋斗</h2><p><em>[此处请脑补周杰伦版《蜗牛》]</em></p>
+<p>&emsp;&emsp;后来我搬去了别的地方的一个小房间，房子里只放得下一张床和一张小桌子。不过因为同住的只有一对母女，而且房间很整洁安静，我毫不犹豫的就搬过来了。 </p>
+<p>&emsp;&emsp;转租给我房子的是一位只有二十出头、非常开朗的女孩。我打扫房间时看到她贴在墙上勉励自己的各种字条，诸如“本月销售目标 XXXX”,”我要把体重减到XXX”“我一定能做到！”等等。让我想起来本科时候风靡的那些成功学。</p>
+<p>&emsp;&emsp;开始的时候觉得有点可笑，可是当我想象着，一个背井离乡的女孩，晚上在这个小小的房间里或盘腿坐着或躺着，憧憬着未来，期盼着靠自己的拼搏和努力在京城做出点成就。想象着她为了实现这样一个”小目标“，不断督促和勉励自己。这又有什么可笑的呢，这样的北漂青年正散落在这个大城市的许多角落，为了更好的未来、为了更好的生活而拼搏。 </p>
+<p>&emsp;&emsp;我终归不是一个真正的”北漂“，那时我还只是学生，倒更像一个过客，来体验半年就说再见了，没有太多的压力和负担。或许只有真正置身其中，才能更懂他们的生活。</p>
+<hr>
+<p>本篇文章原发表于我的微信平台: <a href="https://mp.weixin.qq.com/s/I92be3jsboIbWVVkdWVeRA" target="_blank" rel="noopener">豆豆小公主和骑士先生</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://qingnansun.github.io/S随笔/我的“北漂”见闻/" data-id="cjsuo32e7000gtk5m8ka3tcii" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/北漂/">北漂</a></li></ul>
+
+
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
 
 </section>
         
@@ -792,7 +2749,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签云</h3>
     <div class="widget tagcloud">
-      <a href="/tags/SQN规范化建议/" style="font-size: 17.5px;">SQN规范化建议</a> <a href="/tags/app/" style="font-size: 10px;">app</a> <a href="/tags/keras/" style="font-size: 10px;">keras</a> <a href="/tags/knowledgebase/" style="font-size: 20px;">knowledgebase</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/tensorflow/" style="font-size: 12.5px;">tensorflow</a> <a href="/tags/ubuntu/" style="font-size: 12.5px;">ubuntu</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/windows10/" style="font-size: 10px;">windows10</a> <a href="/tags/习惯/" style="font-size: 15px;">习惯</a> <a href="/tags/保护环境/" style="font-size: 10px;">保护环境</a> <a href="/tags/北漂/" style="font-size: 10px;">北漂</a> <a href="/tags/女孩/" style="font-size: 10px;">女孩</a> <a href="/tags/安全建议/" style="font-size: 10px;">安全建议</a> <a href="/tags/摘抄/" style="font-size: 12.5px;">摘抄</a> <a href="/tags/新娘/" style="font-size: 10px;">新娘</a> <a href="/tags/机器学习/" style="font-size: 10px;">机器学习</a> <a href="/tags/激励/" style="font-size: 10px;">激励</a> <a href="/tags/童话/" style="font-size: 10px;">童话</a> <a href="/tags/虚拟机/" style="font-size: 10px;">虚拟机</a> <a href="/tags/记录/" style="font-size: 12.5px;">记录</a> <a href="/tags/贴士/" style="font-size: 10px;">贴士</a> <a href="/tags/软件/" style="font-size: 10px;">软件</a> <a href="/tags/金句/" style="font-size: 12.5px;">金句</a> <a href="/tags/高贵/" style="font-size: 10px;">高贵</a>
+      <a href="/tags/SQN规范化建议/" style="font-size: 17.5px;">SQN规范化建议</a> <a href="/tags/app/" style="font-size: 12.5px;">app</a> <a href="/tags/keras/" style="font-size: 10px;">keras</a> <a href="/tags/knowledgebase/" style="font-size: 20px;">knowledgebase</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/tensorflow/" style="font-size: 12.5px;">tensorflow</a> <a href="/tags/ubuntu/" style="font-size: 12.5px;">ubuntu</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/windows10/" style="font-size: 10px;">windows10</a> <a href="/tags/习惯/" style="font-size: 15px;">习惯</a> <a href="/tags/保护环境/" style="font-size: 10px;">保护环境</a> <a href="/tags/北漂/" style="font-size: 10px;">北漂</a> <a href="/tags/女孩/" style="font-size: 10px;">女孩</a> <a href="/tags/安全建议/" style="font-size: 10px;">安全建议</a> <a href="/tags/摘抄/" style="font-size: 12.5px;">摘抄</a> <a href="/tags/新娘/" style="font-size: 10px;">新娘</a> <a href="/tags/机器学习/" style="font-size: 10px;">机器学习</a> <a href="/tags/激励/" style="font-size: 10px;">激励</a> <a href="/tags/童话/" style="font-size: 10px;">童话</a> <a href="/tags/虚拟机/" style="font-size: 10px;">虚拟机</a> <a href="/tags/记录/" style="font-size: 12.5px;">记录</a> <a href="/tags/贴士/" style="font-size: 10px;">贴士</a> <a href="/tags/软件/" style="font-size: 10px;">软件</a> <a href="/tags/金句/" style="font-size: 12.5px;">金句</a> <a href="/tags/高贵/" style="font-size: 10px;">高贵</a>
     </div>
   </div>
 
@@ -818,7 +2775,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">标签</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/app/">app</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keras/">keras</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/knowledgebase/">knowledgebase</a><span class="tag-list-count">9</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tensorflow/">tensorflow</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubuntu/">ubuntu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows/">windows</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows10/">windows10</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/习惯/">习惯</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/保护环境/">保护环境</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/北漂/">北漂</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/女孩/">女孩</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/安全建议/">安全建议</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/摘抄/">摘抄</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/新娘/">新娘</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/机器学习/">机器学习</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/激励/">激励</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/童话/">童话</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/虚拟机/">虚拟机</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/记录/">记录</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/贴士/">贴士</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/软件/">软件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/金句/">金句</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/高贵/">高贵</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/app/">app</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keras/">keras</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/knowledgebase/">knowledgebase</a><span class="tag-list-count">11</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tensorflow/">tensorflow</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubuntu/">ubuntu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows/">windows</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows10/">windows10</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/习惯/">习惯</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/保护环境/">保护环境</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/北漂/">北漂</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/女孩/">女孩</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/安全建议/">安全建议</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/摘抄/">摘抄</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/新娘/">新娘</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/机器学习/">机器学习</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/激励/">激励</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/童话/">童话</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/虚拟机/">虚拟机</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/记录/">记录</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/贴士/">贴士</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/软件/">软件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/金句/">金句</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/高贵/">高贵</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
