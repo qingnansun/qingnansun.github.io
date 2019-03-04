@@ -1,7 +1,7 @@
 ---
 title: 好用手机app汇总
 date: {{ date }}
-tags:
+tags: [app,knowledgebase]
 categories: 
 permalink:
 ---

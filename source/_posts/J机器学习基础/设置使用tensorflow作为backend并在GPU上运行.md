@@ -1,7 +1,7 @@
 ---
 title: 设置使用tensorflow作为backend并在GPU上运行
 date: 2018-04-23
-tags:
+tags: [tensorflow]
 categories: 
 permalink:
 ---

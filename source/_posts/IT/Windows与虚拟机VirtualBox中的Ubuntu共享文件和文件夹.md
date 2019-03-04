@@ -1,7 +1,7 @@
 ---
 title: Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹
-date: {{ date }}
-tags:
+date: 2018-06-03
+tags: [windows,虚拟机,ubuntu]
 categories: 
 permalink:
 ---

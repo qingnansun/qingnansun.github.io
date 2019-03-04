@@ -1,7 +1,7 @@
 ---
 title: 你真的应该拥有这个习惯记录app
 date: 2019-02-19
-tags:
+tags: [习惯,记录,app]
 categories: 
 permalink: 
 ---

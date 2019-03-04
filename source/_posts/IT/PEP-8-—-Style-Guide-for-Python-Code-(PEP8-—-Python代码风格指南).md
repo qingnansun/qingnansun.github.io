@@ -1,7 +1,7 @@
 ---
 title: PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)
-date: {{ date }}
-tags:
+date: 2018-01-21
+tags: [python,knowledgebase]
 categories: 
 permalink:
 ---
