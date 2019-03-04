@@ -8,9 +8,13 @@
     <% if (post.link || post.title){ %>
       <header class="article-header">
         <%- partial('post/title', {class_name: 'article-title'}) %>
+
       </header>
+
     <% } %>
+
     <div class="article-entry" itemprop="articleBody">
+
       <% if (post.excerpt && index){ %>
         <%- post.excerpt %>
         <% if (theme.excerpt_link){ %>
@@ -19,6 +23,15 @@
           </p>
         <% } %>
       <% } else { %>
+
+                <!-- Table of Contents -->
+                <% if (!index){ %>
+                  <div id="toc" class="toc-article">
+                    <strong class="toc-title">文章目录</strong>
+                    <%- toc(post.content) %>
+                  </div>
+                <% } %>
+                
         <%- post.content %>
       <% } %>
     </div>

@@ -36,3 +36,8 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# 目录
+toc: 
+  enable: true
+  number: false

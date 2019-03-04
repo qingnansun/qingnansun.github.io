@@ -8,17 +8,6 @@ permalink:
 
 这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。
 
-目录
-
-*   1 查看Ubuntu版本
-*   2 不同Ubuntu版本上的python3.6的安装
-    *   2.1 Ubuntu 14.04 and 16.04
-    *   2.2 Ubuntu 16.10 and 17.04
-    *   2.3 Ubuntu 17.10
-*   3 设置python3.6为系统默认
-    *   3.1 设置python命令默认使用python3.6
-    *   3.2 设置python3命令默认使用python3.6
-*   4 参考资料
 
 # 查看Ubuntu版本
 
