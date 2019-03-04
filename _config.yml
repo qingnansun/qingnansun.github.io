@@ -87,3 +87,10 @@ deploy:
   type: git
   repository: https://github.com/qingnansun/qingnansun.github.io
   branch: master
+
+
+# Automatically generate category
+# https://www.npmjs.com/package/hexo-directory-category
+auto_dir_categorize:
+  enable: true  # options:true, false; default is true
+  force: true # options:true, false; default is false
