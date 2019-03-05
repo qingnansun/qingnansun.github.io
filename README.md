@@ -12,22 +12,22 @@ Creat the following the mapcounter file
 Themes\landscape\layout\_widget\mapcounter.ejs
 
 ```
-    <div class="widget-wrap">
-        <h3 class="widget-title"><%= __('Counter') %></h3>
-        <div class="widget">
-            <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0n4gowqtyrd&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
-        </div>
+<div class="widget-wrap">
+    <h3 class="widget-title"><%= __('Counter') %></h3>
+    <div class="widget">
+        <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0n4gowqtyrd&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
     </div>
+</div>
 ```
 Then add the mapcounter widget in the themes Configure file
 ```
-	widgets:
-	- category
-	- tag
-	- tagcloud
-	- archive
-	- recent_posts
-	- mapcounter
+widgets:
+- category
+- tag
+- tagcloud
+- archive
+- recent_posts
+- mapcounter
 ```
 
 ## SEO
@@ -68,13 +68,13 @@ Use the plugin [hexo-directory-category](https://www.npmjs.com/package/hexo-dire
 \themes\landscape\layout\_partial\article.ejs
 
 ```
-    <!-- Table of Contents -->
-    <% if (!index){ %>
-    <div id="toc" class="toc-article">
-    <strong class="toc-title">文章目录</strong>
-    <%- toc(post.content) %>
-    </div>
-    <% } %>
+<!-- Table of Contents -->
+<% if (!index){ %>
+<div id="toc" class="toc-article">
+<strong class="toc-title">文章目录</strong>
+<%- toc(post.content) %>
+</div>
+<% } %>
 ```
 ### 修改目录样式
 \themes\landscape\source\css\_partial
