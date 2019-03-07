@@ -1,13 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head><meta name="generator" content="Hexo 3.8.0">
-  <meta charset="utf-8">
-  
+
+
 
   
-  <title>SQN - 生活与思考</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="分享我生活和学习中的一点感悟和思考">
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="分享我生活和学习中的一点感悟和思考">
 <meta name="keywords" content="生活,机器学习,思考,分享,随笔,杂谈">
 <meta property="og:type" content="website">
 <meta property="og:title" content="SQN - 生活与思考">
@@ -18,237 +90,535 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SQN - 生活与思考">
 <meta name="twitter:description" content="分享我生活和学习中的一点感悟和思考">
-  
-    <link rel="alternate" href="/atom.xml" title="SQN - 生活与思考" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
 
 
-  <!-- 加载gitment的css和js文件 -->
-  <link rel="stylesheet" href="/css/gitment.css"> 
-  <script src="/js/gitment.js"></script>
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://qingnansun.github.io/">
+
+
+
+
+
+  <title>SQN - 生活与思考</title>
+  
+
+
+
+
+
+
+
 
 </head>
-</html>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">SQN - 生活与思考</a>
-      </h1>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">SQN - 生活与思考</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://qingnansun.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-KnowledgeBase-20190306-KnowledgeBase-IT疑难" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/" class="article-date">
-  <time datetime="2019-03-06T12:53:24.000Z" itemprop="datePublished">2019-03-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/KnowledgeBase/">KnowledgeBase</a>
+        <p class="site-subtitle"></p>
+      
   </div>
 
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/">KnowledgeBase-IT</a>
-    </h1>
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
   
 
+  
+</nav>
 
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/KnowledgeBase-20190306-KnowledgeBase-IT疑难/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/" itemprop="url">KnowledgeBase-IT</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-03-06T13:53:24+01:00">
+                2019-03-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/KnowledgeBase/" itemprop="url" rel="index">
+                    <span itemprop="name">KnowledgeBase</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          解决IT相关问题的知识库
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        <h2 id="硬盘有盘符但是无法读取-“The-device-is-not-ready”"><a href="#硬盘有盘符但是无法读取-“The-device-is-not-ready”" class="headerlink" title="硬盘有盘符但是无法读取 “The device is not ready”"></a>硬盘有盘符但是无法读取 “The device is not ready”</h2><p>尝试网上说的各种方法，主要涵盖在以下两个链接中。</p>
-<ul>
-<li><p><a href="https://appuals.com/fix-the-device-is-not-ready-on-windows-7-8-and-10/" target="_blank" rel="noopener">Fix: The device is not ready on Windows 7, 8 and 10</a></p>
-</li>
-<li><p><a href="http://www.eassos.com/how-to/recover-data-from-portable-hard-drive.php" target="_blank" rel="noopener">How To Recover Data From Portable Hard Drive</a></p>
-</li>
-</ul>
-<p>如果均无效果，考虑恢复文件后格式化硬盘。恢复文件可以使用</p>
-<ul>
-<li><a href="http://www.eassos.com/eassos-recovery.php" target="_blank" rel="noopener">EassosRecovery</a> - <a href="http://www.eassos.com/blog/fix-the-device-is-not-ready-error-without-losing-data/" target="_blank" rel="noopener">参考</a></li>
-<li>WinHex (在U盘格式化问题时成功应用)</li>
-<li>DiskGenius</li>
-<li>testdisk-7.1-WIP</li>
-</ul>
-<h2 id="CHKDSK-is-not-available-for-RAW-drives"><a href="#CHKDSK-is-not-available-for-RAW-drives" class="headerlink" title="CHKDSK is not available for RAW drives"></a>CHKDSK is not available for RAW drives</h2><p><a href="https://www.m3datarecovery.com/raw-to-ntfs/chkdsk-not-available-for-raw-drives.html" target="_blank" rel="noopener">M3 data recovery</a></p>
-
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/KnowledgeBase-20190306-KnowledgeBase-IT疑难/" data-id="cjsyst1qf00079c5m7c9yqz6y" class="article-share-link">Share</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
-
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-应该养成的各种好习惯" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-应该养成的各种好习惯/" class="article-date">
-  <time datetime="2019-02-26T17:06:45.838Z" itemprop="datePublished">2019-02-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-应该养成的各种好习惯/">应该养成的各种好习惯</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-应该养成的各种好习惯/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-应该养成的各种好习惯/" itemprop="url">应该养成的各种好习惯</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T18:06:45+01:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <h1 id="工作学习类"><a href="#工作学习类" class="headerlink" title="工作学习类"></a>工作学习类</h1><p>不要频繁查阅邮箱，每天固定查看几次，如早、中、晚三次<br>定期清空和存档收件箱中的邮件<br>合理使用甘特图、Task和日程等进行任务规划</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="工作学习类"><a href="#工作学习类" class="headerlink" title="工作学习类"></a>工作学习类</h1><p>不要频繁查阅邮箱，每天固定查看几次，如早、中、晚三次<br>定期清空和存档收件箱中的邮件<br>合理使用甘特图、Task和日程等进行任务规划</p>
 <h1 id="生活类"><a href="#生活类" class="headerlink" title="生活类"></a>生活类</h1><h2 id="健康饮食"><a href="#健康饮食" class="headerlink" title="健康饮食"></a>健康饮食</h2><p>要吃早饭，如果实在来不及，可以准备酸奶和燕麦<br>鸡蛋每次少煮，当天吃完<br>煮鸡蛋时间不要过长，3分钟开水煮+2分钟盖盖子静置为宜，蛋黄外不要出现淡绿色硫化物<br>吃饭时不过量饮水<br>吃健康的食物，如橄榄等<br>吃充足的水果和绿色蔬菜<br>少吃膨化食品、速食和碳酸饮料<br>不要过度饮酒和酗酒</p>
 <h2 id="个人卫生"><a href="#个人卫生" class="headerlink" title="个人卫生"></a>个人卫生</h2><p>房间经常通风<br>每周用吸尘器吸地<br>每个月换床单、枕巾等床上用品<br>勤剪指甲，手指甲剪成圆弧状，脚趾甲剪成平的，防止甲沟炎<br>每1到3天换洗内裤<br>内裤换下后及时清洗晾晒<br>用过的碗筷和厨具及时清理<br>用品用完后摆放在原位，养成习惯<br>衣物等叠好或者挂好整齐摆放<br>每天排便，尽量在固定的时间<br>注意观察自己的排便情况，如果不是三型或四型便，则需要注意调整饮食和生活习惯<br>（大便分型参见布里斯托大便分类法：<a href="https://zh.wikipedia.org/wiki/%E5%B8%83%E9%87%8C%E6%96%AF%E6%89%98%E5%A4%A7%E4%BE%BF%E5%88%86%E9%A1%9E%E6%B3%95" target="_blank" rel="noopener">LINK1</a> 和 <a href="https://baike.baidu.com/item/%E5%B8%83%E9%87%8C%E6%96%AF%E6%89%98%E5%A4%A7%E4%BE%BF%E5%88%86%E7%B1%BB%E6%B3%95" target="_blank" rel="noopener">LINK2_图</a>)</p>
 <h1 id="日常礼仪"><a href="#日常礼仪" class="headerlink" title="日常礼仪"></a>日常礼仪</h1><p>递给别人剪刀、螺丝刀等工具时，把刀把递给别人，防止划伤对方<br>接过别人递送的上述工具时，动作缓慢，防止划伤对方<br>如果对方是把剪刀头冲着你递过来，更要小心和缓慢，不要伤到自己<br>过推拉门时，如果是需要推，慢慢推开，防止门后有人和伤到他<br>过推拉门时，如果是需要拉，要防范门外的人使劲推门撞到你<br>进出门、电梯时，礼貌的为后边来的人“挡门”<br>公共场合不要大声喧哗以及高谈阔论、不要大声打电话<br>公共场合不要把鞋踩在座位上<br>听耳机音乐不要太大，一方面对耳朵不好，漏音的话还会影响周围的人<br>洗完手之后不要用力甩，尤其不要甩到周围人身上<br>如果要通过微信给别人银行账号，给别人文字版，不要拍张照片了事</p>
 <p>手里拿着刀叉筷子等餐具时要小心拿好/放好，避免横握在手中，防止伤到别人，尤其是小孩子(因为大人手握刀叉自然放下时，大约是小孩子头的位置)</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-应该养成的各种好习惯/" data-id="cjsyst20o00229c5minfo35f3" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/习惯/">习惯</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-一些小贴士-激励我的句子" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-一些小贴士-激励我的句子/" class="article-date">
-  <time datetime="2019-02-26T17:06:45.836Z" itemprop="datePublished">2019-02-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-一些小贴士-激励我的句子/">一些小贴士-激励我的句子</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-一些小贴士-激励我的句子/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-一些小贴士-激励我的句子/" itemprop="url">一些小贴士-激励我的句子</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T18:06:45+01:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>用一张大纸规划进度<br>利用复印的方法看书写是否足够美观<br>从开始就准备些论文的材料<br>先做出，再做好<br>证书和文件及时扫描存档<br>每天拿点时间提升专业修养<br>掌握科学的休息方法<br>要有接纳混乱的心态</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>用一张大纸规划进度<br>利用复印的方法看书写是否足够美观<br>从开始就准备些论文的材料<br>先做出，再做好<br>证书和文件及时扫描存档<br>每天拿点时间提升专业修养<br>掌握科学的休息方法<br>要有接纳混乱的心态</p>
 <p>写下最重要的20件事并选出其中五件<br>Now is the best timing.<br>不要等待一个更好的时机<br>做孩子的榜样<br>赶时间，其实也没有那么赶<br>当回头看时，应该是笑着的<br>人莫鉴于流水，而鉴于止水</p>
 <p>宁静是一种规格很高的品质</p>
 <p>抓住重点，表达自己的观点<br>teamwork keep the team work</p>
@@ -256,134 +626,294 @@
 <p>以前有时太幼稚 年轻气盛，不professional,不过现在努力还来得及</p>
 <p>2017 大格局 大世界</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-一些小贴士-激励我的句子/" data-id="cjsyst207001y9c5mi47mtgnl" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/激励/">激励</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/贴士/">贴士</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-待看的内容汇总" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-待看的内容汇总/" class="article-date">
-  <time datetime="2019-02-26T17:06:45.832Z" itemprop="datePublished">2019-02-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-待看的内容汇总/">待看的内容汇总</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-待看的内容汇总/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-待看的内容汇总/" itemprop="url">待看的内容汇总</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T18:06:45+01:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>英语和德语发音<br>管理类考试<br>gimp<br>inkscape<br>latex<br>dreampark software</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>英语和德语发音<br>管理类考试<br>gimp<br>inkscape<br>latex<br>dreampark software</p>
 <p>飞信设置</p>
 <p>何炅，刘在时<br>沙漠之花<br>黑镜<br>人生七年</p>
 <p>kassenlaufbandwarentrenndings</p>
 <p>#待看书<br>如何看一幅画<br>西藏生死之书</p>
 <p>#待看电影/纪录片<br>无名之辈<br>香水<br>红海行动<br>美国田园下的罪恶<br>15:17到巴黎<br>末代皇帝<br>时空恋旅人<br>一个人的一天<br>神奇动物<br>脉动地球<br>《Die Verführerin Adele Spitzeder》（女骗子阿黛尔）<br><a href="http://www.imdb.com/title/tt5673782/" target="_blank" rel="noopener">关于爱因斯坦纪录片</a><br><a href="http://v.qq.com/detail/i/ikxchucuasht4gy.html" target="_blank" rel="noopener">德雷斯顿大轰炸 资源1</a><br><a href="http://www.tudou.com/programs/view/mH-GiGI9wVc" target="_blank" rel="noopener">​德雷斯顿大轰炸 资源2</a><br><a href="http://yuedu.163.com/book/category/category/12000/12001/1_0_0_1" target="_blank" rel="noopener">国家人文历史</a><br><a href="https://www.youtube.com/watch?v=9F880xaDVEY&amp;list=PL7rlaqGaU50en9r2YVlxIQkL-v0NPehv3" target="_blank" rel="noopener">耶鲁大学 音乐鉴赏全集</a><br><a href="https://en.wikipedia.org/wiki/Underground_(1995_film" target="_blank" rel="noopener">Underground (1995 film)</a>)<br><a href="https://theculturetrip.com/europe/serbia/articles/11-iconic-serbian-films-you-need-to-watch-before-you-go/" target="_blank" rel="noopener">11 Iconic Serbian Films You Need to Watch Before You Go</a><br>黑镜</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-待看的内容汇总/" data-id="cjsyst20s00259c5m4qh0jrko" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-好用手机app汇总" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-好用手机app汇总/" class="article-date">
-  <time datetime="2019-02-26T17:06:45.808Z" itemprop="datePublished">2019-02-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-好用手机app汇总/">好用手机app汇总</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-好用手机app汇总/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-好用手机app汇总/" itemprop="url">好用手机app汇总</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T18:06:45+01:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>以下是我经常使用的手机app（安卓）的汇总。加粗的是目前使用比较多的app。希望能给大家一点参考。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>以下是我经常使用的手机app（安卓）的汇总。加粗的是目前使用比较多的app。希望能给大家一点参考。</p>
 <h1 id="自我提升"><a href="#自我提升" class="headerlink" title="自我提升"></a>自我提升</h1><p><strong>十点读书</strong><br><strong>Habits习惯</strong>:记录习惯进行打卡的小app，很好用<br><strong>简书</strong><br>得到<br>微信读书<br>keep<br>MiFit小米运动</p>
 <h1 id="社交软件"><a href="#社交软件" class="headerlink" title="社交软件"></a>社交软件</h1><p><strong>微信</strong><br><strong>skype</strong><br><strong>Whatsapp</strong><br><strong>Instagram</strong><br>QQ<br>和飞信AndFetion<br>Telegram<br>Viber<br>Facebook</p>
 <h1 id="效率提升-时间管理"><a href="#效率提升-时间管理" class="headerlink" title="效率提升/时间管理"></a>效率提升/时间管理</h1><p><strong>Gmail</strong><br><strong>Inbox</strong><br><strong>Focus To-Do(疯狂番茄)</strong><br><strong>Google Calendar</strong><br><strong>Business Calendar</strong>:用于生成桌面日历插件<br><strong>Google remote desktop</strong>:远程控制电脑<br><strong>Gtasks</strong>:用于生成桌面Task插件<br>Tasks</p>
@@ -395,67 +925,147 @@
 <h1 id="银行金融"><a href="#银行金融" class="headerlink" title="银行金融"></a>银行金融</h1><p><strong>TWINT</strong><br><strong>TC Security</strong><br><strong>TC Mobile</strong><br><strong>Swisscard</strong><br>IQ option<br>Duo Mobile</p>
 <h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p><strong>Chrome</strong>: 谷歌浏览器<br>猎豹清理大师<br>Night shift: 消除手机屏幕蓝光<br>K-Classic：德国Kaufland公司电话卡管理<br>Microsoft Authenticator: 用于学校提供的office365的验证</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-好用手机app汇总/" data-id="cjsyst20h00219c5mpmepnwlz" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/app/">app</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-有用网站汇总" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-有用网站汇总/" class="article-date">
-  <time datetime="2019-02-26T17:06:45.796Z" itemprop="datePublished">2019-02-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-有用网站汇总/">有用网站汇总</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-有用网站汇总/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-有用网站汇总/" itemprop="url">有用网站汇总</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T18:06:45+01:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <h1 id="有用网站汇总"><a href="#有用网站汇总" class="headerlink" title="有用网站汇总"></a>有用网站汇总</h1><h2 id="CS相关教程"><a href="#CS相关教程" class="headerlink" title="CS相关教程"></a>CS相关教程</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰的官网</a><br><a href="https://morvanzhou.github.io/" target="_blank" rel="noopener">莫烦的机器学习教程</a></p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="有用网站汇总"><a href="#有用网站汇总" class="headerlink" title="有用网站汇总"></a>有用网站汇总</h1><h2 id="CS相关教程"><a href="#CS相关教程" class="headerlink" title="CS相关教程"></a>CS相关教程</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰的官网</a><br><a href="https://morvanzhou.github.io/" target="_blank" rel="noopener">莫烦的机器学习教程</a></p>
 <h2 id="编程练习"><a href="#编程练习" class="headerlink" title="编程练习"></a>编程练习</h2><p><a href="https://leetcode.com" target="_blank" rel="noopener">leetcode</a><br><a href="https://leetcode-cn.com/" target="_blank" rel="noopener">领扣</a></p>
 <h2 id="一些开源站点"><a href="#一些开源站点" class="headerlink" title="一些开源站点"></a>一些开源站点</h2><p><a href="https://opensource.fb.com" target="_blank" rel="noopener">Facebook Opensource</a></p>
 <h2 id="强化学习开源项目"><a href="#强化学习开源项目" class="headerlink" title="强化学习开源项目"></a>强化学习开源项目</h2><p><a href="https://code.fb.com/ml-applications/horizon" target="_blank" rel="noopener">Horizon RL plattform</a></p>
@@ -466,67 +1076,147 @@
 <h2 id="Uni-Bern"><a href="#Uni-Bern" class="headerlink" title="Uni Bern"></a>Uni Bern</h2><p><a href="https://mail.campus.unibe.ch" target="_blank" rel="noopener">Webmail</a></p>
 <p>(不断完善中)</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-有用网站汇总/" data-id="cjsyst20y00279c5m4e8nbt4w" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-IT-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/IT-hello-world/" class="article-date">
-  <time datetime="2019-02-26T14:00:24.156Z" itemprop="datePublished">2019-02-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/IT/">IT</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/IT-hello-world/">Hello World</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/IT-hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/IT-hello-world/" itemprop="url">Hello World</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-26T15:00:24+01:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -536,65 +1226,147 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/IT-hello-world/" data-id="cjsyst1qd00069c5mqqexz5ph" class="article-share-link">Share</a>
-      
-      
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
+      
 
-<!-- 主页不要加载gitment -->
+      
 
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-保护环境，这些小事我们可以做" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-保护环境，这些小事我们可以做/" class="article-date">
-  <time datetime="2019-02-23T23:00:00.000Z" itemprop="datePublished">2019-02-24</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-保护环境，这些小事我们可以做/">保护环境，这些小事我们可以做</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-保护环境，这些小事我们可以做/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-保护环境，这些小事我们可以做/" itemprop="url">保护环境，这些小事我们可以做</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-24T00:00:00+01:00">
+                2019-02-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>保护环境看似是一个很大的话题，因为需要世界各国政府部门的推动。然而也是一个很小的话题，小到我们通过自己的努力就能做出很大的贡献。说保护环境的方法前，先说说为什么想写这样一篇文章。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>保护环境看似是一个很大的话题，因为需要世界各国政府部门的推动。然而也是一个很小的话题，小到我们通过自己的努力就能做出很大的贡献。说保护环境的方法前，先说说为什么想写这样一篇文章。</p>
 <p>想必你也看过许多关于环境污染的文章，例如《<a href="https://www.bbc.com/zhongwen/simp/science-42946353" target="_blank" rel="noopener">塑料污染：鲸鱼的痛苦你应该懂</a>》, 《<a href="https://www.rfa.org/mandarin/yataibaodao/huanjing/hc-06052018104447.html" target="_blank" rel="noopener">联合国环境署：塑料污染正在吞噬地球环境</a>》等等。 然而最触动我的，是下边这篇2018年关于北极熊的文章《<strong><a href="http://www.sohu.com/a/245490547_673388" target="_blank" rel="noopener">北极圈罕见32℃高温！有生之年，或许我们再也看不到北极熊了</a></strong>》。看完之后心里很不是滋味，希望能通过自己的努力，多为环境保护做一些贡献。也希望能有更多的人加入到有意识的保护环境的队伍中来。</p>
 <p>现在就让我们看看，怎么从身边的小事做起保护环境吧。</p>
 <h1 id="通用建议"><a href="#通用建议" class="headerlink" title="通用建议"></a>通用建议</h1><ul>
@@ -620,67 +1392,147 @@
 <p>（未完待续…持续添加…）</p>
 <h1 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h1><p><a href="http://edu.sina.com.cn/a/2015-09-06/1152262974.shtml" target="_blank" rel="noopener">21岁荷兰少年暂停学业拯救海洋 众筹集资金</a><br><a href="http://technews.tw/2017/10/22/the-uk-gets-its-first-ocean-cleaning-seabin/" target="_blank" rel="noopener">英國可望大規模架設海上垃圾桶「Seabin」淨化海洋</a><br><a href="https://blogs.worldbank.org/voices/ch/five-things-you-can-do-end-plastic-pollution" target="_blank" rel="noopener">终结塑料污染，您可以做五件事</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-保护环境，这些小事我们可以做/" data-id="cjsyst204001x9c5mxd3bvm13" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/保护环境/">保护环境</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-IT-你真的应该拥有这个习惯记录app" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/IT-你真的应该拥有这个习惯记录app/" class="article-date">
-  <time datetime="2019-02-18T23:00:00.000Z" itemprop="datePublished">2019-02-19</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/IT/">IT</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/IT-你真的应该拥有这个习惯记录app/">你真的应该拥有这个习惯记录app</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/IT-你真的应该拥有这个习惯记录app/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/IT-你真的应该拥有这个习惯记录app/" itemprop="url">你真的应该拥有这个习惯记录app</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-19T00:00:00+01:00">
+                2019-02-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。</p>
 <ol>
 <li><p>名字<br>app的名字叫“习惯”，英文版叫“Habits”或者“Loop Habits”，图标是一个顺时针旋转的白色箭头。</p>
 <img src="/IT-你真的应该拥有这个习惯记录app/1_图标.png" title="图标">
@@ -703,133 +1555,293 @@
 </li>
 </ol>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/IT-你真的应该拥有这个习惯记录app/" data-id="cjsyst1qi00089c5mwd2q2wqi" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/app/">app</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/习惯/">习惯</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/记录/">记录</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-这些事情帮我打开了新的天地" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-这些事情帮我打开了新的天地/" class="article-date">
-  <time datetime="2019-02-18T23:00:00.000Z" itemprop="datePublished">2019-02-19</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-这些事情帮我打开了新的天地/">这些事情帮我打开了新的天地</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-这些事情帮我打开了新的天地/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-这些事情帮我打开了新的天地/" itemprop="url">这些事情帮我打开了新的天地</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-19T00:00:00+01:00">
+                2019-02-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>以下记录的是一些曾经让我觉得：“<strong>不试不知道，一试忘不掉</strong>”的事情/软件等。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>以下记录的是一些曾经让我觉得：“<strong>不试不知道，一试忘不掉</strong>”的事情/软件等。</p>
 <h1 id="生活习惯"><a href="#生活习惯" class="headerlink" title="生活习惯"></a>生活习惯</h1><p>酸奶加燕麦：准备早餐原来如此简单</p>
 <h1 id="各种尝试"><a href="#各种尝试" class="headerlink" title="各种尝试"></a>各种尝试</h1><p>建立个人网站：做网站不难，而且会上瘾的<br>击剑：速度与技巧的集合，锻炼集中注意力<br>射箭：更加了解自己的身体，使用肩部力量</p>
 <h1 id="软件-app类"><a href="#软件-app类" class="headerlink" title="软件/app类"></a>软件/app类</h1><p>文件自动备份系统（如MyCloud和MyPassport等）：备份在手，心里不慌。<br>Github/Gitlab：代码管理如此轻松<br>Markdown：轻量化的文本撰写语言，简书也兼容</p>
 <p><em>未完待续</em></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-这些事情帮我打开了新的天地/" data-id="cjsyst218002c9c5m13smn9u6" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/记录/">记录</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-让我们觉得自己有高贵灵魂的一些小事" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" class="article-date">
-  <time datetime="2019-02-16T23:00:00.000Z" itemprop="datePublished">2019-02-17</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/">让我们觉得自己有高贵灵魂的一些小事</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" itemprop="url">让我们觉得自己有高贵灵魂的一些小事</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-17T00:00:00+01:00">
+                2019-02-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>文章里说的都是很小很小的小事，也许小到真的只是举手之劳，可是细细想来，能做到这些小事，便能为自己和别人提供一丝方便。点点滴滴，把我们塑造成了高贵的人。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>文章里说的都是很小很小的小事，也许小到真的只是举手之劳，可是细细想来，能做到这些小事，便能为自己和别人提供一丝方便。点点滴滴，把我们塑造成了高贵的人。</p>
 <p>此外，本文作者在德国和瑞士生活多年，文中的一些“小事”在这两个国家都是司空见惯的小事，然而在国内，需要我们一起的努力，把这些小事一步一步变成习惯。</p>
 <h1 id="为他人着想"><a href="#为他人着想" class="headerlink" title="为他人着想"></a>为他人着想</h1><ol>
 <li>进出门时，主动为后边的人扶门。</li>
@@ -858,67 +1870,147 @@
 <li>礼貌地开关门，不要使劲摔门，一方面保护公物，另一方面也减少噪音防止吵到别人。</li>
 </ol>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" data-id="cjsyst212002a9c5m6mkzpttm" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/高贵/">高贵</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/" class="article-date">
-  <time datetime="2019-02-05T23:00:00.000Z" itemprop="datePublished">2019-02-06</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/">重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/" itemprop="url">重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-02-06T00:00:00+01:00">
+                2019-02-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>（本文章适用于Windows 10系统的用户）</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>（本文章适用于Windows 10系统的用户）</p>
 <p>1月15日上班的时候发现实验室的电脑挂了，彻底没有反应了。本来以为是电源的原因，不过测试后发现电源没问题，推测为主板的原因。所以导师让我买了个新电脑，当天就买回来并开始一步步把目前需要的软件安装好了。</p>
 <p>好在之前的使用习惯比较好（下边的”原则性建议“里有具体讲）数据都存在HDD硬盘里，SSD的系统盘里基本没有存东西。这样的话把原来的2T的HDD硬盘拆下来插在新电脑的额外硬盘插槽里，以前的数据都完好的等待我使用了。另外我还对重要的工作文件进行了西部数据MyCloud Mirror Gen2的镜像备份，这个以后再细说。下边先讲讲Windows的使用部分建议以及有用的软件。</p>
 <p>#原则性建议</p>
@@ -999,67 +2091,147 @@
 <li>连接到Zonula server后，在software文件夹中可以找到部分上述软件。在我本地电脑，我将必要软件安装程序存储于<em>D:\0_WD_other\IMPORTANT_setups</em></li>
 </ol>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/" data-id="cjsyst21j002h9c5me1aj5f1e" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/习惯/">习惯</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/软件/">软件</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/" class="article-date">
-  <time datetime="2019-01-17T23:00:00.000Z" itemprop="datePublished">2019-01-18</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/">机器学习利用第三方库自动寻找最优参数时报错的一点总结</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/" itemprop="url">机器学习利用第三方库自动寻找最优参数时报错的一点总结</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-01-18T00:00:00+01:00">
+                2019-01-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/J机器学习基础/" itemprop="url" rel="index">
+                    <span itemprop="name">J机器学习基础</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>&emsp;&emsp;目前的实验中我在用深度学习构建神经网络，开始的时候我一般是随机手调几个数大致看下效果，有时候如果需要知道网络效果随参数变化的趋势，就用for循环自动运行许多实验，然后我来收结果并用matlab批量分析。今天同事给我推荐了两个github上的库，利用这两个库可以实现对模型多次的运行并评价系统的运行结果。这个过程中不涉及对系统的优化，只是通过大量的自动运行的实验通过统计学的角度来比较什么样的参数相对较好。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>&emsp;&emsp;目前的实验中我在用深度学习构建神经网络，开始的时候我一般是随机手调几个数大致看下效果，有时候如果需要知道网络效果随参数变化的趋势，就用for循环自动运行许多实验，然后我来收结果并用matlab批量分析。今天同事给我推荐了两个github上的库，利用这两个库可以实现对模型多次的运行并评价系统的运行结果。这个过程中不涉及对系统的优化，只是通过大量的自动运行的实验通过统计学的角度来比较什么样的参数相对较好。</p>
 <p>&emsp;&emsp;这两个库分别为<a href="https://github.com/HIPS/Spearmint" target="_blank" rel="noopener">Spearmint</a> 和 <a href="https://github.com/fmfn/BayesianOptimization" target="_blank" rel="noopener">BayesianOptimization</a>.详细的介绍、安装方法和例子在各自的网站里都有写，我就不赘述了。目前我正在尝试使用Spearmint方法，所以先把安装过程中的一点小提示写在这里。</p>
 <p>&emsp;&emsp;首先，这个库是在python 2.7环境的，如果你使用python 3 的话会遇到一些问题，所以建议使用2.7.</p>
 <p>&emsp;&emsp;其次，新版的scipy中weave模块已经独立出来，所以原来的文件中使用的<code>scipy.weave as weave</code>语句就没法使用了，会报错。有人建议如下修改</p>
@@ -1074,67 +2246,147 @@
 <hr>
 <p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/machinelearning-automatic-best-parameters" target="_blank" rel="noopener">qingnansun.com</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/" data-id="cjsyst1qr000e9c5m9x8piw0p" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/机器学习/">机器学习</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/" class="article-date">
-  <time datetime="2018-12-23T23:00:00.000Z" itemprop="datePublished">2018-12-24</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/D读书笔记/">D读书笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/" itemprop="url">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-24T00:00:00+01:00">
+                2018-12-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/D读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">D读书笔记</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。</p>
 <h1 id="“你”的致命缺陷"><a href="#“你”的致命缺陷" class="headerlink" title="“你”的致命缺陷"></a>“你”的致命缺陷</h1><p>若我做到了，就请你一遍一遍读这封信，直到它将你的虚荣心全部吞噬。</p>
 <p>我发现你更适合于一种文化层次较低的友谊，我这样说只是出于友人的坦诚，不带半点责备意味。所有伙伴关系的维系纽带，不管是婚姻还是友谊，最终都归于对话，而对话必须要有一个共同的基础。</p>
 <p>它就是你性格中恨远大于爱。你对父亲的恨是如此之深，它完全超过甚至能推翻你对我的爱，这种恨使你对我的爱蒙受阴影。</p>
@@ -1172,131 +2424,291 @@
 <p>如果出狱后哪位朋友举行宴会但不邀请我参加，我是不会心存芥蒂的。独处时我将会无比快乐。拥有自由、书籍、鲜花和月亮的人怎会不快乐？。。。但是，如果出狱后哪位朋友忧伤满腹却拒绝让我为其分忧解难，我将倍感痛苦。</p>
 <p>在《道连-格雷》一书的某章中我曾说：“一个人在选择他的敌人时，无论怎么小心都不为过。”我实在想不到自己会被一个贱民造就成了一个贱民。</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/" data-id="cjsyst1ql000a9c5mylxmfovj" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/金句/">金句</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-D读书笔记-金句摘抄" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/D读书笔记-金句摘抄/" class="article-date">
-  <time datetime="2018-12-02T23:00:00.000Z" itemprop="datePublished">2018-12-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/D读书笔记/">D读书笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/D读书笔记-金句摘抄/">金句摘抄</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/D读书笔记-金句摘抄/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/D读书笔记-金句摘抄/" itemprop="url">金句摘抄</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-12-03T00:00:00+01:00">
+                2018-12-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/D读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">D读书笔记</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>From this day to the ending of the world,<br>But we in it shall be remembered, —<br>We few, we happy few, we band of brothers.<br>For he to-day that sheds his blood with me,<br>Shall be my brother;<br><em>from Henry V, spoken by King Henry</em></p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>From this day to the ending of the world,<br>But we in it shall be remembered, —<br>We few, we happy few, we band of brothers.<br>For he to-day that sheds his blood with me,<br>Shall be my brother;<br><em>from Henry V, spoken by King Henry</em></p>
 <p>守夜人誓言：「长夜将至，我从今开始守望，至死方休。我将不娶妻、不封地、不生子。我将不戴宝冠，不争荣宠。我将尽忠职守，生死於斯。我是黑暗中的利剑，长城中的守卫。我是抵御寒冷的烈燄，破晓时分的光线，唤醒死者的号角，守护王国的铁卫。我将生命与荣耀献给守夜人，今夜如此，夜夜皆然。<br><em>权利的游戏</em></p>
 <p>“Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night’s Watch, for this night and all the nights to come.”<br><em>权利的游戏</em></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/D读书笔记-金句摘抄/" data-id="cjsyst1qc00049c5m9xe1mf3t" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/金句/">金句</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-S随笔-你是童话城堡中最美的新娘" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/S随笔-你是童话城堡中最美的新娘/" class="article-date">
-  <time datetime="2018-09-09T22:00:00.000Z" itemprop="datePublished">2018-09-10</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/S随笔/">S随笔</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/S随笔-你是童话城堡中最美的新娘/">你是童话城堡中最美的新娘</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/S随笔-你是童话城堡中最美的新娘/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/S随笔-你是童话城堡中最美的新娘/" itemprop="url">你是童话城堡中最美的新娘</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-09-10T00:00:00+02:00">
+                2018-09-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/S随笔/" itemprop="url" rel="index">
+                    <span itemprop="name">S随笔</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>你是童话城堡中最美的新娘</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>你是童话城堡中最美的新娘</p>
 <p>2017年8月19日，豆豆小公主和骑士先生在荷兰De Haar城堡中举办婚礼。朋友、同事、鲜花、马车，童话城堡中最美的公主出嫁了。</p>
 <p>“我就要在De Haar办婚礼”<br>早在几年前当骑士先生还在德国时，就萌生了举办城堡婚礼的念头，毕竟未来的新娘是小公主，城堡再合适不过了。</p>
 <p>可是没等这个计划实现，骑士先生就搬到了瑞士，于是他又开始在瑞士寻觅婚礼场地:城堡、教堂、游艇、博物馆……各种可能而且美好的地方都被纳入考虑范围，可是始终没有哪个场地能给他”就是这了！”的感觉。</p>
@@ -1304,67 +2716,147 @@
 <p>不仅是De Haar城堡有开放日，荷兰许多其他的城堡也在那天举办开放日。骑士先生还选了几个备选方案，希望小公主那天一并看下。可是小公主执意只去De Haar, “我就喜欢De Haar,我就要在这办婚礼，其他不考虑!” 好在天随人愿，8月份还有唯一一个周六可以预约，我们果断确定了婚期。</p>
 <p>.<br>准备婚礼并非那么轻松，尤其是爸妈都不在这边，而且不找婚礼策划。几乎所有的事情都得亲力亲为，城堡、餐馆、摄影师、摄像师、马车租赁、婚礼蛋糕、购置各种物品等等，都靠小公主一一联系和</p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/S随笔-你是童话城堡中最美的新娘/" data-id="cjsyst21b002f9c5mpbiph0ws" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新娘/">新娘</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/童话/">童话</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-Linux-Python-Ubuntu上安装python3-6以及设置为系统默认" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/" class="article-date">
-  <time datetime="2018-07-04T22:00:00.000Z" itemprop="datePublished">2018-07-05</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Linux-Python/">Linux-Python</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/">Ubuntu上安装python3-6以及设置为系统默认</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/" itemprop="url">Ubuntu上安装python3-6以及设置为系统默认</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-05T00:00:00+02:00">
+                2018-07-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Linux-Python/" itemprop="url" rel="index">
+                    <span itemprop="name">Linux-Python</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。</p>
 <h1 id="查看Ubuntu版本"><a href="#查看Ubuntu版本" class="headerlink" title="查看Ubuntu版本"></a>查看Ubuntu版本</h1><p>由于python3.6在不同的Ubuntu版本中的安装是不一样的，这里我们先来看一下的Ubuntu的版本，在terminal中输入<code>lsb_release -a</code>即可查看，例如我的Ubuntu版本为16.04.4.</p>
 <img src="/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/1_version.png">
 <h1 id="不同Ubuntu版本上的python3-6的安装"><a href="#不同Ubuntu版本上的python3-6的安装" class="headerlink" title="不同Ubuntu版本上的python3.6的安装"></a>不同Ubuntu版本上的python3.6的安装</h1><p>文末的参考资料[1]中的高赞回答列举了python3.6在不同版本的Ubuntu上的安装，这里摘抄如下:</p>
@@ -1380,67 +2872,147 @@
 <h2 id="设置python命令默认使用python3-6"><a href="#设置python命令默认使用python3-6" class="headerlink" title="设置python命令默认使用python3.6"></a>设置<code>python</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python的路径</span><br><span class="line">sudo ln -s python3.6路径 python的路径</span><br></pre></td></tr></table></figure>
 <h2 id="设置python3命令默认使用python3-6"><a href="#设置python3命令默认使用python3-6" class="headerlink" title="设置python3命令默认使用python3.6"></a>设置<code>python3</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python3的路径</span><br><span class="line">sudo ln -s python3.6路径 python3的路径</span><br></pre></td></tr></table></figure>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/" data-id="cjsyst1qn000b9c5mndrc7518" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" class="article-date">
-  <time datetime="2018-06-02T22:00:00.000Z" itemprop="datePublished">2018-06-03</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/IT/">IT</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/">Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" itemprop="url">Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-06-03T00:00:00+02:00">
+                2018-06-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。</p>
 <ul>
 <li>1 Windows端</li>
 <li>2 Linux端<ul>
@@ -1487,67 +3059,147 @@
 <p><strong>参考链接</strong></p>
 <p>[1] <a href="http://www.cnblogs.com/linjiqin/p/3615477.html" target="_blank" rel="noopener">http://www.cnblogs.com/linjiqin/p/3615477.html</a><br>[2] <a href="https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04" target="_blank" rel="noopener">https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04</a><br>[3] <a href="https://blog.csdn.net/fukaibo121/article/details/73129584" target="_blank" rel="noopener">https://blog.csdn.net/fukaibo121/article/details/73129584</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" data-id="cjsyst1qb00039c5mo033yy7a" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows/">windows</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/虚拟机/">虚拟机</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" class="article-date">
-  <time datetime="2018-04-25T22:00:00.000Z" itemprop="datePublished">2018-04-26</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/">使用python构建ARIMA模型进行预测分析的小说明-forecast函数</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" itemprop="url">使用python构建ARIMA模型进行预测分析的小说明-forecast函数</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-26T00:00:00+02:00">
+                2018-04-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/J机器学习基础/" itemprop="url" rel="index">
+                    <span itemprop="name">J机器学习基础</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>&emsp;&emsp;Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>&emsp;&emsp;Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。</p>
 <p>&emsp;&emsp;首先分享三篇我觉得比较好并且容易上手的教程，其中包含源代码可以直接使用。第一篇是一个最简单的入门，是单步预测；第二篇可以进行多步预测；第三篇对于算法使用前的数据处理和分析进行了详细的介绍；第四篇也有相详尽的步骤和代码，并对数据进行了详细的分析，第五篇详细的介绍了从线性回归到AR、ARMA、ARIMA及GARCH等方法。</p>
 <p><a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/" target="_blank" rel="noopener">How to Create an ARIMA Model for Time Series Forecasting with Python</a><br><a href="https://machinelearningmastery.com/make-sample-forecasts-arima-python/" target="_blank" rel="noopener">How to Make Out-of-Sample Forecasts with ARIMA in Python</a><br><a href="https://datascience.ibm.com/exchange/public/entry/view/815137c868b916821dec777bdc23013c" target="_blank" rel="noopener">Forecast a time series with ARIMA in Python</a><br><a href="https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3" target="_blank" rel="noopener">A Guide to Time Series Forecasting with ARIMA in Python 3</a><br><a href="http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016" target="_blank" rel="noopener">Time Series Analysis (TSA) in Python – Linear Models to GARCH</a></p>
 <p>&emsp;&emsp;以第二个链接中的代码为例。这个链接中的《5. Multi-Step Out-of-Sample Forecast》将的是对样本量之外的多步预测，使用的Forecast function。具体的说，目前的数据为截止到12月24日的历年最低气温，现在要预测从12月25日到12月31日的最低气温。这里使用的代码为：</p>
@@ -1568,65 +3220,147 @@
 <hr>
 <p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/python_arima_forecast/" target="_blank" rel="noopener">qingnansun.com</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" data-id="cjsyst1qx000i9c5ms0sz79vu" class="article-share-link">Share</a>
-      
-      
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
+      
 
-<!-- 主页不要加载gitment -->
+      
 
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-J机器学习基础-设置使用tensorflow作为backend并在GPU上运行" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/" class="article-date">
-  <time datetime="2018-04-22T22:00:00.000Z" itemprop="datePublished">2018-04-23</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/">设置使用tensorflow作为backend并在GPU上运行</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/" itemprop="url">设置使用tensorflow作为backend并在GPU上运行</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-23T00:00:00+02:00">
+                2018-04-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/J机器学习基础/" itemprop="url" rel="index">
+                    <span itemprop="name">J机器学习基础</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>&emsp;&emsp;由于Theano从十月起停止更新（<a href="https://www.jiqizhixin.com/articles/2017-09-29-5" target="_blank" rel="noopener">LINK</a>），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>&emsp;&emsp;由于Theano从十月起停止更新（<a href="https://www.jiqizhixin.com/articles/2017-09-29-5" target="_blank" rel="noopener">LINK</a>），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。</p>
 <p><strong>安装环境</strong>：Linux服务器上的虚拟环境中（详见：<a href="http://qingnansun.com/virtual-environment-on-linux/" target="_blank" rel="noopener">在linux系统上设置虚拟环境Virtual Environment</a>）</p>
 <p>&emsp;&emsp;首先我根据Keras官网的介绍对keras.json文件进行设置（<a href="https://keras.io/backend/" target="_blank" rel="noopener">LINK</a>）。在命令框中输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi .keras/keras.json</span><br></pre></td></tr></table></figure>
@@ -1647,67 +3381,147 @@
 <hr>
 <p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/tensorflow-backend-on-gpu/" target="_blank" rel="noopener">qingnansun.com</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/" data-id="cjsyst1qu000g9c5mzz0nqg0q" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tensorflow/">tensorflow</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-J机器学习基础-Windows10下安装Python-Tensorflow和Keras" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/" class="article-date">
-  <time datetime="2018-04-21T22:00:00.000Z" itemprop="datePublished">2018-04-22</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/J机器学习基础/">J机器学习基础</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/">Windows10下安装Python,Tensorflow和Keras</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/" itemprop="url">Windows10下安装Python,Tensorflow和Keras</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-22T00:00:00+02:00">
+                2018-04-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/J机器学习基础/" itemprop="url" rel="index">
+                    <span itemprop="name">J机器学习基础</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
 <hr>
 <p>&emsp;&emsp;今后做实验要开始接触深度学习了，那当然免不了要安装Python和Tensorflow，另外因为需要LSTM方法，我也需要安装Keras。这篇文章就是关于最近安装这些东西的一个小结。</p>
 <p> <strong>如果你懒得看后文，我其实就一句话，从头开始就用Anaconda吧！！！ （直接跳转到“最简安装过程”部分）</strong></p>
@@ -1740,67 +3554,147 @@ import keras
 <hr>
 <p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/pythonkerasunderwindows" target="_blank" rel="noopener">qingnansun.com</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/" data-id="cjsyst1qp000d9c5m2thd7r2b" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/keras/">keras</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tensorflow/">tensorflow</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/windows10/">windows10</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-X信息汇总-写给女孩的安全建议" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/X信息汇总-写给女孩的安全建议/" class="article-date">
-  <time datetime="2018-04-19T22:00:00.000Z" itemprop="datePublished">2018-04-20</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/X信息汇总/">X信息汇总</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/X信息汇总-写给女孩的安全建议/">写给女孩的安全建议</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/X信息汇总-写给女孩的安全建议/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/X信息汇总-写给女孩的安全建议/" itemprop="url">写给女孩的安全建议</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-04-20T00:00:00+02:00">
+                2018-04-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/X信息汇总/" itemprop="url" rel="index">
+                    <span itemprop="name">X信息汇总</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>&emsp;&emsp;<em>写在前边的话：</em>很多年来就在构思这样一篇文章，当时主要是想给我女朋友（现在是我老婆）看。虽然都说男女平等，不过不可否认女性在很多侵害中都是“更好”的目标，也更容易被不法分子盯上，所以专门写了这篇给女孩的安全建议，希望女性朋友们能够读一读，保护好自己；男性朋友们也请读一读，提醒和保护好你的（尤其是有些马大哈的）女性朋友。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>&emsp;&emsp;<em>写在前边的话：</em>很多年来就在构思这样一篇文章，当时主要是想给我女朋友（现在是我老婆）看。虽然都说男女平等，不过不可否认女性在很多侵害中都是“更好”的目标，也更容易被不法分子盯上，所以专门写了这篇给女孩的安全建议，希望女性朋友们能够读一读，保护好自己；男性朋友们也请读一读，提醒和保护好你的（尤其是有些马大哈的）女性朋友。</p>
 <p>&emsp;&emsp;以下信息有些是我自己想到的，有些是直接从网上不同文章复制的。相应的参考文章我也都附在文章最后了，如果有任何涉及版权的问题请随时和我联系。之后我也会不断完善这篇文章，最新的文章请查看我的个人主页<a href="http://qingnansun.com/forgirls" target="_blank" rel="noopener">qingnansun.com</a>。</p>
 <h2 id="真实的案例"><a href="#真实的案例" class="headerlink" title="真实的案例"></a>真实的案例</h2><ul>
 <li>2013年1月 洛杉矶 <a href="https://zh.wikipedia.org/wiki/%E8%97%8D%E5%8F%AF%E5%85%92%E6%AD%BB%E4%BA%A1%E4%BA%8B%E4%BB%B6" target="_blank" rel="noopener">蓝可儿在酒店溺亡</a></li>
@@ -1888,67 +3782,147 @@ import keras
 </ol>
 <h2 id="相关文章及链接"><a href="#相关文章及链接" class="headerlink" title="相关文章及链接"></a>相关文章及链接</h2><p><a href="https://mp.weixin.qq.com/s?__biz=MjM5MzQ5OTQ4MA==&amp;mid=202282455&amp;idx=8&amp;sn=1a121dc86c124329ad9f47d2cc99123b&amp;scene=1&amp;srcid=0909HDre7xYpC9528YezaMEh&amp;key=2877d24f51fa5384f245f78f5f7a58e58b4c4b837296f5da7f631d2d007cd3d7adb0910fcc0d5d74146825803a0694e9&amp;ascene=1&amp;uin=Mjk4MDU4MDEwMA%3D%3D&amp;devicetype=Windows+7&amp;version=61050016&amp;pass_ticket=%2B2H1YhozEzaAB1d1JnbBK3Cbv70V%2BEpEdEuP6S4qVCLPZfjI8rBmnS6V1zuQUuYw" target="_blank" rel="noopener">巴黎遇险，中国姑娘的真实遭遇！</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzU1NDMxOTg4Mg==&amp;mid=2247492405&amp;idx=1&amp;sn=33c60ee640c90a4cdcde5ae15a48b1a6&amp;source=41#wechat_redirect" target="_blank" rel="noopener">超级网红被抢不是意外，讲真，任何细节都可能出卖你</a><br><a href="https://mp.weixin.qq.com/s?__biz=MjM5MDAxNzA2NA==&amp;mid=2654878017&amp;idx=3&amp;sn=a817a7e34ac8f79e09855301b306568f&amp;chksm=bd81aa068af6231066acc2c8d38e4a9ad7496f8c5d1af8f9c8d3d42ab6b4d42e8765bd152ac5&amp;mpshare=1&amp;scene=1&amp;srcid=0707E1xUJ50GKtTBCUUuWzAG#rd" target="_blank" rel="noopener">刚刚！章莹颖马上二次聆讯，嫌疑人或将保释，章莹颖遇害背后的真相耐人深思</a><br><a href="https://mp.weixin.qq.com/s?__biz=MjM5MjAxNDM4MA==&amp;mid=2666144978&amp;idx=2&amp;sn=6d6f3aa399a0c4130aa77512917aa069&amp;chksm=bdb24d918ac5c48702e3e607a316a68ff1dcea7ca4ebbee787a82abb1565d3d5fde25bc6e06b&amp;mpshare=1&amp;scene=5&amp;srcid=1124ttDnM8bfsBWumJKJ8LLR#rd" target="_blank" rel="noopener">【提醒】一位退休公安人员透漏的秘密，知道的人越多越好！</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/X信息汇总-写给女孩的安全建议/" data-id="cjsyst26q00399c5m3lezyplo" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/女孩/">女孩</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/安全建议/">安全建议</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/" class="article-date">
-  <time datetime="2018-01-20T23:00:00.000Z" itemprop="datePublished">2018-01-21</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/IT/">IT</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/">PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/" itemprop="url">PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-01-21T00:00:00+01:00">
+                2018-01-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
                 
                 
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本篇文章是对<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">Python官网</a>上的代码风格指南的翻译和注解。虽然网上已经有很多类似的翻译了，我还是希望通过自己进行翻译的方式加深对指南的理解。本文更多注重于内容的翻译，所以没有特别多的辞藻修饰，文中若有疏漏和不妥之处，欢迎大家批评指正。本文没有完全翻译结束，近期会慢慢完善。</p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本篇文章是对<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">Python官网</a>上的代码风格指南的翻译和注解。虽然网上已经有很多类似的翻译了，我还是希望通过自己进行翻译的方式加深对指南的理解。本文更多注重于内容的翻译，所以没有特别多的辞藻修饰，文中若有疏漏和不妥之处，欢迎大家批评指正。本文没有完全翻译结束，近期会慢慢完善。</p>
 <table>
 <thead>
 <tr>
@@ -2821,67 +4795,147 @@ class Test:
 <p><a href="https://lizhe2004.gitbooks.io/code-style-guideline-cn/content/python/python-pep8.html" target="_blank" rel="noopener">https://lizhe2004.gitbooks.io/code-style-guideline-cn/content/python/python-pep8.html</a></p>
 <p><a href="https://alvinzhu.xyz/2017/10/07/python-pep-8/" target="_blank" rel="noopener">https://alvinzhu.xyz/2017/10/07/python-pep-8/</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/" data-id="cjsyst2ct005d9c5mzpcn72jf" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
-
-
   
-    <article id="post-S随笔-我的“北漂”见闻" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/S随笔-我的“北漂”见闻/" class="article-date">
-  <time datetime="2016-11-12T23:00:00.000Z" itemprop="datePublished">2016-11-13</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/S随笔/">S随笔</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/S随笔-我的“北漂”见闻/">我的&#34;北漂&#34;见闻</a>
-    </h1>
-  
+  </article>
 
-
-      </header>
 
     
-
-    <div class="article-entry" itemprop="articleBody">
-
       
 
-                <!-- Table of Contents -->
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/S随笔-我的“北漂”见闻/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/S随笔-我的“北漂”见闻/" itemprop="url">我的"北漂"见闻</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-13T00:00:00+01:00">
+                2016-11-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/S随笔/" itemprop="url" rel="index">
+                    <span itemprop="name">S随笔</span>
+                  </a>
+                </span>
+
                 
                 
-        <p>&emsp;&emsp;2013年，为了能有更多的时间陪陪女友和家人，我申请到了在北京一家德企的实习职位。于是从那年的6月起，我回国开始了为期6个月的“北漂”生活。 </p>
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>&emsp;&emsp;2013年，为了能有更多的时间陪陪女友和家人，我申请到了在北京一家德企的实习职位。于是从那年的6月起，我回国开始了为期6个月的“北漂”生活。 </p>
 <p>&emsp;&emsp;“北漂”的大部分时间里，我都是借宿在高中好友家（说到这非常感谢舍霸同学）。期间有几次因为好友家人来京等原因，我自己在外边找了几处短期的落脚点。这些地方的住宿条件都没法和好友家相比，不过倒是让我有机会看到了各种各样的北漂族的生活。 </p>
 <img src="/S随笔-我的“北漂”见闻/1_北漂.jpg">
 <h2 id="人人都有幸福的权利"><a href="#人人都有幸福的权利" class="headerlink" title="人人都有幸福的权利"></a>人人都有幸福的权利</h2><p>&emsp;&emsp;我找的第一个房子是通过代理公司，看房子的时候代理说这房子一共住了5个人。当时其他住户都没在，我也没法核实，后来等我住进去，才发现里边算上我实际有8个人，大家就这样住在一个小两室一厅的房子里。我租的次卧算是最大的，只我一个人住，其他人分散在主卧、主卧的厕所以及两个类似储物间的小房间里。 </p>
@@ -2896,515 +4950,1175 @@ class Test:
 <hr>
 <p>本篇文章原发表于我的微信平台: <a href="https://mp.weixin.qq.com/s/I92be3jsboIbWVVkdWVeRA" target="_blank" rel="noopener">豆豆小公主和骑士先生</a></p>
 
-
+          
+        
       
     </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/S随笔-我的“北漂”见闻/" data-id="cjsyst21q002k9c5ma3y33k6k" class="article-share-link">Share</a>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/北漂/">北漂</a></li></ul>
-
-      
-
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Q骑行日记-20111111-连载17-不是一个人前进-致谢" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Q骑行日记-20111111-连载17-不是一个人前进-致谢/" class="article-date">
-  <time datetime="2011-11-11T14:12:49.000Z" itemprop="datePublished">2011-11-11</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Q骑行日记/">Q骑行日记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Q骑行日记-20111111-连载17-不是一个人前进-致谢/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/Q骑行日记-20111111-连载17-不是一个人前进-致谢/">连载17-不是一个人前进-致谢</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Q骑行日记-20111111-连载17-不是一个人前进-致谢/" itemprop="url">连载17-不是一个人前进-致谢</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-11-11T15:12:49+01:00">
+                2011-11-11
+              </time>
+            
 
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Q骑行日记/" itemprop="url" rel="index">
+                    <span itemprop="name">Q骑行日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Q骑行日记-20111111-连载17-不是一个人前进-致谢/" data-id="cjsyst20c00209c5mpens8cah" class="article-share-link">Share</a>
-      
-      
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Q骑行日记-20111110-连载16-住宿特辑-沙发客" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Q骑行日记-20111110-连载16-住宿特辑-沙发客/" class="article-date">
-  <time datetime="2011-11-10T14:12:25.000Z" itemprop="datePublished">2011-11-10</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Q骑行日记/">Q骑行日记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Q骑行日记-20111110-连载16-住宿特辑-沙发客/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/Q骑行日记-20111110-连载16-住宿特辑-沙发客/">连载16-住宿特辑-沙发客</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Q骑行日记-20111110-连载16-住宿特辑-沙发客/" itemprop="url">连载16-住宿特辑-沙发客</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-11-10T15:12:25+01:00">
+                2011-11-10
+              </time>
+            
 
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Q骑行日记/" itemprop="url" rel="index">
+                    <span itemprop="name">Q骑行日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Q骑行日记-20111110-连载16-住宿特辑-沙发客/" data-id="cjsyst201001w9c5mf2vj7dvv" class="article-share-link">Share</a>
-      
-      
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Q骑行日记-20111109-连载15-第十四天-沿着易北河回家" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/" class="article-date">
-  <time datetime="2011-11-09T14:12:05.000Z" itemprop="datePublished">2011-11-09</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Q骑行日记/">Q骑行日记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/">连载15-第十四天-沿着易北河回家</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/" itemprop="url">连载15-第十四天-沿着易北河回家</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-11-09T15:12:05+01:00">
+                2011-11-09
+              </time>
+            
 
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Q骑行日记/" itemprop="url" rel="index">
+                    <span itemprop="name">Q骑行日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/" data-id="cjsyst1zs001v9c5mc4m2fabj" class="article-share-link">Share</a>
-      
-      
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/" class="article-date">
-  <time datetime="2011-11-07T14:11:48.000Z" itemprop="datePublished">2011-11-07</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Q骑行日记/">Q骑行日记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/">连载14-第十三天-漫游瓷器之都</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/" itemprop="url">连载14-第十三天-漫游瓷器之都</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-11-07T15:11:48+01:00">
+                2011-11-07
+              </time>
+            
 
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Q骑行日记/" itemprop="url" rel="index">
+                    <span itemprop="name">Q骑行日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/" data-id="cjsyst1z9001p9c5mr8gg5u4f" class="article-share-link">Share</a>
-      
-      
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Q骑行日记-20111102-连载13-第十二天-怀着期待赶路" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/" class="article-date">
-  <time datetime="2011-11-02T14:11:29.000Z" itemprop="datePublished">2011-11-02</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Q骑行日记/">Q骑行日记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/">连载13-第十二天-怀着期待赶路</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/" itemprop="url">连载13-第十二天-怀着期待赶路</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-11-02T15:11:29+01:00">
+                2011-11-02
+              </time>
+            
 
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Q骑行日记/" itemprop="url" rel="index">
+                    <span itemprop="name">Q骑行日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/" data-id="cjsyst1z6001o9c5m4r7djcq5" class="article-share-link">Share</a>
-      
-      
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+      
 
   
-    <article id="post-Q骑行日记-20111031-连载12-第十一天-在湖边感受大海" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/" class="article-date">
-  <time datetime="2011-10-31T14:11:00.000Z" itemprop="datePublished">2011-10-31</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/Q骑行日记/">Q骑行日记</a>
-  </div>
 
-  </div>
-  <div class="article-inner">
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://qingnansun.github.io/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qingnan Sun">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SQN - 生活与思考">
+    </span>
+
     
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/">连载12-第十一天-在湖边感受大海</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/" itemprop="url">连载12-第十一天-在湖边感受大海</a></h1>
+        
 
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2011-10-31T15:11:00+01:00">
+                2011-10-31
+              </time>
+            
 
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Q骑行日记/" itemprop="url" rel="index">
+                    <span itemprop="name">Q骑行日记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
       </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
 
     
 
-    <div class="article-entry" itemprop="articleBody">
+    
+
+    
+
+    <footer class="post-footer">
+      
 
       
 
-                <!-- Table of Contents -->
-                
-                
-        
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://qingnansun.github.io/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/" data-id="cjsyst1rq000z9c5m5y3ccn96" class="article-share-link">Share</a>
-      
-      
       
 
-      <span id="busuanzi_container_page_pv">
-        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
-      </span>
-      <div id="gitment"></div>
-
-<!-- 主页不要加载gitment -->
-
+      
+      
+        <div class="post-eof"></div>
       
     </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
+
+    
+  </section>
 
   
-
-
-  <nav id="page-nav">
-    
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">下一页 &raquo;</a>
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
-</section>
+
+
+          </div>
+          
+
+
+          
+
+        </div>
         
-          <aside id="sidebar">
+          
   
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
     
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/">KnowledgeBase-IT</a>
-          </li>
-        
-          <li>
-            <a href="/X信息汇总-应该养成的各种好习惯/">应该养成的各种好习惯</a>
-          </li>
-        
-          <li>
-            <a href="/X信息汇总-一些小贴士-激励我的句子/">一些小贴士-激励我的句子</a>
-          </li>
-        
-          <li>
-            <a href="/X信息汇总-待看的内容汇总/">待看的内容汇总</a>
-          </li>
-        
-          <li>
-            <a href="/X信息汇总-好用手机app汇总/">好用手机app汇总</a>
-          </li>
-        
-      </ul>
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Qingnan Sun</p>
+              <p class="site-description motion-element" itemprop="description">分享我生活和学习中的一点感悟和思考</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">42</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-name">tags</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">分类</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/D读书笔记/">D读书笔记</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/J机器学习基础/">J机器学习基础</a><span class="category-list-count">4</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/KnowledgeBase/">KnowledgeBase</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Linux-Python/">Linux-Python</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Q骑行日记/">Q骑行日记</a><span class="category-list-count">18</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/S随笔/">S随笔</a><span class="category-list-count">2</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/X信息汇总/">X信息汇总</a><span class="category-list-count">10</span></li></ul>
-    </div>
-  </div>
+  </aside>
 
 
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签云</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/SQN规范化建议/" style="font-size: 17.5px;">SQN规范化建议</a> <a href="/tags/app/" style="font-size: 12.5px;">app</a> <a href="/tags/keras/" style="font-size: 10px;">keras</a> <a href="/tags/knowledgebase/" style="font-size: 20px;">knowledgebase</a> <a href="/tags/python/" style="font-size: 15px;">python</a> <a href="/tags/tensorflow/" style="font-size: 12.5px;">tensorflow</a> <a href="/tags/ubuntu/" style="font-size: 12.5px;">ubuntu</a> <a href="/tags/windows/" style="font-size: 10px;">windows</a> <a href="/tags/windows10/" style="font-size: 10px;">windows10</a> <a href="/tags/习惯/" style="font-size: 15px;">习惯</a> <a href="/tags/保护环境/" style="font-size: 10px;">保护环境</a> <a href="/tags/北漂/" style="font-size: 10px;">北漂</a> <a href="/tags/女孩/" style="font-size: 10px;">女孩</a> <a href="/tags/安全建议/" style="font-size: 10px;">安全建议</a> <a href="/tags/摘抄/" style="font-size: 12.5px;">摘抄</a> <a href="/tags/新娘/" style="font-size: 10px;">新娘</a> <a href="/tags/机器学习/" style="font-size: 10px;">机器学习</a> <a href="/tags/激励/" style="font-size: 10px;">激励</a> <a href="/tags/童话/" style="font-size: 10px;">童话</a> <a href="/tags/虚拟机/" style="font-size: 10px;">虚拟机</a> <a href="/tags/记录/" style="font-size: 12.5px;">记录</a> <a href="/tags/贴士/" style="font-size: 10px;">贴士</a> <a href="/tags/软件/" style="font-size: 10px;">软件</a> <a href="/tags/金句/" style="font-size: 12.5px;">金句</a> <a href="/tags/高贵/" style="font-size: 10px;">高贵</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/">三月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/02/">二月 2019</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/12/">十二月 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">九月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">七月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">六月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">四月 2018</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">一月 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">十一月 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">十一月 2011</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">十月 2011</a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/09/">九月 2011</a><span class="archive-list-count">4</span></li></ul>
-    </div>
-  </div>
-
-
-  
-    <div class="widget-wrap">
-    <h3 class="widget-title">Counter</h3>
-    <div class="widget">
-        <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0n4gowqtyrd&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
-    </div>
-  </div>
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">标签</h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a><span class="tag-list-count">5</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/app/">app</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keras/">keras</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/knowledgebase/">knowledgebase</a><span class="tag-list-count">12</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tensorflow/">tensorflow</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ubuntu/">ubuntu</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows/">windows</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/windows10/">windows10</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/习惯/">习惯</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/保护环境/">保护环境</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/北漂/">北漂</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/女孩/">女孩</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/安全建议/">安全建议</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/摘抄/">摘抄</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/新娘/">新娘</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/机器学习/">机器学习</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/激励/">激励</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/童话/">童话</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/虚拟机/">虚拟机</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/记录/">记录</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/贴士/">贴士</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/软件/">软件</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/金句/">金句</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/高贵/">高贵</a><span class="tag-list-count">1</span></li></ul>
-    </div>
-  </div>
-
-
-  
-</aside>
         
       </div>
-      <footer id="footer">
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Qingnan Sun</span>
+
   
-  <div class="outer">
-      <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-      <span id="busuanzi_container_site_pv"> 
-        本站访问量<span id="busuanzi_value_site_pv"></span>次
-      </span>
-      <span id="busuanzi_container_site_uv"> 
-        本站访客数<span id="busuanzi_value_site_uv"></span>人
-      </span>
-      
-    <div id="footer-info" class="inner">
-      &copy; 2019 Qingnan Sun<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
