@@ -44,8 +44,19 @@ toc:
 
 # Gitment comments
 gitment:
-  enable: true
+  enable: false
   owner: 20541494
   repo: qingnansun.github.io
   client_id: 1b8f252cb212a5ede7fc
   client_secret: 7bf7a65f0a99fbd9b14121531cd696301eb9308c
+
+
+valine:
+  enable: true
+  appid:  EpawNK7zMvmjcdXxnythDKSr-gzGzoHsz
+  appkey: kerTl7HNUC7YmC0pziAd9VkS
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: ヾﾉ≧∀≦)o来啊，留个言吧! 
+  guest_info: nick,mail,link
+  pageSize: 10
