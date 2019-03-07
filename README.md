@@ -59,6 +59,9 @@ new_post_name: :year:month:day-:title.md # File name of new posts
 Use the plugin [hexo-directory-category](https://www.npmjs.com/package/hexo-directory-category)
 
 
+## 更改为NexT主题
+https://theme-next.iissnan.com/getting-started.html#install-next-theme
+
 ## 生成文章目录
 ### 设置显示目录 
 
