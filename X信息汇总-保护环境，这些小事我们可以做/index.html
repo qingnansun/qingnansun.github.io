@@ -31,6 +31,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -132,6 +138,7 @@
 <p>（未完待续…持续添加…）</p>
 <h1 id="扩展阅读"><a href="#扩展阅读" class="headerlink" title="扩展阅读"></a>扩展阅读</h1><p><a href="http://edu.sina.com.cn/a/2015-09-06/1152262974.shtml" target="_blank" rel="noopener">21岁荷兰少年暂停学业拯救海洋 众筹集资金</a><br><a href="http://technews.tw/2017/10/22/the-uk-gets-its-first-ocean-cleaning-seabin/" target="_blank" rel="noopener">英國可望大規模架設海上垃圾桶「Seabin」淨化海洋</a><br><a href="https://blogs.worldbank.org/voices/ch/five-things-you-can-do-end-plastic-pollution" target="_blank" rel="noopener">终结塑料污染，您可以做五件事</a></p>
 
+
       
     </div>
     <footer class="article-footer">
@@ -140,7 +147,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/保护环境/">保护环境</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

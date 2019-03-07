@@ -29,6 +29,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -110,6 +116,7 @@
 <h1 id="日常礼仪"><a href="#日常礼仪" class="headerlink" title="日常礼仪"></a>日常礼仪</h1><p>递给别人剪刀、螺丝刀等工具时，把刀把递给别人，防止划伤对方<br>接过别人递送的上述工具时，动作缓慢，防止划伤对方<br>如果对方是把剪刀头冲着你递过来，更要小心和缓慢，不要伤到自己<br>过推拉门时，如果是需要推，慢慢推开，防止门后有人和伤到他<br>过推拉门时，如果是需要拉，要防范门外的人使劲推门撞到你<br>进出门、电梯时，礼貌的为后边来的人“挡门”<br>公共场合不要大声喧哗以及高谈阔论、不要大声打电话<br>公共场合不要把鞋踩在座位上<br>听耳机音乐不要太大，一方面对耳朵不好，漏音的话还会影响周围的人<br>洗完手之后不要用力甩，尤其不要甩到周围人身上<br>如果要通过微信给别人银行账号，给别人文字版，不要拍张照片了事</p>
 <p>手里拿着刀叉筷子等餐具时要小心拿好/放好，避免横握在手中，防止伤到别人，尤其是小孩子(因为大人手握刀叉自然放下时，大约是小孩子头的位置)</p>
 
+
       
     </div>
     <footer class="article-footer">
@@ -118,7 +125,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/SQN规范化建议/">SQN规范化建议</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/习惯/">习惯</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

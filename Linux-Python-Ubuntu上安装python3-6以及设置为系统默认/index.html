@@ -32,6 +32,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -123,6 +129,7 @@
 <h2 id="设置python命令默认使用python3-6"><a href="#设置python命令默认使用python3-6" class="headerlink" title="设置python命令默认使用python3.6"></a>设置<code>python</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python的路径</span><br><span class="line">sudo ln -s python3.6路径 python的路径</span><br></pre></td></tr></table></figure>
 <h2 id="设置python3命令默认使用python3-6"><a href="#设置python3命令默认使用python3-6" class="headerlink" title="设置python3命令默认使用python3.6"></a>设置<code>python3</code>命令默认使用python3.6</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo rm python3的路径</span><br><span class="line">sudo ln -s python3.6路径 python3的路径</span><br></pre></td></tr></table></figure>
 
+
       
     </div>
     <footer class="article-footer">
@@ -131,7 +138,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ubuntu/">ubuntu</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

@@ -29,6 +29,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -115,6 +121,7 @@
 <h2 id="Uni-Bern"><a href="#Uni-Bern" class="headerlink" title="Uni Bern"></a>Uni Bern</h2><p><a href="https://mail.campus.unibe.ch" target="_blank" rel="noopener">Webmail</a></p>
 <p>(不断完善中)</p>
 
+
       
     </div>
     <footer class="article-footer">
@@ -123,7 +130,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

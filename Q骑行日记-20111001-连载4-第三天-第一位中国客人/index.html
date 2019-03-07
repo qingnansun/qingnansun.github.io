@@ -46,6 +46,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -168,13 +174,32 @@
 <p><a href="http://blog.renren.com/blog/259993468/763677892" target="_blank" rel="noopener">http://blog.renren.com/blog/259993468/763677892</a> 的支持。在你们的关系和帮助下，我得到去慕尼黑看球的球票啦^_^。真的非常感谢！我会好好记住你们的好，有事尽管找我。  </p>
 <p>明天一早我就出发去慕尼黑啦，可能会顺便在慕尼黑玩几天，所以这几天不能每天给大家奉上《骑行日记》的连载了，等回来之后继续和大家分享。祝好！  </p>
 
+
       
     </div>
     <footer class="article-footer">
       <a data-url="https://qingnansun.github.io/Q骑行日记-20111001-连载4-第三天-第一位中国客人/" data-id="cjsxfrcu0000mj45mcxths2sv" class="article-share-link">Share</a>
       
       
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

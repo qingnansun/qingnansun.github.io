@@ -29,6 +29,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -142,6 +148,7 @@
 <p>如果出狱后哪位朋友举行宴会但不邀请我参加，我是不会心存芥蒂的。独处时我将会无比快乐。拥有自由、书籍、鲜花和月亮的人怎会不快乐？。。。但是，如果出狱后哪位朋友忧伤满腹却拒绝让我为其分忧解难，我将倍感痛苦。</p>
 <p>在《道连-格雷》一书的某章中我曾说：“一个人在选择他的敌人时，无论怎么小心都不为过。”我实在想不到自己会被一个贱民造就成了一个贱民。</p>
 
+
       
     </div>
     <footer class="article-footer">
@@ -150,7 +157,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/摘抄/">摘抄</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/金句/">金句</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

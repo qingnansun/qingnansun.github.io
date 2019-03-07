@@ -29,6 +29,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -112,6 +118,7 @@
 <p>不仅是De Haar城堡有开放日，荷兰许多其他的城堡也在那天举办开放日。骑士先生还选了几个备选方案，希望小公主那天一并看下。可是小公主执意只去De Haar, “我就喜欢De Haar,我就要在这办婚礼，其他不考虑!” 好在天随人愿，8月份还有唯一一个周六可以预约，我们果断确定了婚期。</p>
 <p>.<br>准备婚礼并非那么轻松，尤其是爸妈都不在这边，而且不找婚礼策划。几乎所有的事情都得亲力亲为，城堡、餐馆、摄影师、摄像师、马车租赁、婚礼蛋糕、购置各种物品等等，都靠小公主一一联系和</p>
 
+
       
     </div>
     <footer class="article-footer">
@@ -120,7 +127,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/新娘/">新娘</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/童话/">童话</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

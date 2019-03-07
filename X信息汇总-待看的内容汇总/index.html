@@ -29,6 +29,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -111,6 +117,7 @@
 <p>#待看书<br>如何看一幅画<br>西藏生死之书</p>
 <p>#待看电影/纪录片<br>无名之辈<br>香水<br>红海行动<br>美国田园下的罪恶<br>15:17到巴黎<br>末代皇帝<br>时空恋旅人<br>一个人的一天<br>神奇动物<br>脉动地球<br>《Die Verführerin Adele Spitzeder》（女骗子阿黛尔）<br><a href="http://www.imdb.com/title/tt5673782/" target="_blank" rel="noopener">关于爱因斯坦纪录片</a><br><a href="http://v.qq.com/detail/i/ikxchucuasht4gy.html" target="_blank" rel="noopener">德雷斯顿大轰炸 资源1</a><br><a href="http://www.tudou.com/programs/view/mH-GiGI9wVc" target="_blank" rel="noopener">​德雷斯顿大轰炸 资源2</a><br><a href="http://yuedu.163.com/book/category/category/12000/12001/1_0_0_1" target="_blank" rel="noopener">国家人文历史</a><br><a href="https://www.youtube.com/watch?v=9F880xaDVEY&amp;list=PL7rlaqGaU50en9r2YVlxIQkL-v0NPehv3" target="_blank" rel="noopener">耶鲁大学 音乐鉴赏全集</a><br><a href="https://en.wikipedia.org/wiki/Underground_(1995_film" target="_blank" rel="noopener">Underground (1995 film)</a>)<br><a href="https://theculturetrip.com/europe/serbia/articles/11-iconic-serbian-films-you-need-to-watch-before-you-go/" target="_blank" rel="noopener">11 Iconic Serbian Films You Need to Watch Before You Go</a><br>黑镜</p>
 
+
       
     </div>
     <footer class="article-footer">
@@ -119,7 +126,25 @@
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/knowledgebase/">knowledgebase</a></li></ul>
 
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>

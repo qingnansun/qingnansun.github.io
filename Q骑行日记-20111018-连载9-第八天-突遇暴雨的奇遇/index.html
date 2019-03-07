@@ -45,6 +45,12 @@
     <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
+
+
+  <!-- 加载gitment的css和js文件 -->
+  <link rel="stylesheet" href="/css/gitment.css"> 
+  <script src="/js/gitment.js"></script>
+
 </head>
 </html>
 <body>
@@ -163,13 +169,32 @@
 <p>Flieg, flieg so weit wie du kannst.<br>Pass gut auf dich auf<br>Bitte vergiss nicht, dass wir immer an dich denken.  </p>
 <p>后天请看：《骑行日记 连载10 第九天：超乎想象的信任》</p>
 
+
       
     </div>
     <footer class="article-footer">
       <a data-url="https://qingnansun.github.io/Q骑行日记-20111018-连载9-第八天-突遇暴雨的奇遇/" data-id="cjsxfrcu4000uj45m0x2ec2v8" class="article-share-link">Share</a>
       
       
+      <div id="gitment"></div>
 
+<!-- 主页不要加载gitment -->
+
+
+<script>
+var gitment = new Gitment({
+  owner: 'qingnansun',
+  repo: 'qingnansun.github.io',
+  oauth: {
+    client_id: '1b8f252cb212a5ede7fc',
+    client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+  },
+})
+gitment.render('gitment')
+</script>
+ 
+
+      
       <span id="busuanzi_container_page_pv">
         本文总阅读量<span id="busuanzi_value_page_pv"></span>次
       </span>
