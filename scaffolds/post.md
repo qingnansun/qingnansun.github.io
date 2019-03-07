@@ -6,7 +6,7 @@ tags:
 categories: 
 keywords: 
 description:
-permalink: :title/
+permalink: 
 toc: true    # table of content
 comments: true  
 ---
