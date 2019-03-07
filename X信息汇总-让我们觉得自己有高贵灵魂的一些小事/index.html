@@ -161,7 +161,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <h1 class="site-subtitle" itemprop="description"></h1>
       
   </div>
 
@@ -280,7 +280,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">让我们觉得自己有高贵灵魂的一些小事</h1>
+          <h2 class="post-title" itemprop="name headline">让我们觉得自己有高贵灵魂的一些小事</h2>
         
 
         <div class="post-meta">
@@ -334,7 +334,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" itemprop="commentCount"></span>
+                  <span class="post-comments-count gitment-comments-count" data-xid="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -472,7 +472,11 @@
 
   
     <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
     </div>
+
   
 
 
@@ -511,7 +515,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Qingnan Sun</p>
-              <p class="site-description motion-element" itemprop="description">分享我生活和学习中的一点感悟和思考</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -790,6 +794,43 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: '20541494',
+            repo: 'qingnansun.github.io',
+            
+            lang: "" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '7bf7a65f0a99fbd9b14121531cd696301eb9308c',
+            
+                client_id: '1b8f252cb212a5ede7fc'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
