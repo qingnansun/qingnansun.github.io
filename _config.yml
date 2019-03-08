@@ -8,7 +8,7 @@ subtitle:
 description: 分享我生活和学习中的一点感悟和思考
 keywords: 生活,机器学习,思考,分享,随笔,杂谈
 author: Qingnan Sun
-language: zh-CN
+language: zh-hans
 timezone:
 
 # URL
@@ -94,3 +94,14 @@ deploy:
 auto_dir_categorize:
   enable: true  # options:true, false; default is true
   force: true # options:true, false; default is false
+
+# Search within site
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed

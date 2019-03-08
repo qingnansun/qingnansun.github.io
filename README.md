@@ -1,10 +1,32 @@
+# NexT主题
+## 更改为NexT主题
+https://theme-next.iissnan.com/getting-started.html#install-next-theme
+
+
+
+
 
 ## Setup with HEXO
 [Official document](https://hexo.io/docs/setup)
 
 ## Busuanzi counter for visits-counting
-Script in footer
-Counter code for pages and articles
+### Script in footer
+```
+      <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+      <span id="busuanzi_container_site_pv"> 
+        本站访问量<span id="busuanzi_value_site_pv"></span>次
+      </span>
+      <span id="busuanzi_container_site_uv"> 
+        本站访客数<span id="busuanzi_value_site_uv"></span>人
+      </span>
+```
+
+### Counter code for pages and articles
+```
+      <span id="busuanzi_container_page_pv">
+        本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+      </span>
+```
 
 ## Map counter 
 Creat the following the mapcounter file
@@ -58,9 +80,6 @@ new_post_name: :year:month:day-:title.md # File name of new posts
 ## 根据目录生成类别
 Use the plugin [hexo-directory-category](https://www.npmjs.com/package/hexo-directory-category)
 
-
-## 更改为NexT主题
-https://theme-next.iissnan.com/getting-started.html#install-next-theme
 
 ## 生成文章目录
 ### 设置显示目录 
@@ -120,3 +139,35 @@ http://charmlegal.com/2017/12/05/article6/
 如果已经设置了ssl，则为  
 `url: https://qingnansun.github.io`
 
+# To Try    
+      {% set display_toc = is_post and theme.toc.enable %}
+        {% if display_toc %}
+              {% if toc.length <= 1 %}
+                <p class="post-toc-empty">{{ __('post.toc_empty') }}</p>
+              {% else %}
+                <div class="post-toc-content-2">{{ toc }}</div>
+              {% endif %}
+        {% endif %}
+
+
+
+
+        <input type="button" onclick="open_closeTOC()" id="showcloseButton">
+        <script>
+            function open_closeTOC() {
+                var id = document.querySelector(".post-body > ul");
+                if (id.style.display == "block") {
+                    id.style.display = "none"; document.getElementById("showcloseButton").value = "展开目录";
+                }
+                else if (id.style.display == "none") {
+                    id.style.display = "block"; document.getElementById("showcloseButton").value = "折叠目录";
+                }
+            }
+            (function () {
+                document.querySelector(".post-body > ul").style.display = "none"; document.getElementById("showcloseButton").value = "展开目录";
+            })();
+        </script>
+
+
+## NEXT 配置
+https://www.jianshu.com/p/3a05351a37dc
