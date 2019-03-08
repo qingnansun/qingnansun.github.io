@@ -94,6 +94,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[这些事情帮我打开了新的天地]]></title>
+    <url>%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E8%BF%99%E4%BA%9B%E4%BA%8B%E6%83%85%E5%B8%AE%E6%88%91%E6%89%93%E5%BC%80%E4%BA%86%E6%96%B0%E7%9A%84%E5%A4%A9%E5%9C%B0%2F</url>
+    <content type="text"><![CDATA[以下记录的是一些曾经让我觉得：“不试不知道，一试忘不掉”的事情/软件等。 生活习惯酸奶加燕麦：准备早餐原来如此简单 各种尝试建立个人网站：做网站不难，而且会上瘾的击剑：速度与技巧的集合，锻炼集中注意力射箭：更加了解自己的身体，使用肩部力量 软件/app类文件自动备份系统（如MyCloud和MyPassport等）：备份在手，心里不慌。Github/Gitlab：代码管理如此轻松Markdown：轻量化的文本撰写语言，简书也兼容 未完待续]]></content>
+      <categories>
+        <category>X信息汇总</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>knowledgebase</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[你真的应该拥有这个习惯记录app]]></title>
     <url>%2FIT-%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BA%94%E8%AF%A5%E6%8B%A5%E6%9C%89%E8%BF%99%E4%B8%AA%E4%B9%A0%E6%83%AF%E8%AE%B0%E5%BD%95app%2F</url>
     <content type="text"><![CDATA[作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。 名字app的名字叫“习惯”，英文版叫“Habits”或者“Loop Habits”，图标是一个顺时针旋转的白色箭头。 基本功能首要的功能当然是习惯的记录，在app中设定不同的习惯之后，可以通过长按对应的日期进行打勾，再次长按即为取消。 数据统计点击相应的习惯名称可以查看详细的统计信息，并可以补填忘记打卡的日期。 进阶功能 - 桌面控制台 （仅安卓）这是我最想和大家分享的功能，也是我特别喜欢这个app的原因之一。我一直都想弄一个类似于控制台的东西（比如有很多按钮和显示器的大操作台），用它每天晚上通过按按钮进行打卡。这个app从某种程度上帮我实现了这个愿望。在安卓系统里，我们可以在桌面上添加这个app的插件。插件有不同的种类，我喜欢的是如下图这样的，每天只要在相应的图标上单击即可打卡，非常方便： 扩展功能app的数据可以导出，不过不是特别方便，因为需要对每个习惯一一进行导出。不过制作者提供了app的源代码，所以我以后有空的时候希望对app尝试增加以下功能： 数据简便地导出 数据的导入 登陆功能：数据在不同终端的同步]]></content>
@@ -104,18 +116,6 @@
         <tag>习惯</tag>
         <tag>记录</tag>
         <tag>app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[这些事情帮我打开了新的天地]]></title>
-    <url>%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E8%BF%99%E4%BA%9B%E4%BA%8B%E6%83%85%E5%B8%AE%E6%88%91%E6%89%93%E5%BC%80%E4%BA%86%E6%96%B0%E7%9A%84%E5%A4%A9%E5%9C%B0%2F</url>
-    <content type="text"><![CDATA[以下记录的是一些曾经让我觉得：“不试不知道，一试忘不掉”的事情/软件等。 生活习惯酸奶加燕麦：准备早餐原来如此简单 各种尝试建立个人网站：做网站不难，而且会上瘾的击剑：速度与技巧的集合，锻炼集中注意力射箭：更加了解自己的身体，使用肩部力量 软件/app类文件自动备份系统（如MyCloud和MyPassport等）：备份在手，心里不慌。Github/Gitlab：代码管理如此轻松Markdown：轻量化的文本撰写语言，简书也兼容 未完待续]]></content>
-      <categories>
-        <category>X信息汇总</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-        <tag>knowledgebase</tag>
       </tags>
   </entry>
   <entry>
