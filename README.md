@@ -171,3 +171,27 @@ http://charmlegal.com/2017/12/05/article6/
 
 ## NEXT 配置
 https://www.jianshu.com/p/3a05351a37dc
+
+## 国际版
+语言名称看语言包
+https://hexo.io/zh-cn/docs/internationalization.html
+
+## busuanzi失效
+https://blog.csdn.net/ddydavie/article/details/83020549
+
+## 字数统计
+需要设置 并 安装插件
+https://www.itfanr.cc/2017/12/06/hexo-blog-optimization/
+https://www.jianshu.com/p/baea8c95e39b
+
+## 置顶
+http://wangwlj.com/2018/01/09/blog_pin_post/
+https://lewky.cn/posts/6ed0d627.html  top可以编号
+
+## 多级目录展开
+https://github.com/iissnan/hexo-theme-next/issues/710
+
+
+## TODO
+文章普通图片格式
+手机版的开头目录
