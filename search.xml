@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[KnowledgeBase-IT]]></title>
-    <url>%2Fpublic%2FKnowledgeBase-20190306-KnowledgeBase-IT%E7%96%91%E9%9A%BE%2F</url>
-    <content type="text"><![CDATA[硬盘有盘符但是无法读取 “The device is not ready”尝试网上说的各种方法，主要涵盖在以下两个链接中。 Fix: The device is not ready on Windows 7, 8 and 10 How To Recover Data From Portable Hard Drive 如果均无效果，考虑恢复文件后格式化硬盘。恢复文件可以使用 EassosRecovery - 参考 WinHex (在U盘格式化问题时成功应用) DiskGenius testdisk-7.1-WIP CHKDSK is not available for RAW drivesM3 data recovery]]></content>
+    <title><![CDATA[有用网站汇总]]></title>
+    <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E6%9C%89%E7%94%A8%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB%2F</url>
+    <content type="text"><![CDATA[有用网站汇总CS相关教程廖雪峰的官网莫烦的机器学习教程 编程练习leetcode领扣 一些开源站点Facebook Opensource 强化学习开源项目Horizon RL plattform SimulatorsGazebo ConferencesCoRLEMBC Online coursesVideo LecturesCoursera网易云课堂 Free WebsitessimplesiteSites GoogleBlogspot/Blogger Uni BernWebmail (不断完善中)]]></content>
       <categories>
-        <category>KnowledgeBase</category>
+        <category>X信息汇总</category>
+      </categories>
+      <tags>
+        <tag>knowledgebase</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[待看的内容汇总]]></title>
+    <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E5%BE%85%E7%9C%8B%E7%9A%84%E5%86%85%E5%AE%B9%E6%B1%87%E6%80%BB%2F</url>
+    <content type="text"><![CDATA[英语和德语发音管理类考试gimpinkscapelatexdreampark software 飞信设置 何炅，刘在时沙漠之花黑镜人生七年 kassenlaufbandwarentrenndings #待看书如何看一幅画西藏生死之书 #待看电影/纪录片无名之辈香水红海行动美国田园下的罪恶15:17到巴黎末代皇帝时空恋旅人一个人的一天神奇动物脉动地球《Die Verführerin Adele Spitzeder》（女骗子阿黛尔）关于爱因斯坦纪录片德雷斯顿大轰炸 资源1​德雷斯顿大轰炸 资源2国家人文历史耶鲁大学 音乐鉴赏全集Underground (1995 film))11 Iconic Serbian Films You Need to Watch Before You Go黑镜]]></content>
+      <categories>
+        <category>X信息汇总</category>
       </categories>
       <tags>
         <tag>knowledgebase</tag>
@@ -25,6 +36,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[好用手机app汇总]]></title>
+    <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E5%A5%BD%E7%94%A8%E6%89%8B%E6%9C%BAapp%E6%B1%87%E6%80%BB%2F</url>
+    <content type="text"><![CDATA[以下是我经常使用的手机app（安卓）的汇总。加粗的是目前使用比较多的app。希望能给大家一点参考。 自我提升十点读书Habits习惯:记录习惯进行打卡的小app，很好用简书得到微信读书keepMiFit小米运动 社交软件微信skypeWhatsappInstagramQQ和飞信AndFetionTelegramViberFacebook 效率提升/时间管理GmailInboxFocus To-Do(疯狂番茄)Google CalendarBusiness Calendar:用于生成桌面日历插件Google remote desktop:远程控制电脑Gtasks:用于生成桌面Task插件Tasks 娱乐消遣虾米音乐Music Center（连索尼音响）Bose Connection（连Bose耳机）豆瓣:什么都有，尤其是可以标记读过的图书和看过的电影WordPress:管理wordpress制作的网站，并可以查看流量数据FlashAir: 无线存储卡连接软件 智能生活HERE WeGo: Here地图，可以下载离线地图Smart life: 控制智能灯泡等Remote: 通过手机遥控相机等设备SnoreLab: 记录晚上打呼噜情况AirMore: 通过浏览器下载手机数据 信息迭代McKinsey:麦肯锡信息TuneIN: 不错的收音机软件 消费购物支付宝AlipayAliexpress:阿里旗下的从海外购买国内物品的网站，很便宜，很多包邮，运送时间在20天左右Supercard: coop家的积分卡Migros: Migros家的积分卡H&amp;MGlobus AppWEMcDonald’s 交通出行SBB: 瑞士交通查询，包括铁路和市内交通DB Navigation: 德国铁路Mobility Switzerland: 瑞士租车公司BookingExpediaSWISS: 瑞士航空Ryanair: 瑞安廉价航空EasyJet: EasyJet廉价 银行金融TWINTTC SecurityTC MobileSwisscardIQ optionDuo Mobile 其他Chrome: 谷歌浏览器猎豹清理大师Night shift: 消除手机屏幕蓝光K-Classic：德国Kaufland公司电话卡管理Microsoft Authenticator: 用于学校提供的office365的验证]]></content>
+      <categories>
+        <category>X信息汇总</category>
+      </categories>
+      <tags>
+        <tag>app</tag>
+        <tag>knowledgebase</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[一些小贴士-激励我的句子]]></title>
     <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E4%B8%80%E4%BA%9B%E5%B0%8F%E8%B4%B4%E5%A3%AB-%E6%BF%80%E5%8A%B1%E6%88%91%E7%9A%84%E5%8F%A5%E5%AD%90%2F</url>
     <content type="text"><![CDATA[用一张大纸规划进度利用复印的方法看书写是否足够美观从开始就准备些论文的材料先做出，再做好证书和文件及时扫描存档每天拿点时间提升专业修养掌握科学的休息方法要有接纳混乱的心态 写下最重要的20件事并选出其中五件Now is the best timing.不要等待一个更好的时机做孩子的榜样赶时间，其实也没有那么赶当回头看时，应该是笑着的人莫鉴于流水，而鉴于止水 宁静是一种规格很高的品质 抓住重点，表达自己的观点teamwork keep the team work 所有各种都是语言，音乐是语言，用五线谱记录，绘画是语言，用画作记录，人类说的语言形体的语言，编程的语言，自然的语言（自然现象）。。。。。这些所有的语言有没有一个统一的规律？ 以前有时太幼稚 年轻气盛，不professional,不过现在努力还来得及 2017 大格局 大世界]]></content>
@@ -39,34 +62,11 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[待看的内容汇总]]></title>
-    <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E5%BE%85%E7%9C%8B%E7%9A%84%E5%86%85%E5%AE%B9%E6%B1%87%E6%80%BB%2F</url>
-    <content type="text"><![CDATA[英语和德语发音管理类考试gimpinkscapelatexdreampark software 飞信设置 何炅，刘在时沙漠之花黑镜人生七年 kassenlaufbandwarentrenndings #待看书如何看一幅画西藏生死之书 #待看电影/纪录片无名之辈香水红海行动美国田园下的罪恶15:17到巴黎末代皇帝时空恋旅人一个人的一天神奇动物脉动地球《Die Verführerin Adele Spitzeder》（女骗子阿黛尔）关于爱因斯坦纪录片德雷斯顿大轰炸 资源1​德雷斯顿大轰炸 资源2国家人文历史耶鲁大学 音乐鉴赏全集Underground (1995 film))11 Iconic Serbian Films You Need to Watch Before You Go黑镜]]></content>
+    <title><![CDATA[KnowledgeBase-IT]]></title>
+    <url>%2Fpublic%2FKnowledgeBase-20190306-KnowledgeBase-IT%E7%96%91%E9%9A%BE%2F</url>
+    <content type="text"><![CDATA[硬盘有盘符但是无法读取 “The device is not ready”尝试网上说的各种方法，主要涵盖在以下两个链接中。 Fix: The device is not ready on Windows 7, 8 and 10 How To Recover Data From Portable Hard Drive 如果均无效果，考虑恢复文件后格式化硬盘。恢复文件可以使用 EassosRecovery - 参考 WinHex (在U盘格式化问题时成功应用) DiskGenius testdisk-7.1-WIP CHKDSK is not available for RAW drivesM3 data recovery]]></content>
       <categories>
-        <category>X信息汇总</category>
-      </categories>
-      <tags>
-        <tag>knowledgebase</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[好用手机app汇总]]></title>
-    <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E5%A5%BD%E7%94%A8%E6%89%8B%E6%9C%BAapp%E6%B1%87%E6%80%BB%2F</url>
-    <content type="text"><![CDATA[以下是我经常使用的手机app（安卓）的汇总。加粗的是目前使用比较多的app。希望能给大家一点参考。 自我提升十点读书Habits习惯:记录习惯进行打卡的小app，很好用简书得到微信读书keepMiFit小米运动 社交软件微信skypeWhatsappInstagramQQ和飞信AndFetionTelegramViberFacebook 效率提升/时间管理GmailInboxFocus To-Do(疯狂番茄)Google CalendarBusiness Calendar:用于生成桌面日历插件Google remote desktop:远程控制电脑Gtasks:用于生成桌面Task插件Tasks 娱乐消遣虾米音乐Music Center（连索尼音响）Bose Connection（连Bose耳机）豆瓣:什么都有，尤其是可以标记读过的图书和看过的电影WordPress:管理wordpress制作的网站，并可以查看流量数据FlashAir: 无线存储卡连接软件 智能生活HERE WeGo: Here地图，可以下载离线地图Smart life: 控制智能灯泡等Remote: 通过手机遥控相机等设备SnoreLab: 记录晚上打呼噜情况AirMore: 通过浏览器下载手机数据 信息迭代McKinsey:麦肯锡信息TuneIN: 不错的收音机软件 消费购物支付宝AlipayAliexpress:阿里旗下的从海外购买国内物品的网站，很便宜，很多包邮，运送时间在20天左右Supercard: coop家的积分卡Migros: Migros家的积分卡H&amp;MGlobus AppWEMcDonald’s 交通出行SBB: 瑞士交通查询，包括铁路和市内交通DB Navigation: 德国铁路Mobility Switzerland: 瑞士租车公司BookingExpediaSWISS: 瑞士航空Ryanair: 瑞安廉价航空EasyJet: EasyJet廉价 银行金融TWINTTC SecurityTC MobileSwisscardIQ optionDuo Mobile 其他Chrome: 谷歌浏览器猎豹清理大师Night shift: 消除手机屏幕蓝光K-Classic：德国Kaufland公司电话卡管理Microsoft Authenticator: 用于学校提供的office365的验证]]></content>
-      <categories>
-        <category>X信息汇总</category>
-      </categories>
-      <tags>
-        <tag>app</tag>
-        <tag>knowledgebase</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[有用网站汇总]]></title>
-    <url>%2Fpublic%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E6%9C%89%E7%94%A8%E7%BD%91%E7%AB%99%E6%B1%87%E6%80%BB%2F</url>
-    <content type="text"><![CDATA[有用网站汇总CS相关教程廖雪峰的官网莫烦的机器学习教程 编程练习leetcode领扣 一些开源站点Facebook Opensource 强化学习开源项目Horizon RL plattform SimulatorsGazebo ConferencesCoRLEMBC Online coursesVideo LecturesCoursera网易云课堂 Free WebsitessimplesiteSites GoogleBlogspot/Blogger Uni BernWebmail (不断完善中)]]></content>
-      <categories>
-        <category>X信息汇总</category>
+        <category>KnowledgeBase</category>
       </categories>
       <tags>
         <tag>knowledgebase</tag>
