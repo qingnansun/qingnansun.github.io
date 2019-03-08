@@ -31,8 +31,8 @@
       </categories>
       <tags>
         <tag>习惯</tag>
-        <tag>SQN规范化建议</tag>
         <tag>knowledgebase</tag>
+        <tag>SQN规范化建议</tag>
       </tags>
   </entry>
   <entry>
@@ -55,10 +55,10 @@
         <category>X信息汇总</category>
       </categories>
       <tags>
+        <tag>knowledgebase</tag>
         <tag>SQN规范化建议</tag>
         <tag>贴士</tag>
         <tag>激励</tag>
-        <tag>knowledgebase</tag>
       </tags>
   </entry>
   <entry>
@@ -88,21 +88,9 @@
         <category>X信息汇总</category>
       </categories>
       <tags>
+        <tag>knowledgebase</tag>
         <tag>SQN规范化建议</tag>
-        <tag>knowledgebase</tag>
         <tag>保护环境</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[这些事情帮我打开了新的天地]]></title>
-    <url>qingnansun.github.io%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E8%BF%99%E4%BA%9B%E4%BA%8B%E6%83%85%E5%B8%AE%E6%88%91%E6%89%93%E5%BC%80%E4%BA%86%E6%96%B0%E7%9A%84%E5%A4%A9%E5%9C%B0%2F</url>
-    <content type="text"><![CDATA[以下记录的是一些曾经让我觉得：“不试不知道，一试忘不掉”的事情/软件等。 生活习惯酸奶加燕麦：准备早餐原来如此简单 各种尝试建立个人网站：做网站不难，而且会上瘾的击剑：速度与技巧的集合，锻炼集中注意力射箭：更加了解自己的身体，使用肩部力量 软件/app类文件自动备份系统（如MyCloud和MyPassport等）：备份在手，心里不慌。Github/Gitlab：代码管理如此轻松Markdown：轻量化的文本撰写语言，简书也兼容 未完待续]]></content>
-      <categories>
-        <category>X信息汇总</category>
-      </categories>
-      <tags>
-        <tag>记录</tag>
-        <tag>knowledgebase</tag>
       </tags>
   </entry>
   <entry>
@@ -119,6 +107,18 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[这些事情帮我打开了新的天地]]></title>
+    <url>qingnansun.github.io%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E8%BF%99%E4%BA%9B%E4%BA%8B%E6%83%85%E5%B8%AE%E6%88%91%E6%89%93%E5%BC%80%E4%BA%86%E6%96%B0%E7%9A%84%E5%A4%A9%E5%9C%B0%2F</url>
+    <content type="text"><![CDATA[以下记录的是一些曾经让我觉得：“不试不知道，一试忘不掉”的事情/软件等。 生活习惯酸奶加燕麦：准备早餐原来如此简单 各种尝试建立个人网站：做网站不难，而且会上瘾的击剑：速度与技巧的集合，锻炼集中注意力射箭：更加了解自己的身体，使用肩部力量 软件/app类文件自动备份系统（如MyCloud和MyPassport等）：备份在手，心里不慌。Github/Gitlab：代码管理如此轻松Markdown：轻量化的文本撰写语言，简书也兼容 未完待续]]></content>
+      <categories>
+        <category>X信息汇总</category>
+      </categories>
+      <tags>
+        <tag>记录</tag>
+        <tag>knowledgebase</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[让我们觉得自己有高贵灵魂的一些小事]]></title>
     <url>qingnansun.github.io%2FX%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB-%E8%AE%A9%E6%88%91%E4%BB%AC%E8%A7%89%E5%BE%97%E8%87%AA%E5%B7%B1%E6%9C%89%E9%AB%98%E8%B4%B5%E7%81%B5%E9%AD%82%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B0%8F%E4%BA%8B%2F</url>
     <content type="text"><![CDATA[文章里说的都是很小很小的小事，也许小到真的只是举手之劳，可是细细想来，能做到这些小事，便能为自己和别人提供一丝方便。点点滴滴，把我们塑造成了高贵的人。 此外，本文作者在德国和瑞士生活多年，文中的一些“小事”在这两个国家都是司空见惯的小事，然而在国内，需要我们一起的努力，把这些小事一步一步变成习惯。 为他人着想 进出门时，主动为后边的人扶门。 （司机）礼让行人。车让人，不用多说了，看到斑马线了提前减速，请过路的行人先通过。也可以用手礼貌的示意行人先行。不要高速驾车直到逼近斑马线才突然刹车，提前减速避让行人。 （行人）礼让机动车。在德国和瑞士，辅路的车上主路时，一是要避让行人，同时也要避让主路的过往车辆。有时好不容易等到主路车少了，结果刚好遇到行人过马路，这一等又不知道等到什么时候去了。过这种路口时行人有先行权，不过有时，我们也可以放弃这一点点先行权，而让整个system更加高效。在这时，我通常会观察下主路车辆，如果刚好没车，就示意（准备）避让我的辅路车先行通过。 为上电梯来晚的人按着开电梯门按钮，避免在他进入电梯时，电梯门突然关闭。 车进站时，在车门两侧等待上车，留出车门正对的空间给车上的乘客下车。先下后上。 有人跑着来赶车，请帮他们挡一下车门。 很多事，看破不说破，自己觉得微不足道的事情，在别人那里可能是小确幸，请保护他们的幸福感和快乐。 别人到桌子下（或窗下、或其他家具下）取东西，如果头有碰到桌子的风险，请用手隔在桌子和他的头之间，并提醒他起身抬头时小心一点。 学会感恩和珍惜 向办公室的保洁员说声谢谢。 餐厅服务员上菜时，以及撤下空盘子时，说声谢谢。 向公交车司机说声谢谢和再见。 保护环境，我们的责任 避免使用一次性餐具，尤其是一次性塑料餐具 不乱扔废弃的塑料制品、不乱丢垃圾 注意垃圾分类。目前国内的垃圾分类做的还不到位，不过如果你所在的城市已经在试点垃圾分类，请努力支持。在德国和瑞士，需要将玻璃瓶（透明、绿色、深色）、铁器、废纸及纸壳、PET饮用水瓶、其他塑料瓶、厨余垃圾等分类回收。在国内，如果你附近有收废品的，请继续将废纸、废瓶子、废铁等卖（送）给他们。也算是为回收做贡献了。 废弃电子产品、废电池尽量送到专业的回收点。这里边的重金属材料对环境的污染特别强烈。（同时请注意个人隐私，尽量破坏掉存储器部分） 尽量发挥物品的最大价值。举个小例子，废弃的装A4打印纸的盒子我会拿来装废纸，这样再次发挥了一点盒子的价值。购物等赠送的小塑料袋或包装袋，可以留着当垃圾袋。 爱护公物 按电梯、公交车和火车的开门键时，轻轻的按一次即可，不要猛力反复使劲按。 礼貌地开关门，不要使劲摔门，一方面保护公物，另一方面也减少噪音防止吵到别人。]]></content>
@@ -126,8 +126,8 @@
         <category>X信息汇总</category>
       </categories>
       <tags>
-        <tag>SQN规范化建议</tag>
         <tag>knowledgebase</tag>
+        <tag>SQN规范化建议</tag>
         <tag>高贵</tag>
       </tags>
   </entry>
@@ -140,8 +140,8 @@
       </categories>
       <tags>
         <tag>习惯</tag>
-        <tag>SQN规范化建议</tag>
         <tag>knowledgebase</tag>
+        <tag>SQN规范化建议</tag>
         <tag>软件</tag>
       </tags>
   </entry>
@@ -244,9 +244,9 @@
         <category>J机器学习基础</category>
       </categories>
       <tags>
-        <tag>tensorflow</tag>
         <tag>windows10</tag>
         <tag>python</tag>
+        <tag>tensorflow</tag>
         <tag>keras</tag>
       </tags>
   </entry>
