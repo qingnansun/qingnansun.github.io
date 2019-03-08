@@ -2,10 +2,8 @@
 
 
 
-  
 
-
-<html class="theme-next mist use-motion" lang="zh-CN">
+<html class="theme-next pisces" lang="zh-hans">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,6 +72,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="SQN - 生活与思考" type="application/atom+xml">
+
 
 
 
@@ -86,7 +86,7 @@
 <meta property="og:url" content="https://qingnansun.github.io/index.html">
 <meta property="og:site_name" content="SQN - 生活与思考">
 <meta property="og:description" content="分享我生活和学习中的一点感悟和思考">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="zh-hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SQN - 生活与思考">
 <meta name="twitter:description" content="分享我生活和学习中的一点感悟和思考">
@@ -97,12 +97,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Mist',
+    scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"right","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":true,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
       author: 'Author'
@@ -137,14 +137,14 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-hans">
 
   
   
     
   
 
-  <div class="container sidebar-position-right 
+  <div class="container sidebar-position-left 
   page-home">
     <div class="headband"></div>
 
@@ -161,7 +161,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <h1 class="site-subtitle" itemprop="description"></h1>
       
   </div>
 
@@ -191,6 +191,36 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -202,9 +232,41 @@
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            Search
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="Searching..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
 </nav>
 
@@ -250,9 +312,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/" itemprop="url">KnowledgeBase-IT</a></h1>
+                <a class="post-title-link" href="/KnowledgeBase-20190306-KnowledgeBase-IT疑难/" itemprop="url">KnowledgeBase-IT</a></h2>
         
 
         <div class="post-meta">
@@ -334,6 +396,7 @@
       
 
       
+
         
           解决IT相关问题的知识库
           <!--noindex-->
@@ -406,9 +469,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-应该养成的各种好习惯/" itemprop="url">应该养成的各种好习惯</a></h1>
+                <a class="post-title-link" href="/X信息汇总-应该养成的各种好习惯/" itemprop="url">应该养成的各种好习惯</a></h2>
         
 
         <div class="post-meta">
@@ -490,6 +553,7 @@
       
 
       
+
         
           
             <h1 id="工作学习类"><a href="#工作学习类" class="headerlink" title="工作学习类"></a>工作学习类</h1><p>不要频繁查阅邮箱，每天固定查看几次，如早、中、晚三次<br>定期清空和存档收件箱中的邮件<br>合理使用甘特图、Task和日程等进行任务规划</p>
@@ -562,9 +626,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-一些小贴士-激励我的句子/" itemprop="url">一些小贴士-激励我的句子</a></h1>
+                <a class="post-title-link" href="/X信息汇总-一些小贴士-激励我的句子/" itemprop="url">一些小贴士-激励我的句子</a></h2>
         
 
         <div class="post-meta">
@@ -646,6 +710,7 @@
       
 
       
+
         
           
             <p>用一张大纸规划进度<br>利用复印的方法看书写是否足够美观<br>从开始就准备些论文的材料<br>先做出，再做好<br>证书和文件及时扫描存档<br>每天拿点时间提升专业修养<br>掌握科学的休息方法<br>要有接纳混乱的心态</p>
@@ -720,9 +785,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-待看的内容汇总/" itemprop="url">待看的内容汇总</a></h1>
+                <a class="post-title-link" href="/X信息汇总-待看的内容汇总/" itemprop="url">待看的内容汇总</a></h2>
         
 
         <div class="post-meta">
@@ -804,6 +869,7 @@
       
 
       
+
         
           
             <p>英语和德语发音<br>管理类考试<br>gimp<br>inkscape<br>latex<br>dreampark software</p>
@@ -877,9 +943,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-好用手机app汇总/" itemprop="url">好用手机app汇总</a></h1>
+                <a class="post-title-link" href="/X信息汇总-好用手机app汇总/" itemprop="url">好用手机app汇总</a></h2>
         
 
         <div class="post-meta">
@@ -961,6 +1027,7 @@
       
 
       
+
         
           
             <p>以下是我经常使用的手机app（安卓）的汇总。加粗的是目前使用比较多的app。希望能给大家一点参考。</p>
@@ -1039,9 +1106,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-有用网站汇总/" itemprop="url">有用网站汇总</a></h1>
+                <a class="post-title-link" href="/X信息汇总-有用网站汇总/" itemprop="url">有用网站汇总</a></h2>
         
 
         <div class="post-meta">
@@ -1123,6 +1190,7 @@
       
 
       
+
         
           
             <h1 id="有用网站汇总"><a href="#有用网站汇总" class="headerlink" title="有用网站汇总"></a>有用网站汇总</h1><h2 id="CS相关教程"><a href="#CS相关教程" class="headerlink" title="CS相关教程"></a>CS相关教程</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰的官网</a><br><a href="https://morvanzhou.github.io/" target="_blank" rel="noopener">莫烦的机器学习教程</a></p>
@@ -1200,9 +1268,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/IT-hello-world/" itemprop="url">Hello World</a></h1>
+                <a class="post-title-link" href="/IT-hello-world/" itemprop="url">Hello World</a></h2>
         
 
         <div class="post-meta">
@@ -1284,6 +1352,7 @@
       
 
       
+
         
           
             <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
@@ -1360,9 +1429,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-保护环境，这些小事我们可以做/" itemprop="url">保护环境，这些小事我们可以做</a></h1>
+                <a class="post-title-link" href="/X信息汇总-保护环境，这些小事我们可以做/" itemprop="url">保护环境，这些小事我们可以做</a></h2>
         
 
         <div class="post-meta">
@@ -1444,6 +1513,7 @@
       
 
       
+
         
           
             <p>保护环境看似是一个很大的话题，因为需要世界各国政府部门的推动。然而也是一个很小的话题，小到我们通过自己的努力就能做出很大的贡献。说保护环境的方法前，先说说为什么想写这样一篇文章。</p>
@@ -1536,9 +1606,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/IT-你真的应该拥有这个习惯记录app/" itemprop="url">你真的应该拥有这个习惯记录app</a></h1>
+                <a class="post-title-link" href="/IT-你真的应该拥有这个习惯记录app/" itemprop="url">你真的应该拥有这个习惯记录app</a></h2>
         
 
         <div class="post-meta">
@@ -1620,6 +1690,7 @@
       
 
       
+
         
           
             <p>作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。</p>
@@ -1709,9 +1780,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-这些事情帮我打开了新的天地/" itemprop="url">这些事情帮我打开了新的天地</a></h1>
+                <a class="post-title-link" href="/X信息汇总-这些事情帮我打开了新的天地/" itemprop="url">这些事情帮我打开了新的天地</a></h2>
         
 
         <div class="post-meta">
@@ -1793,6 +1864,7 @@
       
 
       
+
         
           
             <p>以下记录的是一些曾经让我觉得：“<strong>不试不知道，一试忘不掉</strong>”的事情/软件等。</p>
@@ -1865,9 +1937,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" itemprop="url">让我们觉得自己有高贵灵魂的一些小事</a></h1>
+                <a class="post-title-link" href="/X信息汇总-让我们觉得自己有高贵灵魂的一些小事/" itemprop="url">让我们觉得自己有高贵灵魂的一些小事</a></h2>
         
 
         <div class="post-meta">
@@ -1949,6 +2021,7 @@
       
 
       
+
         
           
             <p>文章里说的都是很小很小的小事，也许小到真的只是举手之劳，可是细细想来，能做到这些小事，便能为自己和别人提供一丝方便。点点滴滴，把我们塑造成了高贵的人。</p>
@@ -2044,9 +2117,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/" itemprop="url">重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯</a></h1>
+                <a class="post-title-link" href="/X信息汇总-重装系统-买新电脑后的一些必要软件的安装与设置-养成好的工作习惯/" itemprop="url">重装系统-买新电脑后的一些必要软件的安装与设置--养成好的工作习惯</a></h2>
         
 
         <div class="post-meta">
@@ -2128,6 +2201,7 @@
       
 
       
+
         
           
             <p>（本文章适用于Windows 10系统的用户）</p>
@@ -2275,9 +2349,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/" itemprop="url">机器学习利用第三方库自动寻找最优参数时报错的一点总结</a></h1>
+                <a class="post-title-link" href="/J机器学习基础-机器学习利用第三方库自动寻找最优参数时报错的一点总结/" itemprop="url">机器学习利用第三方库自动寻找最优参数时报错的一点总结</a></h2>
         
 
         <div class="post-meta">
@@ -2359,6 +2433,7 @@
       
 
       
+
         
           
             <p>&emsp;&emsp;目前的实验中我在用深度学习构建神经网络，开始的时候我一般是随机手调几个数大致看下效果，有时候如果需要知道网络效果随参数变化的趋势，就用for循环自动运行许多实验，然后我来收结果并用matlab批量分析。今天同事给我推荐了两个github上的库，利用这两个库可以实现对模型多次的运行并评价系统的运行结果。这个过程中不涉及对系统的优化，只是通过大量的自动运行的实验通过统计学的角度来比较什么样的参数相对较好。</p>
@@ -2440,9 +2515,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/" itemprop="url">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a></h1>
+                <a class="post-title-link" href="/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/" itemprop="url">《自-深深处》奥斯卡-王尔德[英]-金句摘抄</a></h2>
         
 
         <div class="post-meta">
@@ -2524,6 +2599,7 @@
       
 
       
+
         
           
             <p>以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。</p>
@@ -2628,9 +2704,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/D读书笔记-金句摘抄/" itemprop="url">金句摘抄</a></h1>
+                <a class="post-title-link" href="/D读书笔记-金句摘抄/" itemprop="url">金句摘抄</a></h2>
         
 
         <div class="post-meta">
@@ -2712,6 +2788,7 @@
       
 
       
+
         
           
             <p>From this day to the ending of the world,<br>But we in it shall be remembered, —<br>We few, we happy few, we band of brothers.<br>For he to-day that sheds his blood with me,<br>Shall be my brother;<br><em>from Henry V, spoken by King Henry</em></p>
@@ -2782,9 +2859,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/S随笔-你是童话城堡中最美的新娘/" itemprop="url">你是童话城堡中最美的新娘</a></h1>
+                <a class="post-title-link" href="/S随笔-你是童话城堡中最美的新娘/" itemprop="url">你是童话城堡中最美的新娘</a></h2>
         
 
         <div class="post-meta">
@@ -2866,6 +2943,7 @@
       
 
       
+
         
           
             <p>你是童话城堡中最美的新娘</p>
@@ -2940,9 +3018,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/" itemprop="url">Ubuntu上安装python3-6以及设置为系统默认</a></h1>
+                <a class="post-title-link" href="/Linux-Python-Ubuntu上安装python3-6以及设置为系统默认/" itemprop="url">Ubuntu上安装python3-6以及设置为系统默认</a></h2>
         
 
         <div class="post-meta">
@@ -3024,6 +3102,7 @@
       
 
       
+
         
           
             <p>这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。</p>
@@ -3106,9 +3185,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" itemprop="url">Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹</a></h1>
+                <a class="post-title-link" href="/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/" itemprop="url">Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹</a></h2>
         
 
         <div class="post-meta">
@@ -3190,6 +3269,7 @@
       
 
       
+
         
           
             <p>最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。</p>
@@ -3303,9 +3383,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" itemprop="url">使用python构建ARIMA模型进行预测分析的小说明-forecast函数</a></h1>
+                <a class="post-title-link" href="/J机器学习基础-使用python构建ARIMA模型进行预测分析的小说明-forecast函数/" itemprop="url">使用python构建ARIMA模型进行预测分析的小说明-forecast函数</a></h2>
         
 
         <div class="post-meta">
@@ -3387,6 +3467,7 @@
       
 
       
+
         
           
             <p>&emsp;&emsp;Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。</p>
@@ -3474,9 +3555,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/" itemprop="url">设置使用tensorflow作为backend并在GPU上运行</a></h1>
+                <a class="post-title-link" href="/J机器学习基础-设置使用tensorflow作为backend并在GPU上运行/" itemprop="url">设置使用tensorflow作为backend并在GPU上运行</a></h2>
         
 
         <div class="post-meta">
@@ -3558,6 +3639,7 @@
       
 
       
+
         
           
             <p>&emsp;&emsp;由于Theano从十月起停止更新（<a href="https://www.jiqizhixin.com/articles/2017-09-29-5" target="_blank" rel="noopener">LINK</a>），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。</p>
@@ -3645,9 +3727,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/" itemprop="url">Windows10下安装Python,Tensorflow和Keras</a></h1>
+                <a class="post-title-link" href="/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/" itemprop="url">Windows10下安装Python,Tensorflow和Keras</a></h2>
         
 
         <div class="post-meta">
@@ -3729,6 +3811,7 @@
       
 
       
+
         
           
             <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
@@ -3828,9 +3911,9 @@ import keras
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/X信息汇总-写给女孩的安全建议/" itemprop="url">写给女孩的安全建议</a></h1>
+                <a class="post-title-link" href="/X信息汇总-写给女孩的安全建议/" itemprop="url">写给女孩的安全建议</a></h2>
         
 
         <div class="post-meta">
@@ -3912,6 +3995,7 @@ import keras
       
 
       
+
         
           
             <p>&emsp;&emsp;<em>写在前边的话：</em>很多年来就在构思这样一篇文章，当时主要是想给我女朋友（现在是我老婆）看。虽然都说男女平等，不过不可否认女性在很多侵害中都是“更好”的目标，也更容易被不法分子盯上，所以专门写了这篇给女孩的安全建议，希望女性朋友们能够读一读，保护好自己；男性朋友们也请读一读，提醒和保护好你的（尤其是有些马大哈的）女性朋友。</p>
@@ -4066,9 +4150,9 @@ import keras
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/" itemprop="url">PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)</a></h1>
+                <a class="post-title-link" href="/IT-PEP-8-—-Style-Guide-for-Python-Code-PEP8-—-Python代码风格指南/" itemprop="url">PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南)</a></h2>
         
 
         <div class="post-meta">
@@ -4150,6 +4234,7 @@ import keras
       
 
       
+
         
           
             <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>本篇文章是对<a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">Python官网</a>上的代码风格指南的翻译和注解。虽然网上已经有很多类似的翻译了，我还是希望通过自己进行翻译的方式加深对指南的理解。本文更多注重于内容的翻译，所以没有特别多的辞藻修饰，文中若有疏漏和不妥之处，欢迎大家批评指正。本文没有完全翻译结束，近期会慢慢完善。</p>
@@ -5089,9 +5174,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/S随笔-我的“北漂”见闻/" itemprop="url">我的"北漂"见闻</a></h1>
+                <a class="post-title-link" href="/S随笔-我的“北漂”见闻/" itemprop="url">我的"北漂"见闻</a></h2>
         
 
         <div class="post-meta">
@@ -5173,6 +5258,7 @@ class Test:
       
 
       
+
         
           
             <p>&emsp;&emsp;2013年，为了能有更多的时间陪陪女友和家人，我申请到了在北京一家德企的实习职位。于是从那年的6月起，我回国开始了为期6个月的“北漂”生活。 </p>
@@ -5254,9 +5340,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Q骑行日记-20111111-连载17-不是一个人前进-致谢/" itemprop="url">连载17-不是一个人前进-致谢</a></h1>
+                <a class="post-title-link" href="/Q骑行日记-20111111-连载17-不是一个人前进-致谢/" itemprop="url">连载17-不是一个人前进-致谢</a></h2>
         
 
         <div class="post-meta">
@@ -5338,6 +5424,7 @@ class Test:
       
 
       
+
         
           
             
@@ -5405,9 +5492,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Q骑行日记-20111110-连载16-住宿特辑-沙发客/" itemprop="url">连载16-住宿特辑-沙发客</a></h1>
+                <a class="post-title-link" href="/Q骑行日记-20111110-连载16-住宿特辑-沙发客/" itemprop="url">连载16-住宿特辑-沙发客</a></h2>
         
 
         <div class="post-meta">
@@ -5489,6 +5576,7 @@ class Test:
       
 
       
+
         
           
             
@@ -5556,9 +5644,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/" itemprop="url">连载15-第十四天-沿着易北河回家</a></h1>
+                <a class="post-title-link" href="/Q骑行日记-20111109-连载15-第十四天-沿着易北河回家/" itemprop="url">连载15-第十四天-沿着易北河回家</a></h2>
         
 
         <div class="post-meta">
@@ -5640,6 +5728,7 @@ class Test:
       
 
       
+
         
           
             
@@ -5707,9 +5796,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/" itemprop="url">连载14-第十三天-漫游瓷器之都</a></h1>
+                <a class="post-title-link" href="/Q骑行日记-20111107-连载14-第十三天-漫游瓷器之都/" itemprop="url">连载14-第十三天-漫游瓷器之都</a></h2>
         
 
         <div class="post-meta">
@@ -5791,6 +5880,7 @@ class Test:
       
 
       
+
         
           
             
@@ -5858,9 +5948,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/" itemprop="url">连载13-第十二天-怀着期待赶路</a></h1>
+                <a class="post-title-link" href="/Q骑行日记-20111102-连载13-第十二天-怀着期待赶路/" itemprop="url">连载13-第十二天-怀着期待赶路</a></h2>
         
 
         <div class="post-meta">
@@ -5942,6 +6032,7 @@ class Test:
       
 
       
+
         
           
             
@@ -6009,9 +6100,9 @@ class Test:
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/" itemprop="url">连载12-第十一天-在湖边感受大海</a></h1>
+                <a class="post-title-link" href="/Q骑行日记-20111031-连载12-第十一天-在湖边感受大海/" itemprop="url">连载12-第十一天-在湖边感受大海</a></h2>
         
 
         <div class="post-meta">
@@ -6093,6 +6184,7 @@ class Test:
       
 
       
+
         
           
             
@@ -6169,8 +6261,10 @@ class Test:
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="Qingnan Sun">
+            
               <p class="site-author-name" itemprop="name">Qingnan Sun</p>
-              <p class="site-description motion-element" itemprop="description">分享我生活和学习中的一点感悟和思考</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           <nav class="site-state motion-element">
@@ -6190,10 +6284,10 @@ class Test:
               
               
               <div class="site-state-item site-state-categories">
-                
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">categories</span>
-                
+                </a>
               </div>
             
 
@@ -6201,23 +6295,54 @@ class Test:
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">25</span>
                   <span class="site-state-item-name">tags</span>
-                
+                </a>
               </div>
             
 
           </nav>
 
           
-
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
           
 
           
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/qingnansun" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i></a>
+                  </span>
+                
+            </div>
           
 
           
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://qingnansun.com" title="My Site" target="_blank">My Site</a>
+                  </li>
+                
+              </ul>
+            </div>
           
 
           
@@ -6227,6 +6352,16 @@ class Test:
 
       
 
+      <div class="sidebar-mapcounter">
+        <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0n4gowqtyrd&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+      </div>
+
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+        </div>
       
 
     </div>
@@ -6246,23 +6381,46 @@ class Test:
   <span class="author" itemprop="copyrightHolder">Qingnan Sun</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count"></span>
+  
 </div>
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
 
 
 
 
         
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
 
 
 
@@ -6275,12 +6433,13 @@ class Test:
     </footer>
 
     
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
 
+    
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
+      </div>
     
 
   </div>
@@ -6357,6 +6516,13 @@ class Test:
   
   
 
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
   
 
   
@@ -6423,6 +6589,323 @@ class Test:
 
   
 
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
 
 
 
@@ -6432,8 +6915,48 @@ class Test:
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+    
+      flOptions = {};
+      
+          flOptions.iconStyle = "box";
+      
+          flOptions.boxForm = "horizontal";
+      
+          flOptions.position = "middleRight";
+      
+          flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
+  </script>
+
   
 
   
