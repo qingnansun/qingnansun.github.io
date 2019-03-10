@@ -192,6 +192,15 @@ https://lewky.cn/posts/6ed0d627.html  top可以编号
 https://github.com/iissnan/hexo-theme-next/issues/710
 
 
+## RSS
+站点配置和主题配置
+https://www.jianshu.com/p/a79422ab2013
+https://steemit.com/cn/@greedyboy/hexo-next-rss
+
 ## TODO
 文章普通图片格式
 手机版的开头目录
+多语言版本
+多lnk
+描述
+关键字

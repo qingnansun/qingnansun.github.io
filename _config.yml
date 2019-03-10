@@ -105,3 +105,8 @@ search:
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
