@@ -426,7 +426,7 @@
       
         <p>&emsp;&emsp;Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。</p>
 <p>&emsp;&emsp;首先分享三篇我觉得比较好并且容易上手的教程，其中包含源代码可以直接使用。第一篇是一个最简单的入门，是单步预测；第二篇可以进行多步预测；第三篇对于算法使用前的数据处理和分析进行了详细的介绍；第四篇也有相详尽的步骤和代码，并对数据进行了详细的分析，第五篇详细的介绍了从线性回归到AR、ARMA、ARIMA及GARCH等方法。</p>
-<p><a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/" target="_blank" rel="noopener">How to Create an ARIMA Model for Time Series Forecasting with Python</a><br><a href="https://machinelearningmastery.com/make-sample-forecasts-arima-python/" target="_blank" rel="noopener">How to Make Out-of-Sample Forecasts with ARIMA in Python</a><br><a href="https://datascience.ibm.com/exchange/public/entry/view/815137c868b916821dec777bdc23013c" target="_blank" rel="noopener">Forecast a time series with ARIMA in Python</a><br><a href="https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3" target="_blank" rel="noopener">A Guide to Time Series Forecasting with ARIMA in Python 3</a><br><a href="http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016" target="_blank" rel="noopener">Time Series Analysis (TSA) in Python – Linear Models to GARCH</a></p>
+<p><a href="https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/">How to Create an ARIMA Model for Time Series Forecasting with Python</a><br><a href="https://machinelearningmastery.com/make-sample-forecasts-arima-python/">How to Make Out-of-Sample Forecasts with ARIMA in Python</a><br><a href="https://datascience.ibm.com/exchange/public/entry/view/815137c868b916821dec777bdc23013c">Forecast a time series with ARIMA in Python</a><br><a href="https://www.digitalocean.com/community/tutorials/a-guide-to-time-series-forecasting-with-arima-in-python-3">A Guide to Time Series Forecasting with ARIMA in Python 3</a><br><a href="http://www.blackarbs.com/blog/time-series-analysis-in-python-linear-models-to-garch/11/1/2016">Time Series Analysis (TSA) in Python – Linear Models to GARCH</a></p>
 <p>&emsp;&emsp;以第二个链接中的代码为例。这个链接中的《5. Multi-Step Out-of-Sample Forecast》将的是对样本量之外的多步预测，使用的Forecast function。具体的说，目前的数据为截止到12月24日的历年最低气温，现在要预测从12月25日到12月31日的最低气温。这里使用的代码为：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">forecast = model_fit.forecast(steps=7)[0]</span><br></pre></td></tr></table></figure>
 <p>&emsp;&emsp;其中steps=7很好理解，就是预测未来七天的意思。可是后边方括号里的0让我很费解，而且把forecast的数据打印出来也很奇怪，是两行7个元素的数组，加一个二维的矩阵。后来看了官方文档之后，发现取0行是因为只有这一行才是预测的结果，第二行是预测的标准差（standard error），后边的二维矩阵是预测的置信区间。具体的官方解释如下：</p>
@@ -441,9 +441,9 @@
 <p><strong>stderr</strong> : array<br>Array of the standard error of the forecasts.</p>
 <p><strong>conf_int</strong> : array<br>2d array of the confidence interval for the forecast</p>
 <p>Notes：<br>Prediction is done in the levels of the original endogenous variable. If you would like prediction of differences in levels use <cite style="box-sizing: border-box; margin: 0px; padding: 0px;">predict</cite></p>
-<p>引用资料：<a href="http://www.statsmodels.org/devel/generated/statsmodels.tsa.arima_model.ARIMAResults.forecast.html" target="_blank" rel="noopener">statsmodels.tsa.arima_model.ARIMAResults.forecast</a></p>
+<p>引用资料：<a href="http://www.statsmodels.org/devel/generated/statsmodels.tsa.arima_model.ARIMAResults.forecast.html">statsmodels.tsa.arima_model.ARIMAResults.forecast</a></p>
 <hr>
-<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/python_arima_forecast/" target="_blank" rel="noopener">qingnansun.com</a></p>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/python_arima_forecast/">qingnansun.com</a></p>
 
       
     </div>
@@ -600,7 +600,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">42</span>
+                  <span class="site-state-item-count">43</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -622,7 +622,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">26</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -714,7 +714,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">56k</span>
+    <span title="Site words total count">56.3k</span>
   
 </div>
 
@@ -725,6 +725,14 @@
 
 
 
+
+
+  <script src="https://unpkg.com/mermaid@<%= theme.mermaid.version %>/dist/mermaid.min.js"></script>
+  <script>
+    if (window.mermaid) {
+      mermaid.initialize({theme: 'forest'});
+    }
+  </script>
 
         
 <div class="busuanzi-count">
