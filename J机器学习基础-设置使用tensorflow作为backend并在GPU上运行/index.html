@@ -424,9 +424,9 @@
       
 
       
-        <p>&emsp;&emsp;由于Theano从十月起停止更新（<a href="https://www.jiqizhixin.com/articles/2017-09-29-5">LINK</a>），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。</p>
-<p><strong>安装环境</strong>：Linux服务器上的虚拟环境中（详见：<a href="http://qingnansun.com/virtual-environment-on-linux/">在linux系统上设置虚拟环境Virtual Environment</a>）</p>
-<p>&emsp;&emsp;首先我根据Keras官网的介绍对keras.json文件进行设置（<a href="https://keras.io/backend/">LINK</a>）。在命令框中输入：</p>
+        <p>&emsp;&emsp;由于Theano从十月起停止更新（<a href="https://www.jiqizhixin.com/articles/2017-09-29-5" target="_blank" rel="noopener">LINK</a>），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。</p>
+<p><strong>安装环境</strong>：Linux服务器上的虚拟环境中（详见：<a href="http://qingnansun.com/virtual-environment-on-linux/" target="_blank" rel="noopener">在linux系统上设置虚拟环境Virtual Environment</a>）</p>
+<p>&emsp;&emsp;首先我根据Keras官网的介绍对keras.json文件进行设置（<a href="https://keras.io/backend/" target="_blank" rel="noopener">LINK</a>）。在命令框中输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi .keras/keras.json</span><br></pre></td></tr></table></figure>
 <p>&emsp;&emsp;然后按着如下代码编辑，主要是把backend改为tensorflow。（其实Keras默认的backend就是tensorflow，只是因为我之前改成了theano，所以现在要改回来。）</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123; &quot;image_data_format&quot;: &quot;channels_last&quot;,</span><br></pre></td></tr></table></figure>
@@ -434,16 +434,16 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install tensorflow-gpu==1.2</span><br></pre></td></tr></table></figure>
 <p>&emsp;&emsp;成功安装之后，就可以在你的.py文件的代码里加入如下语句进行tensorflow的backend的调用和设置了，设置好之后像平常一样运行文件即可。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">import tensorflow as tf</span><br><span class="line">import keras.backend.tensorflow_backend as KTF</span><br><span class="line"></span><br><span class="line">os.environ[&quot;CUDA_VISIBLE_DEVICES&quot;] = &quot;3&quot;  #设置需要使用的GPU的编号</span><br><span class="line">config = tf.ConfigProto()</span><br><span class="line">config.gpu_options.per_process_gpu_memory_fraction = 0.4 #设置使用GPU容量占GPU总容量的比例</span><br><span class="line">sess = tf.Session(config=config)</span><br><span class="line">KTF.set_session(sess)</span><br></pre></td></tr></table></figure>
-<p>&emsp;&emsp;为了观察程序是否确实在使用GPU，可以使用在<a href="http://qingnansun.com/linuxtricks/">《Linux上的一点小技巧》</a>中提到的命令<code>gpustat</code>或者<code>watch -n1 --color gpustat</code>进行查看程序是否真的运行在GPU上。</p>
+<p>&emsp;&emsp;为了观察程序是否确实在使用GPU，可以使用在<a href="http://qingnansun.com/linuxtricks/" target="_blank" rel="noopener">《Linux上的一点小技巧》</a>中提到的命令<code>gpustat</code>或者<code>watch -n1 --color gpustat</code>进行查看程序是否真的运行在GPU上。</p>
 <p><strong>—————–后记———————</strong></p>
 <h1 id="Tensorflow无法完全实现实验的重复性"><a href="#Tensorflow无法完全实现实验的重复性" class="headerlink" title="Tensorflow无法完全实现实验的重复性"></a>Tensorflow无法完全实现实验的重复性</h1><p>&emsp;&emsp;今天早些时候介绍了怎么在给keras设置使用tensorflow作为后端。晚上的时候发现使用tensorflow有个问题是无法确保实验的可重复性，换句话说，同样的代码，每次运行出来的结果是不一样的，即使已经设置了随机数的seed。而使用theano的后端是可以确保实验的可重复性的，至少在我之前的实验里，可以得到一模一样的结果。</p>
 <p>&emsp;&emsp;对于这个问题，我在网上查阅了一下，发现也有人在讨论，比如在[1]中对各种可能的原因进行了探讨，并根绝theano和tensorflow后端各自给了设置seed的代码。对于tensorflow，要进行两次seed的设置，他们的值可以不同。代码如下，需要放在你的code的最顶端，不过此方法我试了没有起到效果。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">from numpy.random import seed</span><br><span class="line">seed(1)</span><br><span class="line">from tensorflow import set_random_seed</span><br><span class="line">set_random_seed(2)</span><br></pre></td></tr></table></figure>
 <p>&emsp;&emsp;此外也有其他的帖子和文章对tensorflow作为backend时不能实现实验的重复性进行了讨论，比如在[2]中的帖子以及在[3]中keras的官方文档中都有提到建议的解决方案，不过我试了依然没有效果。[4]是对tensorflow的set_random_seed函数的具体介绍。</p>
-<p>&emsp;&emsp;最后，由于tensorflow没法确保实验的可重复性，而我也没有找到适合我的解决方案，于是只好又切换为theano作为backend。不过今天的尝试也不是完全没有意义的，因为借着今天在tf上积累的一点经验，我想到了给theano后端也设定运行时占用GPU的容量比例，实践后发现代码运行速度大大提高。theano和Tensorflow有些不同，它默认只占用很少的GPU而tensorflow默认占用所有可用的GPU。比如我的代码在theano作为backend的时候，默认只占200M左右，我给人为把GPU的占比提高到0.4（约为5000M）之后，运行速度大大提高。具体的方法可以参考这篇文章 <a href="https://www.weibo.com/ttarticle/p/show?id=2313501000014129139677341055">LINK</a></p>
-<p>[1] <a href="https://www.leiphone.com/news/201706/zt4Dm491Ol58C8Mc.html">用深度学习每次得到的结果都不一样，怎么办？</a><br>[2] <a href="https://github.com/fchollet/keras/issues/2280">No reproducible using tensorflow backend #2280</a><br>[3] <a href="https://keras.io/getting-started/faq/#how-can-i-obtain-reproducible-results-using-keras-during-development">How can I obtain reproducible results using Keras during development?</a><br>[4] <a href="http://blog.csdn.net/eml_jw/article/details/72353470">Tensorflow函数——tf.set_random_seed(seed)</a></p>
+<p>&emsp;&emsp;最后，由于tensorflow没法确保实验的可重复性，而我也没有找到适合我的解决方案，于是只好又切换为theano作为backend。不过今天的尝试也不是完全没有意义的，因为借着今天在tf上积累的一点经验，我想到了给theano后端也设定运行时占用GPU的容量比例，实践后发现代码运行速度大大提高。theano和Tensorflow有些不同，它默认只占用很少的GPU而tensorflow默认占用所有可用的GPU。比如我的代码在theano作为backend的时候，默认只占200M左右，我给人为把GPU的占比提高到0.4（约为5000M）之后，运行速度大大提高。具体的方法可以参考这篇文章 <a href="https://www.weibo.com/ttarticle/p/show?id=2313501000014129139677341055" target="_blank" rel="noopener">LINK</a></p>
+<p>[1] <a href="https://www.leiphone.com/news/201706/zt4Dm491Ol58C8Mc.html" target="_blank" rel="noopener">用深度学习每次得到的结果都不一样，怎么办？</a><br>[2] <a href="https://github.com/fchollet/keras/issues/2280" target="_blank" rel="noopener">No reproducible using tensorflow backend #2280</a><br>[3] <a href="https://keras.io/getting-started/faq/#how-can-i-obtain-reproducible-results-using-keras-during-development" target="_blank" rel="noopener">How can I obtain reproducible results using Keras during development?</a><br>[4] <a href="http://blog.csdn.net/eml_jw/article/details/72353470" target="_blank" rel="noopener">Tensorflow函数——tf.set_random_seed(seed)</a></p>
 <hr>
-<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/tensorflow-backend-on-gpu/">qingnansun.com</a></p>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/tensorflow-backend-on-gpu/" target="_blank" rel="noopener">qingnansun.com</a></p>
 
       
     </div>

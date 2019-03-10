@@ -70,7 +70,7 @@
 
 
 
-  <meta name="keywords" content="windows10,python,tensorflow,keras,">
+  <meta name="keywords" content="python,tensorflow,windows10,keras,">
 
 
 
@@ -84,7 +84,7 @@
 
 
 <meta name="description" content="2018年4月更新：这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x.  &amp;emsp;&amp;emsp;今后做实验要开始接触深">
-<meta name="keywords" content="windows10,python,tensorflow,keras">
+<meta name="keywords" content="python,tensorflow,windows10,keras">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Windows10下安装Python,Tensorflow和Keras">
 <meta property="og:url" content="https://qingnansun.github.io/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/index.html">
@@ -426,7 +426,7 @@
       
 
       
-        <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
+        <p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p>
 <hr>
 <p>&emsp;&emsp;今后做实验要开始接触深度学习了，那当然免不了要安装Python和Tensorflow，另外因为需要LSTM方法，我也需要安装Keras。这篇文章就是关于最近安装这些东西的一个小结。</p>
 <p> <strong>如果你懒得看后文，我其实就一句话，从头开始就用Anaconda吧！！！ （直接跳转到“最简安装过程”部分）</strong></p>
@@ -437,14 +437,14 @@
 <li><strong>Tensorflow目前在windows上只支持Python3.5版本（高了低了都不行）</strong></li>
 <li><strong>Scipy在windows上用命令行安装出错。因为安装Keras时会安装Scipy，所以无法成功安装Keras</strong></li>
 </ol>
-<h2 id="我的坎坷经历"><a href="#我的坎坷经历" class="headerlink" title="我的坎坷经历"></a>我的坎坷经历</h2><p>&emsp;&emsp;不卖关子了，简而言之，在windows上最好是使用Scientific Python distributions来安装和管理各种库，这是我后来才发现的。由于始终没法成功安装Scipy，我找到了Scipy的这个<a href="https://scipy.org/install.html">官网安装介绍</a>，windows系统的同学可以直接拖到最后看下。而Scientific Python distributions的介绍在页面的开头，我直接使用的第一个，也就是Anaconda.</p>
-<p>&emsp;&emsp;使用Anaconda要注意，因为它的首页上是下载集成了3.6版本的Python的，而tensorflow在windows上只支持3.5版本，所以这个要想办法解决。根据Anaconda的介绍（<a href="https://docs.continuum.io/anaconda/faq#id6">How do I get the latest Anaconda with Python 3.5?</a>）可以用以下三种方法：</p>
-<p><strong>A)</strong> We recommend downloading the latest version of Anaconda and <a href="https://conda.io/docs/py2or3.html">making a Python 3.5 environment</a>.</p>
+<h2 id="我的坎坷经历"><a href="#我的坎坷经历" class="headerlink" title="我的坎坷经历"></a>我的坎坷经历</h2><p>&emsp;&emsp;不卖关子了，简而言之，在windows上最好是使用Scientific Python distributions来安装和管理各种库，这是我后来才发现的。由于始终没法成功安装Scipy，我找到了Scipy的这个<a href="https://scipy.org/install.html" target="_blank" rel="noopener">官网安装介绍</a>，windows系统的同学可以直接拖到最后看下。而Scientific Python distributions的介绍在页面的开头，我直接使用的第一个，也就是Anaconda.</p>
+<p>&emsp;&emsp;使用Anaconda要注意，因为它的首页上是下载集成了3.6版本的Python的，而tensorflow在windows上只支持3.5版本，所以这个要想办法解决。根据Anaconda的介绍（<a href="https://docs.continuum.io/anaconda/faq#id6" target="_blank" rel="noopener">How do I get the latest Anaconda with Python 3.5?</a>）可以用以下三种方法：</p>
+<p><strong>A)</strong> We recommend downloading the latest version of Anaconda and <a href="https://conda.io/docs/py2or3.html" target="_blank" rel="noopener">making a Python 3.5 environment</a>.</p>
 <p><strong>B)</strong> A second option is to download the latest version of Anaconda and then run this command to install Python 3.5 in the root environment: <code>conda install python=3.5</code></p>
-<p><strong>C)</strong> A third option is to download the most recent Anaconda Installer that had Python 3.5 by default. This is Anaconda 4.2.0. You can download it from our <a href="https://repo.continuum.io/archive/">archive</a>. Scroll down the page until you find version 4.2.0 for your platform.</p>
+<p><strong>C)</strong> A third option is to download the most recent Anaconda Installer that had Python 3.5 by default. This is Anaconda 4.2.0. You can download it from our <a href="https://repo.continuum.io/archive/" target="_blank" rel="noopener">archive</a>. Scroll down the page until you find version 4.2.0 for your platform.</p>
 <p>&emsp;&emsp;我用的第二种方法，也就是在开始界面先找到Anaconda Prompt，然后在里边输入命令 <code>conda install python=3.5</code></p>
 <p>&emsp;&emsp;注意在这个过程中不要开着Anaconda的用户界面，否则会报错说Anaconda正在被使用，关闭Anaconda界面之后使用上述命令就好用。安完之后再Anaconda Prompt的界面输入python后发现版本变成3.5.3了。</p>
-<p>&emsp;&emsp;tensorflow的安装可以参见莫烦写的教程和视频(<a href="https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-2-install/">LINK</a>)。重点注意选择好是CPU版本还是GPU版本，另外再就是Python3和Python2用的命令的微小差别。我在进行完之前的Python版本降到3.5.3之后，在Anaconda Prompt里使用命令 <code>pip3 install tensorflow</code> 成功安装了tensorflow（太让人激动了！！！）</p>
+<p>&emsp;&emsp;tensorflow的安装可以参见莫烦写的教程和视频(<a href="https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-2-install/" target="_blank" rel="noopener">LINK</a>)。重点注意选择好是CPU版本还是GPU版本，另外再就是Python3和Python2用的命令的微小差别。我在进行完之前的Python版本降到3.5.3之后，在Anaconda Prompt里使用命令 <code>pip3 install tensorflow</code> 成功安装了tensorflow（太让人激动了！！！）</p>
 <p>&emsp;&emsp;遇到的问题是为了检测tensorflow是否安装成功，我实验了import tensorflow，可是在Python 3.5.3自己的shell里是可以用，可是在Anaconda Prompt里的python下不能用，不知道为什么。可能因为我在使用上边说的第二种方法转换Python之前，自己手动安装了一次Python3.5.3的缘故，悲催，做了无用功还影响了之后的功能。用了最笨的办法，卸载了python3.5.3，结果Anaconda Prompt打不开了，最后干脆把所有Python和Anaconda都卸载了。</p>
 <h2 id="最简安装过程"><a href="#最简安装过程" class="headerlink" title="最简安装过程"></a>最简安装过程</h2><p>&emsp;&emsp;有了前边的经验铺路，现在大致知道怎么做比较方便了。这段开始我基本就是从头做起了。首先按照前边说的第三种方法，到Anaconda官网的Achiv里下载了Anaconda3-4.2.0版本。安装完之后发现pip3命令没法使用，不过检查了Anaconda里pip包已经安装了的，所以试了下用pip命令，可以。于是使用如下命令进行安装：</p>
 <pre><code>pip install tensorflow
@@ -454,10 +454,10 @@ pip install keras
 import keras
 </code></pre><p>&emsp;&emsp;两个都没有报错，keras默认使用TensorFlow作为backend。总算大功告成，可以去吃午饭了，哈哈。<img src="https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p>
 <hr>
-<h2 id="附加知识"><a href="#附加知识" class="headerlink" title="附加知识"></a>附加知识</h2><p><a href="http://xiaoyc.com/multi-version-solution-of-python-on-windows/">WINDOWS 下 PYTHON 双版本共存解决方案</a><br>当电脑里有多个python版本时，通常的做法是要修改环境变量，不过这篇文章中的方法只需要在不想用的版本的根文件夹中加入一个bat文件即可，巧妙的解决了问题，推荐大家看看。如果大家想知道怎么通过修改环境变量来更改默认的python版本，可以看<a href="http://blog.csdn.net/qq_25579889/article/details/52895683">这里</a></p>
-<p>安装Keras可以部分参考这篇文章：<br><a href="http://www.jianshu.com/p/c245d46d43f0">windows 10 64bit下安装Tensorflow+Keras+VS2015+CUDA8.0 GPU加速</a></p>
+<h2 id="附加知识"><a href="#附加知识" class="headerlink" title="附加知识"></a>附加知识</h2><p><a href="http://xiaoyc.com/multi-version-solution-of-python-on-windows/" target="_blank" rel="noopener">WINDOWS 下 PYTHON 双版本共存解决方案</a><br>当电脑里有多个python版本时，通常的做法是要修改环境变量，不过这篇文章中的方法只需要在不想用的版本的根文件夹中加入一个bat文件即可，巧妙的解决了问题，推荐大家看看。如果大家想知道怎么通过修改环境变量来更改默认的python版本，可以看<a href="http://blog.csdn.net/qq_25579889/article/details/52895683" target="_blank" rel="noopener">这里</a></p>
+<p>安装Keras可以部分参考这篇文章：<br><a href="http://www.jianshu.com/p/c245d46d43f0" target="_blank" rel="noopener">windows 10 64bit下安装Tensorflow+Keras+VS2015+CUDA8.0 GPU加速</a></p>
 <hr>
-<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/pythonkerasunderwindows">qingnansun.com</a></p>
+<p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/pythonkerasunderwindows" target="_blank" rel="noopener">qingnansun.com</a></p>
 
       
     </div>
@@ -522,11 +522,11 @@ import keras
       
         <div class="post-tags">
           
-            <a href="/tags/windows10/" rel="tag"># windows10</a>
-          
             <a href="/tags/python/" rel="tag"># python</a>
           
             <a href="/tags/tensorflow/" rel="tag"># tensorflow</a>
+          
+            <a href="/tags/windows10/" rel="tag"># windows10</a>
           
             <a href="/tags/keras/" rel="tag"># keras</a>
           
