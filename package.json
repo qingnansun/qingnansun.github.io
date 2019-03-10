@@ -6,10 +6,13 @@
     "version": "3.8.0"
   },
   "dependencies": {
+    "eslint": "^5.15.1",
     "gitment": "0.0.3",
     "hexo": "^3.8.0",
     "hexo-deployer-git": "^1.0.0",
     "hexo-directory-category": "^1.0.5",
+    "hexo-filter-flowchart": "^1.0.4",
+    "hexo-filter-mermaid-diagrams": "^1.0.5",
     "hexo-generator-archive": "^0.1.5",
     "hexo-generator-baidu-sitemap": "^0.1.6",
     "hexo-generator-category": "^0.1.3",

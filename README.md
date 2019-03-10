@@ -197,6 +197,11 @@ https://github.com/iissnan/hexo-theme-next/issues/710
 https://www.jianshu.com/p/a79422ab2013
 https://steemit.com/cn/@greedyboy/hexo-next-rss
 
+
+## 支持mermaid图
+https://tyloafer.github.io/2018/04/21/hexo-mermaid/
+
+
 ## TODO
 文章普通图片格式
 手机版的开头目录
@@ -204,3 +209,4 @@ https://steemit.com/cn/@greedyboy/hexo-next-rss
 多lnk
 描述
 关键字
+http://whatbeg.com/2017/03/23/addemailsubscribe.html

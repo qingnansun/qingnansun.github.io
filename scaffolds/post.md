@@ -4,7 +4,7 @@ date: {{ date }}
 updated: 
 tags:
 categories: 
-keywords: 
+keywords: [qingnan,qingnansun,samboy]
 description:
 permalink: 
 toc: true    # table of content
