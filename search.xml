@@ -244,9 +244,9 @@
         <category>J机器学习基础</category>
       </categories>
       <tags>
-        <tag>python</tag>
         <tag>tensorflow</tag>
         <tag>windows10</tag>
+        <tag>python</tag>
         <tag>keras</tag>
       </tags>
   </entry>
@@ -432,6 +432,9 @@
       <categories>
         <category>Q骑行日记</category>
       </categories>
+      <tags>
+        <tag>骑行日记</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[散步随想-只有出发,才能到达]]></title>
