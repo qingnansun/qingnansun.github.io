@@ -159,29 +159,6 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://qingnansun.github.io/IT-hello-world/"/>
-    <id>https://qingnansun.github.io/IT-hello-world/</id>
-    <published>2019-03-08T19:20:32.882Z</published>
-    <updated>2019-03-08T19:20:32.882Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-      <category term="IT" scheme="https://qingnansun.github.io/categories/IT/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>KnowledgeBase-IT</title>
     <link href="https://qingnansun.github.io/KnowledgeBase-20190306-KnowledgeBase-IT%E7%96%91%E9%9A%BE/"/>
     <id>https://qingnansun.github.io/KnowledgeBase-20190306-KnowledgeBase-IT疑难/</id>
@@ -238,18 +215,13 @@
     <link href="https://qingnansun.github.io/IT-%E4%BD%A0%E7%9C%9F%E7%9A%84%E5%BA%94%E8%AF%A5%E6%8B%A5%E6%9C%89%E8%BF%99%E4%B8%AA%E4%B9%A0%E6%83%AF%E8%AE%B0%E5%BD%95app/"/>
     <id>https://qingnansun.github.io/IT-你真的应该拥有这个习惯记录app/</id>
     <published>2019-02-18T23:00:00.000Z</published>
-    <updated>2019-03-08T19:20:32.883Z</updated>
+    <updated>2019-03-13T20:11:54.898Z</updated>
     
-    <content type="html"><![CDATA[<p>作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。</p><ol><li><p>名字<br>app的名字叫“习惯”，英文版叫“Habits”或者“Loop Habits”，图标是一个顺时针旋转的白色箭头。</p><img src="/IT-你真的应该拥有这个习惯记录app/1_图标.png" title="图标"></li><li><p>基本功能<br>首要的功能当然是习惯的记录，在app中设定不同的习惯之后，可以通过长按对应的日期进行打勾，再次长按即为取消。</p><img src="/IT-你真的应该拥有这个习惯记录app/2_我的部分习惯概览.png" title="我的部分习惯概览"></li><li><p>数据统计<br>点击相应的习惯名称可以查看详细的统计信息，并可以补填忘记打卡的日期。</p><img src="/IT-你真的应该拥有这个习惯记录app/3_读书和读报的习惯统计.jpg" title="读书/报的习惯统计"></li><li><p><strong>进阶功能 - 桌面控制台 （仅安卓）</strong><br>这是我最想和大家分享的功能，也是我特别喜欢这个app的原因之一。我一直都想弄一个类似于控制台的东西（比如有很多按钮和显示器的大操作台），用它每天晚上通过按按钮进行打卡。这个app从某种程度上帮我实现了这个愿望。<br>在安卓系统里，我们可以在桌面上添加这个app的插件。插件有不同的种类，我喜欢的是如下图这样的，每天只要在相应的图标上单击即可打卡，非常方便：</p><img src="/IT-你真的应该拥有这个习惯记录app/4_我的打卡控制台.jpg" title="我的打卡控制台"></li><li><p>扩展功能<br>app的数据可以导出，不过不是特别方便，因为需要对每个习惯一一进行导出。不过制作者提供了app的源代码，所以我以后有空的时候希望对app尝试增加以下功能：</p><ul><li>数据简便地导出</li><li>数据的导入</li><li>登陆功能：数据在不同终端的同步</li></ul></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。</p><ol><li><p>名字<br>app的名字叫“习惯”，英文版叫“Habits”或者“Loop Habits”，图标是一个顺时针旋转的白色箭头。<br><img src="1图标.png" alt></p></li><li><p>基本功能<br>首要的功能当然是习惯的记录，在app中设定不同的习惯之后，可以通过长按对应的日期进行打勾，再次长按即为取消。</p><img src="/IT-你真的应该拥有这个习惯记录app/2_我的部分习惯概览.png" title="我的部分习惯概览"></li><li><p>数据统计<br>点击相应的习惯名称可以查看详细的统计信息，并可以补填忘记打卡的日期。</p><img src="/IT-你真的应该拥有这个习惯记录app/3_读书和读报的习惯统计.jpg" title="读书/报的习惯统计"></li><li><p><strong>进阶功能 - 桌面控制台 （仅安卓）</strong><br>这是我最想和大家分享的功能，也是我特别喜欢这个app的原因之一。我一直都想弄一个类似于控制台的东西（比如有很多按钮和显示器的大操作台），用它每天晚上通过按按钮进行打卡。这个app从某种程度上帮我实现了这个愿望。<br>在安卓系统里，我们可以在桌面上添加这个app的插件。插件有不同的种类，我喜欢的是如下图这样的，每天只要在相应的图标上单击即可打卡，非常方便：</p><img src="/IT-你真的应该拥有这个习惯记录app/4_我的打卡控制台.jpg" title="我的打卡控制台"></li><li><p>扩展功能<br>app的数据可以导出，不过不是特别方便，因为需要对每个习惯一一进行导出。不过制作者提供了app的源代码，所以我以后有空的时候希望对app尝试增加以下功能：</p><ul><li>数据简便地导出</li><li>数据的导入</li><li>登陆功能：数据在不同终端的同步</li></ul></li></ol>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫习惯的手机app后就深深喜欢上了它，现在特别推荐给大家。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-      
+      作为一个工科生我特别喜欢整理和记录。我有不同的excel表格记录生活中的琐事以及我希望养成的习惯，可是用excel有一个弊端就是需要打开office软件，有时会带来一些不便。当我使用了这个叫&quot;习惯&quot;的手机app后就深深喜欢上了它，现在特别推荐给大家。
     
     </summary>
     
@@ -385,17 +357,13 @@
     <link href="https://qingnansun.github.io/D%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E3%80%8A%E8%87%AA-%E6%B7%B1%E6%B7%B1%E5%A4%84%E3%80%8B%E5%A5%A5%E6%96%AF%E5%8D%A1-%E7%8E%8B%E5%B0%94%E5%BE%B7-%E8%8B%B1-%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/"/>
     <id>https://qingnansun.github.io/D读书笔记-《自-深深处》奥斯卡-王尔德-英-金句摘抄/</id>
     <published>2018-12-23T23:00:00.000Z</published>
-    <updated>2019-03-08T19:20:32.877Z</updated>
+    <updated>2019-03-13T19:58:11.142Z</updated>
     
-    <content type="html"><![CDATA[<p>以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。</p><h1 id="“你”的致命缺陷"><a href="#“你”的致命缺陷" class="headerlink" title="“你”的致命缺陷"></a>“你”的致命缺陷</h1><p>若我做到了，就请你一遍一遍读这封信，直到它将你的虚荣心全部吞噬。</p><p>我发现你更适合于一种文化层次较低的友谊，我这样说只是出于友人的坦诚，不带半点责备意味。所有伙伴关系的维系纽带，不管是婚姻还是友谊，最终都归于对话，而对话必须要有一个共同的基础。</p><p>它就是你性格中恨远大于爱。你对父亲的恨是如此之深，它完全超过甚至能推翻你对我的爱，这种恨使你对我的爱蒙受阴影。</p><p>在这座精雕细琢的美丽“房子”里，爱和恨是不能同生共存的。爱是靠想象力字样的，想象力能让我们比我们所知的更聪慧，比我们所感的更美好，比我们本身更高贵。通过想象力，我们能完整地看见生活本身，也只有想象力能让我们像了解理想中的那样去了解现实状态下任何人建立的关系。唯有在本就美好又受人们美好的想象力咀嚼过的事物中才能滋养爱，但是恨却可受任何事物的滋养。</p><p>那些年，你喝的香槟没有一杯不催生你的怨，你享用的大餐没有一顿不滋养你的恨。</p><p>你所恨的是自己的父亲，并且这种恨又完全是相互的，这样的事实并没让你的恨显出一丝高贵或精致。如果它真能显示什么，那只不过是你的遗传疾病。。。</p><p>如果说仇恨蒙蔽了你的双眼，那么虚荣心就用钢筋铁线缝合了你的眼睑。</p><p>爱情和文学中都自有策略，但你对两者皆不通不懂。</p><h1 id="“我”的苦难与“小确幸”"><a href="#“我”的苦难与“小确幸”" class="headerlink" title="“我”的苦难与“小确幸”"></a>“我”的苦难与“小确幸”</h1><p>我记忆中最愉快的一次就餐是和罗比在索霍区的一家小咖啡馆进行的，我们花费的“先令”数额与你就餐所花费的“英镑”数额相等。三法郎五十分的套菜就囊括了谈论的思想，名称以及优雅的款待、氛围。和你一起花天酒地后却一无所剩，只留下吃喝无度的记忆。</p><p>在我被囚禁的大监狱里，我只是一长排走廊中一间小囚室的一个数字或字母，千百个了无声息的数字中的一个，千百条暗淡无光的生命中的一员。</p><p>对我们来说，时间是旋转的而不是向前流动的，它似乎是环绕着痛苦在运动。</p><p>（罗比庄重地举帽向戴着手铐低头从他身边走过的囚犯奥斯卡致敬）记忆中这微小可爱的无言善举向我开启了怜悯之泉:沙漠像玫瑰一样开出花朵，我终于被带离了凄苦的流放之地，与世界那颗受伤破碎的伟大心脏和谐共振。</p><p>你可知道：你若受苦我也一样受苦；你若哭泣我也泪水纵横；你若身陷奴役之屋受人唾弃，我会强忍着悲伤再建筑一屋当作宝库，将别人不给你的东西上百倍地置放屋内，等你到来，为你疗伤；若苦涩的必尽之责或谨慎之心阻挡我来到你的身边–这对我单方面来说必定更加苦涩–并且剥夺你和我在一起的快乐（虽然我们还能以一种受辱潦倒的方式透过铁窗横档相见），我至少可以终年不断地给你写信，只希望我的片言只语能够让你读到，只希望被击碎的爱的残音能够让你听见。如果你拒收我的信，我也会一如从前地写，以便让你知道无论沧海桑田，总有我的信在等你阅读。</p><h1 id="爱、幸福、悲伤、原谅"><a href="#爱、幸福、悲伤、原谅" class="headerlink" title="爱、幸福、悲伤、原谅"></a>爱、幸福、悲伤、原谅</h1><p>但我对自己说：“不管付出什么代价，我必须守护我心中的爱。如果我因受困囹圄就抛别爱，我该如何安放自己的灵魂？”</p><p>肉体的罪孽不足为道，如果它们必须治疗，医生们足以对付它们；只有灵魂的罪孽才是可耻的。</p><p>或者，我有过一时片刻认为你是值得我爱的？你当然不配，我知道。但是爱不是市场上的交易，不是小贩们的磅秤可称量的。如同精神的快乐，爱的快乐是感受到本身的生命流动。爱的目的就是爱，不多也不少。</p><p>读到但丁如何将那些恣情沉溺于悲伤中的人放置在地狱中时，就去学院图书馆翻到但丁《神曲》中描绘那番景象的一页，那些躺在可怕的泥潭下“在甜美的氛围中仍愠怒无常，怒气冲冲”的人用一声声叹息诉说着：那时我们心中愁云密布，而阳光中甜美的空气喜气洋洋。</p><p>我必须学会如何让自己变得快乐幸福。</p><p>悲伤以及它教给人的一切是我的新世界。</p><p>从未在悲伤中咀嚼过面包，<br>从未在午夜时分，<br>哭泣着等待黎明的人，<br>是不了解你的—-来自天国的力量。<br>[注：从未在深夜痛哭的人，不足以谈人生。]</p><p>欢笑背后可能隐藏着粗糙、坚硬和冷漠的性情，但悲伤背后总是悲伤。痛苦不像享乐，它不带面具。</p><p>现在我认为，这苦海无涯的世界正是为了说明某种爱的存在，这是唯一可以能的解释。</p><p> 当他（耶稣）说“原谅你的敌人吧”的时候，他不是为了敌人而是为了他自己，因为爱比恨更美丽。</p><p>为了我自己，我也必须原谅你。一个人不可能总是将一条蝰蛇供养在心口，也不可能每晚起身在心灵的花园里播种荆棘。</p><p>现在我真正开始觉得自己对那些嘲笑之辈的惋惜多于对自己出境的追悔。。。这些人本应知道如何更好地去解读悲伤，我曾说在每一个悲伤后面总掩盖这另一个悲伤，更明智的说法是每一个悲伤后面总掩盖着一颗灵魂。因此，以嘲笑一颗痛苦的灵魂为乐是件残忍的事情，他们这样做是不美的。</p><h1 id="生命的感悟"><a href="#生命的感悟" class="headerlink" title="生命的感悟"></a>生命的感悟</h1><p>真正的愚蠢之辈是对自己一无所知的人，正如那些受众神嘲笑或损毁的人。</p><p>你一离开我就一切安好。</p><p>衰老的双手摘取月桂枝叶会令其枯萎，唯有青春方能为艺术家加冕。</p><p>令人悲哀的是，又有多少人在临死之前曾“拥有过自己的灵魂”？爱默生曾说：”世界上没有什么能比一个人发自灵魂的行动更为稀有。”这是真实的，大多数人都是自己的他者。他们的想法是别人的意见，他们的生活只是一场模仿秀，他们的激情是对他们的引用。<br>[注：Be yourself. Everyone else is already taken. 做你自己，因为别人都有人做了。]</p><p> 当然，我知道在马路边祈求施舍不会是我的命运，若我夜晚要躺在清凉的草地上，那也是在给月亮写十四行诗。</p><p> 从声名卓著到声名狼藉仅一步之遥，当然如果真还有“一步”这么长的话。</p><p>这样做（注：节俭）不是出于饥饿–我现在食物相当充足–这样做仅仅是因为我丝毫都不能浪费给我的一切。对待别人给予的爱，也应如是。</p><p>从某种意义上看，正如希腊神谕所说，“知道你自己”当然是必需的。但是智慧的终极成就是认识到人的心灵是不可知的。世界最终的奥秘恰是人的自我。</p><p>我的服刑期延长了一年，但人性一直在监狱中与我们同在。现在我即将服刑期满离开此地，将会永远记得这儿几乎每一个人曾给予我的伟大善意。在刑满释放日，我将会向很多人表达我的谢意，并请求他们同样记住我。</p><p>如果出狱后哪位朋友举行宴会但不邀请我参加，我是不会心存芥蒂的。独处时我将会无比快乐。拥有自由、书籍、鲜花和月亮的人怎会不快乐？。。。但是，如果出狱后哪位朋友忧伤满腹却拒绝让我为其分忧解难，我将倍感痛苦。</p><p>在《道连-格雷》一书的某章中我曾说：“一个人在选择他的敌人时，无论怎么小心都不为过。”我实在想不到自己会被一个贱民造就成了一个贱民。</p>]]></content>
+    <content type="html"><![CDATA[<p>以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。  </p><h2 id="“你”的致命缺陷"><a href="#“你”的致命缺陷" class="headerlink" title="“你”的致命缺陷"></a>“你”的致命缺陷</h2><p>若我做到了，就请你一遍一遍读这封信，直到它将你的虚荣心全部吞噬。</p><p>我发现你更适合于一种文化层次较低的友谊，我这样说只是出于友人的坦诚，不带半点责备意味。所有伙伴关系的维系纽带，不管是婚姻还是友谊，最终都归于对话，而对话必须要有一个共同的基础。</p><p>它就是你性格中恨远大于爱。你对父亲的恨是如此之深，它完全超过甚至能推翻你对我的爱，这种恨使你对我的爱蒙受阴影。</p><p>在这座精雕细琢的美丽“房子”里，爱和恨是不能同生共存的。爱是靠想象力字样的，想象力能让我们比我们所知的更聪慧，比我们所感的更美好，比我们本身更高贵。通过想象力，我们能完整地看见生活本身，也只有想象力能让我们像了解理想中的那样去了解现实状态下任何人建立的关系。唯有在本就美好又受人们美好的想象力咀嚼过的事物中才能滋养爱，但是恨却可受任何事物的滋养。</p><p>那些年，你喝的香槟没有一杯不催生你的怨，你享用的大餐没有一顿不滋养你的恨。</p><p>你所恨的是自己的父亲，并且这种恨又完全是相互的，这样的事实并没让你的恨显出一丝高贵或精致。如果它真能显示什么，那只不过是你的遗传疾病。。。</p><p>如果说仇恨蒙蔽了你的双眼，那么虚荣心就用钢筋铁线缝合了你的眼睑。</p><p>爱情和文学中都自有策略，但你对两者皆不通不懂。</p><h2 id="“我”的苦难与“小确幸”"><a href="#“我”的苦难与“小确幸”" class="headerlink" title="“我”的苦难与“小确幸”"></a>“我”的苦难与“小确幸”</h2><p>我记忆中最愉快的一次就餐是和罗比在索霍区的一家小咖啡馆进行的，我们花费的“先令”数额与你就餐所花费的“英镑”数额相等。三法郎五十分的套菜就囊括了谈论的思想，名称以及优雅的款待、氛围。和你一起花天酒地后却一无所剩，只留下吃喝无度的记忆。</p><p>在我被囚禁的大监狱里，我只是一长排走廊中一间小囚室的一个数字或字母，千百个了无声息的数字中的一个，千百条暗淡无光的生命中的一员。</p><p>对我们来说，时间是旋转的而不是向前流动的，它似乎是环绕着痛苦在运动。</p><p>（罗比庄重地举帽向戴着手铐低头从他身边走过的囚犯奥斯卡致敬）记忆中这微小可爱的无言善举向我开启了怜悯之泉:沙漠像玫瑰一样开出花朵，我终于被带离了凄苦的流放之地，与世界那颗受伤破碎的伟大心脏和谐共振。</p><p>你可知道：你若受苦我也一样受苦；你若哭泣我也泪水纵横；你若身陷奴役之屋受人唾弃，我会强忍着悲伤再建筑一屋当作宝库，将别人不给你的东西上百倍地置放屋内，等你到来，为你疗伤；若苦涩的必尽之责或谨慎之心阻挡我来到你的身边–这对我单方面来说必定更加苦涩–并且剥夺你和我在一起的快乐（虽然我们还能以一种受辱潦倒的方式透过铁窗横档相见），我至少可以终年不断地给你写信，只希望我的片言只语能够让你读到，只希望被击碎的爱的残音能够让你听见。如果你拒收我的信，我也会一如从前地写，以便让你知道无论沧海桑田，总有我的信在等你阅读。</p><h2 id="爱、幸福、悲伤、原谅"><a href="#爱、幸福、悲伤、原谅" class="headerlink" title="爱、幸福、悲伤、原谅"></a>爱、幸福、悲伤、原谅</h2><p>但我对自己说：“不管付出什么代价，我必须守护我心中的爱。如果我因受困囹圄就抛别爱，我该如何安放自己的灵魂？”</p><p>肉体的罪孽不足为道，如果它们必须治疗，医生们足以对付它们；只有灵魂的罪孽才是可耻的。</p><p>或者，我有过一时片刻认为你是值得我爱的？你当然不配，我知道。但是爱不是市场上的交易，不是小贩们的磅秤可称量的。如同精神的快乐，爱的快乐是感受到本身的生命流动。爱的目的就是爱，不多也不少。</p><p>读到但丁如何将那些恣情沉溺于悲伤中的人放置在地狱中时，就去学院图书馆翻到但丁《神曲》中描绘那番景象的一页，那些躺在可怕的泥潭下“在甜美的氛围中仍愠怒无常，怒气冲冲”的人用一声声叹息诉说着：那时我们心中愁云密布，而阳光中甜美的空气喜气洋洋。</p><p>我必须学会如何让自己变得快乐幸福。</p><p>悲伤以及它教给人的一切是我的新世界。</p><p>从未在悲伤中咀嚼过面包，<br>从未在午夜时分，<br>哭泣着等待黎明的人，<br>是不了解你的—-来自天国的力量。<br><em>[注：从未在深夜痛哭的人，不足以谈人生。]</em></p><p>欢笑背后可能隐藏着粗糙、坚硬和冷漠的性情，但悲伤背后总是悲伤。痛苦不像享乐，它不带面具。</p><p>现在我认为，这苦海无涯的世界正是为了说明某种爱的存在，这是唯一可以能的解释。</p><p>当他（耶稣）说“原谅你的敌人吧”的时候，他不是为了敌人而是为了他自己，因为爱比恨更美丽。</p><p>为了我自己，我也必须原谅你。一个人不可能总是将一条蝰蛇供养在心口，也不可能每晚起身在心灵的花园里播种荆棘。</p><p>现在我真正开始觉得自己对那些嘲笑之辈的惋惜多于对自己出境的追悔。。。这些人本应知道如何更好地去解读悲伤，我曾说在每一个悲伤后面总掩盖这另一个悲伤，更明智的说法是每一个悲伤后面总掩盖着一颗灵魂。因此，以嘲笑一颗痛苦的灵魂为乐是件残忍的事情，他们这样做是不美的。</p><h2 id="生命的感悟"><a href="#生命的感悟" class="headerlink" title="生命的感悟"></a>生命的感悟</h2><p>真正的愚蠢之辈是对自己一无所知的人，正如那些受众神嘲笑或损毁的人。</p><p>你一离开我就一切安好。</p><p>衰老的双手摘取月桂枝叶会令其枯萎，唯有青春方能为艺术家加冕。</p><p>令人悲哀的是，又有多少人在临死之前曾“拥有过自己的灵魂”？爱默生曾说：”世界上没有什么能比一个人发自灵魂的行动更为稀有。”这是真实的，大多数人都是自己的他者。他们的想法是别人的意见，他们的生活只是一场模仿秀，他们的激情是对他们的引用。<br><em>[注：Be yourself. Everyone else is already taken. 做你自己，因为别人都有人做了。]</em></p><p>当然，我知道在马路边祈求施舍不会是我的命运，若我夜晚要躺在清凉的草地上，那也是在给月亮写十四行诗。</p><p>从声名卓著到声名狼藉仅一步之遥，当然如果真还有“一步”这么长的话。</p><p>这样做（注：节俭）不是出于饥饿–我现在食物相当充足–这样做仅仅是因为我丝毫都不能浪费给我的一切。对待别人给予的爱，也应如是。</p><p>从某种意义上看，正如希腊神谕所说，“知道你自己”当然是必需的。但是智慧的终极成就是认识到人的心灵是不可知的。世界最终的奥秘恰是人的自我。</p><p>我的服刑期延长了一年，但人性一直在监狱中与我们同在。现在我即将服刑期满离开此地，将会永远记得这儿几乎每一个人曾给予我的伟大善意。在刑满释放日，我将会向很多人表达我的谢意，并请求他们同样记住我。</p><p>如果出狱后哪位朋友举行宴会但不邀请我参加，我是不会心存芥蒂的。独处时我将会无比快乐。拥有自由、书籍、鲜花和月亮的人怎会不快乐？。。。但是，如果出狱后哪位朋友忧伤满腹却拒绝让我为其分忧解难，我将倍感痛苦。</p><p>在《道连-格雷》一书的某章中我曾说：“一个人在选择他的敌人时，无论怎么小心都不为过。”我实在想不到自己会被一个贱民造就成了一个贱民。</p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;以下内容整理自《自 深深处》，没有按原文顺序，而是按照内容整理并归纳到相应主题中。&lt;/p&gt;
-&lt;h1 id=&quot;“你”的致命缺陷&quot;&gt;&lt;a href=&quot;#“你”的致命缺陷&quot; class=&quot;headerlink&quot; title=&quot;“你”的致命缺陷&quot;&gt;&lt;/a&gt;“你”的致命缺陷&lt;/h1&gt;
-      
+      以下内容整理自《自 深深处》，这本书是作者思考的结晶，给了我很大的启发。摘抄没有按原文顺序，而是按照内容整理并归纳到相应主题中。
     
     </summary>
     
@@ -413,16 +381,13 @@
     <link href="https://qingnansun.github.io/D%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0-%E9%87%91%E5%8F%A5%E6%91%98%E6%8A%84/"/>
     <id>https://qingnansun.github.io/D读书笔记-金句摘抄/</id>
     <published>2018-12-02T23:00:00.000Z</published>
-    <updated>2019-03-08T19:20:32.878Z</updated>
+    <updated>2019-03-13T20:00:40.233Z</updated>
     
     <content type="html"><![CDATA[<p>From this day to the ending of the world,<br>But we in it shall be remembered, —<br>We few, we happy few, we band of brothers.<br>For he to-day that sheds his blood with me,<br>Shall be my brother;<br><em>from Henry V, spoken by King Henry</em></p><p>守夜人誓言：「长夜将至，我从今开始守望，至死方休。我将不娶妻、不封地、不生子。我将不戴宝冠，不争荣宠。我将尽忠职守，生死於斯。我是黑暗中的利剑，长城中的守卫。我是抵御寒冷的烈燄，破晓时分的光线，唤醒死者的号角，守护王国的铁卫。我将生命与荣耀献给守夜人，今夜如此，夜夜皆然。<br><em>权利的游戏</em></p><p>“Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night’s Watch, for this night and all the nights to come.”<br><em>权利的游戏</em></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;From this day to the ending of the world,&lt;br&gt;But we in it shall be remembered, —&lt;br&gt;We few, we happy few, we band of brothers.&lt;br&gt;For he 
-      
+      本文是我读书、读报和文章的金句摘抄，会持续更新。
     
     </summary>
     
@@ -497,16 +462,13 @@
     <link href="https://qingnansun.github.io/IT-Windows%E4%B8%8E%E8%99%9A%E6%8B%9F%E6%9C%BAVirtualBox%E4%B8%AD%E7%9A%84Ubuntu%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
     <id>https://qingnansun.github.io/IT-Windows与虚拟机VirtualBox中的Ubuntu共享文件和文件夹/</id>
     <published>2018-06-02T22:00:00.000Z</published>
-    <updated>2019-03-08T19:20:32.881Z</updated>
+    <updated>2019-03-13T20:05:16.678Z</updated>
     
     <content type="html"><![CDATA[<p>最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。</p><ul><li>1 Windows端</li><li>2 Linux端<ul><li>2.1 设置VirtualBox中虚拟系统的共享信息</li><li>2.2 在Terminal中下载所需镜像并安装</li><li>2.3 挂载共享文件夹</li><li>2.4 其他代码</li><li>2.5 其他信息<h2 id="Windows端"><a href="#Windows端" class="headerlink" title="Windows端"></a>Windows端</h2></li></ul></li></ul><p>Windows端需要建立一个用来进行文件分享的文件夹，比如我在D盘建了一个ShareWithVM文件夹。在这个文件夹的图标上用鼠标右键单击，然后选择<strong>属性–&gt;分享</strong>，然后选择“<strong>高级分享（Advanced Sharing）</strong>”并勾选“<strong>分享这个文件夹</strong>”，然后单击“<strong>确定”</strong>即可。</p><p><img src="https://upload-images.jianshu.io/upload_images/4815334-393d331956bf5abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p><h2 id="Linux端"><a href="#Linux端" class="headerlink" title="Linux端"></a>Linux端</h2><p>设置的重点在linux端，也就是虚拟机上的Ubuntu上，网上有很多教程，可是我使用后并不成功，以下是我的设置过程。</p><h3 id="设置VirtualBox中虚拟系统的共享信息"><a href="#设置VirtualBox中虚拟系统的共享信息" class="headerlink" title="设置VirtualBox中虚拟系统的共享信息"></a>设置VirtualBox中虚拟系统的共享信息</h3><p>在VirtualBox Manager界面中选择需要设置的Ubuntu虚拟系统，然后按下图的顺序添加刚才在Windows端建立的共享文件夹的信息。这一步可能需要先关闭虚拟机再设置，我不太记得我设置的时候虚拟机是关闭还是运行状态了。</p><p><img src="https://upload-images.jianshu.io/upload_images/4815334-91eeab532782e155.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p><h3 id="在Terminal中下载所需镜像并安装"><a href="#在Terminal中下载所需镜像并安装" class="headerlink" title="在Terminal中下载所需镜像并安装"></a>在Terminal中下载所需镜像并安装</h3><p>这一步可以用参考链接[1]中的方式在windows系统下载然后再虚拟机选择相应镜像，不过我是通过以下的代码实现的。</p><p>首先运行Ubuntu并打开一个terminal，然后输入以下代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install virtualbox-guest-additions-iso</span><br></pre></td></tr></table></figure><p>接下来在图形界面里的以下位置找到这个映像，并用鼠标右键单击，选择Open With Disk Image Mounter，它就会自动安装了，直到安装成功后按enter键退出。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/share/virtualbox/VBoxGuestAdditions.iso</span><br></pre></td></tr></table></figure><p><img src="https://upload-images.jianshu.io/upload_images/4815334-cd03409725533b5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p><h3 id="挂载共享文件夹"><a href="#挂载共享文件夹" class="headerlink" title="挂载共享文件夹"></a>挂载共享文件夹</h3><p>在Ubuntu的Terminal里输入如下命令：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mkdir /mnt/shared</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t</span><br></pre></td></tr></table></figure><p>shareFolder是windows中要共享的文件夹的名字，由于我第一步在windows创建的分享文件夹角ShareWithVM，所以我在我这输入的代码实际为：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo mount -t vboxsf ShareWithVM /mnt/shared</span><br></pre></td></tr></table></figure><p>如果一切顺利的话，现在就可以互传文件了。补充一下，你的共享文件夹在windows端的位置在本文开头已经说了，在ubuntu的位置是在/mnt文件夹下的shared里，如果你想查看这个共享文件夹里的内容，可以用如下代码定位到共享文件夹：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd /mnt/shared</span><br></pre></td></tr></table></figure><h3 id="其他代码"><a href="#其他代码" class="headerlink" title="其他代码"></a>其他代码</h3><p>以下部分均转自参考资料[1]，我并没有实际操作，因为自动挂载已经在前边说的Linux端的第一步勾选了，我觉得不必再设置了。</p><blockquote><p>要想自动挂载的话，可以在/etc/fstab中添加一项<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; share /mnt/shared vboxsf rw,gid=100,uid=1000,auto 0 0</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><blockquote><p>5、卸载的话使用下面的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; sudo umount -f /mnt/shared</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><blockquote><p>注意：<br>共享文件夹的名称千万不要和挂载点的名称相同。比如，上面的挂载点是/mnt/shared，如果共享文件夹的&gt;名字也是shared的话，在挂载的时候就会出现如下的错误信息：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;/sbin/mount.vboxsf: mounting failed with the error: Protocol error</span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure></p></blockquote><h3 id="其他信息"><a href="#其他信息" class="headerlink" title="其他信息"></a>其他信息</h3><p>除了上边写的我最终成功使用的方法，网上还比较流行的是用代码安装open-vm-tools并配合使用一个从gitlab下载的补丁进行安装。看网上的评论应该是很多人都用这个方法成功了，可是我就是不行，始终提示<code>mounting failed with the error: No such device.</code>如果大家感兴趣的话，可以尝试这种方法。</p><p>此外需要说明的是我在成功安装之前，实验了很多方法，虽然都没有成功，但是其中用到的一些代码可能为最后的成功安装做了铺垫，所以如果你按照我前边说的步骤不能成功安装的话，可以尝试一下链接[3]中的各种代码，以及如下两句。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install virtualbox-guest-dkms</span><br></pre></td></tr></table></figure><p>今天为了弄这个文件共享花了很多时间，因为找不到对应的方法，而网上说的解决方案在我这又不太管事。希望这篇文章可以帮到和我遇到相似问题的朋友们。</p><p><strong>参考链接</strong></p><p>[1] <a href="http://www.cnblogs.com/linjiqin/p/3615477.html" target="_blank" rel="noopener">http://www.cnblogs.com/linjiqin/p/3615477.html</a><br>[2] <a href="https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04" target="_blank" rel="noopener">https://askubuntu.com/questions/792832/how-to-install-virtualbox-guest-additions-for-ubuntu-16-04</a><br>[3] <a href="https://blog.csdn.net/fukaibo121/article/details/73129584" target="_blank" rel="noopener">https://blog.csdn.net/fukaibo121/article/details/73129584</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。
-      
+      最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。
     
     </summary>
     
@@ -566,6 +528,37 @@
     
     
       <category term="tensorflow" scheme="https://qingnansun.github.io/tags/tensorflow/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows10下安装Python,Tensorflow和Keras</title>
+    <link href="https://qingnansun.github.io/J%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-Windows10%E4%B8%8B%E5%AE%89%E8%A3%85Python-Tensorflow%E5%92%8CKeras/"/>
+    <id>https://qingnansun.github.io/J机器学习基础-Windows10下安装Python-Tensorflow和Keras/</id>
+    <published>2018-04-21T22:00:00.000Z</published>
+    <updated>2019-03-08T19:20:32.891Z</updated>
+    
+    <content type="html"><![CDATA[<p>2018年4月更新：<br>这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考<a href="https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x" target="_blank" rel="noopener">https://stackoverflow.com/questions/40884668/installing-tensorflow-on-windows-python-3-6-x</a>.</p><hr><p>&emsp;&emsp;今后做实验要开始接触深度学习了，那当然免不了要安装Python和Tensorflow，另外因为需要LSTM方法，我也需要安装Keras。这篇文章就是关于最近安装这些东西的一个小结。</p><p> <strong>如果你懒得看后文，我其实就一句话，从头开始就用Anaconda吧！！！ （直接跳转到“最简安装过程”部分）</strong></p><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>1 用Windows遇到的坑<br>2 我的坎坷经历<br>3 最简安装过程<br>4 附加知识</p><p>##用Windows遇到的坑</p><p>首先总结一下用windows过程中的坑：</p><ol><li><strong>Tensorflow目前在windows上只支持Python3.5版本（高了低了都不行）</strong></li><li><strong>Scipy在windows上用命令行安装出错。因为安装Keras时会安装Scipy，所以无法成功安装Keras</strong></li></ol><h2 id="我的坎坷经历"><a href="#我的坎坷经历" class="headerlink" title="我的坎坷经历"></a>我的坎坷经历</h2><p>&emsp;&emsp;不卖关子了，简而言之，在windows上最好是使用Scientific Python distributions来安装和管理各种库，这是我后来才发现的。由于始终没法成功安装Scipy，我找到了Scipy的这个<a href="https://scipy.org/install.html" target="_blank" rel="noopener">官网安装介绍</a>，windows系统的同学可以直接拖到最后看下。而Scientific Python distributions的介绍在页面的开头，我直接使用的第一个，也就是Anaconda.</p><p>&emsp;&emsp;使用Anaconda要注意，因为它的首页上是下载集成了3.6版本的Python的，而tensorflow在windows上只支持3.5版本，所以这个要想办法解决。根据Anaconda的介绍（<a href="https://docs.continuum.io/anaconda/faq#id6" target="_blank" rel="noopener">How do I get the latest Anaconda with Python 3.5?</a>）可以用以下三种方法：</p><p><strong>A)</strong> We recommend downloading the latest version of Anaconda and <a href="https://conda.io/docs/py2or3.html" target="_blank" rel="noopener">making a Python 3.5 environment</a>.</p><p><strong>B)</strong> A second option is to download the latest version of Anaconda and then run this command to install Python 3.5 in the root environment: <code>conda install python=3.5</code></p><p><strong>C)</strong> A third option is to download the most recent Anaconda Installer that had Python 3.5 by default. This is Anaconda 4.2.0. You can download it from our <a href="https://repo.continuum.io/archive/" target="_blank" rel="noopener">archive</a>. Scroll down the page until you find version 4.2.0 for your platform.</p><p>&emsp;&emsp;我用的第二种方法，也就是在开始界面先找到Anaconda Prompt，然后在里边输入命令 <code>conda install python=3.5</code></p><p>&emsp;&emsp;注意在这个过程中不要开着Anaconda的用户界面，否则会报错说Anaconda正在被使用，关闭Anaconda界面之后使用上述命令就好用。安完之后再Anaconda Prompt的界面输入python后发现版本变成3.5.3了。</p><p>&emsp;&emsp;tensorflow的安装可以参见莫烦写的教程和视频(<a href="https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/1-2-install/" target="_blank" rel="noopener">LINK</a>)。重点注意选择好是CPU版本还是GPU版本，另外再就是Python3和Python2用的命令的微小差别。我在进行完之前的Python版本降到3.5.3之后，在Anaconda Prompt里使用命令 <code>pip3 install tensorflow</code> 成功安装了tensorflow（太让人激动了！！！）</p><p>&emsp;&emsp;遇到的问题是为了检测tensorflow是否安装成功，我实验了import tensorflow，可是在Python 3.5.3自己的shell里是可以用，可是在Anaconda Prompt里的python下不能用，不知道为什么。可能因为我在使用上边说的第二种方法转换Python之前，自己手动安装了一次Python3.5.3的缘故，悲催，做了无用功还影响了之后的功能。用了最笨的办法，卸载了python3.5.3，结果Anaconda Prompt打不开了，最后干脆把所有Python和Anaconda都卸载了。</p><h2 id="最简安装过程"><a href="#最简安装过程" class="headerlink" title="最简安装过程"></a>最简安装过程</h2><p>&emsp;&emsp;有了前边的经验铺路，现在大致知道怎么做比较方便了。这段开始我基本就是从头做起了。首先按照前边说的第三种方法，到Anaconda官网的Achiv里下载了Anaconda3-4.2.0版本。安装完之后发现pip3命令没法使用，不过检查了Anaconda里pip包已经安装了的，所以试了下用pip命令，可以。于是使用如下命令进行安装：</p><pre><code>pip install tensorflowpip install keras</code></pre><p>&emsp;&emsp;两个都成功安装了，接下来用一下两个命令测验一下是否真的安装成功，当然首先要在命令行用python命令进入python控制界面，然后</p><pre><code>import tensorflowimport keras</code></pre><p>&emsp;&emsp;两个都没有报错，keras默认使用TensorFlow作为backend。总算大功告成，可以去吃午饭了，哈哈。<img src="https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt></p><hr><h2 id="附加知识"><a href="#附加知识" class="headerlink" title="附加知识"></a>附加知识</h2><p><a href="http://xiaoyc.com/multi-version-solution-of-python-on-windows/" target="_blank" rel="noopener">WINDOWS 下 PYTHON 双版本共存解决方案</a><br>当电脑里有多个python版本时，通常的做法是要修改环境变量，不过这篇文章中的方法只需要在不想用的版本的根文件夹中加入一个bat文件即可，巧妙的解决了问题，推荐大家看看。如果大家想知道怎么通过修改环境变量来更改默认的python版本，可以看<a href="http://blog.csdn.net/qq_25579889/article/details/52895683" target="_blank" rel="noopener">这里</a></p><p>安装Keras可以部分参考这篇文章：<br><a href="http://www.jianshu.com/p/c245d46d43f0" target="_blank" rel="noopener">windows 10 64bit下安装Tensorflow+Keras+VS2015+CUDA8.0 GPU加速</a></p><hr><p>本篇文章原发表于我的个人博客: <a href="http://qingnansun.com/pythonkerasunderwindows" target="_blank" rel="noopener">qingnansun.com</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;2018年4月更新：&lt;br&gt;这篇文章原写于2017年10月。据称目前（2018年4月）Tensorflow在windows上已经支持3.6版本，我还没有自己尝试，相关讨论请参考&lt;a href=&quot;https://stackoverflow.com/questions/4088
+      
+    
+    </summary>
+    
+      <category term="J机器学习基础" scheme="https://qingnansun.github.io/categories/J%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="tensorflow" scheme="https://qingnansun.github.io/tags/tensorflow/"/>
+    
+      <category term="windows10" scheme="https://qingnansun.github.io/tags/windows10/"/>
+    
+      <category term="python" scheme="https://qingnansun.github.io/tags/python/"/>
+    
+      <category term="keras" scheme="https://qingnansun.github.io/tags/keras/"/>
     
   </entry>
   
