@@ -174,18 +174,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[你是童话城堡中最美的新娘]]></title>
-    <url>%2FS%E9%9A%8F%E7%AC%94-%E4%BD%A0%E6%98%AF%E7%AB%A5%E8%AF%9D%E5%9F%8E%E5%A0%A1%E4%B8%AD%E6%9C%80%E7%BE%8E%E7%9A%84%E6%96%B0%E5%A8%98%2F</url>
-    <content type="text"><![CDATA[你是童话城堡中最美的新娘 2017年8月19日，豆豆小公主和骑士先生在荷兰De Haar城堡中举办婚礼。朋友、同事、鲜花、马车，童话城堡中最美的公主出嫁了。 “我就要在De Haar办婚礼”早在几年前当骑士先生还在德国时，就萌生了举办城堡婚礼的念头，毕竟未来的新娘是小公主，城堡再合适不过了。 可是没等这个计划实现，骑士先生就搬到了瑞士，于是他又开始在瑞士寻觅婚礼场地:城堡、教堂、游艇、博物馆……各种可能而且美好的地方都被纳入考虑范围，可是始终没有哪个场地能给他”就是这了！”的感觉。 今年初的时候他突发奇想，为什么不看看荷兰的城堡？看到排名第一的De Haar城堡时，心里咯噔一下:这就是我要找的地方！赶紧查了查资料，发现之前有一位嫁给荷兰人的中国女孩也在这办的婚礼，她还写了文章分享那份快乐。再看看城堡的官网，恰巧几周以后是城堡专门为筹备婚礼的新人准备的开放日，赶紧让豆豆小公主注册报名去参加开放日及面谈。 不仅是De Haar城堡有开放日，荷兰许多其他的城堡也在那天举办开放日。骑士先生还选了几个备选方案，希望小公主那天一并看下。可是小公主执意只去De Haar, “我就喜欢De Haar,我就要在这办婚礼，其他不考虑!” 好在天随人愿，8月份还有唯一一个周六可以预约，我们果断确定了婚期。 .准备婚礼并非那么轻松，尤其是爸妈都不在这边，而且不找婚礼策划。几乎所有的事情都得亲力亲为，城堡、餐馆、摄影师、摄像师、马车租赁、婚礼蛋糕、购置各种物品等等，都靠小公主一一联系和]]></content>
-      <categories>
-        <category>S随笔</category>
-      </categories>
-      <tags>
-        <tag>童话</tag>
-        <tag>新娘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Ubuntu上安装python3-6以及设置为系统默认]]></title>
     <url>%2FLinux-Python-Ubuntu%E4%B8%8A%E5%AE%89%E8%A3%85python3-6%E4%BB%A5%E5%8F%8A%E8%AE%BE%E7%BD%AE%E4%B8%BA%E7%B3%BB%E7%BB%9F%E9%BB%98%E8%AE%A4%2F</url>
     <content type="text"><![CDATA[这篇文章记录了如何在Ubuntu上安装python3.6以及将其设置为系统默认。 查看Ubuntu版本由于python3.6在不同的Ubuntu版本中的安装是不一样的，这里我们先来看一下的Ubuntu的版本，在terminal中输入lsb_release -a即可查看，例如我的Ubuntu版本为16.04.4. 不同Ubuntu版本上的python3.6的安装文末的参考资料[1]中的高赞回答列举了python3.6在不同版本的Ubuntu上的安装，这里摘抄如下: Ubuntu 14.04 and 16.04123sudo add-apt-repository ppa:deadsnakes/ppasudo apt-get updatesudo apt-get install python3.6 或者 123sudo add-apt-repository ppa:jonathonf/python-3.6sudo apt-get updatesudo apt-get install python3.6 安装完成后使用python3.6命令运行 Ubuntu 16.10 and 17.0412sudo apt-get updatesudo apt-get install python3.6 安装完成后使用python3.6命令运行 Ubuntu 17.10在Ubuntu17.10中已经默认使用python3.6，所以可以直接用python3运行 设置python3.6为系统默认安装好python3.6之后，我的系统中有python2.7，python3.5和python3.6三个版本的python。为了避免每次使用python3.6命令，希望把python3.6设置为系统默认。在设置之前，我们首先来看一个系统中python命令，python3命令以及不同版本python的路径，之后的操作中我们也需要其中的部分路径： 设置python命令默认使用python3.612sudo rm python的路径sudo ln -s python3.6路径 python的路径 设置python3命令默认使用python3.612sudo rm python3的路径sudo ln -s python3.6路径 python3的路径]]></content>
@@ -227,7 +215,7 @@
   <entry>
     <title><![CDATA[设置使用tensorflow作为backend并在GPU上运行]]></title>
     <url>%2FJ%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80-%E8%AE%BE%E7%BD%AE%E4%BD%BF%E7%94%A8tensorflow%E4%BD%9C%E4%B8%BAbackend%E5%B9%B6%E5%9C%A8GPU%E4%B8%8A%E8%BF%90%E8%A1%8C%2F</url>
-    <content type="text"><![CDATA[&emsp;&emsp;由于Theano从十月起停止更新（LINK），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。 安装环境：Linux服务器上的虚拟环境中（详见：在linux系统上设置虚拟环境Virtual Environment） &emsp;&emsp;首先我根据Keras官网的介绍对keras.json文件进行设置（LINK）。在命令框中输入： 1vi .keras/keras.json &emsp;&emsp;然后按着如下代码编辑，主要是把backend改为tensorflow。（其实Keras默认的backend就是tensorflow，只是因为我之前改成了theano，所以现在要改回来。） 1&#123; &quot;image_data_format&quot;: &quot;channels_last&quot;, &emsp;&emsp;另外如果你还没有安装GPU版本的tensorflow，则需要首先进行安装。由于我们实验室的server上不兼容1.3版本的tensorflow，我这里对安装的版本进行了控制 1pip install tensorflow-gpu==1.2 &emsp;&emsp;成功安装之后，就可以在你的.py文件的代码里加入如下语句进行tensorflow的backend的调用和设置了，设置好之后像平常一样运行文件即可。 12345678import tensorflow as tfimport keras.backend.tensorflow_backend as KTFos.environ[&quot;CUDA_VISIBLE_DEVICES&quot;] = &quot;3&quot; #设置需要使用的GPU的编号config = tf.ConfigProto()config.gpu_options.per_process_gpu_memory_fraction = 0.4 #设置使用GPU容量占GPU总容量的比例sess = tf.Session(config=config)KTF.set_session(sess) &emsp;&emsp;为了观察程序是否确实在使用GPU，可以使用在《Linux上的一点小技巧》中提到的命令gpustat或者watch -n1 --color gpustat进行查看程序是否真的运行在GPU上。 —————–后记——————— Tensorflow无法完全实现实验的重复性&emsp;&emsp;今天早些时候介绍了怎么在给keras设置使用tensorflow作为后端。晚上的时候发现使用tensorflow有个问题是无法确保实验的可重复性，换句话说，同样的代码，每次运行出来的结果是不一样的，即使已经设置了随机数的seed。而使用theano的后端是可以确保实验的可重复性的，至少在我之前的实验里，可以得到一模一样的结果。 &emsp;&emsp;对于这个问题，我在网上查阅了一下，发现也有人在讨论，比如在[1]中对各种可能的原因进行了探讨，并根绝theano和tensorflow后端各自给了设置seed的代码。对于tensorflow，要进行两次seed的设置，他们的值可以不同。代码如下，需要放在你的code的最顶端，不过此方法我试了没有起到效果。 1234from numpy.random import seedseed(1)from tensorflow import set_random_seedset_random_seed(2) &emsp;&emsp;此外也有其他的帖子和文章对tensorflow作为backend时不能实现实验的重复性进行了讨论，比如在[2]中的帖子以及在[3]中keras的官方文档中都有提到建议的解决方案，不过我试了依然没有效果。[4]是对tensorflow的set_random_seed函数的具体介绍。 &emsp;&emsp;最后，由于tensorflow没法确保实验的可重复性，而我也没有找到适合我的解决方案，于是只好又切换为theano作为backend。不过今天的尝试也不是完全没有意义的，因为借着今天在tf上积累的一点经验，我想到了给theano后端也设定运行时占用GPU的容量比例，实践后发现代码运行速度大大提高。theano和Tensorflow有些不同，它默认只占用很少的GPU而tensorflow默认占用所有可用的GPU。比如我的代码在theano作为backend的时候，默认只占200M左右，我给人为把GPU的占比提高到0.4（约为5000M）之后，运行速度大大提高。具体的方法可以参考这篇文章 LINK [1] 用深度学习每次得到的结果都不一样，怎么办？[2] No reproducible using tensorflow backend #2280[3] How can I obtain reproducible results using Keras during development?[4] Tensorflow函数——tf.set_random_seed(seed) 本篇文章原发表于我的个人博客: qingnansun.com]]></content>
+    <content type="text"><![CDATA[&emsp;&emsp;由于Theano从十月起停止更新（LINK），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。 安装环境：Linux服务器上的虚拟环境中（详见：在linux系统上设置虚拟环境Virtual Environment） &emsp;&emsp;首先我根据Keras官网的介绍对keras.json文件进行设置（LINK）。在命令框中输入： 1vi .keras/keras.json &emsp;&emsp;然后按着如下代码编辑，主要是把backend改为tensorflow。（其实Keras默认的backend就是tensorflow，只是因为我之前改成了theano，所以现在要改回来。） 1&#123; &quot;image_data_format&quot;: &quot;channels_last&quot;, &emsp;&emsp;另外如果你还没有安装GPU版本的tensorflow，则需要首先进行安装。由于我们实验室的server上不兼容1.3版本的tensorflow，我这里对安装的版本进行了控制 1pip install tensorflow-gpu==1.2 &emsp;&emsp;成功安装之后，就可以在你的.py文件的代码里加入如下语句进行tensorflow的backend的调用和设置了，设置好之后像平常一样运行文件即可。 12345678import tensorflow as tfimport keras.backend.tensorflow_backend as KTFos.environ[&quot;CUDA_VISIBLE_DEVICES&quot;] = &quot;3&quot; #设置需要使用的GPU的编号config = tf.ConfigProto()config.gpu_options.per_process_gpu_memory_fraction = 0.4 #设置使用GPU容量占GPU总容量的比例sess = tf.Session(config=config)KTF.set_session(sess) &emsp;&emsp;为了观察程序是否确实在使用GPU，可以使用在《Linux上的一点小技巧》中提到的命令gpustat或者watch -n1 --color gpustat进行查看程序是否真的运行在GPU上。 后记: Tensorflow无法完全实现实验的重复性 &emsp;&emsp;今天早些时候介绍了怎么在给keras设置使用tensorflow作为后端。晚上的时候发现使用tensorflow有个问题是无法确保实验的可重复性，换句话说，同样的代码，每次运行出来的结果是不一样的，即使已经设置了随机数的seed。而使用theano的后端是可以确保实验的可重复性的，至少在我之前的实验里，可以得到一模一样的结果。 &emsp;&emsp;对于这个问题，我在网上查阅了一下，发现也有人在讨论，比如在[1]中对各种可能的原因进行了探讨，并根绝theano和tensorflow后端各自给了设置seed的代码。对于tensorflow，要进行两次seed的设置，他们的值可以不同。代码如下，需要放在你的code的最顶端，不过此方法我试了没有起到效果。 1234from numpy.random import seedseed(1)from tensorflow import set_random_seedset_random_seed(2) &emsp;&emsp;此外也有其他的帖子和文章对tensorflow作为backend时不能实现实验的重复性进行了讨论，比如在[2]中的帖子以及在[3]中keras的官方文档中都有提到建议的解决方案，不过我试了依然没有效果。[4]是对tensorflow的set_random_seed函数的具体介绍。 &emsp;&emsp;最后，由于tensorflow没法确保实验的可重复性，而我也没有找到适合我的解决方案，于是只好又切换为theano作为backend。不过今天的尝试也不是完全没有意义的，因为借着今天在tf上积累的一点经验，我想到了给theano后端也设定运行时占用GPU的容量比例，实践后发现代码运行速度大大提高。theano和Tensorflow有些不同，它默认只占用很少的GPU而tensorflow默认占用所有可用的GPU。比如我的代码在theano作为backend的时候，默认只占200M左右，我给人为把GPU的占比提高到0.4（约为5000M）之后，运行速度大大提高。具体的方法可以参考这篇文章 LINK [1] 用深度学习每次得到的结果都不一样，怎么办？[2] No reproducible using tensorflow backend #2280[3] How can I obtain reproducible results using Keras during development?[4] Tensorflow函数——tf.set_random_seed(seed) 本篇文章原发表于我的个人博客: qingnansun.com]]></content>
       <categories>
         <category>J机器学习基础</category>
       </categories>
@@ -273,6 +261,18 @@
         <tag>python</tag>
         <tag>tensorflow</tag>
         <tag>keras</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[你是童话城堡中最美的新娘]]></title>
+    <url>%2FS%E9%9A%8F%E7%AC%94-%E4%BD%A0%E6%98%AF%E7%AB%A5%E8%AF%9D%E5%9F%8E%E5%A0%A1%E4%B8%AD%E6%9C%80%E7%BE%8E%E7%9A%84%E6%96%B0%E5%A8%98%2F</url>
+    <content type="text"><![CDATA[亲爱的豆豆小公主： 终于实现了当初对你的承诺，在你最喜欢的欧洲城堡里举行了婚礼，我很开心、很幸福、也很骄傲。 我们是幸运的，本来天下着大雨，就在我们快要出门的时候雨过天晴，阳光洒满了大地，而接我们的司机恰好是最早在这个城堡举办婚礼的新人—-那是在34年前，几乎是同一天。 豆豆小公主有神奇的魔法，被爱和幸福环绕。从此以后我们是一个Team，希望余生和你一起度过。爱你！ 骑士先生 (文中视频比较模糊，大家也可以点击“阅读原文”或者复制后边的网址在浏览器中打开观看。PC版建议用Edge浏览器，手机版用Chrome以外的浏览器：qingnansun.com/wedding ) PS: 婚礼当天宾客60人，都是豆豆小公主在荷兰的最要好的同事和朋友。大家在视频里看到的婚礼主持人（不是牧师哦）、花童、托戒指的小王子和唱歌的阿姨，也都是豆豆小公主的朋友。没有请婚庆公司，完全按照自己的想法，自己策划和一一联系，让童话照进现实。我们收获铭记一生的感动。感谢大家的见证和祝福！感谢视频团队MOMENT4US, Kai, Bingbing PS of PS: 本文原发布于我们的微信公众号，请点此查看 【婚礼视频发布】你是童话城堡中最美的新娘 之前未完成的版本: 2017年8月19日，豆豆小公主和骑士先生在荷兰De Haar城堡中举办婚礼。朋友、同事、鲜花、马车，童话城堡中最美的公主出嫁了。 “我就要在De Haar办婚礼”早在几年前当骑士先生还在德国时，就萌生了举办城堡婚礼的念头，毕竟未来的新娘是小公主，城堡再合适不过了。 可是没等这个计划实现，骑士先生就搬到了瑞士，于是他又开始在瑞士寻觅婚礼场地:城堡、教堂、游艇、博物馆……各种可能而且美好的地方都被纳入考虑范围，可是始终没有哪个场地能给他”就是这了！”的感觉。 今年初的时候他突发奇想，为什么不看看荷兰的城堡？看到排名第一的De Haar城堡时，心里咯噔一下:这就是我要找的地方！赶紧查了查资料，发现之前有一位嫁给荷兰人的中国女孩也在这办的婚礼，她还写了文章分享那份快乐。再看看城堡的官网，恰巧几周以后是城堡专门为筹备婚礼的新人准备的开放日，赶紧让豆豆小公主注册报名去参加开放日及面谈。 不仅是De Haar城堡有开放日，荷兰许多其他的城堡也在那天举办开放日。骑士先生还选了几个备选方案，希望小公主那天一并看下。可是小公主执意只去De Haar, “我就喜欢De Haar,我就要在这办婚礼，其他不考虑!” 好在天随人愿，8月份还有唯一一个周六可以预约，我们果断确定了婚期。 准备婚礼并非那么轻松，尤其是爸妈都不在这边，而且不找婚礼策划。几乎所有的事情都得亲力亲为，城堡、餐馆、摄影师、摄像师、马车租赁、婚礼蛋糕、购置各种物品等等，都靠小公主一一联系和…]]></content>
+      <categories>
+        <category>S随笔</category>
+      </categories>
+      <tags>
+        <tag>童话</tag>
+        <tag>新娘</tag>
       </tags>
   </entry>
   <entry>
