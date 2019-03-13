@@ -1,9 +1,15 @@
 ---
 title: 使用python构建ARIMA模型进行预测分析的小说明-forecast函数
 date: 2018-04-26
-tags:
+tags: [python,ARIMA,预测,forecast函数]
+updated: 
 categories: 
 permalink: 
+keywords: [python,ARIMA,预测,forecast函数,qingnan,qingnansun,samboy]
+description: Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。
+toc: true    # table of content
+top: false
+comments: true  
 ---
 
 &emsp;&emsp;Autoregressive Integrated Moving Average model(ARIMA)，即差分整合移动平均自回归模型，或称为整合移动平均自回归模型，是一种时间序列预测分析方法。今天我在实践过程中遇到一个小问题，后来看了官方文档才弄清楚，这里和大家分享一下。

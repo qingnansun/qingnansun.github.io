@@ -1,9 +1,15 @@
 ---
 title: 设置使用tensorflow作为backend并在GPU上运行
 date: 2018-04-23
-tags: [tensorflow]
+tags: [tensorflow,GPU]
+updated: 
 categories: 
-permalink:
+permalink: 
+keywords: [tensorflow,GPU,qingnan,qingnansun,samboy]
+description: 由于Theano从2018年10月起停止更新（[LINK](https://www.jiqizhixin.com/articles/2017-09-29-5)），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。
+toc: true    # table of content
+top: false
+comments: true 
 ---
 
 &emsp;&emsp;由于Theano从十月起停止更新（[LINK](https://www.jiqizhixin.com/articles/2017-09-29-5)），我开始着手把我使用Keras时的backend从Theano转到Tensorflow。以下是今天在同事LY的指导下进行backend转换的一点总结（同时对她表示感谢）。
@@ -43,9 +49,8 @@ KTF.set_session(sess)
 
 &emsp;&emsp;为了观察程序是否确实在使用GPU，可以使用在[《Linux上的一点小技巧》](http://qingnansun.com/linuxtricks/)中提到的命令`gpustat`或者`watch -n1 --color gpustat`进行查看程序是否真的运行在GPU上。
 
-**—————–后记———————**
-
-# Tensorflow无法完全实现实验的重复性
+***  
+**后记: Tensorflow无法完全实现实验的重复性**
 
 &emsp;&emsp;今天早些时候介绍了怎么在给keras设置使用tensorflow作为后端。晚上的时候发现使用tensorflow有个问题是无法确保实验的可重复性，换句话说，同样的代码，每次运行出来的结果是不一样的，即使已经设置了随机数的seed。而使用theano的后端是可以确保实验的可重复性的，至少在我之前的实验里，可以得到一模一样的结果。
 

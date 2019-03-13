@@ -1,9 +1,15 @@
 ---
 title: Windows10下安装Python,Tensorflow和Keras
-date: 2018-04-22
+date: 2017-10-01
 tags: [windows10,python,tensorflow,keras]
+updated: 
 categories: 
 permalink: 
+keywords: [windows10,python,tensorflow,keras,qingnan,qingnansun,samboy]
+description: 今后做实验要开始接触深度学习了，那当然免不了要安装Python和Tensorflow，另外因为需要LSTM方法，我也需要安装Keras。这篇文章就是关于最近安装这些东西的一个小结。
+toc: true    # table of content
+top: false
+comments: true  
 ---
 
 2018年4月更新：
@@ -19,7 +25,7 @@ permalink:
 3 最简安装过程
 4 附加知识
 
-##用Windows遇到的坑
+## 用Windows遇到的坑
 
 首先总结一下用windows过程中的坑：
 1.  **Tensorflow目前在windows上只支持Python3.5版本（高了低了都不行）**
@@ -56,7 +62,8 @@ permalink:
 
     import tensorflow
     import keras
-&emsp;&emsp;两个都没有报错，keras默认使用TensorFlow作为backend。总算大功告成，可以去吃午饭了，哈哈。![](https://upload-images.jianshu.io/upload_images/4815334-9bdded1ebd96991d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+&emsp;&emsp;两个都没有报错，keras默认使用TensorFlow作为backend。总算大功告成，可以去吃午饭了，哈哈。  
+{% asset_img 1.jpg %}
 
 
 * * *

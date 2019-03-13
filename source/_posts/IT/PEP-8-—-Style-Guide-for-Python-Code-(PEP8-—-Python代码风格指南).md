@@ -4,6 +4,10 @@ date: 2018-01-21
 tags: [python,knowledgebase]
 categories: 
 permalink:
+keywords: [python,knowledgebase,PEP8,Style Guide]
+description:  PEP-8-—-Style-Guide-for-Python-Code-(PEP8-—-Python代码风格指南) - 中英文双语版
+toc: true    # table of content
+comments: true 
 ---
 
 # 前言

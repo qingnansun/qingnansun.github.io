@@ -4,22 +4,19 @@ date: 2018-06-03
 tags: [windows,虚拟机,ubuntu]
 categories: 
 permalink:
+keywords: [windows,虚拟机,ubuntu,共享]
+description:  最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。 
+toc: true    # table of content
+comments: true  
 ---
 
 最近因为实验需要，重新启用了好久不用的Virtual Machine，做好基本的设置之后觉得有必要实现windows系统与VirtualBox中的Ubuntu系统的文件共享。尝试了网上说的很多方法都一直报错，最后终于在合并了几个方法的不同步骤之后实现了，现在总结和分享一下。
 
-*   1 Windows端
-*   2 Linux端
-    *   2.1 设置VirtualBox中虚拟系统的共享信息
-    *   2.2 在Terminal中下载所需镜像并安装
-    *   2.3 挂载共享文件夹
-    *   2.4 其他代码
-    *   2.5 其他信息
 ## Windows端
 
 Windows端需要建立一个用来进行文件分享的文件夹，比如我在D盘建了一个ShareWithVM文件夹。在这个文件夹的图标上用鼠标右键单击，然后选择**属性–>分享**，然后选择“**高级分享（Advanced Sharing）**”并勾选“**分享这个文件夹**”，然后单击“**确定”**即可。
 
-![](https://upload-images.jianshu.io/upload_images/4815334-393d331956bf5abd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+{% asset_img 1.png %}
 
 ## Linux端
 
@@ -29,7 +26,7 @@ Windows端需要建立一个用来进行文件分享的文件夹，比如我在D
 
 在VirtualBox Manager界面中选择需要设置的Ubuntu虚拟系统，然后按下图的顺序添加刚才在Windows端建立的共享文件夹的信息。这一步可能需要先关闭虚拟机再设置，我不太记得我设置的时候虚拟机是关闭还是运行状态了。
 
-![](https://upload-images.jianshu.io/upload_images/4815334-91eeab532782e155.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+{% asset_img 2.png %}
 
 ### 在Terminal中下载所需镜像并安装
 
@@ -48,7 +45,7 @@ sudo apt-get install virtualbox-guest-additions-iso
 /usr/share/virtualbox/VBoxGuestAdditions.iso
 ```
 
-![](https://upload-images.jianshu.io/upload_images/4815334-cd03409725533b5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+{% asset_img 3.png %}
 
 
 ### 挂载共享文件夹
@@ -79,21 +76,21 @@ cd /mnt/shared
 
 以下部分均转自参考资料[1]，我并没有实际操作，因为自动挂载已经在前边说的Linux端的第一步勾选了，我觉得不必再设置了。
 
-> 要想自动挂载的话，可以在/etc/fstab中添加一项
-> ```
-> share /mnt/shared vboxsf rw,gid=100,uid=1000,auto 0 0
-> ```
-> 
-> 5、卸载的话使用下面的命令：
-> ```
-> sudo umount -f /mnt/shared
-> ```
-> 
-> 注意：
-> 共享文件夹的名称千万不要和挂载点的名称相同。比如，上面的挂载点是/mnt/shared，如果共享文件夹的>名字也是shared的话，在挂载的时候就会出现如下的错误信息：
->```
->/sbin/mount.vboxsf: mounting failed with the error: Protocol error
->```
+要想自动挂载的话，可以在/etc/fstab中添加一项
+```
+share /mnt/shared vboxsf rw,gid=100,uid=1000,auto 0 0
+```
+
+卸载的话使用下面的命令：
+```
+sudo umount -f /mnt/shared
+```
+
+注意：
+共享文件夹的名称千万不要和挂载点的名称相同。比如，上面的挂载点是/mnt/shared，如果共享文件夹的>名字也是shared的话，在挂载的时候就会出现如下的错误信息：
+```
+/sbin/mount.vboxsf: mounting failed with the error: Protocol error
+```
 
 ### 其他信息
 

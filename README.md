@@ -179,6 +179,9 @@ https://hexo.io/zh-cn/docs/internationalization.html
 ## busuanzi失效
 https://blog.csdn.net/ddydavie/article/details/83020549
 
+## busuanzi统计
+https://lfwen.site/2016/11/13/next-busuanzi-vistor-count/ 
+
 ## 字数统计
 需要设置 并 安装插件
 https://www.itfanr.cc/2017/12/06/hexo-blog-optimization/
@@ -201,6 +204,35 @@ https://steemit.com/cn/@greedyboy/hexo-next-rss
 ## 支持mermaid图
 https://tyloafer.github.io/2018/04/21/hexo-mermaid/
 
+## 设置置顶
+http://wangwlj.com/2018/01/09/blog_pin_post/
+
+## 报错
+不能为空
+hexo 报错 Cannot read property 'replace' of null
+
+## Valine评论 - 已经包含在NEXT主题
+https://mochazz.github.io/2018/10/20/%E4%B8%BAhexo%E7%9A%84even%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/ 
+http://smartsi.club/add-a-comment-function-to-the-next-theme-of-hexo.html
+https://www.jianshu.com/p/728a9594bb6c
+https://www.zhyong.cn/posts/95cb/
+https://www.jianshu.com/p/7f5bf1221259  比较及来必力
+https://ryanluoxu.github.io/2017/11/27/Hexo-Next-%E6%B7%BB%E5%8A%A0-Gitment-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/ gitment
+https://sjq597.github.io/2018/05/18/Hexo-%E4%BD%BF%E7%94%A8Gitment%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD/
+
+## 侧边栏
+http://www.voidcn.com/article/p-fdbltzkv-bpd.html
+
+## NEXT 主题
+https://hexo-guide.readthedocs.io/zh_CN/latest/theme/%E4%B8%BB%E9%A2%98%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86.html
+http://blog.shenyuanluo.com/HexoConfig1.html
+http://mashirosorata.vicp.io/HEXO-NEXT%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE.html
+https://fish-404.github.io/Blog-adjust-sidebar-nextmist-left/
+https://juejin.im/post/5a31bf7451882512a8615077
+美化-顶部进度条 https://www.jianshu.com/p/5017abb0d0a2
+
+## 广告
+https://www.93bok.com/Hexo%E7%AB%99%E7%82%B9Next%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0google%20adsense%E5%B9%BF%E5%91%8A/
 
 ## TODO
 文章普通图片格式
@@ -210,3 +242,15 @@ https://tyloafer.github.io/2018/04/21/hexo-mermaid/
 描述
 关键字
 http://whatbeg.com/2017/03/23/addemailsubscribe.html
+
+目录样式调整
+https://www.jianshu.com/p/903ec28c5640
+
+近期文章
+http://bigdatadecode.club/hexo-next%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%BF%91%E6%9C%9F%E6%96%87%E7%AB%A0%E7%89%88%E5%9D%97.html
+
+热文 related 插件
+https://www.npmjs.com/package/hexo-related-popular-posts/v/2.0.1
+
+解决百度爬虫无法抓取github pages
+http://skyyangman.info/blog/2016/02/baidu-spider-forbidden.html
